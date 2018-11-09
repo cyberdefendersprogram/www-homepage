@@ -1,3 +1,0 @@
-** CyberDefendersProgram **
-
-This is homepage.
