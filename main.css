@@ -1,4 +1,4 @@
-.navbar, body{
+/* .navbar, body{
 	background-color: #1D2131;
 }
 
@@ -61,7 +61,21 @@ border-bottom-color:#1D2131;
 	font-family: 'Lato', sans-serif;
 
 }
+*/
 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.07); }
+
+.card-equal-height {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.carousel {
+	font-size: 24px;
+}
+/*
 .card-header-title{
 	color:#ffffff;
 	font-family: 'Inconsolata', monospace;
@@ -80,4 +94,4 @@ border-bottom-color:#1D2131;
 
 .credit{
 	color:#9B9B9B;
-}
+} */
