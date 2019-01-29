@@ -1,0 +1,97 @@
+/* .navbar, body{
+	background-color: #1D2131;
+}
+
+.navbar-item{
+	color: #ffffff;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+h3{
+	font-family: 'Inconsolata', monospace;
+	color: #8D95B1;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.tabs a{
+	border-bottom-color: #2C324A;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.tabs a:hover{
+	color: #00F0CE;
+
+}
+
+.tabs ul{
+	border-bottom-color: #2C324A;
+}
+
+.tabs li.is-active a{
+	border-bottom-color:#00F0CE;
+    color: #ffffff;
+}
+
+.tabs.is-right ul{
+border-bottom-color:#1D2131;
+}
+
+.navbar, h1, h2, h4, .tabs{
+	font-family: 'Inconsolata', monospace;
+	color:#ffffff;
+}
+
+.navbar-item img {
+	 max-height: 68px;
+}
+
+.card + .card {
+  margin-top: 20px;
+}
+
+.card-header, .card-content{
+	background-color: #23283A;
+
+}
+.content{
+
+	font-family: 'Lato', sans-serif;
+
+}
+*/
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.07); }
+
+.card-equal-height {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.carousel {
+	font-size: 24px;
+}
+/*
+.card-header-title{
+	color:#ffffff;
+	font-family: 'Inconsolata', monospace;
+	padding: 1rem;
+
+}
+
+.card-header-title a{
+	color:#68D2E8;
+}
+
+.footer{
+	background-color: #1D2131;
+	color:#fff;
+}
+
+.credit{
+	color:#9B9B9B;
+} */
