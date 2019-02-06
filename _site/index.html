@@ -15,14 +15,16 @@
   </head>
   <body>
 
-<!---------------------------------------------------->  
+  <div class="container">
+
+    <!---------------------------------------------------->  
 <!--               Navbar Section                   -->  
 <!---------------------------------------------------->  
-  <div class="container">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="#">
+            <a class="navbar-item" href="/homepage">
                 <img src="/homepage/assets/logo.png" alt="Do no harm">
+                <h1 class="navbar-item" href="/homepage">Cyber Defenders Program</h1>
             </a>
             <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
                 <span></span>
@@ -82,9 +84,8 @@
             </div>
           </div>
         </div>
-
-      </nav>  
-  </div>   
+    </nav>  
+    </div>   
     <section class="hero is-light is-large">
       <div class="hero-head">
 
@@ -105,16 +106,8 @@
                 </div>
             </div>
             <div class="column">
-                <div class="card">
-                  <div class="card-content">
-                    <p class="title">
-                      SVG Graphic
-                    </p>
-                    <p class="subtitle">
-                      Work in progress
-                    </p>
-                  </div>
-                </div>
+                <img src="/homepage/assets/undraw-svgs/undraw_bug_fixing_oc7a.svg">
+            </div>
             </div>
           </div>
 
@@ -122,19 +115,35 @@
       </div>
       <div class="hero-footer">
 
-      </div>
+    </div>
     </section>
+
 
 <!---------------------------------------------------->  
 <!--               The purpose of CD                -->  
 <!----------------------------------------------------> 
 
     <section class="section">
-      <div class="container has-text-centered">
-        <h1 class="title is-spaced">What is the problem?</h1>
-        <h2 class="subtitle is-spaced">
-            Cyber attacks are costing companies millions a year. With these threats constantly looming companies cannot afford to be understaffed. The need for specialized talent is increasing in the cybersecurity industry. However, there is an apparent lack of college level education to prepare students for entry level cybersecurity jobs. Many students are not aware of the variety of careers available to them in cybersecurity.
-        </h2>
+      <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column">
+                <img src="/homepage/assets/undraw-svgs/undraw_secure_data_0rwp.svg">
+            </div>
+            <div class="column">
+              <div class="card is-vcentered">
+                <div class="card-header">
+                  <p class="card-header-title">
+                      What is the problem?
+                  </p>
+                </div>
+                <div class="card-content">
+                    <h2 class="subtitle is-spaced">
+                        Cyber attacks are costing companies millions a year. With these threats constantly looming companies cannot afford to be understaffed. The need for specialized talent is increasing in the cybersecurity industry. However, there is an apparent lack of college level education to prepare students for entry level cybersecurity jobs. Many students are not aware of the variety of careers available to them in cybersecurity.
+                    </h2>
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
     </section>
 
@@ -143,12 +152,26 @@
 <!----------------------------------------------------> 
 
     <section class="section">
-        <div class="container has-text-centered">
-          <hr></hr>
-          <h1 class="title is-spaced">The Solution</h1>
-          <h2 class="subtitle is-spaced">
-            The Cyber Defenders mission is to help close the cybersecurity workforce gap by training professionals seeking new opportunities in cybersecurity or related fields.The Cyber Defenders program finds untapped potential, provides them job ready cybersecurity skills without the burden of years of debt, and helps them earn incomes that lift their local communities.            
-          </h2>
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <p class="card-header-title">
+                    The Solution
+                  </p>
+                </div>
+                <div class="card-content">
+                    <h2 class="subtitle is-spaced">
+                        The Cyber Defenders mission is to help close the cybersecurity workforce gap by training professionals seeking new opportunities in cybersecurity or related fields.The Cyber Defenders program finds untapped potential, provides them job ready cybersecurity skills without the burden of years of debt, and helps them earn incomes that lift their local communities.   
+                    </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+                <img src="/homepage/assets/undraw-svgs/undraw_in_progress_ql66.svg">
+            </div>
+          </div>
         </div>
     </section>
 
@@ -537,7 +560,7 @@
       </div>
     </section>
 
-<!---------------------------------------------------->  
+    <!---------------------------------------------------->  
 <!--                     Footer                     -->  
 <!----------------------------------------------------> 
 
@@ -572,6 +595,7 @@
           </div>
         </div>
     </footer>
+
   </body>
   <script>
       var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
@@ -601,8 +625,6 @@
         }
   
       });
-  
-  
   
       function openTab(evt, tabName) {
         var i, x, tablinks;

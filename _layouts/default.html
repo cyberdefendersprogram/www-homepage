@@ -15,126 +15,36 @@
   </head>
   <body>
 
-<!---------------------------------------------------->  
-<!--               Navbar Section                   -->  
-<!---------------------------------------------------->  
   <div class="container">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="#">
-                <img src="{{ site.baseurl }}/assets/logo.png" alt="Do no harm">
-            </a>
-            <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-        </div>
 
-        <div class="navbar-menu" id="navMenu" >
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <a class="navbar-item">
-                About
-              </a>
-            </div>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-item">
-                Programs
-              </a>
-              <div class="navbar-dropdown">
-                <a href="#" class="navbar-item">
-                  Summer Program
-                </a>
-                <a href="#" class="navbar-item">
-                  Navigator Program
-                </a>
-                <a href="#" class="navbar-item">
-                  Hackathons
-                </a>
-              </div>
-            </div>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-item">
-                Projects
-              </a>
-              <div class="navbar-dropdown">
-                  <a href="#" class="navbar-item">
-                    Shanzai-Banzai
-                  </a>
-                  <a href="#" class="navbar-item">
-                    SecRepo
-                  </a>
-                  <a href="#" class="navbar-item">
-                    Learning Sandbox
-                  </a> 
-              </div>
-            </div>
-            <div class="navbar-item">
-              <a class="navbar-item">
-                Contact
-              </a>
-            </div>
-            <div class="navbar-item">
-              <a class="navbar-item">
-                Misc
-              </a>
-            </div>
-          </div>
-        </div>
+    {% include navbar.html %}
 
-      </nav>  
-  </div>   
-    <section class="hero is-light is-large">
-      <div class="hero-head">
-
-      </div>
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns is-vcentered">
-            <div class="column">
-                <h1 class="title is-left is-2 is-spaced">
-                    Bridging the gap between institutional education and the cybersecurity industry
-                  </h1>
-                  <h2 class="subtitle is-4 is-spaced">
-                    Cyber Defenders provides cybersecurity programs that give students a gateway into a cybersecurity career.
-                </h2>
-                <div class="buttons is-large">
-                  <a class="button is-medium" href="#">Find out more</a>
-                  <a class="button is-medium" href="#">Get involved</a>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                  <div class="card-content">
-                    <p class="title">
-                      SVG Graphic
-                    </p>
-                    <p class="subtitle">
-                      Work in progress
-                    </p>
-                  </div>
-                </div>
-            </div>
-          </div>
-
-          </div>
-      </div>
-      <div class="hero-footer">
-
-      </div>
-    </section>
 
 <!---------------------------------------------------->  
 <!--               The purpose of CD                -->  
 <!----------------------------------------------------> 
 
     <section class="section">
-      <div class="container has-text-centered">
-        <h1 class="title is-spaced">What is the problem?</h1>
-        <h2 class="subtitle is-spaced">
-            Cyber attacks are costing companies millions a year. With these threats constantly looming companies cannot afford to be understaffed. The need for specialized talent is increasing in the cybersecurity industry. However, there is an apparent lack of college level education to prepare students for entry level cybersecurity jobs. Many students are not aware of the variety of careers available to them in cybersecurity.
-        </h2>
+      <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column">
+                <img src="{{ site.baseurl }}/assets/undraw-svgs/undraw_secure_data_0rwp.svg">
+            </div>
+            <div class="column">
+              <div class="card is-vcentered">
+                <div class="card-header">
+                  <p class="card-header-title">
+                      What is the problem?
+                  </p>
+                </div>
+                <div class="card-content">
+                    <h2 class="subtitle is-spaced">
+                        Cyber attacks are costing companies millions a year. With these threats constantly looming companies cannot afford to be understaffed. The need for specialized talent is increasing in the cybersecurity industry. However, there is an apparent lack of college level education to prepare students for entry level cybersecurity jobs. Many students are not aware of the variety of careers available to them in cybersecurity.
+                    </h2>
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
     </section>
 
@@ -143,12 +53,26 @@
 <!----------------------------------------------------> 
 
     <section class="section">
-        <div class="container has-text-centered">
-          <hr></hr>
-          <h1 class="title is-spaced">The Solution</h1>
-          <h2 class="subtitle is-spaced">
-            The Cyber Defenders mission is to help close the cybersecurity workforce gap by training professionals seeking new opportunities in cybersecurity or related fields.The Cyber Defenders program finds untapped potential, provides them job ready cybersecurity skills without the burden of years of debt, and helps them earn incomes that lift their local communities.            
-          </h2>
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <p class="card-header-title">
+                    The Solution
+                  </p>
+                </div>
+                <div class="card-content">
+                    <h2 class="subtitle is-spaced">
+                        The Cyber Defenders mission is to help close the cybersecurity workforce gap by training professionals seeking new opportunities in cybersecurity or related fields.The Cyber Defenders program finds untapped potential, provides them job ready cybersecurity skills without the burden of years of debt, and helps them earn incomes that lift their local communities.   
+                    </h2>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+                <img src="{{ site.baseurl }}/assets/undraw-svgs/undraw_in_progress_ql66.svg">
+            </div>
+          </div>
         </div>
     </section>
 
@@ -537,41 +461,8 @@
       </div>
     </section>
 
-<!---------------------------------------------------->  
-<!--                     Footer                     -->  
-<!----------------------------------------------------> 
+    {% include footer.html %}
 
-    <footer class="footer">
-        <div class="container">
-          <div class="columns">
-            <div class="column">
-              <a href="#"><image src="{{ site.baseurl }}/assets/logo.png" class="image" height="64" width="64"></a><br>
-              <h5>Copyright 2018 Cyber Defenders</h5><br>
-              <h2 class="cd-footer">Follow Cyber Defenders</h2>
-              <span class="icon-footer"><a href="#"><i class="fab fa-twitter"></i></a></span>
-              <span class="icon-footer"><a href="#"><i class="fab fa-facebook-square"></i></a></span>
-              <span class="icon-footer"><a href="#"><i class="fab fa-medium"></i></a></span>
-              <span class="icon-footer"><a href="#"><i class="fab fa-linkedin"></i></a></span>
-              <span class="icon-footer"><a href="#"><i class="fab fa-github-square"></i></a></span>
-            </div>
-            <div class="column">
-              <span class="footer-title">More Information</span><br>
-              <span class="footer-link"><a href="#">About</a></span><br>
-              <span class="footer-link"><a href="#">Contact</a></span><br>
-              <span class="footer-link"><a href="#">Community</a></span>
-            </div>
-            <div class="column">
-              <span class="footer-title">Programs</span><br>
-              <span class="footer-link"><a href="#">Summer Program</a></span><br>
-              <span class="footer-link"><a href="#">Navigator Program</a></span><br>
-              <span class="footer-link"><a href="#">Hackathons</a></span>
-            </div>
-            <div class="column">
-
-            </div>
-          </div>
-        </div>
-    </footer>
   </body>
   <script>
       var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
@@ -601,8 +492,6 @@
         }
   
       });
-  
-  
   
       function openTab(evt, tabName) {
         var i, x, tablinks;
