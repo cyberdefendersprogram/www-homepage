@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+#Gemfile
+Gemfile
+Gemfile.lock
+
+#generated site
+_site
