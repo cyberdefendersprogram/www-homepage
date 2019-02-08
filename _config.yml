@@ -8,10 +8,3 @@ url: "https://www.cyberdefendersprogram.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-port: 3000
-
-# sass:
-#   sass_dir: assets/css
-# style: :nested
-theme: jekyll-theme-minimal
