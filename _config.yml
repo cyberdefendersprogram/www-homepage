@@ -2,7 +2,8 @@
 title: Cyber Defenders
 email: cyberdefendersprogram@gmail.com
 description:
-baseurl: "/"
+blog: https://www.medium.com/cyberdefenders
+baseurl: ""
 url: "https://www.cyberdefendersprogram.com"
 
 # Build settings
