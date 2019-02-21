@@ -8,4 +8,4 @@ Homepage of Cyber Defenders
 * Execute local webserver using ```>bundle exec jeykyll serve```
 
 # Todos
-* Initial page with a good design. Must have elements - Landing page, Programs, Advisors & Board.
+* Initial page with a good design. Must have elements - Landing page, Programs, Advisors & Board. Status: Almost done.
