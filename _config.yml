@@ -4,8 +4,9 @@ email: cyberdefendersprogram@gmail.com
 description: ""
 blog: "https://www.medium.com/cyberdefenders"
 gitrepo: "https://github.com/cyberdefenders"
-shenzibanzaigitrepo: "https://github.com/cyberdefenders/shenzi-banzai"
-secrepogitrepo: "https://github.com/cyberdefenders/secrepo"
+shenzibanzaiGitrepo: "https://github.com/cyberdefenders/shenzi-banzai"
+secrepoGitrepo: "https://github.com/cyberdefenders/secrepo"
+redteamMedium: "https://medium.com/cyberdefenders/red-team-rocks-the-house-d197a9b14540"
 baseurl: "/"
 url: "https://www.cyberdefendersprogram.com"
 
