@@ -61,8 +61,8 @@ typings/
 .next
 
 #Gemfile
-Gemfile
-Gemfile.lock
+#Gemfile
+#Gemfile.lock
 
 #generated site
 _site
