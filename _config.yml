@@ -2,8 +2,16 @@
 title: Cyber Defenders
 email: cyberdefendersprogram@gmail.com
 description:
+<<<<<<< Updated upstream
 blog: https://www.medium.com/cyberdefenders
 baseurl: ""
+=======
+blog: "https://www.medium.com/cyberdefenders"
+gitrepo: "https://github.com/cyberdefenders"
+shenzibanzaigitrepo: "https://github.com/cyberdefenders/shenzi-banzai"
+secrepogitrepo: "https://github.com/cyberdefenders/secrepo"
+baseurl: "/"
+>>>>>>> Stashed changes
 url: "https://www.cyberdefendersprogram.com"
 
 # Build settings
