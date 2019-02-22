@@ -2,8 +2,10 @@
 title: Cyber Defenders
 email: cyberdefendersprogram@gmail.com
 description:
-blog: https://www.medium.com/cyberdefenders
+blog: "https://www.medium.com/cyberdefenders"
 gitrepo: "https://github.com/cyberdefenders"
+shenzibanzaigitrepo: "https://github.com/cyberdefenders/shenzi-banzai"
+secrepogitrepo: "https://github.com/cyberdefenders/secrepo"
 baseurl: "/"
 url: "https://www.cyberdefendersprogram.com"
 
