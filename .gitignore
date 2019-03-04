@@ -62,7 +62,7 @@ typings/
 
 #Gemfile
 #Gemfile
-#Gemfile.lock
+Gemfile.lock
 
 #generated site
 _site
