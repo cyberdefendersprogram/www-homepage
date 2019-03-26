@@ -2,80 +2,61 @@
 <!--               Navbar Section                   -->  
 <!---------------------------------------------------->  
 <nav class="navbar" role="navigation" aria-label="main navigation">
+
     <div class="navbar-brand">
+
         <a class="navbar-item" href="{{ site.url }}">
             <img src="{{ site.baseurl }}assets/logo.png" alt="Do no harm">
             <title class="navbar-item" href="/index.html">Cyber Defenders </title>
         </a>
+
         <a class="navbar-burger" data-target="navMenu" role="button" aria-label="menu" aria-expanded="false">
             <span></span>
             <span></span>
             <span></span>
         </a>
+
     </div>
 
         <div class="navbar-menu" id="navMenu" >
           <div class="navbar-end">
-            <div class="navbar-item">
-              <a href="/index.html" class="navbar-item">
-                About
-              </a>
-            </div>
+          
+            <a href="/index.html" class="navbar-item">About</a>
+
+            <a href="/advisors.html" class="navbar-item">Advisors</a>
+            
+            <a href="/partners.html" class="navbar-item">Industry Partners</a>
+
+            <a href="/stories.html" class="navbar-item">Former Members</a>
+
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-item">
-                Programs
-              </a>
-              <div class="navbar-dropdown">
-                <a href="{{ site.summerProgram }}" class="navbar-item">
-                  Summer Program
-                </a>
-                <!--
-                <a href="{{site.blog}}" class="navbar-item">
-                  Navigators Program
-                </a>
-                -->
-                <a href="{{ site.blog }}" class="navbar-item">
-                  Bootcamp
-                </a>
-                <a href="{{ site.marchHackathon }}" class="navbar-item">
-                  Hackathons
-                </a>
-                <a href="{{ site.blog }}" class="navbar-item">
-                  Explorers Programs
-                </a>
+              
+                <a class="navbar-link">Programs</a>
+  
+                <div class="navbar-dropdown">
+                  <a href="{{ site.summerProgram }}" class="navbar-item">Summer Program</a>
+                  <!--<a href="{{site.blog}}" class="navbar-item">Navigators Program</a>-->
+                  <a href="{{ site.blog }}" class="navbar-item">Bootcamp</a>
+                  <a href="{{ site.marchHackathon }}" class="navbar-item">Hackathons</a>
+                  <a href="{{ site.blog }}" class="navbar-item">Explorers Programs</a>
+                </div>
+  
               </div>
-            </div>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-item">
-                Projects
-              </a>
-              <div class="navbar-dropdown">
-                  <a href="{{ site.shenzibanzaiGitrepo }}" class="navbar-item">
-                    Shenzi & Banzai
-                  </a>
-                  <a href="{{ site.secrepoGitrepo }}" class="navbar-item">
-                    SecRepo
-                  </a>
-                  <a href="{{site.redteamMedium}}" class="navbar-item">
-                    Redteam Learning Sandbox
-                  </a> 
+  
+              <div class="navbar-item has-dropdown is-hoverable">
+  
+                <a class="navbar-link">Projects</a>
+  
+                <div class="navbar-dropdown">
+                    <a href="{{ site.shenzibanzaiGitrepo }}" class="navbar-item">Shenzi & Banzai</a>
+                    <a href="{{ site.secrepoGitrepo }}" class="navbar-item">SecRepo</a>
+                    <a href="{{site.redteamMedium}}" class="navbar-item">Redteam Learning Sandbox</a> 
+                </div>
+  
               </div>
-            </div>
-            <div class="navbar-item">
-              <a href="/advisors.html" class="navbar-item">
-                Advisors
-              </a>
-            </div>
-            <div class="navbar-item">
-              <a href="/partners.html" class="navbar-item">
-                Industry Partners
-              </a>
-            </div>
-            <div class="navbar-item">
-              <a href="/contact.html" class="navbar-item">
-                Contact
-              </a>
-            </div>
+
+            <a href="/contact.html" class="navbar-item">Contact</a>
+
           </div>
         </div>
 </nav>  

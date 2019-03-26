@@ -1,0 +1,19 @@
+.image {
+    display: block;
+    position: relative;
+  }
+  
+.image img {
+display: block;
+height: auto;
+width: 100%;
+}
+
+.image img.is-rounded {
+border-radius: 290486px;
+}
+
+.image img.is-headshot {
+    border-radius: 290486px;
+    min-height: 100%;
+}
