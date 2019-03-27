@@ -9,4 +9,5 @@ Homepage of Cyber Defenders
 * **Note**: When running ```bundle install```, especially on Ubuntu 18.04, you may run into problems with commonmarker & nokogiri gems. Try explicit install of zlibg1 and ruby-dev with ```sudo apt install zlibg1-dev ruby-dev``` to fix this.
 
 # Todos
-* Initial page with a good design. Must have elements - Landing page, Programs, Advisors & Board. Status: Almost done.
+* Version 1.0 - Donate button.
+* Initial page with a good design. Must have elements - Landing page, Programs, Advisors & Board. Status: *Done*.
