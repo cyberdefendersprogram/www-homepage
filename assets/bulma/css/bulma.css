@@ -10294,4 +10294,12 @@ label.panel-block:hover {
   min-height: 100%;
 }
 
+.player {
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  height: 315px;
+  width: 550px;
+}
+
 /*# sourceMappingURL=bulma.css.map */
