@@ -10302,4 +10302,12 @@ label.panel-block:hover {
   width: 550px;
 }
 
+.rectrounded {
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+  height: 245px;
+  width: 720px;
+}
+
 /*# sourceMappingURL=bulma.css.map */
