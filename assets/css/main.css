@@ -1,6 +1,6 @@
 html,body {
     background: #EFF3F4;
-    font-family: 'Lato', 'Open Sans', serif;
+    font-family:'Open Sans', serif;
   }
   .hero-body .container {
     max-width: 700px;
@@ -25,7 +25,7 @@ html,body {
     font-size: 8rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    color: #209cee;
+    color: #eff3f4;
   }
   .card-content .content {
     font-size: 14px;
