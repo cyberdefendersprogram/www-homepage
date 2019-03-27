@@ -11,3 +11,6 @@ Homepage of Cyber Defenders
 # Todos
 * Version 1.0 - Donate button.
 * Initial page with a good design. Must have elements - Landing page, Programs, Advisors & Board. Status: *Done*.
+
+# Resources
+* The design is inspired by [bulma template](https://dansup.github.io/bulma-templates/templates/hero.html), and Squarespace (Impact template)[https://www.squarespace.com/templates/impact]
