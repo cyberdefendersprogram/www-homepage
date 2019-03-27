@@ -1,8 +1,8 @@
 # Site settings
 title: Cyber Defenders
 email: cyberdefendersprogram@gmail.com
-baseurl: "https://www.cyberdefendersprogram.com"
-description: ""
+baseurl: "https://www.cyberdefendersprogram.com/"
+description: "Cyber Defenders Program Homepage"
 url: "https://www.cyberdefendersprogram.com"
 blog: "https://www.medium.com/cyberdefenders"
 gitrepo: "https://github.com/cyberdefenders"
