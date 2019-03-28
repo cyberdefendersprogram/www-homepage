@@ -83,3 +83,8 @@ html,body {
 .carousel {
 	font-size: 24px;
 }
+
+/* donate */
+is-donate {
+  color: red;
+}
