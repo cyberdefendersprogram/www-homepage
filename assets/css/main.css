@@ -85,6 +85,6 @@ html,body {
 }
 
 /* donate */
-.is-donate {
+.navbar-item .is-donate {
   color: red;
 }
