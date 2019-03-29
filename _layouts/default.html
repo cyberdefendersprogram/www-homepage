@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{page.title}}</title>
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}assets/logo.png">
-    <link rel="stylesheet" href="{{ site.baseurl }}assets/bulma/css/bulma.css" type="text/css">
-    <link rel="stylesheet" href="{{ site.baseurl }}assets/css/main.css">
+    <link rel="icon" type="image/png" href="{{site.url}}{{ site.baseurl }}assets/logo.png">
+    <link rel="stylesheet" href="{{site.url}}{{ site.baseurl }}assets/bulma/css/bulma.css" type="text/css">
+    <link rel="stylesheet" href="{{site.url}}{{ site.baseurl }}assets/css/main.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
@@ -17,6 +17,6 @@
 
     {% include footer.html %}
 
-    <script src="{{ site.baseurl }}assets/js/main.js"></script>
+    <script src="{{site.url}}{{ site.baseurl }}assets/js/main.js"></script>
   </body>
 </html>
