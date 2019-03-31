@@ -67,4 +67,5 @@ Gemfile.lock
 #generated site
 _site
 
-.DS_STORE
+*/.DS_STORE
+assets/.DS_Store

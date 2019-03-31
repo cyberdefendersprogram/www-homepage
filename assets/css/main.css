@@ -62,27 +62,17 @@ html,body {
   .is-shady:hover {
   box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
   }
-  /*adds font awesome stars*/
-  footer li:before {
-    content: ''; /* no content yet @vaibhavb-mar-28-2019 */
-    font-family: 'FontAwesome';
-    float: left;
-    margin-left: -1.5em;
-    color: #147efb;
-  }
 
+/* main */
+.is-sleek{
+  border-radius: 20px;
+}
 
-/** Carousel effect **/
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.07); }
-.card-equal-height {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
+/* footer */
+footer .footer-title {
+  text-decoration-line: underline;
 }
-.carousel {
-	font-size: 24px;
-}
+
 /* donate */
 a.is-donate {
   color: rgba(255, 0, 0, 0.575);
