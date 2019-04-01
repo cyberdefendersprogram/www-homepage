@@ -19,10 +19,10 @@ html,body {
     border-left: none;
     border-right: none;
   }
-  .card-image > .fa {
+  .card-image{
     font-size: 8rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-left: 5rem;
     color: #eff3f4;
   }
   .card-content .content {
