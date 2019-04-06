@@ -16,6 +16,12 @@
   link: "https://www.linkedin.com/in/bill-reid-46208a1/"
   description: "A former Chief Information Security Officer in the healthcare tech industry, Bill has security experience in companies of all sizes. He now builds secure Amazon Web Services architectures, compliant to HIPAA, NIST, ISO, and COBIT standards."
 
+- name: "Melanie Masterson"
+  image: "assets/images/advisory-board/mel.jpeg"
+  companyname: Airbnb
+  link: "https://www.linkedin.com/in/mastersonmelanie/"
+  description: "Mel is seasoned in IT and Information Security. Her current focus is on detecting cyber security threats and incident response at Airbnb. She is passionate about teaching and loves being a mentor for new entrants in security. Previously she has served on board of Women in Security and Privacy (WISP)."
+
 - name: "Brian Koref"
   image: "assets/images/advisory-board/brian.jpeg"
   companyname: Intacct Corporation

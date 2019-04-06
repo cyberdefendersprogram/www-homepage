@@ -22,60 +22,27 @@ permalink: /stories/
         </div>
     </div>
 </section>
-<section class="section">
+
+<section>
     <div class="container">
-        <div class="columns is-vcentered">
-            <div class="column">
-                <div class="card is vcentered">
-                    <div class="card-content">
-                        <nav class="level">
-                            <div class="level-item is-centered is-vcentered">
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img class="is-headshot" src="{{site.url}}{{site.baseurl}}assets/images/past-members/nh.png">
-                                    </figure>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="card-content">
-                        <p class="title is-4"> Nick Handy</p>
-                        <div class="content">
-                                Before the Cyber Defenders 2017 Summer Program, I hadn't even thought of cybersecurity as a possible career path.
-                                    Coming in with little knowledge about the cybersecurity space, I found that I learned so much from the hands-on approach of the program.
-                                    We learned the fundamentals of network security, ethical hacking, machine learning and much more. Building upon these fundamentals, we were able to develop our own security tool from the ground up.
-                                    In the process, everyone’s research, team communication, and task management skills greatly improved; each person was able to take away technical cybersecurity skills 
-                                    and also valuable soft skills that could propel them forward no matter what career they chose in the future.
-                                    Since then, I have been diving deeper into aspects of cybersecurity by becoming a teaching assistant for the Summer Program the following year.
-                                    I am currently finishing my degree in computer engineering, and I look forward to applying what I have learned in cybersecurity to the work I do in computer engineering.
-                        </div>
-                    </div>
+    <div class="columns is-multiline is-mobile is-centered">
+    {% for student in site.data.students %}  
+        <div class="column is-half">
+            <div class="card is-shady">
+                <div class="card-image">
+                    <figure class="image is-128x128">    
+                            <img class="is-rounded" src={{site.url}}{{site.baseurl}}{{student.image}}>
+                    </figure>
                 </div>
-            </div>
-            <div class="column">
-                <div class="card is vcentered">
-                    <div class="card-content">
-                        <nav class="level">
-                            <div class="level-item is-centered is-vcentered">
-                                <div class="card-image">
-                                    <figure class="image">
-                                        <img class="is-headshot" src="{{site.url}}{{site.baseurl}}assets/images/past-members/dg.png">
-                                    </figure>
-                                </div>
-                            </div>
-                        </nav>
-                        <p class="title is-4">Drew Gipson</p>
-                        <div class="content">
-                                Prior to starting the Cyber Defenders program, the majority of my experiences with cybersecurity had been fairly two-dimensional, involving brief readings and YouTube videos, and light work with Python scripting.
-                                My time in Cyber Defenders did an outstanding job of introducing me to the depth of what ‘cybersecurity’ represents, through exposure to topics such as network hardening, security design and compliance, and information availability.
-                                No matter what an individual’s learning style may be, many of aspects of security are best understood through hands-on education, and Cyber Defenders really catered to this idea
-                                - meaning that all participants ended the program with tangible, practical work to show for their efforts. I am studying electronics engineering, and after this experience,
-                                I am continuing my education with an active emphasis on secure hardware design and industrial cybersecurity. Thanks to the time I spent in the program,
-                                I will be furthering my cybersecurity career as an intern with Chevron this summer, and I’m looking forward to future opportunities as a result of the skills and connections that I was able to develop in the Cyber Defenders Program.
-                        </div>
+                <div class="card-content">
+                    <div class="content">
+                        <h4><a href="{{student.link}}">{{student.name}}</a></h4>
+                        <p>{{student.description}}</p>
                     </div>
                 </div>
             </div>
         </div>
+    {% endfor %}
     </div>
-</section>
+    </div>
+    </section>
