@@ -36,8 +36,15 @@ The program finale will showcase student work and projects to a broad audience. 
 
 <br/>
 <h1 class="title">Student Resources </h1>
-
 1. TestOut <a href="https://cdn.testout.com/client-v5-1-10-555/startlabsim.html"> Lab Sim</a>
 2. Cyber Defenders <a href="https://www.youtube.com/playlist?list=PLyrH1sX4xNPYTxuS3MmowLS8hGlRpAL4R">Youtube</a>
 
-<br/>
+<hr/>
+
+<h1 class="title">Project Ideas </h1>
+1. Enhance the Cyber Explorers escape room
+2. Develop a poster against Cyber Bullying & Teen education.
+3. Develop a poster and tools for person cyber security - tools, image guide etc.
+4. Work on the Cyber Security games - Security & Privacy cards, Dx0D
+
+<hr/>
