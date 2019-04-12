@@ -8,8 +8,7 @@
   image: "assets/images/advisory-board/aaron.jpeg"
   companyname: Tanium
   link: "https://www.linkedin.com/in/aarongoldstein/"
-  description: "Aaron is a Director with Tanium’s Endpoint Detection and Response (EDR) Team. During his career, he has lead over 250 security engagements spanning 9 countries, ranging from high profile investigations and incident response to creating and customizing full-scale cyber intrusion training exercises. Aaron leverages his unique Incident Response experience in complex, large-scale breaches to provide strategic solutions to secure environments of all sizes. He is highly skilled in translating difficult topics into easy to understand training sessions and utilizes his knowledge and skills to bring a unique approach to the ever-growing challenge of securing critical systems."
-
+  description: "Aaron is a Director with Tanium’s Endpoint Detection and Response (EDR) Team. During his career, he has lead over 250 security engagements spanning 9 countries, ranging from high profile investigations and incident response to creating and customizing full-scale cyber intrusion training exercises. Aaron leverages his unique Incident Response experience in complex, large-scale breaches to provide strategic solutions to secure environments of all sizes."
 - name: "Bill Reid"
   image: "assets/images/advisory-board/bill.jpeg"
   companyname: Amazon
@@ -32,4 +31,4 @@
   image: "assets/images/advisory-board/celeste.jpg"
   companyname: "Lawrence Livermore National Lab"
   link: "https://www.linkedin.com/in/celestematarazzo/"
-  description: "Celeste is a data science expert and cybersecurity researcher with more than 32 years of service to the Lawrence Livermore National Laboratory’s (LLNL) Computation Directorate excelling in a variety or technical, research, leadership and management roles. She is also the founder, LLNL’s Cyber Defenders summer student internship program which provides hands-on training for future cybersecurity workforce.  She is passionate about education outreach and support for women and underrepresented minorities in technology careers"
+  description: "Celeste is a data science expert and cybersecurity researcher with more than 32 years of service to the Lawrence Livermore National Laboratory’s (LLNL) Computation Directorate excelling in a variety or technical, research, leadership and management roles. She is also the founder of LLNL’s Cyber Defenders summer student internship program.  She is passionate about education outreach and support for women and underrepresented minorities in technology careers"
