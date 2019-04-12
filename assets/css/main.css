@@ -80,3 +80,10 @@ a.is-donate {
 a.is-donate:hover{
   background-color: rgba(255, 0, 0, 0.575);
 }
+
+/* lists */
+ol {
+  list-style-type: lower-roman;
+  background: #03f8ec;
+  padding: 20px;
+}
