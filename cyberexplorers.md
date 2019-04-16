@@ -41,7 +41,8 @@ The program finale will showcase student work and projects to a broad audience. 
 3. Session #6 Links
     1. Session #6  Install <a href="https://www.putty.org/">PuTTY</a>
     2. OverTheWire <a href="http://overthewire.org/wargames/bandit/bandit0.html">Bandit </a> Challenge
-    3. Session #6 Unix command challenge
+    3. Session #6 Unix Command Challenge - <a href="https://forms.gle/mdNsK3RvqnmzD7yU7">Challenge Form</a>
+    4. Session #6 Optional Challenge - <a href="http://bit.ly/cmd-challenge">Challenge Directory ZIP</a>
 
 <hr/>
 
