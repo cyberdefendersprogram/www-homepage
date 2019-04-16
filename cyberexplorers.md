@@ -36,13 +36,13 @@ The program finale will showcase student work and projects to a broad audience. 
 
 <br/>
 <h1 class="title">Student Resources </h1>
-1. TestOut <a href="https://cdn.testout.com/client-v5-1-10-555/startlabsim.html"> Lab Sim</a>
-2. Cyber Defenders <a href="https://www.youtube.com/playlist?list=PLyrH1sX4xNPYTxuS3MmowLS8hGlRpAL4R">Youtube</a>
+1. TestOut [Lab Sim](https://cdn.testout.com/client-v5-1-10-555/startlabsim.html)
+2. Cyber Defenders [Youtube](https://www.youtube.com/playlist?list=PLyrH1sX4xNPYTxuS3MmowLS8hGlRpAL4R)
 3. Session #6 Links
-    1. Session #6  Install <a href="https://www.putty.org/">PuTTY</a>
-    2. OverTheWire <a href="http://overthewire.org/wargames/bandit/bandit0.html">Bandit </a> Challenge
-    3. Session #6 Unix Command Challenge - <a href="https://forms.gle/mdNsK3RvqnmzD7yU7">Challenge Form</a>
-    4. Session #6 Optional Challenge - <a href="http://bit.ly/cmd-challenge">Challenge Directory ZIP</a>
+    1. Session #6  Install [PuTTY](https://www.putty.org/)
+    2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
+    3. Session #6 Unix Command Challenge - [Challenge Form](https://forms.gle/mdNsK3RvqnmzD7yU7)
+    4. Session #6 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
 
 <hr/>
 
