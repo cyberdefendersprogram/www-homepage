@@ -38,6 +38,8 @@ The program finale will showcase student work and projects to a broad audience. 
 <h1 class="title">Student Resources </h1>
 1. TestOut <a href="https://cdn.testout.com/client-v5-1-10-555/startlabsim.html"> Lab Sim</a>
 2. Cyber Defenders <a href="https://www.youtube.com/playlist?list=PLyrH1sX4xNPYTxuS3MmowLS8hGlRpAL4R">Youtube</a>
+3. Session #6  Install <a href="https://www.putty.org/">PuTTY</a>
+4. Session #6 Unix command challenge
 
 <hr/>
 
