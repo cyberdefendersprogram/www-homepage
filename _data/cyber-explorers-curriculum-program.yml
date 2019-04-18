@@ -1,0 +1,58 @@
+- session: 1
+  desc: Introduction to Cyber Security (Hands-on No Computers) (Cypher-1-3, Cryptography & Steganography).Real world attacks analyzed (1-3 Printed) Video Content [Attack/Movie]
+  notes: 
+
+- session: 2
+  desc: Introduction to Cyber Security through Board Games (Hands-on No Computers) (IR - Scenarios/ Role Play) [D0x3d, Cyber Threat Defenders, Control-Alt-Hack]
+  notes:
+
+- session: 3
+  desc: |
+    Simulating A Cyber Security Range with an Escape Room (Hands-on No Computers) 
+    Project- Puzzle/Posters/Program with a team of 3-5
+  notes: |
+    (Escape Room will be Harry Potter themed)
+
+- session: 4
+  desc: Ethics Personal Security (Password Manager, Do Not Track, Phishing awareness,..)
+
+- session: 5
+  desc: Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
+  notes: |
+    1. Session #5  Install [PuTTY](https://www.putty.org/)
+    2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
+    3. Session #5 Unix Command Challenge - [Challenge Form](https://forms.gle/mdNsK3RvqnmzD7yU7)
+    4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
+
+- session: 6
+  desc: Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
+  notes: |
+    1. Session #6 Networking [Challenge Form](http://bit.ly/explorersession6)
+
+- session: 7
+  desc: Cyber Threats Demonstrated On Individuals (Rubber Ducky)
+
+- session: 8
+  desc: Introduction to Forensics (exercise with disk data analysis)
+
+- session: 9
+  desc: Team Project - Session 2 
+  notes: |
+    1. Lab Test-Out Lab
+
+- session: 10
+  desc: Introduction to Data science for CyberSecurity- log analysis (access logs, OS logs, Application logs, Service logs, syslogs) and intrusion detection
+
+- session: 11
+  desc: Team Project - Session 3,Students will work on team projects
+
+- session: 12
+  desc: Introduction to Career Paths in Cyber Security,Guest Lecture 4
+
+- session: 13
+  desc: Lab session tailored to a Cyber Patriots Challenge 
+  notes: |
+    1. TestLab - Cyber Patriots Labs
+
+- session: 14
+  desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
