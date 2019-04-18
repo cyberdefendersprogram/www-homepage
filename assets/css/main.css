@@ -141,14 +141,23 @@ font-weight: 700;
 	margin-bottom: 1px;
 }
 
+.is-hackathon-h1 {
+  font-family: 'Roboto Mono', monospace;
+	font-weight: 700;
+}
+
 .is-hackathon-h2 {
+  font-family: 'Roboto Mono', monospace;
+	font-weight: 700;
 	font-size: 24px;
 	color: #5893BC;
 	padding-bottom: 10px;
 }
 
 .is-hackathon-h3{
-	font-size: 18px;
+  font-family: 'Roboto Mono', monospace;
+	font-weight: 700;
+  font-size: 18px;
 }
 
 ul.is-hackathon-list {
