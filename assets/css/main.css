@@ -83,11 +83,13 @@ a.is-donate:hover{
 
 /* lists */
 ol {
-  list-style-type: lower-roman;
-  background: #46bcf38c;
-  padding: 20px;
+  padding: 10px;
+  padding-left: 20px;
 }
 
+p {
+  padding: 10px;
+}
 /* hackathon */
 .hero.has-background {
   position: relative;

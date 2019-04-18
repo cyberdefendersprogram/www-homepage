@@ -38,12 +38,13 @@ The program finale will showcase student work and projects to a broad audience. 
 <h1 class="title">Student Resources </h1>
 1. TestOut [Lab Sim](https://cdn.testout.com/client-v5-1-10-555/startlabsim.html)
 2. Cyber Defenders [Youtube](https://www.youtube.com/playlist?list=PLyrH1sX4xNPYTxuS3MmowLS8hGlRpAL4R)
-3. Session #6 Links
-    1. Session #6  Install [PuTTY](https://www.putty.org/)
+3. Session #5 Links
+    1. Session #5  Install [PuTTY](https://www.putty.org/)
     2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
-    3. Session #6 Unix Command Challenge - [Challenge Form](https://forms.gle/mdNsK3RvqnmzD7yU7)
-    4. Session #6 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
-
+    3. Session #5 Unix Command Challenge - [Challenge Form](https://forms.gle/mdNsK3RvqnmzD7yU7)
+    4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
+4. Session #6 Links
+    1. Networking List
 <hr/>
 
 <h1 class="title">Project Ideas </h1>
@@ -51,5 +52,5 @@ The program finale will showcase student work and projects to a broad audience. 
 2. Develop a poster against Cyber Bullying & Teen education.
 3. Develop a poster and tools for person cyber security - tools, image guide etc.
 4. Work on the Cyber Security games - Security & Privacy cards, Dx0D
-
+5. Ideas from [Students](http://bit.ly/explorerideas2019)
 <hr/>
