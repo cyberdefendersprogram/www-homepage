@@ -22,8 +22,8 @@ we introduce hands-on exercises and threats which students will replicate in a l
     {% for session in site.data.cyber-explorers-curriculum-program %} 
     <tr>
         <td>{{session.session}}</td>
-        <td>{{session.description}}</td>
-        <td>{{session.notes}}</td>
+        <td>{{session.desc | markdownify}}</td>
+        <td>{{session.notes | markdownify}}</td>
     </tr>
     {% endfor %}
     </tbody>
