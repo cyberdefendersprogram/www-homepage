@@ -44,7 +44,7 @@ The program finale will showcase student work and projects to a broad audience. 
     3. Session #5 Unix Command Challenge - [Challenge Form](https://forms.gle/mdNsK3RvqnmzD7yU7)
     4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
 4. Session #6 Links
-    1. Networking List
+    1. Session #6 Networking [Challenge Form](http://bit.ly/explorersession6)
 <hr/>
 
 <h1 class="title">Project Ideas </h1>
