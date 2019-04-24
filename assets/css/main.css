@@ -172,11 +172,14 @@ ul.is-hackathon-list {
 }
 
 .is-hackathon-apply{
-  background-color: #5893BC;
+  background-color: rgb(166, 188, 88);
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
   color: #fff;
   border-width: 0px;
   width: 80%;
   }
-  
+
+a.is-hackathon-apply{
+  color: #fff;
+}
