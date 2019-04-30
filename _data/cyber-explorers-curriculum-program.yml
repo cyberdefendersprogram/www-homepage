@@ -27,18 +27,24 @@
 - session: 6
   desc: Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
   notes: |
-    1. Session #6 Networking [Challenge Form](http://bit.ly/explorersession6)
+    1. Project Ideas [Excerpt](http://bit.ly/explorerideas2019)
+    2. Session #6 Network Security [Follow along](http://bit.ly/explorersession6)
 
 - session: 7
-  desc: Cyber Threats Demonstrated On Individuals (Rubber Ducky)
+  desc: Red Teaming - Cyber Threats Demonstrated On Individuals (Rubber Ducky)
+  notes: |
+    1. Project Ideas Excerpt Review & Project Plan Formation (http://bit.ly/explorerplan2019)
+    2. Session #7 [Follow along](http://bit.ly/explorersession7)
 
 - session: 8
-  desc: Introduction to Forensics (exercise with disk data analysis)
+  desc: Introduction to Physical Security
+  notes: |
+    1. TestOut (Lesson 4 - Physical Security Labsim)[http://www.testout.com]
 
 - session: 9
-  desc: Team Project - Session 2 
+  desc: Team Project - Session 2 & Introduction to Forensics
   notes: |
-    1. Lab Test-Out Lab
+    1. Forensics exercise with disk data analysis
 
 - session: 10
   desc: Introduction to Data science for CyberSecurity- log analysis (access logs, OS logs, Application logs, Service logs, syslogs) and intrusion detection
