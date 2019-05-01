@@ -23,11 +23,12 @@
     2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
     3. Session #5 Unix Command Challenge - [Challenge Form](https://forms.gle/mdNsK3RvqnmzD7yU7)
     4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
+    5. Project [Ideas](http://bit.ly/explorerideas2019) 
 
 - session: 6
   desc: Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
   notes: |
-    1. Project Ideas [Excerpt](http://bit.ly/explorerideas2019)
+    1. Project Ideas [Excerpt](http://bit.ly/explorerprojectexcerpt2019)
     2. Session #6 Network Security [Follow along](http://bit.ly/explorersession6)
 
 - session: 7
@@ -42,7 +43,8 @@
 - session: 8
   desc: Introduction to Physical Security
   notes: |
-    1. TestOut [Lesson 4 Physical Security Labsim](http://www.testout.com)
+    1. Project Background Research & Preparing for Tuesday presentations
+    2. TestOut [Lesson 4 Physical Security Labsim](http://www.testout.com)
 
 - session: 9
   desc: Team Project - Session 2 & Introduction to Forensics
