@@ -54,10 +54,16 @@
   notes: |
     1. Project Milestone - 5 Minute Presentations Project Proposal & Plan
     2. Forensics exercise with disk data analysis - [Follow along](http://bit.ly/explorersession9)
-
+    3. *Announcements*
+        1. Volunteers for [San Francisco Public Library Explorers Escape Room](https://www.cyberdefendersprogram.com/escaperoom/)
+        
 - session: 10
-  desc: |
-    1. Introduction to Data science for CyberSecurity- log analysis (access logs, OS logs, Application logs, Service logs, syslogs) and intrusion detection
+  desc: Introduction to Data science for CyberSecurity
+  notes: |
+    1. Project work 
+    2. Log analysis 
+        1. Access logs, OS logs, Application logs, Service logs, syslogs
+        2. Introduction to Intrusion Detection
 
 - session: 11
   desc: Team Project - Session 3,Students will work on team projects
