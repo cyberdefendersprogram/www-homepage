@@ -49,10 +49,12 @@
 - session: 9
   desc: Team Project - Session 2 & Introduction to Forensics
   notes: |
-    1. Forensics exercise with disk data analysis
+    1. Project Milestone - 5 Minute Presentations Project Proposal & Plan
+    2. Forensics exercise with disk data analysis
 
 - session: 10
-  desc: Introduction to Data science for CyberSecurity- log analysis (access logs, OS logs, Application logs, Service logs, syslogs) and intrusion detection
+  desc: |
+    1. Introduction to Data science for CyberSecurity- log analysis (access logs, OS logs, Application logs, Service logs, syslogs) and intrusion detection
 
 - session: 11
   desc: Team Project - Session 3,Students will work on team projects
