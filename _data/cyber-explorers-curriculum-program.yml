@@ -60,8 +60,8 @@
 - session: 10
   desc: Introduction to Data science for CyberSecurity
   notes: |
-    1. Project work 
-    2. Log analysis 
+    1. Project work - [Prototype Developement](http://bit.ly/explorerprojectsession10)
+    2. [Data Science for CyberSecurity](http://bit.ly/explorersession10)- 
         1. Access logs, OS logs, Application logs, Service logs, syslogs
         2. Introduction to Intrusion Detection
 
