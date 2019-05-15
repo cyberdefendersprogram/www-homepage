@@ -67,7 +67,11 @@ The program finale will showcase student work and projects to a broad audience. 
                     <h4>{{project.name}}</h4>
                     <h6>{{project.members}}</h6>
                     <p>{{project.description}}</p>
-                    <p>Style: {{project.presentation}}
+                    {% if project.prototype %}
+                        <p>Style: <a href={{project.prototype}}>{{project.presentation}}</a>
+                    {% else %}
+                        <p>Style: {{project.presentation}}
+                    {% endif %}
                     <br/>Status: <b>{{project.status}}</b></p>
                 </div>
             </div>
