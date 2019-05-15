@@ -60,11 +60,11 @@ The program finale will showcase student work and projects to a broad audience. 
 <h1 class="title">Projects</h1>
 <div class="columns is-multiline is-mobile is-centered">
 {% for project in site.data.cyberexplorers-projects %}  
-    <div class="column is-one-fourth">
+    <div class="column is-one-third">
         <div class="card is-shady">
             <div class="card-content">
                 <div class="content">
-                    <h4><a href="{{advisor.link}}">{{project.name}}</a></h4>
+                    <h4>{{project.name}}/h4>
                     <h6>{{project.members}}</h6>
                     <p>{{project.description}}</p>
                     <p>Status: <b>{{project.status}}</b></p>
