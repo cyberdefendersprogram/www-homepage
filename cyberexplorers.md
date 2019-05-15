@@ -54,3 +54,25 @@ The program finale will showcase student work and projects to a broad audience. 
 4. Work on the Cyber Security games - Security & Privacy cards, Dx0D
 5. Ideas from [Students](http://bit.ly/explorerideas2019)
 <hr/>
+
+<section>
+<div class="container">
+<h1 class="title">Projects</h1>
+<div class="columns is-multiline is-mobile is-centered">
+{% for project in site.data.cyberexplorers-projects %}  
+    <div class="column is-one-fourth">
+        <div class="card is-shady">
+            <div class="card-content">
+                <div class="content">
+                    <h4><a href="{{advisor.link}}">{{project.name}}</a></h4>
+                    <h6>{{project.members}}</h6>
+                    <p>{{project.description}}</p>
+                    <p>Status: <b>{{project.status}}</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</div>
+</div>
+</section>

@@ -1,0 +1,65 @@
+- name: Team Without a Name 
+  members: Jenna Young, Nathan Yacovetta
+  description: Many people do not know about security threats of websites they are visiting. People also lack knowledge of what type of information and with what sites it is safe to share with. Our solution helps with this problem with a chrome extension.
+  presentation: Software
+  status: red
+
+- name: MockPatriot
+  members: Marek Pinto
+  description: Cyberpatriot is a very fun competition. It is really hard to explain what happens in a CyberPatriot competition to others. It is really fun, but it’s hard to communicate how fun it is or to give a demo of how a competition goes. We provide virtual images with vulnerabilities ranging in difficulty.
+  presentation: Software
+  status: red
+
+- name: Team Temporary
+  members: John Vo, Sean Park, Jinsung Park, Kris Iotov
+  description: Not many people know what cyber security is and what its importance is to them everyday. We teach the dumb internet users about cyber security (phishing & malicious software) with an interactive website that has the capability of showing how cyber security works and how it affects you in your everyday life. ( teach about liek fishing and malicious software.
+  presentation: Software
+  status: red
+
+- name: Seraseta
+  members: Jayden Stahl
+  description: Many people have small vulnerabilities on their computers that may go completely unnoticed due to lack of knowledge of them. These can sometimes be small, such as password min length 
+  presentation: Software
+  status: red 
+
+- name: ctfB_w/_CTFd
+  members: Andrew Dang, Ganesh Pimpale
+  description: One problem in cybersecurity is lack of human resources. Not enough people are knowledgeable of Cybersecurity or interested to learn and have potential jobs. Our idea is to make an introductory CTF for beginners. Unlike other difficult CTFs, this one will have links and resources in the hints. The idea of resources in the hints was inspired by the bandit game, which had slowly introduced added new concepts every level. It had all possible needed commands to find the password for each level. This was very useful for beginners who had no experience with a terminal. The CTF will have links to websites containing information relevant to the current problem. The CTF will introduce new people to cybersecurity
+  presentation: Software
+  status: red
+
+- name: Complete Lockdown
+  members: Rushil Desai, Yagnesh Veeraraghavan, Aaron M
+  description: Our problem is that people download malicious thing or get hacked and lose extremely important files or anything they value on their computer. Our project is a cyber security software that locks down your computer when the software senses anything malicious activity from anything you might have downloaded.
+  presentation: Software
+  status: Yellow
+
+- name: Desaipher
+  members: 
+  description: 
+  presentation: Software
+  status: Yellow
+
+- name: Harry Python
+  members: Maheswari Bajji, Alexa Mesh, Simran Kaur
+  description: Working on a game to teach cybersecurity
+  presentation: Board game
+  status: Green
+
+- name: VOLDEMORT
+  members: Jenny Le, Elysia Oh, Enya Do
+  description: Our Cyber Security game is based on Oregon Trail game and will teach players about cyber threats, the importance of having secured systems, and difficulties new businesses face.
+  presentation: Board game
+  status: Green
+
+- name: Slyther-in-Code
+  members: Andrew Khadder, Ryan Hoang, John Lee, Ryan Jin Parnaso
+  description: Our Cyber Security game is based on Clue and will teach players about ..
+  presentation: Board Game
+  status: Green
+
+- name: Pineapple Team
+  members: Vikram Nandi,Sheila Nguyen
+  description: Cyberbullying is a very common thing. Rude comments are made and rumors are spread. This is a problem because it cannot be contained. The post or comment cannot be taken down by anyone but the original user unless it is reported. Our poster will educate user on the same.
+  presentation: Poster
+  status: red
