@@ -34,18 +34,6 @@ and exposing students to career paths. One of the session labs will be tailored 
 
 The program finale will showcase student work and projects to a broad audience. During the duration of the program, we will offer an extensive cybersecurity library and a raspberry pi based project lab environment. We strive to align this program to other industry efforts and also offer a  hackathon.
 
-<br/>
-<h1 class="title">Student Resources </h1>
-1. TestOut [Lab Sim](https://cdn.testout.com/client-v5-1-10-555/startlabsim.html)
-2. Cyber Defenders [Youtube](https://www.youtube.com/playlist?list=PLyrH1sX4xNPYTxuS3MmowLS8hGlRpAL4R)
-3. Session #5 Links
-    1. Session #5  Install [PuTTY](https://www.putty.org/)
-    2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
-    3. Session #5 Unix Command Challenge - [Challenge Form](https://forms.gle/mdNsK3RvqnmzD7yU7)
-    4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
-4. Session #6 Links
-    1. Session #6 Networking [Challenge Form](http://bit.ly/explorersession6)
-<hr/>
 
 <h1 class="title">Project Ideas </h1>
 1. Enhance the Cyber Explorers escape room
@@ -57,7 +45,7 @@ The program finale will showcase student work and projects to a broad audience. 
 
 <section>
 <div class="container">
-<h1 class="title">Projects</h1>
+<h1 class="title">Student Projects</h1>
 <div class="columns is-multiline is-mobile is-centered">
 {% for project in site.data.cyberexplorers-projects %}  
     <div class="column is-one-third">
