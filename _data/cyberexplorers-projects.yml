@@ -1,3 +1,39 @@
+- name: Harry Python
+  members: Maheswari Bajji, Alexa Mesh, Simran Kaur
+  description: Working on a game to teach cybersecurity
+  presentation: Board game
+  status: green
+
+- name: VOLDEMORT
+  members: Jenny Le, Elysia Oh, Enya Do
+  description: Our Cyber Security game is based on Oregon Trail game and will teach players about cyber threats, the importance of having secured systems, and difficulties new businesses face.
+  presentation: Board game
+  status: green
+
+- name: Slyther-in-Code
+  members: Andrew Khadder, Ryan Hoang, John Lee, Ryan Jin Parnaso
+  description: The project is Clue-hacker edition, and it informs about cyber security and hacking. In the game of Clue, there is one murderer, one weapon, and the room where it happened. Our version of Clue will include a hacker, method of attack, and the IP address of the hacker. The game raises awareness for cyber attacks; potentially, it has a positive effect on players. The goal is to make people aware of where they are putting their personal information. Our project will provide clues to a player to help solving the mystery of who, how, and where they got hacked.
+  presentation: Board Game
+  status: green
+
+- name: Desaipher
+  members: Niklesh Giragama, Mohid Fawad, and Kasey Doan
+  description: Our project is a type of encryption. It uses the ceaser cipher as its base. The problem that we are trying to solve is to send messages without getting any transmissions or interruptions from an anonymous User. The caesar cipher uses a number and shifts a letter by that number. That is how it gets encrypted. Instead of numbers, we are using words. Each letter in the word correlates to a number. Those number will be the shift for the word or phrase. This is a simple encryption that most people can understand if they get a walkthrough of it. It is a way to give people an introduction to encrypting words and phrases.
+  presentation: '[Software](https://kaseydoan.wixsite.com/desaipher)'
+  status: green
+
+- name: Complete Lockdown
+  members: Rushil Desai, Yagnesh Veeraraghavan, Aaron M
+  description: Our problem is that people download malicious thing or get hacked and lose extremely important files or anything they value on their computer. Our project is a cyber security software that locks down your computer when the software senses anything malicious activity from anything you might have downloaded.
+  presentation: Software
+  status: yellow
+
+- name: Pineapple Team
+  members: Vikram Nandi,Sheila Nguyen
+  description: Cyberbullying is a very common thing. Rude comments are made and rumors are spread. This is a problem because it cannot be contained. The post or comment cannot be taken down by anyone but the original user unless it is reported. Our poster will educate user on the same.
+  presentation: Poster
+  status: red
+
 - name: Team Without a Name 
   members: Jenna Young, Nathan Yacovetta
   description: Many people do not know about security threats of websites they are visiting. People also lack knowledge of what type of information and with what sites it is safe to share with. Our solution helps with this problem with a chrome extension.
@@ -26,40 +62,4 @@
   members: Andrew Dang, Ganesh Pimpale
   description: One problem in cybersecurity is lack of human resources. Not enough people are knowledgeable of Cybersecurity or interested to learn and have potential jobs. Our idea is to make an introductory CTF for beginners.
   presentation: Software
-  status: red
-
-- name: Complete Lockdown
-  members: Rushil Desai, Yagnesh Veeraraghavan, Aaron M
-  description: Our problem is that people download malicious thing or get hacked and lose extremely important files or anything they value on their computer. Our project is a cyber security software that locks down your computer when the software senses anything malicious activity from anything you might have downloaded.
-  presentation: Software
-  status: Yellow
-
-- name: Desaipher
-  members: Niklesh Giragama, Mohid Fawad, and Kasey Doan
-  description: Our project is a type of encryption. It uses the ceaser cipher as its base. The problem that we are trying to solve is to send messages without getting any transmissions or interruptions from an anonymous User. The caesar cipher uses a number and shifts a letter by that number. That is how it gets encrypted. Instead of numbers, we are using words. Each letter in the word correlates to a number. Those number will be the shift for the word or phrase. This is a simple encryption that most people can understand if they get a walkthrough of it. It is a way to give people an introduction to encrypting words and phrases.
-  presentation: "[Software](https://kaseydoan.wixsite.com/desaipher)"
-  status: Yellow
-
-- name: Harry Python
-  members: Maheswari Bajji, Alexa Mesh, Simran Kaur
-  description: Working on a game to teach cybersecurity
-  presentation: Board game
-  status: Green
-
-- name: VOLDEMORT
-  members: Jenny Le, Elysia Oh, Enya Do
-  description: Our Cyber Security game is based on Oregon Trail game and will teach players about cyber threats, the importance of having secured systems, and difficulties new businesses face.
-  presentation: Board game
-  status: Green
-
-- name: Slyther-in-Code
-  members: Andrew Khadder, Ryan Hoang, John Lee, Ryan Jin Parnaso
-  description: The project is Clue-hacker edition, and it informs about cyber security and hacking. In the game of Clue, there is one murderer, one weapon, and the room where it happened. Our version of Clue will include a hacker, method of attack, and the IP address of the hacker. The game raises awareness for cyber attacks; potentially, it has a positive effect on players. The goal is to make people aware of where they are putting their personal information. Our project will provide clues to a player to help solving the mystery of who, how, and where they got hacked.
-  presentation: Board Game
-  status: Green
-
-- name: Pineapple Team
-  members: Vikram Nandi,Sheila Nguyen
-  description: Cyberbullying is a very common thing. Rude comments are made and rumors are spread. This is a problem because it cannot be contained. The post or comment cannot be taken down by anyone but the original user unless it is reported. Our poster will educate user on the same.
-  presentation: Poster
   status: red
