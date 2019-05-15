@@ -36,7 +36,7 @@
 
 - name: Desaipher
   members: Niklesh Giragama, Mohid Fawad, and Kasey Doan
-  description: 
+  description: Our project is a type of encryption. It uses the ceaser cipher as its base. The problem that we are trying to solve is to send messages without getting any transmissions or interruptions from an anonymous User. The caesar cipher uses a number and shifts a letter by that number. That is how it gets encrypted. Instead of numbers, we are using words. Each letter in the word correlates to a number. Those number will be the shift for the word or phrase. This is a simple encryption that most people can understand if they get a walkthrough of it. It is a way to give people an introduction to encrypting words and phrases.
   presentation: Software
   status: Yellow
 
