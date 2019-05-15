@@ -1,6 +1,6 @@
 - name: Harry Python
   members: Maheswari Bajji, Alexa Mesh, Simran Kaur
-  description: Working on a game to teach cybersecurity
+  description: The board game mimics the mind of a hacker (how they hack) and lets people be more observant to prevent from being hacked in the future. The board game is a circle with different colored spaces. Each color has a different scenario and hacking techniques that players need to learn and use to solve a problem(e.g blue = cryptography, red = steganography etc.). By doing this we hope people learn about hackers and hacking techniques and will be vary about hackers the next time they are online. 
   presentation: Board game
   status: green
 
