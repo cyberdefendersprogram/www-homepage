@@ -3,7 +3,7 @@ layout: blog
 title: Cyber Explorers Program
 permalink: /cyberexplorers/
 ---
-<h1 class="title"> Cyber Explorers Highschool Program </h1>
+<h1 class="title"> Cyber Explorers Santa Teresa Highschool Program </h1>
 
 Cyber Explorers is a 7-week immersive program aimed at introducing Cyber Security discipline to high school and middle school students.The program doesn’t assume any exposure to computers and computer science. The first 3 sessions are tabletop fun games and exercises introducing concepts of Cyber Security like Cryptography, Network Security, Defense in Depth, Incident Detection, Incident Response et al.
 
