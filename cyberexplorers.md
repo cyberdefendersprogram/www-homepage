@@ -64,7 +64,7 @@ The program finale will showcase student work and projects to a broad audience. 
         <div class="card is-shady">
             <div class="card-content">
                 <div class="content">
-                    <h4>{{project.name}}/h4>
+                    <h4>{{project.name}}</h4>
                     <h6>{{project.members}}</h6>
                     <p>{{project.description}}</p>
                     <p>Status: <b>{{project.status}}</b></p>
