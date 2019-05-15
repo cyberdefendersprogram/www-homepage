@@ -54,7 +54,7 @@
 
 - name: Slyther-in-Code
   members: Andrew Khadder, Ryan Hoang, John Lee, Ryan Jin Parnaso
-  description: Our Cyber Security game is based on Clue and will teach players about ..
+  description: The project is Clue-hacker edition, and it informs about cyber security and hacking. In the game of Clue, there is one murderer, one weapon, and the room where it happened. Our version of Clue will include a hacker, method of attack, and the IP address of the hacker. The game raises awareness for cyber attacks; potentially, it has a positive effect on players. The goal is to make people aware of where they are putting their personal information. Our project will provide clues to a player to help solving the mystery of who, how, and where they got hacked.
   presentation: Board Game
   status: Green
 
