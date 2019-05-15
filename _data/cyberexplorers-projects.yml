@@ -24,7 +24,7 @@
 
 - name: ctfB_w/_CTFd
   members: Andrew Dang, Ganesh Pimpale
-  description: One problem in cybersecurity is lack of human resources. Not enough people are knowledgeable of Cybersecurity or interested to learn and have potential jobs. Our idea is to make an introductory CTF for beginners. Unlike other difficult CTFs, this one will have links and resources in the hints. The idea of resources in the hints was inspired by the bandit game, which had slowly introduced added new concepts every level. It had all possible needed commands to find the password for each level. This was very useful for beginners who had no experience with a terminal. The CTF will have links to websites containing information relevant to the current problem. The CTF will introduce new people to cybersecurity
+  description: One problem in cybersecurity is lack of human resources. Not enough people are knowledgeable of Cybersecurity or interested to learn and have potential jobs. Our idea is to make an introductory CTF for beginners.
   presentation: Software
   status: red
 
