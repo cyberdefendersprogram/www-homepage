@@ -82,13 +82,18 @@
   desc: Introduction to Career Paths in Cyber Security
   notes: |
     1. Conversation with [Mel Masterson](https://www.cyberdefendersprogram.com/advisors/), AirBnB Security
-    2. Project Milestone - Final presentation preparation.
+    2. Project Milestone - [Final presentation preparation](http://bit.ly/projectsession11).
     3. *Announcements*
+        1. Invitation for [Cyber Explorers Demo Day](http://bit.ly/explorersdemoday2019), May 23 5-7pm, Multipurpose Room Santa Teresa High School, San Jose, CA.
+        2. Volunteer for the [Cyber Explorer Escape Room @ Bay Area Maker Faire](https://forms.gle/gEETTfEsiPdiW4VZA)
+        3. We will work on Cyber Patriots images (OS & Networking) next session.
 
 - session: 13
   desc: Lab session tailored to a Cyber Patriots Challenge 
   notes: |
-    1. TestLab - Cyber Patriots Labs
+    1. TestLab - Cyber Patriots 
+        1. ISO images VMWare Player - problems (45 mins)
+        2. Packet Tracer Image - Cisco Packet Tracer (30mins)
 
 - session: 14
   desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
