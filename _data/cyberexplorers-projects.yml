@@ -1,12 +1,12 @@
 - name: Harry Python
   members: Maheswari Bajji, Alexa Mesh, Simran Kaur
-  description: The board game mimics the mind of a hacker (how they hack) and lets people be more observant to prevent from being hacked in the future. The board game is a circle with different colored spaces. Each color has a different scenario and hacking techniques that players need to learn and use to solve a problem(e.g blue = cryptography, red = steganography etc.). By doing this we hope people learn about hackers and hacking techniques and will be vary about hackers the next time they are online. 
+  description: The board game mimics the mind of a hacker (how they hack) and lets people be more observant to prevent from being hacked in the future. The board game is a circle with different colored spaces. Each color has a different scenario and hacking techniques that players need to learn and use to solve a problem(e.g. blue = cryptography, red = steganography etc.). By doing this we hope people learn about hackers and hacking techniques and will be vary about hackers the next time they are online. 
   presentation: Board game
   status: green
 
-- name: VOLDEMORT
+- name: Cyber Valley
   members: Jenny Le, Elysia Oh, Enya Do
-  description: Our Cyber Security game is based on Oregon Trail game and will teach players about cyber threats, the importance of having secured systems, and difficulties new businesses face.
+  description: This Cyber Security based Oregon Trail game will teach players about cyber threats, the importance of having secured systems, and difficulties new businesses face. Along the way, players will also gain valuable teamwork, leadership, management, and communication skills.
   presentation: Board game
   status: green
 
@@ -25,14 +25,26 @@
 
 - name: Complete Lockdown
   members: Rushil Desai, Yagnesh Veeraraghavan, Aaron M
-  description: Our problem is that people download malicious thing or get hacked and lose extremely important files or anything they value on their computer. Our project is a cyber security software that locks down your computer when the software senses anything malicious activity from anything you might have downloaded.
+  description: Our project is a cyber security software that senses any trojan horses that might be downloaded onto your computer. This software allows to prevent any trojans to get onto your computer. Trojans can do a lot of damage, so this software can really help you prevent losing important information. Whenever you download a file, our software scans the file for trojan horses. If the software finds a trojan horse then it will immediately stop the download.
   presentation: Software
+  status: yellow
+
+- name: sudon’t 
+  members: Henry Chen
+  description: There are many security flaws that may exist on a machine or online. All of which can be exploited to gain higher privileges. This project aims to teach the general public of many different exploits which may be on their machine or online.
+  presentation: software
   status: yellow
 
 - name: Pineapple Team
   members: Vikram Nandi,Sheila Nguyen
   description: Cyberbullying is a very common thing. Rude comments are made and rumors are spread. This is a problem because it cannot be contained. The post or comment cannot be taken down by anyone but the original user unless it is reported. Our poster will educate user on the same.
   presentation: Poster
+  status: red
+
+- name: Team CVariant (GovinDOS) 
+  members: Govind Pimpale, Marek Pinto
+  description: Create a simple x86 OS that can boot itself, print to the screen, and accept keyboard input to a simple shell. If time, interpret FAT32 format If time, create executable loader. If time, create simple VESA driver to display basic graphics upon the screen
+  presentation: Software
   status: red
 
 - name: Team Without a Name 
@@ -44,12 +56,6 @@
 - name: MockPatriot
   members: Marek Pinto
   description: Cyberpatriot is a very fun competition. It is really hard to explain what happens in a CyberPatriot competition to others. It is really fun, but it’s hard to communicate how fun it is or to give a demo of how a competition goes. We provide virtual images with vulnerabilities ranging in difficulty.
-  presentation: Software
-  status: red
-
-- name: Team Temporary
-  members: John Vo, Sean Park, Jinsung Park, Kris Iotov
-  description: Not many people know what cyber security is and what its importance is to them everyday. We teach the dumb internet users about cyber security (phishing & malicious software) with an interactive website that has the capability of showing how cyber security works and how it affects you in your everyday life. ( teach about liek fishing and malicious software.
   presentation: Software
   status: red
 

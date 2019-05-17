@@ -11,10 +11,12 @@
     Simulating A Cyber Security Range with an Escape Room (Hands-on No Computers) 
     Project- Puzzle/Posters/Program with a team of 3-5
   notes: |
-    (Escape Room will be Harry Potter themed)
+    Escape Room is Harry Potter themed
 
 - session: 4
   desc: Ethics Personal Security (Password Manager, Do Not Track, Phishing awareness,..)
+  notes: |
+    Ethics exercises
 
 - session: 5
   desc: Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
@@ -80,7 +82,8 @@
   desc: Introduction to Career Paths in Cyber Security
   notes: |
     1. Conversation with [Mel Masterson](https://www.cyberdefendersprogram.com/advisors/), AirBnB Security
-    2. *Announcements*
+    2. Project Milestone - Final presentation preparation.
+    3. *Announcements*
 
 - session: 13
   desc: Lab session tailored to a Cyber Patriots Challenge 
