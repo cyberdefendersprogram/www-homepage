@@ -14,6 +14,15 @@ In the latter half of the program after a session on Ethics and signing of a dis
 we introduce hands-on exercises and threats which students will replicate in a lab environment. We start the labs with a gentle introduction to shell and operating systems and the drop into network security, log analysis and forensics. 
 
 <br/>
+<div class="box cta">
+    <p class="has-text-centered">
+        <span class="tag is-primary">Register!</span> The <a href='/cyberexplorers'>Cyber Explorers Program</a> Demo day is on Thursday May 23, from 5-7pm at Santa Teresa High School - Multi Purpose Room, 6150 Snell Ave, San Jose, CA 95123
+        <br/>
+        <span class="tag is-primary">Tickets!</span>Ge your free tickets<a href="https://www.eventbrite.com/e/cyber-explorers-santa-teresa-high-school-demo-day-tickets-61671643546">here.</a>
+    </p>
+</div>
+
+<br/>
 <h1 class="title">Program details</h1>
 <table class="table is-bordered is-striped">
     <thead>
