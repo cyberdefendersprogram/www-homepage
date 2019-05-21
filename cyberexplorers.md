@@ -35,6 +35,7 @@ and exposing students to career paths. One of the session labs will be tailored 
 
 The program finale will showcase student work and projects to a broad audience. During the duration of the program, we will offer an extensive cybersecurity library and a raspberry pi based project lab environment. We strive to align this program to other industry efforts and also offer a  hackathon.
 <br/>
+
 <h1 class="title">Board Games Introduced</h1>
 1. *Security Cards*: This game gives players an opportunity to explore cybersecurity threats from multiple perspectives. The cards have four categories: human impact, adversary's motivation, adversary's resources, adversary's methods. Within these categories, the cards give example scenarios and ideas to jumpstart group games and discussion.
 2. *Dx03D*: A tabletop turn-based security game focused on informally introducing students to cybersecurity concepts. The flow of the game requires players to act as attackers at some points, compromising and looting the other team’s infrastructure, and as defenders other times, attempting to patch exploitations and secure against further attacks.
@@ -42,6 +43,7 @@ The program finale will showcase student work and projects to a broad audience. 
 4. *Stratego*: Stratego is a turn-based strategy board game where opposing armies attempt to secure the other team’s flag. This game has a defensive and offensive component where you must strategize where to place your pieces and where to attack your opponent.
 5. *Hacker*: In Hacker, players work together to solve progressively harder puzzles. These puzzles follow the flow of creating a program, attack incident and subsequent incident response. As the puzzles get more difficult other obstacles are added forcing players to continuously think outside of the box.
 <br/>
+
 <h1 class="title">Project Ideas & Process</h1>
 1. Enhance the Cyber Explorers escape room
 2. Develop a poster against Cyber Bullying & Teen education.
