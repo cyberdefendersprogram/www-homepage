@@ -21,7 +21,7 @@ we introduce hands-on exercises and threats which students will replicate in a l
   </p>
   <br/>
   <p class="has-text-left">
-      <span class="tag is-primary">Tickets!</span>Ge your free tickets<a href="https://www.eventbrite.com/e/cyber-explorers-santa-teresa-high-school-demo-day-tickets-61671643546">here.</a>
+      <span class="tag is-primary">Tickets!</span>Ge your free tickets <a href="https://www.eventbrite.com/e/cyber-explorers-santa-teresa-high-school-demo-day-tickets-61671643546">here.</a>
   </p>
 </div>
 
