@@ -19,7 +19,7 @@ we introduce hands-on exercises and threats which students will replicate in a l
       <span class="tag is-primary">Register!</span> The <a href='/cyberexplorers'>Cyber Explorers Program</a> Demo day is on 
       Thursday May 23, from 5-7pm at Santa Teresa High School - Multi Purpose Room, 6150 Snell Ave, San Jose, CA 95123
       <br/>
-      <span class="tag is-primary">Tickets!</span>Ge your free tickets <a href="https://www.eventbrite.com/e/cyber-explorers-santa-teresa-high-school-demo-day-tickets-61671643546">here.</a>
+      <span class="tag is-primary">Tickets!</span> Get your free tickets <a href="https://www.eventbrite.com/e/cyber-explorers-santa-teresa-high-school-demo-day-tickets-61671643546">here.</a>
   </p>
 </div>
 
