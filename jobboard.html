@@ -1,0 +1,49 @@
+---
+layout: default
+title: Hackathons | Cyber Defenders Program
+permalink: /jobboard/
+---
+<section class="hero is-info is-small is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-two-third">
+                    <h1 class="title is-middle is-1 is-spaced">
+                        Internships & Jobs
+                    </h1>
+                    <h2 class="subtitle is-4 is-spaced">
+                        We work hard to open the right doors for our students.
+                    </h2>
+                </div>
+                <div class="column is-one-third">
+                        <figure class="image">  
+                            <img src="{{ site.url }}{{site.baseurl}}assets/undraw-svgs/undraw_instant_support_elxh.svg">
+                        </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+    <div class="columns is-multiline is-mobile is-centered">
+    {% for job in site.data.jobs %}  
+        <div class="column is-one-third">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="content">
+                        <h4><a href="{{job.link}}">{{job.title}}</a></h4>
+                        <h6>{{job.company}}</h6>
+                        {% for tag in job.tags %}
+                            <span class="tag is-primary">{{tag}}</span>  
+                        {% endfor %}
+                        <h6>Submitted By {{job.by}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+    </div>
+    </section>
