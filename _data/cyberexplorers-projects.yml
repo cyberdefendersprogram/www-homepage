@@ -15,7 +15,7 @@
 - name: Slyther-in-Code
   members: Andrew Khadder, Ryan Hoang, John Lee, Ryan Jin Parnaso
   description: The project is Clue-hacker edition, and it informs about cyber security and hacking. In the game of Clue, there is one murderer, one weapon, and the room where it happened. Our version of Clue will include a hacker, method of attack, and the IP address of the hacker. The game raises awareness for cyber attacks; potentially, it has a positive effect on players. The goal is to make people aware of where they are putting their personal information. Our project will provide clues to a player to help solving the mystery of who, how, and where they got hacked.
-  prototype: https://docs.google.com/presentation/d/1RMIO1qNkBWSKGSaX1zYIvOrw_iM-iQYZB69WMFcCT1M/edit?usp=sharing
+  prototype: https://docs.google.com/presentation/d/1fyyIh5S1cTucgrt1nq9KdAHg3ypTozw8wjfhR3p5_58/edit?usp=sharing
   presentation: Board Game
   status: green
 
@@ -31,11 +31,11 @@
   description: Our project is a cyber security software that senses any trojan horses that might be downloaded onto your computer. This software allows to prevent any trojans to get onto your computer. Trojans can do a lot of damage, so this software can really help you prevent losing important information. Whenever you download a file, our software scans the file for trojan horses. If the software finds a trojan horse then it will immediately stop the download.
   prototype: https://rushilcraft.wixsite.com/completelockdown
   presentation: Software
-  status: yellow
+  status: green
 
-- name: sudon’t 
+- name: CryptoCrack 
   members: Henry Chen
-  description: There are many security flaws that may exist on a machine or online. All of which can be exploited to gain higher privileges. This project aims to teach the general public of many different exploits which may be on their machine or online.
+  description: A set of cryptographic challenges. Ranging from easy to difficult.
   presentation: software
   status: yellow
 
@@ -74,3 +74,9 @@
   description: One problem in cybersecurity is lack of human resources. Not enough people are knowledgeable of Cybersecurity or interested to learn and have potential jobs. Our idea is to make an introductory CTF for beginners.
   presentation: Software
   status: red
+
+- name: Temp Temporary
+  members: John Vo, Sean Park, Jinsung Park, Kris Iotov
+  description:
+  presentation: http://tinyurl.com/defendingyourfuture 
+  status: Green
