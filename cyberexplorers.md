@@ -23,7 +23,7 @@ we introduce hands-on exercises and threats which students will replicate in a l
             </figure>
         </div>
         <div class="column is-half">
-        <p class="has-text-left">
+        <p class="has-text-left">   
             <div>
                 <span class="tag is-primary">Its a wrap!</span> The <a href='/cyberexplorers'>Cyber Explorers Program</a> Demo day was on 
                 Thursday May 23, from 5-7pm at Santa Teresa High School - Multi Purpose Room, 6150 Snell Ave, San Jose, CA 95123. Its a wrap!
@@ -61,7 +61,6 @@ we introduce hands-on exercises and threats which students will replicate in a l
                     {% else %}
                         <p>Style: {{project.presentation}}</p>
                     {% endif %}
-                    <br/>
                     <p class="is-feedback-title">Industry Feeback</p>
                         <ul class="is-feedback-list">
                             {% for point in project.points %}
