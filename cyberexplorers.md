@@ -25,8 +25,8 @@ we introduce hands-on exercises and threats which students will replicate in a l
         <div class="column is-half">
         <p class="has-text-left">
             <div>
-                <span class="tag is-primary">Its a wrap!</span> The <a href='/cyberexplorers'>Cyber Explorers Program</a> Demo day is on 
-                Thursday May 23, from 5-7pm at Santa Teresa High School - Multi Purpose Room, 6150 Snell Ave, San Jose, CA 95123
+                <span class="tag is-primary">Its a wrap!</span> The <a href='/cyberexplorers'>Cyber Explorers Program</a> Demo day was on 
+                Thursday May 23, from 5-7pm at Santa Teresa High School - Multi Purpose Room, 6150 Snell Ave, San Jose, CA 95123. Its a wrap!
                 <br/> <br/>
                 <span class="tag is-danger">Photos</span> Program Photos (please add any photos you have): <a href="https://photos.app.goo.gl/LpYBk5bo4a2qXUkB6">Demo Day</a>, 
                     <a href="https://photos.app.goo.gl/5H7TdWcDPStWU7XH9">Escape Room</a>, 
