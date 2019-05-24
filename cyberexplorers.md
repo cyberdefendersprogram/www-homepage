@@ -63,7 +63,7 @@ The program finale will showcase student work and projects to a broad audience. 
 <br/>
 <section>
 <div class="container">
-<h1 class="title">Student Projects</h1>
+<h1 class="title">Student Projects & Industry Feedback</h1>
 <div class="columns is-multiline is-mobile is-centered">
 {% for project in site.data.cyberexplorers-projects %}  
     <div class="column is-one-third">
@@ -78,7 +78,14 @@ The program finale will showcase student work and projects to a broad audience. 
                     {% else %}
                         <p>Style: {{project.presentation}}
                     {% endif %}
-                    <br/>Status: <b>{{project.status}}</b></p>
+                    <br/>
+                    <b class="is-feedback-title">Industry Feeback</b>:
+                        <ul class="is-feedback-list">
+                            {% for point in project.points %}
+                            <li>{{point}}</li>
+                            {% endfor %}
+                        </ul>
+                    </p>
                 </div>
             </div>
         </div>

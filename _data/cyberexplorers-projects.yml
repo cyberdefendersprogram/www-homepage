@@ -3,87 +3,118 @@
   description: The board game mimics the mind of a hacker (how they hack) and lets people be more observant to prevent from being hacked in the future. The board game is a circle with different colored spaces. Each color has a different scenario and hacking techniques that players need to learn and use to solve a problem(e.g. blue = cryptography, red = steganography etc.). By doing this we hope people learn about hackers and hacking techniques and will be vary about hackers the next time they are online. 
   prototype: https://docs.google.com/presentation/d/1g-wkAGOnyZQohca2y0oe2YeB4d41HnCS3pf7w_WP-5k/edit?usp=sharing
   presentation: Board game
-  status: green
+  points:
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Great job. Fun!
+    - Caleb Fenton (Research Lead, SentinelOne)--With good questions, this could be a fun game. Good example question in the presentation.. You could even sell expansion pack cards and crowd source additional questions.
+    - Sudarshan Srinivas (VP Marketing, Obsidian)--Harry Python is an interesting approach to gamify cybersecurity education. Cybersecurity is everyone's responsibility. 
 
 - name: Cyber Valley
   members: Jenny Le, Elysia Oh, Enya Do
   description: This Cyber Security based Oregon Trail game will teach players about cyber threats, the importance of having secured systems, and difficulties new businesses face. Along the way, players will also gain valuable teamwork, leadership, management, and communication skills.
   prototype: https://docs.google.com/document/d/1wjG9aUqZdxklb2_Frc8i8PeL9_BPGr8KIhSiIHRsrRE/edit
   presentation: Board game
-  status: green
+  points:
+    - Caleb Fenton (Research Lead, SentinelOne)--Lots of cards, seemed thoughtful, and wow, laminated -- hardcore.. I'd pay 20$ for this to play with friends.
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Great idea and content. Funny, but in a good way
+    - Sudarshan Srinivas (VP Marketing, Obsidian)--Like the creativity behind the idea. Get into game play a bit more and talk about the objectives during the presentation.. Love the humor in the cards!
 
 - name: Slyther-in-Code
   members: Andrew Khadder, Ryan Hoang, John Lee, Ryan Jin Parnaso
   description: The project is Clue-hacker edition, and it informs about cyber security and hacking. In the game of Clue, there is one murderer, one weapon, and the room where it happened. Our version of Clue will include a hacker, method of attack, and the IP address of the hacker. The game raises awareness for cyber attacks; potentially, it has a positive effect on players. The goal is to make people aware of where they are putting their personal information. Our project will provide clues to a player to help solving the mystery of who, how, and where they got hacked.
   prototype: https://docs.google.com/presentation/d/1fyyIh5S1cTucgrt1nq9KdAHg3ypTozw8wjfhR3p5_58/edit?usp=sharing
   presentation: Board Game
-  status: green
+  points: 
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Good research. Good job engaging with the judges
+    - Sudarshan Srinivas (VP Marketing, Obsidian)--I liked the audience engagement and presentation style. The speakers clearly explained the objectives, game play and methodology. Good job.. Interesting spin on cybersecurity awareness training.
+    - Caleb Fenton (Research Lead, SentinelOne)--Studying why people get hacked is an important part of security. Lots of companies have educational campaigns for their users to make them more difficult targets.. Why do people get hacked can be answered many different ways, bro!
 
 - name: Desaipher
   members: Niklesh Giragama, Mohid Fawad, and Kasey Doan
   description: Our project is a type of encryption. It uses the ceaser cipher as its base. The problem that we are trying to solve is to send messages without getting any transmissions or interruptions from an anonymous User. The caesar cipher uses a number and shifts a letter by that number. That is how it gets encrypted. Instead of numbers, we are using words. Each letter in the word correlates to a number. Those number will be the shift for the word or phrase. This is a simple encryption that most people can understand if they get a walkthrough of it. It is a way to give people an introduction to encrypting words and phrases.
   prototype: https://kaseydoan.wixsite.com/desaipher
   presentation: Software
-  status: green
+  points: 
+    - Caleb Fenton (Research Lead, SentinelOne)--Cool idea, good for learning. Roll not thine own crypto. This is kinda like using a XOR encryption. Would've been neat to see some attacks on the encryption or entropy / hardness measurements.. It's a rotating, multi-stage cesar cipher, neat.
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Great way to address crypto for a game. Creative
+    - Sudarshan Srinivas (VP Marketing, Obsidian)--You took a good technical topic -- crypto -- and did solid research on it. This rabbit hole goes deep. Research how hackers try to brute force their way past Caesar cipher.. The example helped explain how the cipher works.
 
 - name: Complete Lockdown
   members: Rushil Desai, Yagnesh Veeraraghavan, Aaron M
   description: Our project is a cyber security software that senses any trojan horses that might be downloaded onto your computer. This software allows to prevent any trojans to get onto your computer. Trojans can do a lot of damage, so this software can really help you prevent losing important information. Whenever you download a file, our software scans the file for trojan horses. If the software finds a trojan horse then it will immediately stop the download.
   prototype: https://rushilcraft.wixsite.com/completelockdown
   presentation: Software
-  status: green
+  points: 
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Good research skills. Educational
+    - Caleb Fenton (Research Lead, SentinelOne)--It's hard for me to gauge how much effort was put into this, but the site looks really good, presentation was really good, and I'm genuinely curious to know how you plan to make everything work.. I hadn't heard about the Chinese attack, but I can read more on the site, which is public.
+    - Sudarshan Srinivas (VP Marketing, Obsidian)--Good work researching anti-virus and endpoint protection. I'd love to see an implementation of the project.. You did a good job picking a specific topic that is very relevant today and diving into it.
 
 - name: CryptoCrack 
   members: Henry Chen
   description: A set of cryptographic challenges. Ranging from easy to difficult.
   presentation: software
-  status: yellow
+  points: 
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Good job, very creative. Challenging
+    - Caleb Fenton (Research Lead, SentinelOne)--CTFs are hardcore. Making questions is pretty hard. This looks highly technical. You know it's a good demo when you're working on it furiously the whole time, including while you're supposed to be demo'ing. potatosalad is a pretty good hostname
+    - Sudarshan Srinivas (VP Marketing, Obsidian)--Ambitious project, well researched, and showed depth of research. Well done!. CTFs are a great hands-on way to learn about cybersecurity.
 
 - name: Pineapple Team
   members: Vikram Nandi,Sheila Nguyen
   description: Cyberbullying is a very common thing. Rude comments are made and rumors are spread. This is a problem because it cannot be contained. The post or comment cannot be taken down by anyone but the original user unless it is reported. Our poster will educate user on the same.
   presentation: Poster
-  status: red
+  points: 
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Good job. I definitely learned some new terms related to this topic.. Informative
+    - Sudarshan Srinivas (VP Marketing, Obsidian)--Love the enthusiasm and the quality of research that went into the cyberbullying presentation. You can take it to the next level by getting into specific "what-if" scenarios, maybe even role playing.. Great effort behind the project! Keep up the good work.
+    - Caleb Fenton (Research Lead, SentinelOne)--This is a new problem and it's a genuine problem. Kids are vulnerable and it's easy for bullies to hide behind keyboards.. I learned the word "fraping", so that's cool.
 
-- name: Team CVariant (GovinDOS) 
-  members: Govind Pimpale, Marek Pinto
-  description: Create a simple x86 OS that can boot itself, print to the screen, and accept keyboard input to a simple shell. If time, interpret FAT32 format If time, create executable loader. If time, create simple VESA driver to display basic graphics upon the screen
+- name: DarkNet Messaging 
+  members: Govind Pimpale
+  description: Anonymous messaging service, implemented on the TOR network.
+  prototype: https://docs.google.com/presentation/d/1-IhcnE2V-SpRsHB3rQW66ly3b_Lop64IjLdsYIAsEfE/edit?usp=sharing
   presentation: Software
-  status: red
+  points: 
+    - Caleb Fenton (Research Lead, SentinelOne)--Decentralization is the future. Privacy is where it's at. Pretty cool working prototype, and it's cool to stretch to support files.. "stay dank"
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Good job. Creative
+    - Sudarshan Srinivas (VP Marketing, Obsidian)--Great job researching Tor and deploying a creative anonymous messaging service. I also liked that Govind thought through areas for improvement and potential security issues.. Continue researching what you can build on Tor! Lots of opportunities.
 
 - name: Team Without a Name 
   members: Jenna Young, Nathan Yacovetta
   description: Many people do not know about security threats of websites they are visiting. People also lack knowledge of what type of information and with what sites it is safe to share with. Our solution helps with this problem with a chrome extension.
+  prototype: https://docs.google.com/presentation/d/1FGtszed97FEPZBEPVOKCeJLKqJ6c25oFfmGAHSHRSsU
   presentation: Software
-  status: red
+  points: 
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Good job educating on safe browsing. Good explanation of an existing problem
+    - Caleb Fenton (Research Lead, SentinelOne)--Chrome extensions are an interesting direction to try educating users and making them more secure. I like the next steps ideas. There are similar ideas to this, and configuring HTTPS, SSL/TLS, and webservers in general is complex, and many configurations can go wrong, so there's a lot to check for.. I could see something like this being useful for the computer illiterate.
+    - Sudarshan Srinivas (VP Marketing, Obsidian)--The team presented a simple, effective solution to build awareness about potential data leaks that users may not be aware of. Good to see that they thought through next steps to keep the project going. Continue with the project!. Lack of user awareness is a bigger threat to security than advanced attacks today.
 
-- name: MockPatriot
-  members: Marek Pinto
-  description: Cyberpatriot is a very fun competition. It is really hard to explain what happens in a CyberPatriot competition to others. It is really fun, but it’s hard to communicate how fun it is or to give a demo of how a competition goes. We provide virtual images with vulnerabilities ranging in difficulty.
-  presentation: Software
-  status: red
-
-- name: Seraseta
-  members: Jayden Stahl
-  description: Many people have small vulnerabilities on their computers that may go completely unnoticed due to lack of knowledge of them. These can sometimes be small, such as password min length 
-  presentation: Software
-  status: red 
-
-- name: ctfB_w/_CTFd
+- name: Securing Virtual Machines
   members: Andrew Dang, Ganesh Pimpale
   description: One problem in cybersecurity is lack of human resources. Not enough people are knowledgeable of Cybersecurity or interested to learn and have potential jobs. Our idea is to make an introductory CTF for beginners.
+  prototype: https://docs.google.com/presentation/d/1c5V_67Cu-bUqEdo9lXIccqewHdmrvQuNqymylZHjd8Y/edit?usp=sharing
   presentation: Software
-  status: red
-
-- name: Temp Temporary
-  members: John Vo, Sean Park, Jinsung Park, Kris Iotov
-  description:
-  presentation: http://tinyurl.com/defendingyourfuture 
-  status: Green
+  points: 
+    - Sudarshan Srinivas (VP Marketing, Obsidian)--Andrew and Ganesh gave us a good sense for what the CyberPatriot competition feels like. Great to see the depth of knowledge at the high school level and work that went into the project.. Good work motivating the freshmen to join Cyberpatriots.
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Looking forward to seeing your progress. Interesting program with great potential
+    - Caleb Fenton (Research Lead, SentinelOne)--I see the epic games launcher, so is fortnite part of the VM? I don't know much about the bugs that are in the VM but it could be an interesting challenge. I could tell y'all had a good presentation but were just a bit rushed because of time constraints.. Cyber Patriots looks fun. I'd never heard of it until today.
 
 - name: Introduction to Cisco Networking Challenge
   members: Sanjana Nandi, Katrina Bui, Gayathri Eleswarapu
   description: This is an overview of the Cisco Networking Challenge in the CyberPatriot competition. 
   presentation: https://docs.google.com/presentation/d/1ArMRktnPq6T-c-lOvATaikrVKPIZseDcNPeAELjUh4o/edit?ts=5ce4793c#slide=id.g5a6e83a738_0_169
-  status: Green
+  points: 
+    - Sudarshan Srinivas (VP Marketing, Obsidian)--The team did a good job talking about the networking portion of the Cyberpatriots competition.. Good work getting the freshmen interested in Cyberpatriots
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Network security is an often overlooked aspect of security.  Good job. Helpful content
+    - Caleb Fenton (Research Lead, SentinelOne)--Cool presentation and the course looks really technical. Low-level networking knowledge is fairly rare now-a-days but it is absolutely invaluable for certain positions and problems.. Low level networking knowledge creates a good foundation and gives you insights on how you can do certain attacks, hack protocols, etc.
 
+- name: MockPatriot
+  members: Marek Pinto etal
+  description: Cyberpatriot is a very fun competition. It is really hard to explain what happens in a CyberPatriot competition to others. It is really fun, but it’s hard to communicate how fun it is or to give a demo of how a competition goes. We provide virtual images with vulnerabilities ranging in difficulty.
+  presentation: Software
+  points:
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Good description of an interesting program. Informative
+    - Caleb Fenton (Research Lead, SentinelOne)--Patriotism is cool. You seemed very comfortable during the presentation so I see a future for you in sales or sales engineering.
+
+- name: Temp Temporary
+  members: John Vo, Sean Park, Jinsung Park, Kris Iotov
+  description: We present tips and ideas to defend your identity.
+  presentation: http://tinyurl.com/defendingyourfuture 
+  points: 

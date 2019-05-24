@@ -183,3 +183,17 @@ ul.is-hackathon-list {
 a.is-hackathon-apply{
   color: #fff;
 }
+
+ul.is-feedback-list {
+  list-style-type: disc;
+  margin-left: 2px;
+}
+
+b.is-feedback-title{
+  background-color: #5893BC;
+  color: #fff; 
+  font-weight: 700;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 0px;
+}
