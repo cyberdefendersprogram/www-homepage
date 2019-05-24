@@ -16,16 +16,21 @@ we introduce hands-on exercises and threats which students will replicate in a l
 <br/>
 <div class="box cta">
   <p class="has-text-left">
+  <div class="container">
       <span class="tag is-primary">Its a wrap!</span> The <a href='/cyberexplorers'>Cyber Explorers Program</a> Demo day is on 
       Thursday May 23, from 5-7pm at Santa Teresa High School - Multi Purpose Room, 6150 Snell Ave, San Jose, CA 95123
       <br/>
-      <span class="tag is-primary">Photos</span> Program Photos (please add any photos you have): <a href="https://photos.app.goo.gl/LpYBk5bo4a2qXUkB6">Demo Day</a>, 
+      <span class="tag is-danger">Photos</span> Program Photos (please add any photos you have): <a href="https://photos.app.goo.gl/LpYBk5bo4a2qXUkB6">Demo Day</a>, 
         <a href="https://photos.app.goo.gl/5H7TdWcDPStWU7XH9">Escape Room</a>, 
         <a href="https://photos.app.goo.gl/DMFyErqnozxqpeQs6">Board Games</a>, <a href="https://photos.app.goo.gl/tSnR2eUSRNWH49c26">General</a>.
+      <br/>
+      <span class="tag is-warning">Industry Feedback</span>: Check industry evaluations of the projects below.
+      <span class="tag is-secondary">Student Feedback</span>: Coming soon.
+  </div>
   </p>
 </div>
-
 <br/>
+
 <h1 class="title">Program details</h1>
 <table class="table is-bordered is-striped">
     <thead>
@@ -63,8 +68,7 @@ The program finale will showcase student work and projects to a broad audience. 
 4. Work on the Cyber Security games - Security & Privacy cards, Dx0D
 5. Ideas from [Students](http://bit.ly/explorerideas2019)
 <br/>
-<section>
-<div class="container">
+
 <h1 class="title">Student Projects & Industry Feedback</h1>
 <div class="columns is-multiline is-mobile is-centered">
 {% for project in site.data.cyberexplorers-projects %}  
@@ -93,5 +97,3 @@ The program finale will showcase student work and projects to a broad audience. 
     </div>
 {% endfor %}
 </div>
-</div>
-</section>
