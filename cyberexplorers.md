@@ -74,12 +74,12 @@ The program finale will showcase student work and projects to a broad audience. 
                     <h6>{{project.members}}</h6>
                     <p>{{project.description}}</p>
                     {% if project.prototype %}
-                        <p>Style: <a href='{{project.prototype}}'>{{project.presentation}}</a>
+                        <p>Style: <a href='{{project.prototype}}'>{{project.presentation}}</a></p>
                     {% else %}
-                        <p>Style: {{project.presentation}}
+                        <p>Style: {{project.presentation}}</p>
                     {% endif %}
                     <br/>
-                    <b class="is-feedback-title">Industry Feeback</b>:
+                    <p class="is-feedback-title">Industry Feeback</p>:
                         <ul class="is-feedback-list">
                             {% for point in project.points %}
                             <li>{{point}}</li>
