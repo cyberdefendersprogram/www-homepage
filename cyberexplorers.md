@@ -14,22 +14,64 @@ In the latter half of the program after a session on Ethics and signing of a dis
 we introduce hands-on exercises and threats which students will replicate in a lab environment. We start the labs with a gentle introduction to shell and operating systems and the drop into network security, log analysis and forensics. 
 
 <br/>
+<div class="container">
 <div class="box cta">
-  <p class="has-text-left">
-  <div class="container">
-      <span class="tag is-primary">Its a wrap!</span> The <a href='/cyberexplorers'>Cyber Explorers Program</a> Demo day is on 
-      Thursday May 23, from 5-7pm at Santa Teresa High School - Multi Purpose Room, 6150 Snell Ave, San Jose, CA 95123
-      <br/>
-      <span class="tag is-danger">Photos</span> Program Photos (please add any photos you have): <a href="https://photos.app.goo.gl/LpYBk5bo4a2qXUkB6">Demo Day</a>, 
-        <a href="https://photos.app.goo.gl/5H7TdWcDPStWU7XH9">Escape Room</a>, 
-        <a href="https://photos.app.goo.gl/DMFyErqnozxqpeQs6">Board Games</a>, <a href="https://photos.app.goo.gl/tSnR2eUSRNWH49c26">General</a>.
-      <br/>
-      <span class="tag is-warning">Industry Feedback</span>: Check industry evaluations of the projects below.
-      <span class="tag is-secondary">Student Feedback</span>: Coming soon.
-  </div>
-  </p>
+    <div class="columns is-multiline is-mobile is-centered">
+        <div class="column is-half">
+            <figure class="image is-4by3">
+            <img src="{{site.url}}{{site.baseurl}}assets/images/santa-teresa-demo-day.jpg"/>
+            </figure>
+        </div>
+        <div class="column is-half">
+        <p class="has-text-left">
+            <div>
+                <span class="tag is-primary">Its a wrap!</span> The <a href='/cyberexplorers'>Cyber Explorers Program</a> Demo day is on 
+                Thursday May 23, from 5-7pm at Santa Teresa High School - Multi Purpose Room, 6150 Snell Ave, San Jose, CA 95123
+                <br/> <br/>
+                <span class="tag is-danger">Photos</span> Program Photos (please add any photos you have): <a href="https://photos.app.goo.gl/LpYBk5bo4a2qXUkB6">Demo Day</a>, 
+                    <a href="https://photos.app.goo.gl/5H7TdWcDPStWU7XH9">Escape Room</a>, 
+                    <a href="https://photos.app.goo.gl/DMFyErqnozxqpeQs6">Board Games</a>, <a href="https://photos.app.goo.gl/tSnR2eUSRNWH49c26">General</a>.
+                <br/> <br/>
+                <span class="tag is-warning">Industry Feedback</span>: Check industry evaluations of the projects below.<span class="tag is-secondary">Student Feedback</span>: Coming soon.
+                <br/> <br/>
+                <span class="tag is-danger">Next Up</span> We are have our annual Hackathon on June 1 at <a href='http://www.merritt.edu' target="_blank">Merritt College</a>. 
+                    Application details are available <a href="/hackathons">now</a>! Last day to sign up is <b>Monday, May 27, 2019</b>.
+            </div>
+            </p>
+        </div>
+    </div>
 </div>
+</div>
+
 <br/>
+<h1 class="title">Student Projects & Industry Feedback</h1>
+<div class="columns is-multiline is-mobile is-centered">
+{% for project in site.data.cyberexplorers-projects %}  
+    <div class="column is-one-third">
+        <div class="card is-shady">
+            <div class="card-content">
+                <div class="content">
+                    <p class="is-project-title">{{project.name}}</p>
+                    <h6>{{project.members}}</h6>
+                    <p>{{project.description}}</p>
+                    {% if project.prototype %}
+                        <p>Style: <a href='{{project.prototype}}'>{{project.presentation}}</a></p>
+                    {% else %}
+                        <p>Style: {{project.presentation}}</p>
+                    {% endif %}
+                    <br/>
+                    <p class="is-feedback-title">Industry Feeback</p>
+                        <ul class="is-feedback-list">
+                            {% for point in project.points %}
+                            <li>{{point}}</li>
+                            {% endfor %}
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</div>
 
 <h1 class="title">Program details</h1>
 <table class="table is-bordered is-striped">
@@ -69,31 +111,4 @@ The program finale will showcase student work and projects to a broad audience. 
 5. Ideas from [Students](http://bit.ly/explorerideas2019)
 <br/>
 
-<h1 class="title">Student Projects & Industry Feedback</h1>
-<div class="columns is-multiline is-mobile is-centered">
-{% for project in site.data.cyberexplorers-projects %}  
-    <div class="column is-one-third">
-        <div class="card is-shady">
-            <div class="card-content">
-                <div class="content">
-                    <p class="is-project-title">{{project.name}}</p>
-                    <h6>{{project.members}}</h6>
-                    <p>{{project.description}}</p>
-                    {% if project.prototype %}
-                        <p>Style: <a href='{{project.prototype}}'>{{project.presentation}}</a></p>
-                    {% else %}
-                        <p>Style: {{project.presentation}}</p>
-                    {% endif %}
-                    <br/>
-                    <p class="is-feedback-title">Industry Feeback</p>
-                        <ul class="is-feedback-list">
-                            {% for point in project.points %}
-                            <li>{{point}}</li>
-                            {% endfor %}
-                        </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-{% endfor %}
-</div>
+
