@@ -70,7 +70,7 @@ The program finale will showcase student work and projects to a broad audience. 
         <div class="card is-shady">
             <div class="card-content">
                 <div class="content">
-                    <h4>{{project.name}}</h4>
+                    <p class="is-project-title">{{project.name}}</p>
                     <h6>{{project.members}}</h6>
                     <p>{{project.description}}</p>
                     {% if project.prototype %}
@@ -79,13 +79,12 @@ The program finale will showcase student work and projects to a broad audience. 
                         <p>Style: {{project.presentation}}</p>
                     {% endif %}
                     <br/>
-                    <p class="is-feedback-title">Industry Feeback</p>:
+                    <p class="is-feedback-title">Industry Feeback</p>
                         <ul class="is-feedback-list">
                             {% for point in project.points %}
                             <li>{{point}}</li>
                             {% endfor %}
                         </ul>
-                    </p>
                 </div>
             </div>
         </div>
