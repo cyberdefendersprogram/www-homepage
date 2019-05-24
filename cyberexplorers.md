@@ -32,7 +32,7 @@ we introduce hands-on exercises and threats which students will replicate in a l
                     <a href="https://photos.app.goo.gl/5H7TdWcDPStWU7XH9">Escape Room</a>, 
                     <a href="https://photos.app.goo.gl/DMFyErqnozxqpeQs6">Board Games</a>, <a href="https://photos.app.goo.gl/tSnR2eUSRNWH49c26">General</a>.
                 <br/> <br/>
-                <span class="tag is-warning">Industry Feedback</span>: Check industry evaluations of the projects below.<span class="tag is-secondary">Student Feedback</span>: Coming soon.
+                <span class="tag is-warning">Industry Feedback</span>: Check industry evaluations of the projects below.<span class="tag is-secondary">Student Feedback & Opportunities</span>: Links coming soon. We are offering two paid certifications for Comp TIA if the students complete them before July 15 with the help of test out curricula.
                 <br/> <br/>
                 <span class="tag is-danger">Next Up</span> We are have our annual Hackathon on June 1 at <a href='http://www.merritt.edu' target="_blank">Merritt College</a>. 
                     Application details are available <a href="/hackathons">now</a>! Last day to sign up is <b>Monday, May 27, 2019</b>.
