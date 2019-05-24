@@ -99,7 +99,8 @@
 - name: Introduction to Cisco Networking Challenge
   members: Sanjana Nandi, Katrina Bui, Gayathri Eleswarapu
   description: This is an overview of the Cisco Networking Challenge in the CyberPatriot competition. 
-  presentation: https://docs.google.com/presentation/d/1ArMRktnPq6T-c-lOvATaikrVKPIZseDcNPeAELjUh4o/edit?ts=5ce4793c#slide=id.g5a6e83a738_0_169
+  prototype: https://docs.google.com/presentation/d/1ArMRktnPq6T-c-lOvATaikrVKPIZseDcNPeAELjUh4o/edit?ts=5ce4793c#slide=id.g5a6e83a738_0_169
+  presentation: Software
   points: 
     - Sudarshan Srinivas (VP Marketing, Obsidian)--The team did a good job talking about the networking portion of the Cyberpatriots competition.. Good work getting the freshmen interested in Cyberpatriots
     - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Network security is an often overlooked aspect of security.  Good job. Helpful content
@@ -116,5 +117,6 @@
 - name: Temp Temporary
   members: John Vo, Sean Park, Jinsung Park, Kris Iotov
   description: We present tips and ideas to defend your identity.
-  presentation: http://tinyurl.com/defendingyourfuture 
+  prototype: http://tinyurl.com/defendingyourfuture 
+  presentation: Software
   points: 
