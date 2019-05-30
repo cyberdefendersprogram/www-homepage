@@ -37,7 +37,7 @@ we introduce hands-on exercises and threats which students will replicate in a l
                 <span class="tag is-secondary">Student Feedback & Opportunities</span>: Links coming soon. We are offering two paid certifications for Comp TIA if the students complete them before July 15 with the help of test out curricula.
                 <br/> <br/>
                 <span class="tag is-danger">Next Up</span> We are have our annual Hackathon on June 1 at <a href='http://www.merritt.edu' target="_blank">Merritt College</a>. 
-                    Application details are available <a href="/hackathons">now</a>! Last day to sign up is <b>Monday, May 27, 2019</b>.
+                    Application details are available <a href="/hackathons">now</a>! Last day to sign up is <b>Thursday, May 3 , 2019</b>.
             </div>
             </p>
         </div>
