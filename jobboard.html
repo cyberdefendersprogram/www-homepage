@@ -35,6 +35,7 @@ permalink: /jobboard/
                     <div class="content">
                         <h4><a href="{{job.link}}">{{job.title}}</a></h4>
                         <h6>{{job.company}}</h6>
+                        <p>{{job.description}}</p>
                         {% for tag in job.tags %}
                             <span class="tag is-primary">{{tag}}</span>  
                         {% endfor %}
