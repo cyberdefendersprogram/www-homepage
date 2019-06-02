@@ -1,0 +1,74 @@
+- team: Two Party Authentication
+  members:
+  photo: two-party-authentication.jpg
+  description: Our project solves authenticaiton of services problem for small businesses. Is that really PG&E or Bank Of America who called your business to offer a new deal?
+  github: https://docs.google.com/presentation/d/1cb9H1AOdoU-0ugvRMiKVTqymsoll80BcUjP9Z9d5ljQ/edit?usp=sharing
+  devpost: https://devpost.com/software/two-party-authentication
+  tags:
+  feedback:
+    - Caleb Fenton (Research Lead, SentinelOne)--This is a problem worthy of solving. It seems like the solution would take the form of a best practice adopted by companies. If they need to call you, then they could setup some solution there, perhaps using a passphrase like you recommend, but it would be decentralized. And if they never need to call you, they should communicate that also.I like the idea of using an image that can be described over the phone.
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--You've done a great job representing a real problem in society.  The challenge will be to change behavior and (more importantly) changing legislation to mandate corporations include a placeholder in the account to facilitate reverse authentication.Trust is key.  Great job raising awareness
+    - Steve Trush (Deputy Director of Citizen Clinic, at Center for Long-Term Cybersecurity)--This is a very difficult project to solve and one that needs better solutions across multiple industries and more awareness / education. I would want you to explore using potential other ways of authenticating such as using a secret based on a device (generating random numbers) vs using two forms of "things you know". There are many approaches to addressing this issue that people are working on - training/education, machine learning/voice recognition, and handshakes using OTPs.This is a good dive into preventing these types of scams and would add an additional layer of protection. However, it does still leave potential for social engineering when a scammer is pressuring a consumer or business to provide info in case of emergencies.
+
+- team: Local Business Defender
+  members: 
+  photo: local-business-defender.jpg
+  description: Given that the top 33.2% of all Alexa’s top 1,000,000 websites use https, it is imperative for net-involved businesses to step up and match this model of security. Not only as a matter of asset protection, but as a matter of ethics and good community relations. Our project aims to helps with that.
+  github:
+  devpost: https://devpost.com/software/local-business-defenders-http-to-https
+  tags:
+    - runner-up
+  feedback:
+    - Caleb Fenton (Research Lead, SentinelOne)--There are several website security assessment tools, but what's interesting here is making everything local. These businesses are a little harder to find and are probably smaller with little to no security budgets. I could see this being useful for "sales development" style work.Hackamon Go is a brilliant name.
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Great idea.  I suggest expanding your assessment to include other publicly available risk artifacts.  Check out companies like security scorecard, bitsight, etc who also offer this service (for a fee).  If you could replicate and provide the same level of analysis, I'm confident your findings will be very well recieved by businesses.Helpful to the community
+    - Steve Trush (Deputy Director of Citizen Clinic, at Center for Long-Term Cybersecurity)--This is a great idea that can have great local impact. Businesses could really use the advice and can help them start on a path towards better security practice. The difficult piece is figuring out how to safely scale the direct assistance support to the businesses - you will have more businesses that need help than being able to support yourselves. I like the idea of engaging students. Don't publish the vulnerable sites in a consolidated list though!This idea can help both local businesses as well as engage students to provide protection to those businesses. Working directly with non-technical business owners would be a great opportunity for a student as it builds consulting / consumer-facing skills beyond security knowledge.
+
+- team: Cyber Security 1 Stop Shop
+  members:
+  photo: cyber-security-one-stop-shop.jpg
+  description: We are a browser plugin which is a one stop shop for all the Cyber Security best practices.
+  github:
+  devpost: https://devpost.com/software/cyber-security-ix5ran
+  tags:
+  feedback:
+    - Caleb Fenton (Research Lead, SentinelOne)--Seems like a decent solution to a problem you have experience with -- tech support to the computer illiterate. Resident AV might be good.If you can embrace complexity and deliver simplicity, I can see elderly / illiterate taking advantage of this -- maybe cut your call volume down.
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Don't forget about backups!  And awareness is key.! Changing behavior will prevent ransomware attacks from being successful.  I think you're on to something.  Good luck!
+    - Steve Trush (Deputy Director of Citizen Clinic, at Center for Long-Term Cybersecurity)--This is a good intervention for your current program, especially as you have a great opportunity to introduce them to new suite of tools. You will need to help them understand why and how to use the tools though while the number of calls that you receive will outgrow your ability to assist each user with that education. It will also be important to stay up to date on how browsers are supporting the extensions and helping users to keep those plugins up to date.It's a great intervention to incorporate with your computer donation program. Consider creating student or volunteer teams that could help with the training and support component for assisting the users.
+
+- team: Expel Exfiltration
+  members:
+  photo: expel-exfiltration.jpg
+  description: We monitor sensitive information leaving small business. Our tools are built on scapy and snort.
+  github:
+  devpost: https://devpost.com/software/expel-exfiltration
+  tags:
+  feedback:
+    - Caleb Fenton (Research Lead, SentinelOne) --This problem is called DLP or Data Loss Prevention. There are several products that analyze network traffic to find threats, attacks, and anomalous behaviors like DarkTrace. You're on the right track, and there are a *ton* of valuable insights you can give companies by analyzing network traffic. The hard part is collecting the data. Most data is over HTTPS and it's opaque to analysis.Cool direction, good presentation, and it looks like you've re-invented other products, which is validating.
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--You've definitely focused on an area which is a hot topic in cybersecurity like DLP. Remember, there is both network / endpoint and some really cool technologies such as CASB which approach the cloud problem in innovative ways. URL filtering is just one preventative control.Data Leakage is a BIG problem.
+    - Steve Trush (Deputy Director of Citizen Clinic, at Center for Long-Term Cybersecurity)--You're tackling a very real problem and a tool of this sort would be useful if it's easy to install and use for a small business that may not have the technical sophistication & money to invest in an enterprise solution. I'd be interested in learning what your business model to be for helping small businesses - maybe partner with the HTTP->HTTPS team? This project could really help small businesses deal with data exfil if you can make it easy to use and manage for non-technical users.
+
+
+- team: Fingerprint Blocker
+  members:
+  photo: fingerprint-blocker.jpg
+  description: Websites and companies are using alternative tracking methods to identify users and their activity on the web. When a website cannot track a user through cookies they may attempt to identify user activity using fingerprinting. This alternative to cookies uses information about the user’s hardware, tendencies and location to fingerprint them. It is difficult to tell that you are being fingerprinted and many websites depend on these tracking methods for the site to work properly. How can we make user’s activity more private as well as teach users to be more vigilant of how they are being tracked online? The fingerprint blocks third-parties from tracking user device information. Canvas fingerprinting is a sneaky way to track users by only using information of what is displayed on the monitor. Even though the same site looks the same to multiple users, each user's hardware has slight differences in how images are displayed. Trackers can use this data to identify a user even when they have turned off cookies or even when they are using private browsing windows.
+  github: https://repl.it/@FinnReichertz/CanvastoDataURL-blocker
+  devpost: https://devpost.com/software/fingerprinting
+  tags:
+    - winner
+  feedback:
+    - Caleb Fenton (Research Lead, SentinelOne)--Google really doesn't want to solve this because it hurts their business, so that means Chrome won't solve it. It's going to have to be solved with 3rd party tools / plugins or privacy browser forks. I'd be curious if there are any browsers hardened against this already.Something like this might almost be as standard as Adblock, especially for privacy-minded folks.
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Wow!  Very innovative.  I think you're on to something. As long as users don't sacrifice usability, this is a cool initiative.It there's something innovativie and unique about your approach, get a patent!
+    - Steve Trush (Deputy Director of Citizen Clinic, at Center for Long-Term Cybersecurity)--Solid presentation with real-time demo! Great progress for a two-person team that could lead to important research in learning how that would affect person's behavior to make sure that they are "blending in". This could help open source investigators!I'd like to try out the browser plugin sometime! This would be a solid research project to uncover user behavior and risk awareness.
+
+- team: Hack My App
+  members:
+  photo: hack-my-app.jpg
+  description: We intend to make a marketplace for small business to solicit application penetration testing.
+  github: https://docs.google.com/presentation/d/1fT0zDn9pikOawQ-nCaJY2ESxRuMmcQTar41WEBRuM4o/edit#slide=id.g5af21ead01_0_10
+  devpost: https://devpost.com/software/hack-2019
+  tags:
+  feedback:
+    - Caleb Fenton (Research Lead, SentinelOne)--There are a couple marketplaces for pentests like HackerOne and BugCrowd, but what seems unique about this one is that people send you their app source, you deploy it, and people attack it. This could target the open source community since most companies wouldn't want to share their source, as well as new apps. You could probably tie in some code hygiene tools like dependency auditing, source linting, and static analysis.I could see this as sort of a HackerOne for open source.
+    - Brian Koref (Senior Director Information Security, Sage Intacct, Inc.)--Vulnerability / Risk Management and attracting talent are definitely current challenges and in important facet of cybersecurity.  The idea of "crowdsourcing" hackers to test webapps before and even after deployment is a lucrative area of security.  Just beware there are rules of engagement, governance and legal aspects which would need to be addressed. A great alternative to the commercial offerings
+    - Steve Trush (Deputy Director of Citizen Clinic, at Center for Long-Term Cybersecurity)-- Good work on your presentation and prototype. I think it would be a powerful idea that is particularly useful if marketed towards small businesses and developers that are unable to maintain a bug bounty program via HackerOne. One thing to consider is the legal aspects - making sure that testers aren't capturing intellectual property and that the hackers are legally protected from CFAA violations.This idea is similar to other programs that are out there, so I would think about how you might engage smaller businesses or individuals to make sure you are differentiating from other platforms. Your theory of change of engaging beginners is great.
