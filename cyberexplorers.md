@@ -14,8 +14,8 @@ In the latter half of the program after a session on Ethics and signing of a dis
 we introduce hands-on exercises and threats which students will replicate in a lab environment. We start the labs with a gentle introduction to shell and operating systems and the drop into network security, log analysis and forensics. 
 
 <br/>
+<section>
 <div class="container">
-<div class="box cta">
     <div class="columns is-multiline is-mobile is-centered">
         <div class="column is-half">
             <figure class="image is-4by3">
@@ -43,7 +43,7 @@ we introduce hands-on exercises and threats which students will replicate in a l
         </div>
     </div>
 </div>
-</div>
+</section>
 
 <br/>
 <h1 class="title">Student Projects & Industry Feedback</h1>
