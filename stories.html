@@ -2,6 +2,24 @@
 layout: default
 title: Success Stories | Cyber Defenders Program
 permalink: /stories/
+
+students:
+- name: Akshatha Muralidhar
+  image: assets/images/students/akshatha.jpg
+  description: "The Cyber Defenders program is probably the best thing that has happened to me professionally! I came into this program with less than proficient knowledge of programming, let alone cybersecurity. But with the patient guidance of mentors and the cooperative, fun and safe learning environment, I was able to learn a lot more than just cybersecurity!
+At the time, little did I know that this program would not only help me decide what I wanted to major in but also would domino effect into 2 consecutive cybersecurity-related jobs! During the tenure of this program, I was able to work on a hands-on project that involved applying machine learning and data science to a major cybersecurity-related problem of detecting malicious Android applications. And that experience really piqued my interest in the world of Data Science and Machine Learning! So, I’m currently majoring in Data Science and Applied Mathematics at my university. Moreover, this program also helped me score an internship at Silicon Valley Bank in the application security team last summer, where I learned about a different area of cybersecurity altogether. I learned about how individuals with malicious intent, could compromise the seemingly harmless websites we keep visiting from day to day if they were coded insecurely, and get access to all our personal information! And the coolest part was that I also learned how we could prevent that from happening and I implemented a project to demonstrate that! Fast forward to now, I’m currently about to start a job as an Information Security Analyst at my university's Student Technology Services department! Thanks to this program, I’m able to chart out a roadmap for a career in cybersecurity."
+- name: Drew Gipson
+  image: assets/images/students/drew.png
+  description: "Prior to beginning the Cyber Defenders program, the majority of my experiences with cybersecurity had been fairly two-dimensional, involving brief readings and YouTube videos. My time in Cyber Defenders did an outstanding job of introducing me to the depth of what ‘cybersecurity’ represents, through exposure to topics such as network hardening, security design and compliance, and information availability. No matter what an individual’s learning style may be, many of aspects of security are best understood through hands-on education, and Cyber Defenders really catered to this idea - meaning that all participants ended the program with tangible, practical work to show for their efforts. I am studying electronics engineering, and after this experience, I am continuing my education with an active emphasis on secure hardware design and industrial cybersecurity. Thanks to the time I spent in the program, I will be furthering my cybersecurity career as an intern with Chevron this summer, and I’m looking forward to future opportunities as a result of the skills and connections that I was able to develop in the Cyber Defenders Program."
+- name: Citalin Galvan
+  image: assets/images/students/cit.png
+  description: "I have been interested in computer science for a while, but I did not know how to progress and get better. By joining Cyber Defenders I learned how to think more like a programmer and how to efficiently study and look for information online. With this program, I was able to meet more students who were also in similar situations, and thanks to the diversity in the group, we were able to contribute something unique into the group. When I completed the program, I felt more confident in myself. Even though we focused on cybersecurity, I know the skills I learned can be used in any setting. I can now use the proper tools in order to carve my own path."
+- name: Nick Handy
+  image: assets/images/students/nick.png
+  description: "Before the Cyber Defenders 2017 Summer Program, I hadn't even thought of cybersecurity as a possible career path. Coming in with little knowledge about the cybersecurity space I found that I learned so much from the hands-on approach of the program. We learned the fundamentals of network security, ethical hacking, machine learning and much more. Building upon these fundamentals we were able to develop our own security tool from the ground up. In the process, everyone’s research, team communication, and task management skills greatly improved. Each person was able to take away technical cybersecurity skills and also valuable soft skills that could propel them forward no matter what career they chose in the future. Since then, I have been dive deeper into aspects of cybersecurity by becoming a teaching assistant for the Summer Program the following year. I am currently finishing my degree in computer engineering. I look forward to applying what I have learned in cybersecurity to the work I do in computer engineering."
+- name: Dilara Maraşlı
+  image: assets/images/students/dilara.png
+  description: "I started off to Cyber Defenders 2018 Summer Program with almost no experience and insufficient knowledge of the security aspect of programming. However, from the very beginning of the program, I learned the basics of the internet, the terminology of cyber-security, and most importantly challenged by with hands-on assignments. Also, a friendly environment, and mentors who always willing to help have made a big difference in our learning progress. Career labs were part of the program, and they prepared us for a real work environment and taught us the importance of the teamwork along with many other soft skills. End of the program, I knew the vital role of cybersecurity in today's world and all the career options that I have. I am still a computer science student, and I have been working on my cyber-security projects since the program, and I am looking forward to working in this field. "
 ---
 <section class="hero is-info is-small is-bold">
     <div class="hero-body">
@@ -26,7 +44,7 @@ permalink: /stories/
 <section>
     <div class="container">
     <div class="columns is-multiline is-mobile is-vcentered ">
-    {% for student in site.data.students %}  
+    {% for student in page.students %}  
         <div class="column is-half">
             <div class="card is-shady">
                 <div class="card-image">

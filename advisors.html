@@ -2,6 +2,37 @@
 layout: default
 title: Board of Advisors | Cyber Defenders Program
 permalink: /advisors/
+advisors:
+- name: "Caleb Fenton"
+  image: 'assets/images/advisory-board/caleb.jpeg'
+  companyname: SentinelOne
+  link: "https://www.linkedin.com/in/calebfenton/"
+  description: "As a Research and Innovation Lead at SentinelOne, Caleb's history in security research and engineering has cemented his expertise in multiple facets of security. In his own words: \"I break stuff to make it better.\""
+- name: Aaron Goldstein
+  image: "assets/images/advisory-board/aaron.jpeg"
+  companyname: Tanium
+  link: "https://www.linkedin.com/in/aarongoldstein/"
+  description: "Aaron is a Director with Tanium’s Endpoint Detection and Response (EDR) Team. During his career, he has lead over 250 security engagements spanning 9 countries, ranging from high profile investigations and incident response to creating and customizing full-scale cyber intrusion training exercises. Aaron leverages his unique Incident Response experience in complex, large-scale breaches to provide strategic solutions to secure environments of all sizes."
+- name: "Bill Reid"
+  image: "assets/images/advisory-board/bill.jpeg"
+  companyname: Amazon
+  link: "https://www.linkedin.com/in/bill-reid-46208a1/"
+  description: "A former Chief Information Security Officer in the healthcare tech industry, Bill has security experience in companies of all sizes. He now helps customers build secure Amazon Web Services architectures, compliant to HIPAA, NIST, ISO, and COBIT standards."
+- name: "Mel Masterson"
+  image: "assets/images/advisory-board/mel.jpeg"
+  companyname: Airbnb
+  link: "https://www.linkedin.com/in/mastersonmelanie/"
+  description: "Mel is seasoned in IT and Information Security. Her current focus is on detecting cyber security threats and incident response at Airbnb. She is passionate about teaching and loves being a mentor for new entrants in security. Previously she was in service to the board of Women in Security and Privacy (WISP)."
+- name: "Brian Koref"
+  image: "assets/images/advisory-board/brian.jpeg"
+  companyname: Intacct Corporation
+  link: "https://www.linkedin.com/in/brian-koref-63670a/"
+  description: "As a Senior Director of Information Security at Intacct Corporation, Brian has amassed experience in security oversight and management. His familiarity with security policy definition and vulnerability management in cloud products and SaaS provides valuable expertise for our ventures into these domains."
+- name: "Celeste Matarazzo"
+  image: "assets/images/advisory-board/celeste.jpg"
+  companyname: "Lawrence Livermore National Lab"
+  link: "https://www.linkedin.com/in/celestematarazzo/"
+  description: "Celeste is a data science expert and cybersecurity researcher with more than 32 years of service to the Lawrence Livermore National Laboratory’s (LLNL) Computation Directorate excelling in a variety or technical, research, leadership and management roles. She is also the founder of LLNL’s Cyber Defenders summer student internship program.  She is passionate about education outreach and support for women and underrepresented minorities in technology careers"
 ---
 <section class="hero is-info is-small is-bold">
     <div class="hero-body">
@@ -28,7 +59,7 @@ permalink: /advisors/
 <section>
 <div class="container">
 <div class="columns is-multiline is-mobile is-centered">
-{% for advisor in site.data.advisors %}  
+{% for advisor in page.advisors %}  
     <div class="column is-one-third">
         <div class="card is-shady">
             <div class="card-image">
