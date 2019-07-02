@@ -1,0 +1,42 @@
+---
+layout: default
+title: Books
+permalink: /books/
+---
+<section class="hero is-info is-medium is-bold">
+    <div class="hero-body">
+      <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column is-two-third">
+                <h1 class="title is-middle is-1 is-spaced">
+                    Library
+                </h1>
+                <h2 class="subtitle is-4 is-spaced">
+                    A curated directory of impactful books to help you along your CyberSecurity journey.
+                </h2>
+            </div>
+            <div class="column is-one-third">
+                <img src="{{ site.url }}{{site.baseurl}}assets/undraw-svgs/undraw_partners.svg">
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<h1 class="title">Books</h1>
+<div class="columns is-multiline is-mobile is-centered">
+{% for book in site.data.cybersecurity-books %}  
+    <div class="column is-one-third">
+        <div class="card is-shady">
+            <div class="card-content">
+                <div class="content">
+                    <p class="is-project-title">{{project.name}}</p>
+                    <h6>{{book.title}}</h6>
+                    <p>{{book.description}}</p>
+                    <p class="rating">{{book.rating}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</div>
