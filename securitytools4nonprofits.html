@@ -1,0 +1,64 @@
+---
+layout: list
+title: Security Tools for Non Profits
+permalink: /securitytools4nonprofits/
+categories:
+    - name: Risk Assessment
+      logo: fas fa-vials fa-stack
+      description: Various tools to help with risk assessment.
+    - name: Intrusion Detection
+      logo: fas fa-crown
+      description: Intrusion detection.
+    - name: Fundraising
+      logo: "fas fa-crown"
+      description: Getting money for non profits.
+    - name: Digitization & Cloud
+      logo: fas fa-cloud
+      description: Making your cloud secure!
+tools:
+    category:
+        - 
+    link:
+    description:
+---
+<section class="hero is-info is-small is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-two-third">
+                        <h1 class="title is-middle is-2 is-spaced">
+                            Security Tools for Non Profits
+                        </h1>
+                        <h2 class="subtitle is-4 is-spaced">
+                            A list of tools for non profits.
+                        </h2>
+                    </div>
+                    <div class="column is-one-third">
+                        <img src="{{site.url}}{{site.baseurl}}assets/images/sectools4nonprofit/unsplash.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section>
+        <div class="container">
+        <div class="columns is-multiline is-mobile is-centered">
+        {% for category in page.categories %}  
+            <div class="column is-one-fourth">
+                <div class="card is-shady">
+                    <div class="card-image">
+                            <i class="{{category.logo}}" style="color:blueviolet"></i>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4><a href="{{category.link}}">{{category.name}}</a></h4>
+                            <p>{{category.description}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+        </div>
+</section>
