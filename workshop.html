@@ -2,6 +2,56 @@
 layout: default
 title: Navigating Cybersecurity challenges as a Public Good Organization 
 permalink: /workshop/
+participants:
+    - name: Mel Masterson
+      company: Airbnb
+      linkedin: 
+      photo: assets/images/workshop/participants/mel.jpeg
+      description: Interested in helping nonprofits do incident response.
+      tags:
+        - Security Expert
+    - name: Steve Trush
+      company: CLTC, Berkeley
+      linkedin: https://www.linkedin.com/in/trushs/
+      photo: assets/images/workshop/participants/steve.jpeg
+      description: Interested in helping nonprofits do risk assessment.
+      tags:
+        - Non Profit Security
+    - name: Gisela Pérez de Acha
+      company: UC Berkeley
+      linkedin: https://www.giselaperezdeacha.com/gisela
+      photo: assets/images/workshop/participants/gisela.jpeg
+      description: Gisela Pérez de Acha is a journalist focused on data, digital verification and investigative reporting. 
+      tags:
+        - Investigative Reporting
+    - name: Jackie Singh
+      company: Spyglass Security
+      linkedin:
+      photo: assets/images/workshop/participants/placeholder.png
+      description: Interested in helping nonprofits do risk assessment.
+      tags:
+        - Consultant
+    - name: Raymundo Jacquez
+      company: Centro Legal de la Raza
+      linkedin: https://www.linkedin.com/in/raymundo-jacquez-68b3a07a/
+      photo: assets/images/workshop/participants/raymundo.jpeg
+      description: Interested in helping nonprofits do risk assessment and cyber secuirty best practices.
+      tags:
+        - Non Profit Security
+    - name: Gabe Hanzel Sallo
+      company: Growth Sector
+      linkedin: https://www.linkedin.com/in/gabriel-hanzel-sello-9809a27/
+      photo: assets/images/workshop/participants/gabe.jpeg
+      description: Interested in helping nonprofits do risk assessment and cyber secuirty best practices.
+      tags:
+        - Non Profit Security
+    - name: Angelica Mena
+      company: 
+      linkedin: 
+      photo: assets/images/workshop/participants/placeholder.png
+      description: Interested in helping nonprofits do risk assessment and cyber secuirty best practices.
+      tags:
+        - Non Profit Security
 ---
 <div class="hero is-info is-medium has-background">
     <img alt="Fill Murray" class="hero-background is-transparent"/>  
@@ -30,7 +80,8 @@ permalink: /workshop/
 </div>
 <hr/>
 <section>
-        <div class="container is-fluid">
+        <div class="container">
+            <h1 class="title">Summer Program</h1>    
             <div class="columns">
                     <div class="column">
                         <img src="{{site.url}}{{site.baseurl}}assets/images/workshop/students-1.jpg">
@@ -45,15 +96,53 @@ permalink: /workshop/
         </div>
     </section>
 <hr/>
+<section>
+    <div class="container">
+        <h1 class="title">Workshop Participants</h1>
+        <div class="columns is-multiline is-mobile is-centered">
+        {% for participant in page.participants %}  
+            <div class="column is-one-third">
+                <div class="card is-shady">
+                    <div class="card-image">
+                        <figure class="image is-128x128">    
+                                <img class="is-rounded" src={{site.url}}{{site.baseurl}}{{participant.photo}}>
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4><a href="{{participant.linkedin}}">{{participant.name}}</a></h4>
+                            <h6>{{participant.company}}</h6>
+                            <p>{{participant.description}}</p>
+                            {% for tag in participant.tags %}
+                            <span class="tag is-black">{{tag}}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>
+<hr/>
 <section class="section">
     <div class="container">
-        <h1 class="title">Agenda</h1>
+        <h1 class="title">Workshop Resources</h1>
         <ol>
             <li>Security Tools and Resourcese for Non Profits <a class="button is-small is-danger" href="/securitytools4nonprofits">Our List</a></li>.
-            <li>Discussion.</li>
-            <li>Networking.</li>
         </ol>
+
+        <h1 class="title">Proposed Agenda</h1>
+        <ul>
+             <li>6:00-6:30 pm - Arrival, registration, networking.</li>
+             <li>6:30-7:00 pm - Introductory presentation on unique cybersecurity challenges facing public good orgs. These topics will cover highlights from 15-minute interviews with attendees.</li>
+             <li>7:00-7:30 pm - Presentation on tools and strategies for public good organizations.</li>
+             <li>7:30-8:00 pm - A collaborative problem solving design session on cybersecurity for public good orgs.</li>
+             <li>8:00-8:30 pm - Pitch for Cyber Security Programs to assist public good orgs in the Bay Area</li>
+             <li>8:30-9:00 pm - Networking</li>
+        </ul>
     </div>
+    <hr/>
     <div class="container">
         <h1 class="title">Frequently Asked Questions (FAQs)</h1>
         <p><b>Will you provide computers?</b><br>No, we expect participants to bring their laptop computers. Please reach out to us if you will have issue with that.</p>
