@@ -4,15 +4,15 @@ title: Security Tools for Non Profits
 permalink: /securitytools4nonprofits/
 categories:
     - name: Risk Assessment
-      logo: fas fa-vials fa-stack
+      logo: fas fa-vials
       description: Various tools to help with risk assessment.
     - name: Intrusion Detection
       logo: fas fa-crown
       description: Intrusion detection.
     - name: Fundraising
-      logo: "fas fa-crown"
+      logo: fas fa-crown
       description: Getting money for non profits.
-    - name: Digitization & Cloud
+    - name: Cloud
       logo: fas fa-cloud
       description: Making your cloud secure!
 tools:
@@ -70,12 +70,11 @@ tools:
         {% for category in page.categories %}  
             <div class="column is-one-fourth">
                 <div class="card is-shady">
-                    <div class="card-image is-centered">
-                            <i class="{{category.logo}}" style="color:blueviolet"></i>
-                    </div>
                     <div class="card-content">
                         <div class="content">
-                            <h4><a href="{{category.link}}">{{category.name}}</a></h4>
+                            <h4 class="title"><span class="icon is-large">
+                                <i class="{{category.logo}} is-128x128" style="color:deepskyblue"></i>
+                            </span><a href="{{category.link}}">{{category.name}}</a></h4>
                             <p>{{category.description}}</p>
                         </div>
                     </div>
@@ -84,4 +83,26 @@ tools:
         {% endfor %}
         </div>
         </div>
+</section>
+<section>
+<div class="container">
+    <h1 class="title">Resources & Tools</h1>
+    <div class="columns is-multiline is-mobile is-centered">
+    {% for tool in site.data.securitytools4nonprofits %}  
+        <div class="column is-one-third">
+            <div class="card is-shady">
+                <div class="card-content">
+                    <div class="content">
+                        <p class="is-project-title">{{tool.title}}</p>
+                        <h6>{{tool.type}}</h6>
+                        <p>{{tool.description}}</p>
+                        <p>Link: <a href='{{tool.link}}'>{{tool.type}}</a></p>
+                        <span class="tag is-black">{{tool.category}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
 </section>
