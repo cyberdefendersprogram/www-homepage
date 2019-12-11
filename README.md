@@ -11,7 +11,7 @@ Homepage of Cyber Defenders
 # Todos
 * Version 1.0 - Donate button. *Done*.
 * Initial page with a good design. Must have elements - Landing page, Programs, Advisors & Board. Status: *Done*.
-* [Nov 28, 2019] - List of Cyber Security tools for non-profits
+* [Nov 28, 2019] - List of Cyber Security tools for non-profits 
 * 
 
 # Resources

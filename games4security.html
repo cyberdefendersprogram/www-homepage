@@ -29,7 +29,7 @@ permalink: /games4security/
 </section>
 <div class="box cta">
         <div class="container">
-            <!-- Begin Mailchimp Signup Form -->
+        <!-- Begin Mailchimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
         <style type="text/css">
             #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
@@ -71,4 +71,21 @@ permalink: /games4security/
             {% endfor %}
             </div>
         </div>
-        </section>
+ </section>
+ <hr/>
+ <section>
+     <div class="container">
+         <h1 class="subtitle">Workshop Ideation & Feedback</h1>
+         <p>Following are comments around ideation and next steps which we recorded in our Dec 10, 2019 workshop at NICE K12 Conference.</p>
+         <div class="content">
+            <ul>
+                {% for idea in site.data.games4security-workshop-followup %}
+                    {%if idea.idea1 %}<li>{{idea.idea1}}</li>{% endif %}
+                    {%if idea.idea2 %}<li>{{idea.idea2}}</li>{% endif %}
+                    {%if idea.idea3 %}<li>{{idea.idea3}}</li>{% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+     </div>
+ </section>
+<hr/>
