@@ -7204,4 +7204,5 @@ p.prediction-title {
   text-transform: capitalize; }
 
 p.prediction-author {
-  color: orangered; }
+  color: orangered;
+  display: block; }
