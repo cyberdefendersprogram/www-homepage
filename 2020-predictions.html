@@ -1,0 +1,53 @@
+---
+layout: default
+title: Cybersecurity in 2020 
+permalink: /predictions-2020/
+predictions:
+    - title: Computer science will remain hard
+      context: There are two hard things in computer science -- cache invalidation, naming things, and off-by-one errors.
+      name: Jeff Atwood
+      external: https://twitter.com/codinghorror/status/506010907021828096
+    - title: Threat Hunting really will be driven by ML
+      context: Bit of a cliché but ML will no longer be something that you just buy. Tools & techniques that were previously the domain of data science experts are getting easier to use. Won’t be long before larger SOC teams are using the tools directly rather than via models that are embedded in products.
+      name: The Statesman
+      external: https://www.thestatesman.com/technology/top-5-cybersecurity-predictions-2019-1502720022.html
+---
+<section>
+    <div class="container">
+        <div class="hero">
+            <h1 class="predictions-headline">Predictions for Cybersecurity 2020!</h1>
+            <p class="predictions-tagline">We compiled thoughts of some of the smartest people in cyber security and education on what they think is coming in the next 12 months. Here’s what they had to say (Note: this is a rough prototype at the moment).</p>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        {% for prediction in page.predictions %}
+        <div class="card">
+                <div class="card-content">
+                  <p class="title prediction-title">
+                    {{prediction.title}}
+                  </p>
+                  <p class="prediction-content">
+                    {{prediction.context}}
+                  </p>
+                  <p class="subtitle prediction-author">
+                    {{prediction.name}}
+                  </p>
+                </div>
+                <footer class="card-footer">
+                  <p class="card-footer-item">
+                    <span>
+                      View on <a href= '{{ prediction.external }}' >Link</a>
+                    </span>
+                  </p>
+                  <p class="card-footer-item">
+                    <span>
+                      Share on <a href="#">Twitter</a>
+                    </span>
+                  </p>
+                </footer>
+              </div>
+        {% endfor %}
+    </div>
+</section>

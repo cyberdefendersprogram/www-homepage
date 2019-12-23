@@ -251,3 +251,35 @@ p.is-project-title{
   padding-right: 5px;
   margin-left: 0px;
 }
+
+h1.predictions-headline {
+  margin: 10px 0 30px 0%; 
+  font-family: 'libre baskerville', aktiv-grotesk-extended, sans-serif; 
+  text-transform: uppercase; 
+  text-align: center; 
+  font-weight: 900;
+  font-size: 48px;
+}
+
+p.predictions-tagline{
+  font-family: 'libre baskerville', aktiv-grotesk, sans-serif; 
+  font-size: 22px; 
+  line-height: 32px; 
+  font-style: normal; 
+  text-transform: none; 
+  max-width: 700px; 
+  margin: 20px auto 35px auto;
+}
+
+p.prediction-content{
+  font-weight: 300;
+}
+
+p.prediction-title{
+  color: rgb(0, 162, 255);
+  text-transform: capitalize; 
+}
+
+p.prediction-author{
+  color: orangered;
+}
