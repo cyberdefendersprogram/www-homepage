@@ -2,15 +2,6 @@
 layout: default
 title: Cybersecurity in 2020 
 permalink: /predictions-2020/
-predictions:
-    - title: Computer science will remain hard
-      context: There are two hard things in computer science -- cache invalidation, naming things, and off-by-one errors.
-      name: Jeff Atwood
-      external: https://twitter.com/codinghorror/status/506010907021828096
-    - title: Threat Hunting really will be driven by ML
-      context: Bit of a cliché but ML will no longer be something that you just buy. Tools & techniques that were previously the domain of data science experts are getting easier to use. Won’t be long before larger SOC teams are using the tools directly rather than via models that are embedded in products.
-      name: The Statesman
-      external: https://www.thestatesman.com/technology/top-5-cybersecurity-predictions-2019-1502720022.html
 ---
 <section>
     <div class="container">
@@ -22,7 +13,7 @@ predictions:
 </section>
 <section>
     <div class="container">
-        {% for prediction in page.predictions %}
+        {% for prediction in site.data.predictions %}
         <div class="card">
                 <div class="card-content">
                   <p class="title prediction-title">
@@ -34,11 +25,14 @@ predictions:
                   <p class="subtitle prediction-author">
                     {{prediction.name}}
                   </p>
+                  <span class="tag is-black">
+                      {{prediction.tag1}}
+                  </span>
                 </div>
                 <footer class="card-footer">
                   <p class="card-footer-item">
                     <span>
-                      View on <a href= '{{ prediction.external }}' >Link</a>
+                      View on <a href= '{{ prediction.external-link }}' >Link</a>
                     </span>
                   </p>
                   <p class="card-footer-item">
