@@ -22,7 +22,7 @@ numbers:
     <div class="container">
         <div class="columns is-multiline">
             <div class="column is-6-tablet is-3-desktop">
-                {{ for item in page.numbers}}
+                {% for item in page.numbers %}
                 <div class="box">
                     <div class="media">
                         <div class="media-left">
@@ -37,7 +37,7 @@ numbers:
                     <h4 class={{item.title}}></h4>
                     <p>{{item.details}}</p>
                 </div>
-                {{ endfor }}
+                {% endfor %}
             </div>
         </div>
     </div>

@@ -109,5 +109,9 @@ tools:
 <section>
     <h1 class="subtitle">Workshop Feedback & Ideation</h1>
     <p>Our workshop at NICE K12 Conference on Dec 10, 2019 received following feedback and ideation on what the teachers who do next!</p>
+    <ul>
     {% for idea in site.data.games4security-workshop-followup %}
+        <li>{{idea.idea1}}</li>
+    {% endfor %}
+    </ul>
 </section>
