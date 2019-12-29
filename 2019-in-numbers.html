@@ -2,6 +2,16 @@
 layout: default
 title: Cybersecurity in 2020 
 permalink: /2019-in-numbers/
+albums:
+    - cover: assets/images/hackathon/hackathon-group-1.png
+      link:
+      title:
+    - cover: assets/images/hackathon/hackathon-group-2.png
+      link:
+      title:
+    - cover: assets/images/hackathon/hackathon-group-3.png
+      link:
+      title:
 numbers:
     - image: assets/images/icons/student.png
       titlenum: 900+
@@ -36,6 +46,27 @@ numbers:
         </div>
     </div>
 </section>
+<hr/>
+<section>
+        <div class="container is-fluid">
+            <div class="columns is-multiline">
+                {% for album in page.albums %}
+                    <div class="column is-6-tablet is-3-desktop">
+                        <div class="box">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-128x128">
+                                        <img src={{site.url}}{{site.baseurl}}/{{album.cover}}/>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <hr/>
 <hr/>
 <section>
     <div class="container">
