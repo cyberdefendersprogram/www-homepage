@@ -3,27 +3,27 @@ layout: default
 title: Cybersecurity in 2020 
 permalink: /2019-in-numbers/
 numbers:
-    - image: assets/icons/student.png
-      titlenum: 900
+    - image: assets/images/icons/student.png
+      titlenum: 900+
       title: Students
-      details: Number of studens who visited our escape room.
-    - image: assets/icons/escaperoom.png
+      details: Number of students who visited our escape room.
+    - image: assets/images/icons/escaperoom.png
       titlenum: 4
       title: Escape Rooms
       details: We did 4 escape rooms 1 at SF Public library and 3 at Maker Faire (Palo Alto, Alameda, and Oakland).
-    - image: assets/icons/hackathon.png
+    - image: assets/images/icons/hackathon.png
       titlenum: 4
       title: Hackathon Projects
       details: Our annual hackathon had 4 projects.
-    - image: assets/icons/summer.png
+    - image: images/icons/summer.png
       titlenum: 3
       title: Summer Program Cohorts
       details: Our summer program featured 3 industry (for-profit and non-profit) led projects.
-    - image: asssets/icons/highschool.png
+    - image: images/icons/highschool.png
       titlenum: 25
       title: High School Students
       details: With Cyber Explorers we trained 25 highschool kids who completed 8+ projects.
-    - image: asssets/icons/training.png
+    - image: images/icons/training.png
       titlenum: 20
       title: Teachers trained
       details: We trained about 20 teachers at NICE K12 Conference on using games in cyber security classroom.
@@ -32,7 +32,7 @@ numbers:
     <div class="container">
         <div class="hero">
             <h1 class="predictions-headline">2019 In Numbers!</h1>
-            <p class="predictions-tagline">We compiled our work in 2019 in numbers! We are looking forward to an equally amazing 2020!.<br/>Please check our<a class="button is-medium is-primary" href="predictions-2020/">2020 Cyber Security Predictions</a></p>
+            <p class="predictions-tagline">We compiled our work in 2019 in numbers! We are looking forward to an equally amazing 2020!.<br/>Please check our:<br/><a class="button is-medium is-primary" href="predictions-2020/">2020 Cyber Security Predictions</a></p>
         </div>
     </div>
 </section>
@@ -40,24 +40,24 @@ numbers:
 <section>
     <div class="container">
         <div class="columns is-multiline">
+        {% for item in page.numbers %}
             <div class="column is-6-tablet is-3-desktop">
-                {% for item in page.numbers %}
                 <div class="box">
                     <div class="media">
                         <div class="media-left">
                             <figure class="image is-48x48">
-                                <img src={{item.image}}></img>
+                                <img src={{site.url}}{{site.baseurl}}/{{item.image}}></img>
                             </figure>
                         </div>
                         <div class="media-content has-text-right">
-                            <h3 class="">{{item.titlenum}}</h3>
+                            <h3 class="title is-1 has-text-info">{{item.titlenum}}</h3>
                         </div>
                     </div>
-                    <h4 class={{item.title}}></h4>
+                    <h4 class="title is-4">{{item.title}}</h4>
                     <p>{{item.details}}</p>
                 </div>
-                {% endfor %}
             </div>
+        {% endfor %}
         </div>
     </div>
 </section>
