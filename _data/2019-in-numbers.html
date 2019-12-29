@@ -1,0 +1,44 @@
+---
+layout: default
+title: Cybersecurity in 2020 
+permalink: /2019-in-numbers/
+numbers:
+    - image: assets/icons/student.png
+      titlenum: 900
+      title: Students
+      details: Number of studens who visited our escape room.
+    - 
+---
+<section>
+    <div class="container">
+        <div class="hero">
+            <h1 class="predictions-headline">2019 In Numbers!</h1>
+            <p class="predictions-tagline">We compiled our work in 2019 in numbers! We are looking forward to an equally amazing 2020!.<br/>Please check our<a class="button is-medium is-primary" href="predictions-2020/">2020 Cyber Security Predictions</a></p>
+        </div>
+    </div>
+</section>
+<hr/>
+<section>
+    <div class="container">
+        <div class="columns is-multiline">
+            <div class="column is-6-tablet is-3-desktop">
+                {{ for item in page.numbers}}
+                <div class="box">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img src={{item.image}}></img>
+                            </figure>
+                        </div>
+                        <div class="media-content has-text-right">
+                            <h3 class="">{{item.titlenum}}</h3>
+                        </div>
+                    </div>
+                    <h4 class={{item.title}}></h4>
+                    <p>{{item.details}}</p>
+                </div>
+                {{ endfor }}
+            </div>
+        </div>
+    </div>
+</section>
