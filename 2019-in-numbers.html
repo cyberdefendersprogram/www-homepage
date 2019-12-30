@@ -19,30 +19,42 @@ albums:
       title: Teacher Training
       link:  https://www.cyberdefendersprogram.com/games4security/
 numbers:
-    - image: assets/images/icons/student.png
+    - image: 
       titlenum: 900+
       title: Students
-      details: Number of students who visited our escape room.
+      details: Number of students, and adults who visited our escape rooms in 2019!
+      link: https://www.cyberdefendersprogram.com/escaperoom/
     - image:
-      titlenum: 4
+      titlenum: 5
       title: Escape Rooms
-      details: We did 4 escape rooms 1 at SF Public library and 3 at Maker Faire (Palo Alto, Alameda, and Oakland).
+      details: We did 5 escape rooms 1 at SF Public library, 1 at Santa Teresa High School and 3 at Maker Faire (Palo Alto, Alameda, and Oakland). Fastest time was 4mins 30 seconds, and average about 15 minutes.
+      link: https://www.cyberdefendersprogram.com/escaperoom/
     - image: 
-      titlenum: 4
+      titlenum: 8
       title: Hackathon Projects
-      details: Our annual hackathon had 4 projects.
+      details: Our annual hackathon had 8 projects. All of them were reviewed and apprised by industry.
+      link: https://www.cyberdefendersprogram.com/hackathon/
     - image: 
       titlenum: 3
       title: Summer Program Cohorts
       details: Our summer program featured 3 industry (for-profit and non-profit) led projects.
-    - image: 
-      titlenum: 25
+      link: https://www.cyberdefendersprogram.com/summerprogram/
+    - image: assets/images/icons/student.png
+      titlenum: 25+
       title: High School Students
-      details: With Cyber Explorers we trained 25 highschool kids who completed 8+ projects.
-    - image:
-      titlenum: 20
+      details: With Cyber Explorers we trained more than 25 highschool kids who completed 8 projects at Santa Teresa HighSchool.
+      link: https://www.cyberdefendersprogram.com/cyberexplorers/
+    - image: 
+      titlenum: 20+
       title: Teachers trained
-      details: We trained about 20 teachers at NICE K12 Conference on using games in cyber security classroom.
+      details: We trained more than 20 teachers at NICE K12 Conference on using games in cyber security classroom.
+      link: https://www.cyberdefendersprogram.com/games4security/
+    - image:
+      titlenum: 12+
+      title: Security Tools for Non Profits
+      details: We have over 12 tools to make cyber security easy for non profits.
+      link: https://www.cyberdefendersprogram.com/securitytools4nonprofits/
+      
 ---
 <section>
     <div class="container">
@@ -104,9 +116,23 @@ numbers:
                     <h4 class="title is-4">{{item.title}}</h4>
                     <p>{{item.details}}</p>
                 </div>
+                <footer class="card-footer">
+                        <a class="card-footer-item" href={{item.link}}>
+                          Find Out More!
+                        </a>
+                </footer>
             </div>
         {% endfor %}
         </div>
+    </div>
+</section>
+<hr/>
+<section>
+    <div class="container">
+            <h4 class="title">2019 in Videos</h4>
+            <iframe width="560" height="315" style="height: 315px !important" src="https://www.youtube.com/embed/75Ox1yTyL7c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <hr/>
+            <iframe width="560" height="315" style="height: 315px !important" src="https://www.youtube.com/embed/MhfhbF-ufhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </section>
 <hr/>
