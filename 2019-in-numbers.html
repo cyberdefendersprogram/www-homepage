@@ -1,39 +1,45 @@
 ---
 layout: default
 title: Cybersecurity in 2020 
-permalink: /2019-in-numbers/
+permalink: /2019-in-review/
 albums:
-    - cover: assets/images/hackathon/hackathon-group-1.png
-      link:
-      title:
-    - cover: assets/images/hackathon/hackathon-group-2.png
-      link:
-      title:
-    - cover: assets/images/hackathon/hackathon-group-3.png
-      link:
-      title:
+    - cover: assets/images/yearinphotos/2019/santa-teresa-demo-day.jpg
+      link: https://www.cyberdefendersprogram.com/cyberexplorers/
+      title: Cyber Explorers
+    - cover: assets/images/yearinphotos/2019/escaperoom.jpg
+      link: https://www.cyberdefendersprogram.com/escaperoom/
+      title: Escape Room
+    - cover: assets/images/yearinphotos/2019/hackathon.jpg
+      title: Hackathon
+      link:  https://www.cyberdefendersprogram.com/hackathon/
+    - cover: assets/images/yearinphotos/2019/nonprofit.jpg
+      title: Non Profit Workshop
+      link:  https://www.cyberdefendersprogram.com/workshop/
+    - cover: assets/images/yearinphotos/2019/teachertraining.jpg
+      title: Teacher Training
+      link:  https://www.cyberdefendersprogram.com/games4security/
 numbers:
     - image: assets/images/icons/student.png
       titlenum: 900+
       title: Students
       details: Number of students who visited our escape room.
-    - image: assets/images/icons/escaperoom.png
+    - image:
       titlenum: 4
       title: Escape Rooms
       details: We did 4 escape rooms 1 at SF Public library and 3 at Maker Faire (Palo Alto, Alameda, and Oakland).
-    - image: assets/images/icons/hackathon.png
+    - image: 
       titlenum: 4
       title: Hackathon Projects
       details: Our annual hackathon had 4 projects.
-    - image: images/icons/summer.png
+    - image: 
       titlenum: 3
       title: Summer Program Cohorts
       details: Our summer program featured 3 industry (for-profit and non-profit) led projects.
-    - image: images/icons/highschool.png
+    - image: 
       titlenum: 25
       title: High School Students
       details: With Cyber Explorers we trained 25 highschool kids who completed 8+ projects.
-    - image: images/icons/training.png
+    - image:
       titlenum: 20
       title: Teachers trained
       details: We trained about 20 teachers at NICE K12 Conference on using games in cyber security classroom.
@@ -41,44 +47,55 @@ numbers:
 <section>
     <div class="container">
         <div class="hero">
-            <h1 class="predictions-headline">2019 In Numbers!</h1>
-            <p class="predictions-tagline">We compiled our work in 2019 in numbers! We are looking forward to an equally amazing 2020!.<br/><br/>Please also check our<br/><a class="button is-medium is-primary" href="/predictions-2020/">2020 Cyber Security Predictions</a></p>
+            <h1 class="predictions-headline">2019 In Review!</h1>
+            <p class="predictions-tagline">We compiled our work in 2019 in photos, numbers and more! We are looking forward to an equally amazing 2020!.<br/><br/>Please also check our<br/><a class="button is-medium is-primary" href="/predictions-2020/">2020 Cyber Security Predictions</a></p>
         </div>
     </div>
 </section>
 <hr/>
 <section>
-        <div class="container is-fluid">
-            <div class="columns is-multiline">
-                {% for album in page.albums %}
-                    <div class="column is-6-tablet is-3-desktop">
-                        <div class="box">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure class="image is-128x128">
-                                        <img src={{site.url}}{{site.baseurl}}/{{album.cover}}/>
-                                    </figure>
-                                </div>
-                            </div>
+    <div class="container">
+        <h1 class="title">2019 in Photos</h1>
+        <div class="columns is-multiline">
+            {% for album in page.albums %}
+            <div class="column is-one-half-desktop is-half-tablet">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-3by2">
+                            <img src="{{site.url}}{{site.baseurl}}/{{album.cover}}" alt="">
+                        </figure>
+                        <div class="card-content is-overlay is-clipped">
+                            <span class="tag is-info">
+                            {{album.title}}
+                            </span>       
                         </div>
                     </div>
-                {% endfor %}
-            </div>
+                    <footer class="card-footer">
+                        <a class="card-footer-item" href={{album.link}}>
+                            {{album.title}}
+                        </a>
+                    </footer>
+                </div>
+                </div>
+            {% endfor %}
         </div>
-    </section>
-    <hr/>
+    </div>
+</section>
 <hr/>
 <section>
     <div class="container">
+        <h1 class="title">2019 in Numbers</h1>
         <div class="columns is-multiline">
         {% for item in page.numbers %}
             <div class="column is-6-tablet is-3-desktop">
                 <div class="box">
                     <div class="media">
                         <div class="media-left">
+                            {% if item.image %}
                             <figure class="image is-48x48">
                                 <img src={{site.url}}{{site.baseurl}}/{{item.image}}></img>
                             </figure>
+                            {% endif %}
                         </div>
                         <div class="media-content has-text-right">
                             <h3 class="title is-1 has-text-info">{{item.titlenum}}</h3>
@@ -92,3 +109,4 @@ numbers:
         </div>
     </div>
 </section>
+<hr/>
