@@ -1,0 +1,41 @@
+Session,Motivation Description,Exercises
+Introduction to Ethical Hacking,,
+Introduction to Penetration Testing,,
+Learning to Learn,"Recon, Attack, Cover-Up, Defend",
+Social Engineering & Physical Security,"Given a scenario obtain login credentials (use social engineering)
+Given a scenario implement defensive systems (implement physical security countermeasures)",
+Reconnaissance,"Given a scenario, perform reconnaissance with hacking tools.
+Implement countermeasures (webserver broadcast, disable services)",
+Scanning,Given a scenario perform scanning for network devices,
+Enumeration,"Given a scenario perform scanning (detect OS, applications)
+Perform enumeration (network & devices)",
+,Given a scenario scan for vulnerabilities,
+Hacking,"Perform reconnaissance
+
+Obtain credentials
+
+Escalate Privileges
+
+Cover up access (disable auditing, clear logs, remove/hide files & folders)",
+Malware,"Identify open ports
+
+Use Malware protection",
+Sniffers,"Conduct man in the middle
+
+Cover up - change MAC address",
+Session Hijacking,Hijack a web session,
+DDoS,Conduct a DDos / DoS,
+IDS,"Implement an IDS
+
+Evade firewalls & IDS
+
+Create a honeypot",
+Web Servers,"Obtain credentials using tools
+
+Attack Web Server (SQL Injection)",
+"Wi-Fi, Bluetooth & Mobile","1. Discover wireless devices
+2. Discover rogue hosts",
+Cloud Computing & IoT,Perform scanning,
+Cryptography,"Ensure file integrity
+
+Implement drive encryption",

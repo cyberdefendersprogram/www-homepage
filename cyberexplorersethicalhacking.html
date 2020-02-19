@@ -1,0 +1,31 @@
+---
+layout: blog
+title: Cyber Explorers Ethical Hacking Program
+permalink: /cyberexplorers-ethicalhacking/
+---
+<br/>
+<h1 class="title">Santa Teresa Highschool Program </h1>
+
+Cyber Explorers Ethical Hacking is a 7-week immersive program aimed at introducing Cyber Security discipline to high school and middle school students.The program doesn’t assume any exposure to computers and computer science. The first 3 sessions are tabletop fun games and exercises introducing concepts of Cyber Security like Cryptography, Network Security, Defense in Depth, Incident Detection, Incident Response et al.
+
+The goal is to train Santa Teresa High School students to the field of cybersecurity ethical hacking through hands-on, project-based learning of basic computer science and cybersecurity tools in a series of afternoon workshops.  This program will target students with advanced computer science skills and they sign up to train beginner students.  Some students from this cohort will be trained to obtain the EC-Council CEH (Certified Ethical Hacker) certificate and will have access to labs from partners like TestOut and HackTheBox.  The course would be open to students with python programming skills.  Students in computer science academy may be given alternate/higher-level assignments and projects to match their experience
+
+<br/>
+<section>
+    <h1 class="title">Program details</h1>
+    <table class="table is-bordered is-striped">
+        <thead>
+            <td>Session</td><td>Description</td><td>Notes</td>
+        </thead>
+        <tbody>
+        {% for session in site.data.cyber-explorers-ethicalhacking-csv %} 
+        <tr>
+            <td>{{session.session}}</td>
+            <td>{{session.desc | markdownify}}</td>
+            <td>{{session.notes | markdownify}}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</section>
+
