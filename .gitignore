@@ -62,17 +62,9 @@ typings/
 
 #generated site
 _site
-
-*/.DS_STORE
-assets/.DS_Store
-assets/images/.DS_Store
-.DS_Store
-assets/.DS_Store
-.DS_Store
-assets/.DS_Store
-.DS_Store
-assets/.DS_Store
-.DS_Store
-assets/.DS_Store
-.jekyll-metadata
+.ruby_version
+.DS_STORE
+.idea/
+.jekyll-cache/
+.sass-cache
 .jekyll-metadata
