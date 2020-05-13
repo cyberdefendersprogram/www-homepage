@@ -1,0 +1,181 @@
+---
+layout: default
+title: OSCP Study Group (Apr - Nov 2020) 
+permalink: /oscpstudygroup
+participants:
+    - name: Drew Gipson
+      description: Planning for OSCP in 2020.
+      tags:
+        - Seeking Internship
+    - name: Kim
+      description: Planning for OSCP in 2021.
+      tags:
+        - Merritt College
+    - name: Robert Lee
+      description: Planning for OSCP in 2020.
+      tags:
+        - Industry
+    - name: Stephen Miller
+      description: Planning for OSCP in 2020.
+      tags:
+        - Industry
+    - name: Noah Newdorf
+      description: Planning for OSCP in 2020.
+      tags:
+        - Industry
+    - name: Chi Nguyen
+      description: Planning for OSCP in 2020.
+      tags:
+        - Industry
+    - name: Alejandro Ramirez
+      description: Planning for OSCP in 2020.
+      tags:
+        - Cloudflare
+    - name: Abraham Reyes Romo
+      description: Planning for OSCP in 2020. 
+      tags:
+        - Industry
+    - name: Wendy Segura
+      description: Planning for OSCP in 2020.
+      tags:
+        - Sage Intacct Intern
+    - name: Spencer
+      description: Planning for OSCP in 2020.
+      tags:
+        - Industry
+    - name: Vicent Wong
+      description: Planning for OSCP in 2020.
+      tags:
+        - Industry
+mentors:
+    - name: Will Bonk
+      company: Pentester
+      linkedin: 
+      photo: assets/images/workshop/participants/mel.jpeg
+      description: Willing to do hackthebox with students.
+      tags:
+        - OSCP Certified
+---
+<div class="hero is-info is-medium has-background">
+    <img alt="Fill Murray" class="hero-background is-transparent"/>  
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-one-third">
+                    <h1 class="title is-middle is-2 is-hackathon-h1">
+                        OSCP Study Group!
+                    </h1>
+                    <h1 class="subtitle is-6 is-hackathon-h3">
+                        The goad of this cohort is to prepare for the tough OSCP certification.
+                    </h1>
+                    <div class="buttons is-large">
+                            <a class="button is-medium is-danger" href="https://oscp.cyberdefendersprogram.com">Studybook!</a>
+                            <a class="button is-medium is-primary" href="mailto:vaibhavb@gmail.com">Got a problem for us?</a>
+                            <a class="button is-medium is-hackathon-apply" href="mailto:vaibhavb@gmail.com">Support Us!</a>
+                    </div>
+                </div>
+                <div class="column is-two-third" style="height: 400px !important">
+                        <img src="{{site.url}}{{site.baseurl}}assets/images/studygroup/OSCP.jpg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr/>
+<section>
+        <div class="container">
+            <h1 class="title">OSCP Study Group Selected From</h1>    
+            <div class="columns">
+                    <div class="column">
+                        <img src="{{site.url}}{{site.baseurl}}assets/images/workshop/students-1.jpg">
+                    </div>
+                        <div class="column">
+                        <img src="{{site.url}}{{site.baseurl}}assets/images/summerprogram/2018-cohort.jpeg">
+                    </div>
+                        <div class="column">
+                        <img src="{{site.url}}{{site.baseurl}}assets/images/hackathon/all.jpg">
+                    </div>
+            </div>
+        </div>
+    </section>
+<hr/>
+<section>
+    <div class="container">
+        <h1 class="title">Study Group Participants</h1>
+        <div class="columns is-multiline is-mobile is-centered">
+        {% for participant in page.participants %}  
+            <div class="column is-one-fourth">
+                <div class="card is-shady">
+                    <!-- <div class="card-image">
+                        <figure class="image is-128x128">    
+                                <img class="is-rounded" src={{site.url}}{{site.baseurl}}{{participant.photo}}>
+                        </figure>
+                    </div> -->
+                    <div class="card-content">
+                        <div class="content">
+                            <h4><a href="{{participant.linkedin}}">{{participant.name}}</a></h4>
+                            <h6>{{participant.company}}</h6>
+                            <p>{{participant.description}}</p>
+                            {% for tag in participant.tags %}
+                            <span class="tag is-black">{{tag}}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>
+<hr/>
+<section>
+  <div class="container">
+      <h1 class="title">Study Group Mentors</h1>
+      <div class="columns is-multiline is-mobile is-centered">
+      {% for participant in page.mentors %}  
+          <div class="column is-one-third">
+              <div class="card is-shady">
+                  <!-- <div class="card-image">
+                      <figure class="image is-128x128">    
+                              <img class="is-rounded" src={{site.url}}{{site.baseurl}}{{participant.photo}}>
+                      </figure>
+                  </div> -->
+                  <div class="card-content">
+                      <div class="content">
+                          <h4><a href="{{participant.linkedin}}">{{participant.name}}</a></h4>
+                          <h6>{{participant.company}}</h6>
+                          <p>{{participant.description}}</p>
+                          {% for tag in participant.tags %}
+                          <span class="tag is-black">{{tag}}</span>
+                          {% endfor %}
+                      </div>
+                  </div>
+              </div>
+          </div>
+      {% endfor %}
+      </div>
+  </div>
+</section>
+<hr/>
+<section class="section">
+    <div class="container">
+        <h1 class="title">Resources</h1>
+        <ol>
+            <li>Tools and Resourcese for The Study Group <a class="button is-small is-danger" href="https://oscp.cyberdefendersprogram.com">Our Book</a></li>.
+        </ol>
+
+        <h1 class="title">Proposed Plan</h1>
+        <ul>
+             <li>Apr - May 2020 - Getting started with hackthebox.</li>
+             <li>June - July 2020 - Complete a mock OSCP and keep up the practice.</li>
+             <li>Aug - Sep 2020 - Work on OSCP Labs.</li>
+             <li>Oct - Nov 2020 - OSCP Attempts.</li>
+        </ul>
+    </div>
+    <hr/>
+    <div class="container">
+        <h1 class="title">Frequently Asked Questions (FAQs)</h1>
+        <p><b>Will you provide computers?</b><br>No, we expect participants to bring their laptop computers.</p>
+        <p><b>Should I apply sooner to qualify?</b><br>Yes, we have limited seats so please apply early.</p>
+    </div>
+</section>
