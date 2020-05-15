@@ -284,3 +284,14 @@ p.prediction-author{
   color: orangered;
   display: block;
 }
+
+.top-cta-notification{
+  position: fixed;
+    width: 100%;
+    background-color: #ee283c;
+    color: #fff;
+    transition: 1s;
+    padding: 10px 0;
+    font-weight: 900;
+    text-transform: uppercase;
+}

@@ -13,3 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   $crisp.push(["safe", true]);
 });
+
+function dismissDonate(){
+  var donate = document.getElementById('cta-notification');
+  donate.style.display = "none";
+}
