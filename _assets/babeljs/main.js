@@ -9,6 +9,5 @@ document.addEventListener('DOMContentLoaded', () => {
       burger.classList.toggle('is-active');
       menu.classList.toggle('is-active');
   });
-  $crisp.push(["safe", true])
 });
 

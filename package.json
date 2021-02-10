@@ -1,18 +1,19 @@
 {
-  "name": "Cyber_Defenders_Javascript",
-  "version": "1.0.0",
+  "name": "CyberDefendersJavascript",
+  "version": "0.0.5",
   "description": "Bulma and others",
-  "main": "assets/sass/mybulma.scss",
+  "main": "_assets/css/mybulma.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css-deploy": "npm run css-build && npm run css-postcss",
-    "css-build": "node-sass assets/sass/mybulma.scss assets/css/mybulma.css",
+    "css-build": "node-sass _assets/css/main.scss assets/css/mybulma.css",
     "css-postcss": "postcss --use autoprefixer --output assets/css/mybulma.css assets/css/mybulma.css",
     "css-watch": "npm run css-build -- --watch",
     "deploy": "npm run css-deploy && npm run js-build",
-    "js-build": "babel assets/babeljs --out-dir assets/js",
+    "js-build": "babel _assets/babeljs --out-dir assets/js",
     "js-watch": "npm run js-build -- --watch",
-    "start": "npm-run-all --parallel css-watch js-watch"
+    "serve": "bundle exec jekyll serve --livereload",
+    "start": "npm-run-all --parallel css-watch js-watch serve"
   },
   "repository": {
     "type": "git",
@@ -29,11 +30,10 @@
   "homepage": "https://github.com/cyberdefenders/homepage#readme",
   "devDependencies": {
     "autoprefixer": "^9.7.6",
-    "babel-cli": "^6.26.0",
+    "babel-cli": "^6.18.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015-ie": "^6.7.0",
     "bulma": "^0.8.2",
-    "gulp": "^4.0.2",
     "node-sass": "^4.13.1",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^7.1.0"
