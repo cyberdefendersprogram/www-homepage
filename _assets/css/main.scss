@@ -1,31 +1,27 @@
 @charset "utf-8";
 
-/*
+
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 // Set your brand colors
 $purple: #8A4D76;
 $pink: #FA7C91;
 $brown: #757763;
-$beige-light: #D0D1CD;
+$beige-light: #EFF3F4;
 $beige-lighter: #EFF0EB;
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+$family-sans-serif: 'Lato', sans-serif;
+$primary: $pink;
+$widescreen-enabled: true;
+$fullhd-enabled: true;
 
 // Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
-$control-border-width: 2px;
-$input-border-color: transparent;
+$control-border-width: 1px;
+$input-border-color: none;
 $input-shadow: none;
-*/
+
 
 // Import only what you need from Bulma
 /*@import "../../node_modules/bulma/sass/utilities/_all.sass";
@@ -40,8 +36,8 @@ $input-shadow: none;
 @import "../../node_modules/bulma/bulma.sass";
 
 html,body {
-    background: #EFF3F4;
-    font-family: 'Lato', sans-serif;;
+    background: $beige-light;
+    font-family: $family-sans-serif;
   }
 
   .hero-body .title {
@@ -286,7 +282,7 @@ p.prediction-author{
 }
 
 .top-cta-notification{
-  position: fixed;
+  position: relative;
     width: 100%;
     background-color: #ee283c;
     color: #fff;

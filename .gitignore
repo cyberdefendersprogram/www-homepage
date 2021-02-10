@@ -68,3 +68,4 @@ _site
 .jekyll-cache/
 .sass-cache
 .jekyll-metadata
+assets/.DS_STORE
