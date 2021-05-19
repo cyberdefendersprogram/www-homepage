@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', function () {
     burger.classList.toggle('is-active');
     menu.classList.toggle('is-active');
   });
-});
 
-function dismissDonate() {
-  var donate = document.getElementById('cta-notification');
-  donate.style.display = "none";
-}
+  function dismissDonate() {
+    var donate = document.getElementById('cta-notification');
+    donate.style.display = "none";
+  }
+});
