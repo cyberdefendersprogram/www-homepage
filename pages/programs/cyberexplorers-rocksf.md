@@ -2,6 +2,9 @@
 layout: blog
 title: Cyber Explorers VVMS & ROCKSF Program
 permalink: /cyberexplorers-rocksf/
+final-preso: https://docs.google.com/presentation/d/1R_uyEyVU5Ywl1-WVpL0c6SvuhB8mHsJDBn4zkl-9qBg/edit?usp=sharing
+final-music-embed: |
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1056362899&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 ---
 <br/>
 <h1 class="title">VVMS & RockSF Middle School Program </h1>
@@ -24,14 +27,12 @@ The students will start early in the program on a team project which could be a 
             <div>
                 <span class="tag is-primary">Its In Progress!</span> The <a href='/cyberexplorers-rocksf'>Cyber Explorers VVMS Program</a>
                 <br/> <br/>
-                <span class="tag is-danger">Photos</span> Program Photos (please add any photos you have): <a href="">Demo Day</a>, 
-                <br/> <br/>
-                <span class="tag is-warning">Industry Talks</span>: Check industry evaluations of the projects below.
-                <br/> <br/>
-                <span class="tag is-secondary">Student Feedback & Opportunities</span>: Links coming soon. We are offering two paid certifications for Comp TIA if the students complete them before July 15 with the help of test out curricula.
+                <span class="tag is-danger">Presentation</span> Program Photos (please add any photos you have): <a href="{{page.final-preso}}">Final Day</a>.
                 <br/> <br/>
                 <span class="tag is-danger">Next Up</span> We are have our annual Hackathon on July 15 at <a href='http://www.merritt.edu' target="_blank">Merritt College</a>. 
                     Application details are available <a href="/hackathons">now</a>! Last day to sign up is <b>Monday, June 27, 2021</b>.
+                <br/> <br/>
+                {{page.final-music-embed}}
             </div>
             </p>
         </div>
