@@ -11,7 +11,7 @@ final-music-embed: |
 
 Cyber Explorers NCAT is a 4-week summer program aimed at introducing Cyber Security discipline to  students at [NCAT](https://www.ncat.edu/). We call this cohort the **CYBER AGGIES**. The program doesn’t assume any exposure to computers and computer science. The first few sessions are tabletop fun games and exercises introducing concepts of Cyber Security like Cryptography, Network Security, Defense in Depth, Incident Detection, Incident Response et al.
 
-The students will start early in the program on a team project which could be a cybersecurity-related puzzle, poster or a project. This is a deliverable which students are expected to showcase in the Cyber Explorers finale - a open source intelligence project or a python based YOUR VOICE IS POWER submission.
+The students will start early in the program on a team project which could be a cybersecurity-related puzzle, poster or a project. This is a deliverable which students are expected to showcase in the Cyber Explorers finale.
 
 <br/>
 <section>
@@ -27,9 +27,9 @@ The students will start early in the program on a team project which could be a 
             <div>
                 <span class="tag is-primary">Its In Progress!</span> The <a href='/cyberexplorers-rocksf'>Cyber Explorers NCAT Program</a>
                 <br/> <br/>
-                <span class="tag is-danger">Presentation</span> Program Photos (please add any photos you have): <a href="{{page.final-preso}}">Final Day</a>.
+                <span class="tag is-danger">Session #1 Completed</span>.
                 <br/> <br/>
-                <span class="tag is-danger">Next Up</span></b>.
+                <span class="tag is-danger">Next Up Session #2</span></b>.
                 <br/> <br/>
             </div>
             </p>
@@ -55,9 +55,9 @@ The students will start early in the program on a team project which could be a 
     </tbody>
 </table>
 
-Through the Cyber Explorers, we aim at having a strong industry partnership using guest lectures, hackathons and exposing students to career paths. One of the session labs will be tailored as a Cyber Patriots test - which will introduce students to the Cyber Patriots program and other relevant national initiatives. 
+Through the Cyber Explorers, we aim at having a comprehensive introduction to cyber security, related hackathons and exposing students to cyber security career paths. One of the session labs will be tailored as a Cyber Patriots test - which will introduce students to the Cyber Patriots program and other relevant national initiatives. 
 
-The program finale will showcases student work and projects to a broad audience. During the duration of the program, we will offer an extensive cybersecurity library and a raspberry pi based project lab environment. We strive to align this program to other industry efforts and also offer a  hackathon.
+The program finale will showcases student work and projects to a broad audience.
 <br/>
 
 
