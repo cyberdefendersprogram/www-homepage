@@ -1,0 +1,105 @@
+- session: 1
+  desc: Introduction to Cyber Security [Attack/Movie]
+  notes: |
+    
+
+- session: 2
+  desc: Introduction to Cyber Security (Hands-on No Computers) (Cypher-1-3, Cryptography & Steganography).Real world attacks analyzed (1-3 Printed) Video Content [Attack/Movie]
+  notes: |
+    1. Written [exercise](https://www.instagram.com/p/BwxH8o1lak9/)
+
+- session: 3
+  desc: Introduction to Cyber Security through Board Games (Hands-on No Computers) (IR - Scenarios/ Role Play) [D0x3d, Cyber Threat Defenders, Control-Alt-Hack]
+  notes: |
+    1. We covered five board games - Security Cards, Dx03D, Cards Against Security, Stratego, and Hacker. Details below.
+
+- session: 4
+  desc: |
+    OSINT Simulation 
+  notes: |
+    
+
+- session: 5
+  desc: Ethics Personal Security (Password Manager, Do Not Track, Phishing awareness,..)
+  notes: |
+    Ethics exercises
+
+- session: 6
+  desc: Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
+  notes: |
+    1. Session #5  Install [PuTTY](https://www.putty.org/)
+    2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
+    3. Session #5 Unix Command Challenge - [Challenge Form](https://forms.gle/mdNsK3RvqnmzD7yU7)
+    4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
+    5. Project [Ideas](http://bit.ly/explorerideas2019) 
+
+- session: 7
+  desc: Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
+  notes: |
+    1. Project Ideas [Excerpt](http://bit.ly/explorerprojectexcerpt2019)
+    2. Session #6 Network Security [Follow along](http://bit.ly/explorersession6)
+
+- session: 8
+  desc: Red Teaming - Cyber Threats Demonstrated On Individuals (Rubber Ducky)
+  notes: |
+    1. Project Ideas Excerpt Review & [Plan Formation](http://bit.ly/explorerplan2019)
+    2. Session #7 Red Teaming [Follow along](http://bit.ly/explorersession7)
+    3. *Announcements*
+        1. 5-Minute Team Presentations next week
+        2. Explorers Escape room in [San Francisco Public Library](https://www.cyberdefendersprogram.com/escaperoom/)
+
+- session: 9
+  desc: Introduction to Physical Security
+  notes: |
+    1. Project Background Research & Preparing for Tuesday presentations [Project Document](http://bit.ly/project-session8)
+    2. TestOut [Lesson 4 Physical Security Labsim](http://www.testout.com)
+    3. *Announcements*
+        1. 5-Minute Team Presentations Tuesday, May 7th
+        2. Explorers Escape room in [San Francisco Public Library](https://www.cyberdefendersprogram.com/escaperoom/)
+        
+- session: 10
+  desc: Team Project - Session 2 & Introduction to Forensics
+  notes: |
+    1. Project Milestone - 5 Minute Presentations Project Proposal & Plan
+    2. Forensics exercise with disk data analysis - [Follow along](http://bit.ly/explorersession9)
+    3. *Announcements*
+        1. Volunteers for [San Francisco Public Library Explorers Escape Room](https://www.cyberdefendersprogram.com/escaperoom/)
+        
+- session: 11
+  desc: Introduction to Data science for CyberSecurity
+  notes: |
+    1. Project work - [Prototype Developement](http://bit.ly/explorerprojectsession10)
+    2. [Data Science for CyberSecurity](http://bit.ly/explorersession10)- 
+        1. Access logs, OS logs, Application logs, Service logs, syslogs
+        2. Introduction to Intrusion Detection
+    3. *Announcements*
+        1. Cyber Patriots [Application](http://tinyurl.com/cyberpatriotapplication)
+        2. Volunteer for the [Cyber Explorer Escape Room @ Bay Area Maker Faire](https://forms.gle/gEETTfEsiPdiW4VZA)
+
+- session: 12
+  desc: Team Project - Session 3 - students will work on team projects
+  notes: |
+    1. Project work [Feedback & Presentation plan](http://bit.ly/projectsession11)
+    2. *Announcements*
+        1. Invitation for [Cyber Explorers Demo Day](http://bit.ly/explorersdemoday2019), May 23 5-7pm, Multipurpose Room Santa Teresa High School, San Jose, CA.
+        2. Volunteer for the [Cyber Explorer Escape Room @ Bay Area Maker Faire](https://forms.gle/gEETTfEsiPdiW4VZA)
+
+- session: 13
+  desc: Introduction to Career Paths in Cyber Security
+  notes: |
+    1. Conversation with [Mel Masterson](https://www.cyberdefendersprogram.com/advisors/), AirBnB Security
+    2. Project Milestone - [Final presentation preparation](http://bit.ly/projectsession11).
+    3. *Announcements*
+        1. Invitation for [Cyber Explorers Demo Day](http://bit.ly/explorersdemoday2019), May 23 5-7pm, Multipurpose Room Santa Teresa High School, San Jose, CA.
+        2. Volunteer for the [Cyber Explorer Escape Room @ Bay Area Maker Faire](https://forms.gle/gEETTfEsiPdiW4VZA)
+        3. We will work on Cyber Patriots images (OS & Networking) next session.
+
+- session: 14
+  desc: Lab session tailored to a Cyber Patriots Challenge 
+  notes: |
+    1. TestLab - Cyber Patriots 
+        1. ISO images VMWare Player - problems (45 mins)
+        2. Packet [Tracer Image](https://drive.google.com/drive/folders/1LAie_LInMbDvFxBqJwKLoqX2_6teayi0) - Cisco Packet Tracer (30mins)
+
+- session: 15
+  desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
