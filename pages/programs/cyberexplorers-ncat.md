@@ -11,14 +11,14 @@ final-music-embed: |
 
 Cyber Explorers NCAT is a 4-week summer program aimed at introducing Cyber Security discipline to  students at [NCAT](https://www.ncat.edu/). We call this cohort the **CYBER AGGIES**. The program doesn’t assume any exposure to computers and computer science. The first few sessions are tabletop fun games and exercises introducing concepts of Cyber Security like Cryptography, Network Security, Defense in Depth, Incident Detection, Incident Response et al.
 
-The students will start early in the program on a team project which could be a cybersecurity-related puzzle, poster or a project. This is a deliverable which students are expected to showcase in the Cyber Explorers finale.
+The students will start early in the program on a project which could be a cybersecurity-related puzzle, poster or a project. This is a deliverable which students are expected to showcase in the Cyber Explorers finale.
 
 <br/>
 <section>
 <div class="container">
     <div class="columns is-multiline is-mobile is-centered">
         <div class="column is-half">
-            <figure class="image is-4by3">
+            <figure class="image is-square">
             <img src="{{site.url}}{{site.baseurl}}assets/images/ncat.png"/>
             </figure>
         </div>
@@ -27,9 +27,9 @@ The students will start early in the program on a team project which could be a 
             <div>
                 <span class="tag is-primary">Its In Progress!</span> The <a href='/cyberexplorers-rocksf'>Cyber Explorers NCAT Program</a>
                 <br/> <br/>
-                <span class="tag is-danger">Session #1 Completed</span>.
+                <span class="tag is-danger">Session #1 Completed</span>
                 <br/> <br/>
-                <span class="tag is-danger">Next Up Session #2</span></b>.
+                <span class="tag is-danger">Next Up Session #2</span>
                 <br/> <br/>
             </div>
             </p>
