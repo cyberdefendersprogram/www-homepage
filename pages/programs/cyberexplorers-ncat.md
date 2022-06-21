@@ -9,7 +9,7 @@ final-music-embed: |
 <br/>
 <h1 class="title">NCAT Summer Bridge Program </h1>
 
-Cyber Explorers NCAT is a 4-week summer program aimed at introducing Cyber Security discipline to  students at [NCAT](https://www.ncat.edu/). We call this cohort the __CYPHER CODERS__. The program doesn’t assume any exposure to computers and computer science. The first few sessions are tabletop fun games and exercises introducing concepts of Cyber Security like Cryptography, Network Security, Defense in Depth, Incident Detection, Incident Response et al.
+Cyber Explorers NCAT is a 4-week summer program aimed at introducing Cyber Security discipline to  students at [NCAT](https://www.ncat.edu/). We call this cohort the *CYBER AGGIES*. The program doesn’t assume any exposure to computers and computer science. The first few sessions are tabletop fun games and exercises introducing concepts of Cyber Security like Cryptography, Network Security, Defense in Depth, Incident Detection, Incident Response et al.
 
 The students will start early in the program on a team project which could be a cybersecurity-related puzzle, poster or a project. This is a deliverable which students are expected to showcase in the Cyber Explorers finale - a open source intelligence project or a python based YOUR VOICE IS POWER submission.
 
