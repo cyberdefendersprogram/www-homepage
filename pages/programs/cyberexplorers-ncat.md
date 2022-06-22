@@ -25,8 +25,9 @@ The students will start early in the program on a project which could be a cyber
         <div class="column is-half">
         <p class="has-text-left">   
             <div>
-                <span class="tag is-primary">Its In Progress!</span> The <a href='/cyberexplorers-rocksf'>Cyber Explorers NCAT Program</a>
+                <span class="tag is-primary">Its In Progress!</span> The <a href='https://us06web.zoom.us/j/4951869954?pwd=XId-RfZGp7rS6LP_wBvvtCKjTPTBiv.1'>Cyber Explorers NCAT Program</a>
                 <br/> <br/>
+
                 <span class="tag is-danger">Session #1 Completed</span>
                 <br/> <br/>
                 <span class="tag is-danger">Next Up Session #2</span>
