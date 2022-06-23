@@ -5,7 +5,7 @@ permalink: /cyberexplorers-ncat/
 final-preso: https://docs.google.com/presentation/d/1R_uyEyVU5Ywl1-WVpL0c6SvuhB8mHsJDBn4zkl-9qBg/edit?usp=sharing
 final-music-embed: |
     <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1056362899&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-last_modified_at: 2022-06-23T17:50:32
+last_modified_at: 2022-06-23T17:53:20
 ---
 <br/>
 <h1 class="title">NCAT Summer Bridge Program </h1>
@@ -28,7 +28,6 @@ The students will start early in the program on a project which could be a cyber
             <div>
                 <span class="tag is-primary">Its In Progress!</span> The <a href='https://us06web.zoom.us/j/4951869954?pwd=XId-RfZGp7rS6LP_wBvvtCKjTPTBiv.1'>Cyber Explorers NCAT Program</a>
                 <br/> <br/>
-
                 <span class="tag is-danger">Session #1 Completed</span>
                 <br/> <br/>
                 <span class="tag is-danger">Next Up Session #2</span>
