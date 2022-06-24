@@ -16,9 +16,11 @@
     Same presentation and Quiz as session #2.
 
 - session: 4 - Jun 24, 2022
-  desc: Introduction to Cyber Security through Board Games (Hands-on No Computers) (IR - Scenarios/ Role Play) [D0x3d, Cyber Threat Defenders, Control-Alt-Hack]
+  desc: Overview of Logical Operators & Introduction to Cyber Security through  Games 
   notes: |
-    1. We covered five board games - Security Cards, Dx03D, Cards Against Security, Stratego, and Hacker. Details below.
+    1. We covered XOR and Logical Operations, Public Key Cryptography
+    2. Student are encouraged to try the [crossword puzzle game](https://securityawareness.usalearning.gov/cdse/multimedia/games/cybersecurity-crossword/index.html)
+    3. Read on Securtiy board games - Security Cards, Dx03D, Cards Against Security, Stratego, Control-Alt-Hack, Cyber Thread Defenders and Hacker.
 
 - session: 5 - Jun 27, 2022
   desc: |
