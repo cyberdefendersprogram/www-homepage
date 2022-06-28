@@ -30,13 +30,13 @@
     2. [Quiz](https://docs.google.com/forms/d/e/1FAIpQLScqr1t1O7d2IKlKhNExNh3dqlrSEPfe_V7dF838MUodCTYJ2g/viewform)
     For review, here is [recorded session](https://us06web.zoom.us/rec/share/yOQRRiWasXkFhvqTmvpJAU5SLotQMLWIAyfYSnU4VjHto6UkmSgeXtV4wAVRnUsQ.0vz4yggtgXCLCiAI?startTime=1656342515000)
     
-- session: 6
-  desc: Ethics Personal Security (Password Manager, Do Not Track, Phishing awareness,..)
+- session: 6 - June 28, 2022
+  desc: Open Source Intelligence (Shodan, Google Dorking, etc.)
   notes: |
-    Ethics exercises
+    1. [Presentation](https://docs.google.com/presentation/d/1W_9jh0Qc5b4rM5sE85ZtLmmy-UiHCNdXp9w8bn01fVs/edit?usp=sharing)
 
 - session: 7
-  desc: Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
+  desc: Ethics & Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
   notes: |
     1. Session #5  Install [PuTTY](https://www.putty.org/)
     2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
