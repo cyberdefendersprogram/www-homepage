@@ -35,7 +35,12 @@
   notes: |
     1. [Presentation](https://docs.google.com/presentation/d/1W_9jh0Qc5b4rM5sE85ZtLmmy-UiHCNdXp9w8bn01fVs/edit?usp=sharing)
 
-- session: 7
+- session: 7 - June 29, 2022
+  desc: Open Source Intelligence (Shodan, Google Dorking, etc.) - contd..
+  notes: |
+    1. [Presentation](https://docs.google.com/presentation/d/1W_9jh0Qc5b4rM5sE85ZtLmmy-UiHCNdXp9w8bn01fVs/edit?usp=sharing)
+
+- session: 7B
   desc: Ethics & Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
   notes: |
     1. Session #5  Install [PuTTY](https://www.putty.org/)
