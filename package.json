@@ -1,5 +1,5 @@
 {
-  "name": "cyber defenders",
+  "name": "cyberdefenders",
   "version": "0.0.5",
   "description": "Bulma and others",
   "main": "_assets/css/mybulma.scss",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "css-deploy": "npm run css-build && npm run css-postcss",
     "css-build": "sass _assets/css/main.scss assets/css/mybulma.css",
-    "css-watch": "npm run css-build -- --watch",
+    "css-watch": "npm run css-build --watch",
     "deploy": "npm run css-deploy && npm run js-build",
     "js-build": "babel _assets/babeljs --out-dir assets/js",
     "js-watch": "npm run js-build -- --watch",
