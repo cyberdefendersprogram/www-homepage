@@ -29,26 +29,35 @@
     1. [Presentation](https://docs.google.com/presentation/d/13W5nj3tiTrN4Odlh0ZsPLfuwAxlxOteOpBaMagTiK8Y/edit?usp=sharing)
     2. [Quiz](https://docs.google.com/forms/d/e/1FAIpQLScqr1t1O7d2IKlKhNExNh3dqlrSEPfe_V7dF838MUodCTYJ2g/viewform)
     For review, here is [recorded session](https://us06web.zoom.us/rec/share/yOQRRiWasXkFhvqTmvpJAU5SLotQMLWIAyfYSnU4VjHto6UkmSgeXtV4wAVRnUsQ.0vz4yggtgXCLCiAI?startTime=1656342515000)
-    
+    <br/>Homework
+    1. Complete the Quiz
+
 - session: 6 - June 28, 2022
   desc: Open Source Intelligence (Shodan, Google Dorking, etc.)
   notes: |
     1. [Presentation](https://docs.google.com/presentation/d/1W_9jh0Qc5b4rM5sE85ZtLmmy-UiHCNdXp9w8bn01fVs/edit?usp=sharing)
+    <br/>Homework
+    1. Post 1-5 Shodan Queries in #osint-queries channel
 
 - session: 7 - June 29, 2022
   desc: Open Source Intelligence (Shodan, Google Dorking, etc.) - contd..
   notes: |
     1. [Presentation](https://docs.google.com/presentation/d/1W_9jh0Qc5b4rM5sE85ZtLmmy-UiHCNdXp9w8bn01fVs/edit?usp=sharing)
+    <br/>Homework
+    1. Post 1-5 Google Hacking queries in the #osint-queries channel
 
 - session: 8 - June 30, 2022
   desc: Ethics & Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
   notes: |
     1. Ethics - [Presentation](https://docs.google.com/presentation/d/11RTcKKKa9bzFiU9jnMs_9pj2cEfKyAamlVMRTx0bq8c/edit?usp=sharing)
     2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
-    3. Project Explanation [Ideas]
+    3. Final Project Explanation [Ideas]
     <br/>Break Homework
-    1. Write two paragraphs on a Cyber Security Incident, What was intriguing to you about it?
-    2. Final [Presentation]
+    1. Post two paragraphs as a project proposal for end of class. It will be 2-3 mins individual presentation - topics could be - write-up, code, game, story -- Anything which excites you about computers and cybersecurity. Be specific on project topic and first paragraph answer why and  second paragraph should outline how you will do it. Use project-proposal channel.
+3. Write two paragraphs on a Cyber Security Incident, What was intriguing to you about it?
+Post on security-incidents 
+    2. Write two paragraphs on a Cyber Security Incident, What was intriguing to you about it?
+    
 
 - session: 8A
   desc: Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
