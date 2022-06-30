@@ -40,20 +40,24 @@
   notes: |
     1. [Presentation](https://docs.google.com/presentation/d/1W_9jh0Qc5b4rM5sE85ZtLmmy-UiHCNdXp9w8bn01fVs/edit?usp=sharing)
 
-- session: 7B
+- session: 8 - June 30, 2022
   desc: Ethics & Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
   notes: |
-    1. Session #5  Install [PuTTY](https://www.putty.org/)
+    1. Ethics - [Presentation](https://docs.google.com/presentation/d/11RTcKKKa9bzFiU9jnMs_9pj2cEfKyAamlVMRTx0bq8c/edit?usp=sharing)
     2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
-    3. Session #5 Unix Command Challenge - [Challenge Form](https://forms.gle/mdNsK3RvqnmzD7yU7)
-    4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
-    5. Project [Ideas](http://bit.ly/explorerideas2019) 
+    3. Project Explanation [Ideas]
+    Break Homework
+    1. Write two paragraphs on a Cyber Security Incident, What was intriguing to you about it?
+    2. Final [Presentation]
 
-- session: 8
+- session: 8A
   desc: Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
   notes: |
     1. Project Ideas [Excerpt](http://bit.ly/explorerprojectexcerpt2019)
     2. Session #6 Network Security [Follow along](http://bit.ly/explorersession6)
+    Homework
+    3. Session #5 Unix Command Challenge - [Challenge Form](https://forms.gle/mdNsK3RvqnmzD7yU7)
+    4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
 
 - session: 9
   desc: Red Teaming - Cyber Threats Demonstrated On Individuals (Rubber Ducky)
