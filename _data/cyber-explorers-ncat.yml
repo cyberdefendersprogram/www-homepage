@@ -57,14 +57,18 @@
     2. Write two paragraphs on a Cyber Security Incident, What was intriguing to you about it? Post on security-incidents 
 
 - session: 9 - July 5, 2022
-  desc: Ethics & Introduction to Shell (contd..)
+  desc: Projects and Security Incident Discussion
+  notes: |
+    1. Discussion of final project proposals and security-incidents 
+    <br/>Homework 
+    1. Post a refined version of your proposal with my feedback from today - Why, How?
+    2. Include 2-3 links or resources which you will research for the project.
+    
+- session: 10 - July 6, 2022
+  desc: Ethics (contd..)
   notes: |
     1. Ethics - [Presentation](https://docs.google.com/presentation/d/11RTcKKKa9bzFiU9jnMs_9pj2cEfKyAamlVMRTx0bq8c/edit?usp=sharing)
-    2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
-    3. Final Project Explanation [Ideas]
-    <br/>Break Homework Review
-    1. Post two paragraphs as a project proposal for end of class. It will be 2-3 mins individual presentation - topics could be - write-up, code, game, story -- Anything which excites you about computers and cybersecurity. Be specific on project topic and first paragraph answer why and  second paragraph should outline how you will do it. Use project-proposal channel.
-    2. Write two paragraphs on a Cyber Security Incident, What was intriguing to you about it? Post on security-incidents 
+    <br/>Homework 
 
 - session: 8A
   desc: Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
