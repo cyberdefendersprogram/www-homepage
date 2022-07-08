@@ -100,7 +100,7 @@
         2. Explorers Escape room in [San Francisco Public Library](https://www.cyberdefendersprogram.com/escaperoom/)
         
 - session: 14 - July 12, 2022
-  desc: Team Project - Session 2 & Introduction to Forensics
+  desc: Introduction to Forensics
   notes: |
     1. Project Milestone - 5 Minute Presentations Project Proposal & Plan
     2. Forensics exercise with disk data analysis - [Follow along](http://bit.ly/explorersession9)
@@ -108,20 +108,23 @@
         1. Volunteers for [San Francisco Public Library Explorers Escape Room](https://www.cyberdefendersprogram.com/escaperoom/)
         
 - session: 15 - July 13, 2022
-  desc: Introduction to Data science for CyberSecurity
+  desc: Introduction to Security Engineering
   notes: |
-    1. Project work - [Prototype Developement](http://bit.ly/explorerprojectsession10)
-    2. [Data Science for CyberSecurity](http://bit.ly/explorersession10)- 
+    1. [Data Science for CyberSecurity](http://bit.ly/explorersession10)- 
         1. Access logs, OS logs, Application logs, Service logs, syslogs
         2. Introduction to Intrusion Detection
-    3. *Announcements*
+    2. *Announcements*
         1. Cyber Patriots [Application](http://tinyurl.com/cyberpatriotapplication)
-        2. Volunteer for the [Cyber Explorer Escape Room @ Bay Area Maker Faire](https://forms.gle/gEETTfEsiPdiW4VZA)
 
 - session: 16 - July 14, 2022
   desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
   notes: |
     1. Project work [Feedback & Presentation plan](http://bit.ly/projectsession11)
     2. *Announcements*
-        1. Invitation for [Cyber Explorers Demo Day](http://bit.ly/explorersdemoday2019), May 23 5-7pm, Multipurpose Room Santa Teresa High School, San Jose, CA.
-        2. Volunteer for the [Cyber Explorer Escape Room @ Bay Area Maker Faire](https://forms.gle/gEETTfEsiPdiW4VZA)
+
+- session: 17 - July 15, 2022
+  desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
+  notes: |
+    1. Project work [Feedback & Presentation plan](http://bit.ly/projectsession11)
+    3. *Announcements*
+        1. What next? Get a Security Certification
