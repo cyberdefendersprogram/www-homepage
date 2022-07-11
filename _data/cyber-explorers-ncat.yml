@@ -97,6 +97,7 @@
     2. TestOut [Physical Security Videos](http://www.testout.com)
     3. *Announcements*
       1. Use ncatbot to submit project presentations command is !add_project ["title"] ["url"]
+      2. We will have certificates and prizes for course completion and presentations.
         
 - session: 14 - July 12, 2022
   desc: Introduction to Forensics & Security Engineering
@@ -107,7 +108,6 @@
       1. Access logs, OS logs, Application logs, Service logs, syslogs
       2. Introduction to Intrusion Detection
     3. *Announcements*
-      1. Volunteers for [San Francisco Public Library Explorers Escape Room](https://www.cyberdefendersprogram.com/escaperoom/)
         
 - session: 15 - July 13, 2022
   desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
