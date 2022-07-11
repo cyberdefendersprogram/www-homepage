@@ -88,16 +88,15 @@
         2. Work on presentation in Google Slides and post link to #projects channel
         3. *Bonus* Describe how internet works and post your favorite video link in #general channel
     3. *Announcements*
-        1. 5-Minute Presentations next week on July 14th and 15th
+        1. 5-Minute Presentations next week on July 13th and 14th
 
 - session: 13 - July 11, 2022
   desc: Introduction to Physical Security
   notes: |
-    1. Project Background Research & Preparing for Tuesday presentations [Project Document](http://bit.ly/project-session8)
-    2. TestOut [Lesson 4 Physical Security Labsim](http://www.testout.com)
+    1. Project Background Research & Preparing for presentations
+    2. TestOut [Physical Security Videos](http://www.testout.com)
     3. *Announcements*
-        1. 5-Minute Team Presentations Tuesday, May 7th
-        2. Explorers Escape room in [San Francisco Public Library](https://www.cyberdefendersprogram.com/escaperoom/)
+      1. Use ncatbot to submit project presentations command is !add_project ["title"] ["url"]
         
 - session: 14 - July 12, 2022
   desc: Introduction to Forensics & Security Engineering
