@@ -102,7 +102,7 @@
 - session: 14 - July 12, 2022
   desc: Introduction to Forensics & Security Engineering
   notes: |
-    1. Project Milestone - 5 Minute Presentations Project Proposal & Plan
+    1. Project Milestone - Presentation Order
     2. Forensics exercise with disk data analysis - [Follow along](http://bit.ly/explorersession9)
     3. [Data Science for CyberSecurity](http://bit.ly/explorersession10)- 
       1. Access logs, OS logs, Application logs, Service logs, syslogs
@@ -112,7 +112,7 @@
 - session: 15 - July 13, 2022
   desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
   notes: |
-    1. Project work [Feedback & Presentation plan]
+    1. Project work [Feedback & Presentation plan]()
     2. *Announcements*
         1. Cyber Patriots [Application](http://tinyurl.com/cyberpatriotapplication)
 
@@ -121,4 +121,8 @@
   notes: |
     1. Project work [Feedback & Presentation plan](http://bit.ly/projectsession11)
     3. *Announcements*
-        1. What next? Get a Security Certification
+        1. What's next? 
+          - Read a Cyber Security book
+          - Listen to Cyber Security Podcasts
+          - Participate in Security competitions
+          - Get a Security Certification
