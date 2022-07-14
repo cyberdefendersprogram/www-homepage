@@ -5,7 +5,7 @@ permalink: /cyberexplorers-ncat/
 final-preso: https://docs.google.com/presentation/d/1R_uyEyVU5Ywl1-WVpL0c6SvuhB8mHsJDBn4zkl-9qBg/edit?usp=sharing
 final-music-embed: |
     <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1056362899&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-last_modified_at: 2022-06-30T16:46:54
+last_modified_at: 2022-07-14T20:08:33
 ---
 <br/>
 <h1 class="title">NCAT Summer Bridge Program </h1>
@@ -56,9 +56,7 @@ The students will start early in the program on a project which could be a cyber
     </tbody>
 </table>
 
-Through the Cyber Explorers, we aim at having a comprehensive introduction to cyber security, related hackathons and exposing students to cyber security career paths. One of the session labs will be tailored as a Cyber Patriots test - which will introduce students to the Cyber Patriots program and other relevant national initiatives. 
-
-The program finale will showcases student work and projects to a broad audience.
+Through the Cyber Explorers, we aim at having a comprehensive introduction to cyber security, related hackathons and exposing students to cyber security career paths. The program finale will showcases student work and projects to a broad audience.
 <br/>
 
 
@@ -67,7 +65,7 @@ The program finale will showcases student work and projects to a broad audience.
 2. Develop a poster against Cyber Bullying & Teen education.
 3. Develop a poster and tools for person cyber security - tools, image guide etc.
 4. Work on the Cyber Security games - Security & Privacy cards, Dx0D
-5. Ideas from [Students](http://bit.ly/explorerideas2019)
+5. Past Ideas from [Students](http://bit.ly/explorerideas2019)
 <br/>
 
 
