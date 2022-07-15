@@ -1,15 +1,15 @@
 {
   "name": "cyberdefenders",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Bulma and others",
   "main": "_assets/css/mybulma.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css-deploy": "npm run css-build && npm run css-postcss",
-    "css-build": "sass _assets/css/main.scss assets/css/mybulma.css",
-    "css-watch": "npm run css-build --watch",
+    "css-build": "sass assets/sass/main.scss:assets/css/mybulma.css",
+    "css-watch": "npm run css-build -- --watch",
     "deploy": "npm run css-deploy && npm run js-build",
-    "js-build": "babel _assets/babeljs --out-dir assets/js",
+    "js-build": "babel assets/babeljs --out-dir assets/js",
     "js-watch": "npm run js-build -- --watch",
     "serve": "bundle exec jekyll serve --livereload",
     "start": "npm-run-all --parallel css-watch js-watch serve"

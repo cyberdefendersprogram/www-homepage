@@ -9,9 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
       menu.classList.toggle('is-active');
   });
 
-  function dismissDonate(){
-    var donate = document.getElementById('cta-notification');
-    donate.style.display = "none";
-  } 
+  var cancelDonateButton = document.getElementById('dismiss-ind-giving-2020');
+  var cta = document.getElementById('cta-notification');
+  cancelDonateButton.addEventListener('click', function(){
+    cta.style.display = "none";
+  })
 });
 

@@ -14,7 +14,7 @@ medium: "https://medium.com/cyberdefenders"
 spectrum: "https://spectrum.chat/cyberdefenders"
 slack: "https://cyberdefenderstalk.slack.com"
 linkedIn: "https://www.linkedin.com/company/cyberdefenders-program/"
-twitter: "https://twitter.com/programcyber?lang=en"
+twitter: "https://twitter.com/programcyber"
 facebook: "https://www.facebook.com/thecyberdefendersprogram/"
 instagram: "https://www.instagram.com/cyberdefendersprogram/"
 merritthackapp: "https://docs.google.com/forms/d/e/1FAIpQLSeS0RISc0n2GfI_FA6rBJqiLA-VSG2-PCGNcp1BBH4FNPwJSA/viewform"
@@ -26,4 +26,3 @@ permalink: pretty
 exclude:
   - package.json
   - node_modules
-  - gulpfile.js
