@@ -1,120 +1,16 @@
-- session: 1 - Jun 21, 2022
-  desc: Introductions and Warm-up to Cyber Security [Attack/Movie]
+- session: Nov 18, 2022
+  desc: Information Session
   notes: |
-   1. Students should complete Hobbies, Computer background and Discord setup at [Class-1-sheet](https://docs.google.com/document/d/1bXJb_jGXctGGLjhfSV3cZEcUrW66wDZP39l_Qyi_u2g/edit?usp=sharing)
-- session: 2 - Jun 22, 2022
-  desc: Introduction to Cyber Security (Hands-on No Computers) (Cypher-1-3, Cryptography & Steganography).
+   Questions answered
+- session: Dec 14, 2022*
+  desc: Orientation
   notes: |
-    1. Presentation is [here](https://docs.google.com/presentation/d/1NKlqgbXzO1hHUdM5fr5h7_lNXJH4jskvIOPrHHvNmN4/edit?usp=sharing)
-    2. Quiz to complete is [here](https://docs.google.com/forms/d/e/1FAIpQLSfRT1HB-mZyI3AuORYcJm1RVE4Cn1VEALgOY6UjRhHI3L74kw/viewform?usp=sf_link)
-
-- session: 3 - Jun 23, 2022
-  desc: Introduction to Computers (decimal and hexadecimal number systems)
+    Students should complete Hobbies, Computer background and Discord setup at [Class-1-sheet]
+- session: Jan 9-20
+  desc: Classes and offices hours
   notes: |
-    Same presentation and Quiz as session #2.
-
-- session: 4 - Jun 24, 2022
-  desc: Overview of Logical Operators & Introduction to Cyber Security through  Games 
+    Resources
+- session: Jan 20/21*
+  desc: Presentations
   notes: |
-    1. We covered XOR and Logical Operations, Public Key Cryptography
-    2. Student are encouraged to try the [crossword puzzle game](https://securityawareness.usalearning.gov/cdse/multimedia/games/cybersecurity-crossword/index.html)
-    3. Read on Securtiy board games - Security Cards, Dx03D, Cards Against Security, Stratego, Control-Alt-Hack, Cyber Thread Defenders and Hacker.
-
-- session: 5 - Jun 27, 2022
-  desc: |
-    Fraud & Phishing
-  notes: |
-    1. [Presentation](https://docs.google.com/presentation/d/13W5nj3tiTrN4Odlh0ZsPLfuwAxlxOteOpBaMagTiK8Y/edit?usp=sharing)
-    2. [Quiz](https://docs.google.com/forms/d/e/1FAIpQLScqr1t1O7d2IKlKhNExNh3dqlrSEPfe_V7dF838MUodCTYJ2g/viewform)
-    For review, here is [recorded session](https://us06web.zoom.us/rec/share/yOQRRiWasXkFhvqTmvpJAU5SLotQMLWIAyfYSnU4VjHto6UkmSgeXtV4wAVRnUsQ.0vz4yggtgXCLCiAI?startTime=1656342515000)
-    <br/>Homework
-    1. Complete the Quiz
-
-- session: 6 - June 28, 2022
-  desc: Open Source Intelligence (Shodan, Google Dorking, etc.)
-  notes: |
-    1. [Presentation](https://docs.google.com/presentation/d/1W_9jh0Qc5b4rM5sE85ZtLmmy-UiHCNdXp9w8bn01fVs/edit?usp=sharing)
-    <br/>Homework
-    1. Post 1-5 Shodan Queries in #osint-queries channel
-
-- session: 7 - June 29, 2022
-  desc: Open Source Intelligence (Shodan, Google Dorking, etc.) - contd..
-  notes: |
-    1. [Presentation](https://docs.google.com/presentation/d/1W_9jh0Qc5b4rM5sE85ZtLmmy-UiHCNdXp9w8bn01fVs/edit?usp=sharing)
-    <br/>Homework
-    1. Post 1-5 Google Hacking queries in the #osint-queries channel
-
-- session: 8 - June 30, 2022
-  desc: Ethics & Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
-  notes: |
-    1. Ethics - [Presentation](https://docs.google.com/presentation/d/11RTcKKKa9bzFiU9jnMs_9pj2cEfKyAamlVMRTx0bq8c/edit?usp=sharing)
-    2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
-    3. Final Project Explanation [Ideas]
-    <br/>Break Homework
-    1. Post two paragraphs as a project proposal for end of class. It will be 2-3 mins individual presentation - topics could be - write-up, code, game, story -- Anything which excites you about computers and cybersecurity. Be specific on project topic and first paragraph answer why and  second paragraph should outline how you will do it. Use project-proposal channel.
-    2. Write two paragraphs on a Cyber Security Incident, What was intriguing to you about it? Post on security-incidents 
-
-- session: 9 - July 5, 2022
-  desc: Projects and Security Incident Discussion
-  notes: |
-    1. Discussion of final project proposals and security-incidents 
-    <br/>Homework 
-    1. Post a refined version of your proposal with my feedback from today - Why, How?
-    2. Include 2-3 links or resources which you will research for the project.
-    
-- session: 10 - July 6, 2022
-  desc: Ethics (contd..)
-  notes: |
-    1. Ethics - [Presentation](https://docs.google.com/presentation/d/11RTcKKKa9bzFiU9jnMs_9pj2cEfKyAamlVMRTx0bq8c/edit?usp=sharing)
-    <br/>Homework 
-
-- session: 11 - July 7, 2022
-  desc: Computer Networking
-  notes: |
-    1. How does the internet work?
-    2. Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
-    3. Session #6 Network Security [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdiGIaaYDUBJ9qC8URayZR4KE8z2VCBx48Sr4nQNdrZnnxYkA/viewform)
-    Homework
-    4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
-
-- session: 12 - July 8, 2022
-  desc: Careers In CyberSecurity - July 8, 2022
-  notes: |
-    1. [Cyber Seek](https://www.cyberseek.org)
-    2. *Classwork*
-        1. What career path would interest you in Cyber Security? Post in #career-paths channel.
-        2. Work on presentation in Google Slides and post link to #projects channel
-        3. *Bonus* Describe how internet works and post your favorite video link in #general channel
-    3. *Announcements*
-        1. 5-Minute Presentations next week on July 13th and 14th
-- session: 13 - July 11, 2022
-  desc: Introduction to Physical Security
-  notes: |
-    1. Project Background Research & Preparing for presentations
-    2. TestOut [Physical Security Videos](http://www.testout.com)
-    3. *Announcements*
-        1. Use ncatbot to submit project presentations command is !add_project ["title"] ["url"]
-        2. We will have certificates and prizes for course completion and presentations.
-- session: 14 - July 12, 2022
-  desc: Introduction to Forensics & Security Engineering
-  notes: |
-    1. Project Milestone - Presentation Order
-    2. Forensics exercise with disk data analysis - [Follow along](http://bit.ly/explorersession9)
-    3. [Data Science for CyberSecurity](http://bit.ly/explorersession10)- 
-        1. Access logs, OS logs, Application logs, Service logs, syslogs
-        2. Introduction to Intrusion Detection
-    4. *Announcements*
-- session: 15 - July 13, 2022
-  desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
-  notes: |
-    1. Project work [Presentations Part 1](https://youtu.be/lcRefGQLUWU)
-- session: 16 - July 14, 2022
-  desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
-  notes: |
-    1. Project work [Presentations Part 2](https://youtu.be/hacj8SWGkqU)
-    2. *Announcements* & *Links* - What's next? 
-        1. Read a Cyber Security book - [This is how they tell me the world will end](https://www.amazon.com/This-They-Tell-World-Ends/dp/1635576059)
-        2. Listen to Cyber Security Podcasts - [Darknet Diaries](https://darknetdiaries.com/), [Stormcast](https://isc.sans.edu/podcast.html)
-        3. Participate in Security competitions - [NCL](https://nationalcyberleague.org/), [Cyber Patriots](),[Try HackMe](https://tryhackme.com/), [Hack The Box](https://www.hackthebox.com/)
-        4. Get a Security Certification - [EC-Council](https://www.eccouncil.org/), [Security+](), [OSCP](https://www.offensive-security.com/)
-        5. Follow Us on [Twitter](https://twitter.com/ProgramCyber), [Instagram](https://www.instagram.com/cyberdefendersprogram/), [YouTube](https://www.youtube.com/channel/UCWHM0a8hq3arLEAbiAQh7PA)
+    Student Presentations
