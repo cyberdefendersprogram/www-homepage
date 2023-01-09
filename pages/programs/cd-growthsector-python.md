@@ -5,7 +5,7 @@ permalink: /cd-growthsector-python-academy/
 orientation-preso:
 final-preso: 
 final-music-embed:
-last_modified_at: 2023-01-09T05:16:51
+last_modified_at: 2023-01-09T23:41:37
 ---
 <br/>
 <h1 class="title">Python Academy</h1>
@@ -28,7 +28,7 @@ Python is a widely used and fast growing programming language which is in high d
                 <br/> <br/>
                 <span class="tag is-danger">Enrollment Complete</span>
                 <br/> <br/>
-                <span class="tag is-danger">Next Up - First Session</span>
+                <span class="tag is-danger">Next Up - Sessions & Office Hours</span>
                 <br/> <br/>
             </div>
             </p>
