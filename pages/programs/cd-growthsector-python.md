@@ -4,9 +4,8 @@ title: Python Academy
 permalink: /cd-growthsector-python-academy/
 orientation-preso:
 final-preso: 
-final-music-embed: |
-    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1056362899&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-last_modified_at: 2022-12-28T02:11:01
+final-music-embed:
+last_modified_at: 2023-01-09T05:16:51
 ---
 <br/>
 <h1 class="title">Python Academy</h1>
@@ -25,7 +24,7 @@ Python is a widely used and fast growing programming language which is in high d
         <div class="column is-half">
         <p class="has-text-left">   
             <div>
-                <span class="tag is-primary">Coming soon!</span> The <a href=''>Cyber Defenders Python Academy</a>
+                <span class="tag is-primary">In Progress!</span> The <a href=''>Cyber Defenders Python Academy</a>
                 <br/> <br/>
                 <span class="tag is-danger">Enrollment Complete</span>
                 <br/> <br/>
