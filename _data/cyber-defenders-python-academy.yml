@@ -20,13 +20,21 @@
     Homework:
     * Details in slides above - "Write 3 paragraphs proposing an end of class programming project, graphics welcome as well". Please post the link on class discord.
 - session: Jan 9th
-  desc: First Class 
+  desc: First Class (Data types, Getting help, Conditionals, Functions)
   notes: |
-    * Monday Jan 9th Class will be 9am-12pm PST. <a class="tag is-danger" href="https://us02web.zoom.us/j/83816740185">Zoom Session Link</a>
+    * Monday Jan 9th Class will be 9am-12pm PST. <a class="tag is-info" href="https://us02web.zoom.us/rec/share/Vgn3kYu8g-QbyLLg1Vl2FcVQ3WaNp-Ugg7DJ6Yd6bI226DXfjDy1UgS9JsdO8Z4R.ZaB36mvbusGlKgIG">Zoom Session Recording</a>
     * [Slides](https://docs.google.com/presentation/d/1EiRx06UmnACK5E9ME95DY4sxClglize5v3lacmcdg0Y/edit?usp=sharing)
-
+    * [Python Notebook](https://gist.github.com/vaibhavb/cc3f917b5012905c0f540ffce8fcd9b6)
+    * Homework (details in slides):
+      * Write a better day of week program with user input, and functions
+      * Simulate the basic calculator function in a simple python program and obtain user input to perform the arithmetic operations
+      * Get a sentence from the user and sort the words in alphabetical order
+    * [Recording]()
 - session: Jan 10th
-  desc: Office Hours
+  desc: Office Hours on Tuesday Jan 10th from 12-2pm
+  notes: |
+    * Office Hours on Tuesday Jan 10th from 12-2pm
+    * <a class="tag is-danger" href="https://us02web.zoom.us/j/81982524828">Zoom Session Link</a>
 - session: Jan 20*
   desc: Presentations
   notes: |
