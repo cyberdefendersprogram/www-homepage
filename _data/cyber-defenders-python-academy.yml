@@ -37,11 +37,12 @@
   desc: Office Hours Tues 12-2pm PST
   notes: |
     * Office Hours on Tuesday Jan 10th from 12-2pm
-    * <a class="tag is-danger" href="https://us02web.zoom.us/j/81982524828">Zoom Session Link</a>
+    * <a class="tag is-info" href="https://us02web.zoom.us/j/81982524828">Zoom Session Link</a>
+    * 
 - session: Jan 11th
   desc: Class Programming Skills (Wed 9am-12pm PST)
   notes: |
-    *
+    * <a class="tag is-danger" href="https://us02web.zoom.us/j/84491374905">Zoom Session Link</a>
 - session: Jan 12th
   desc: Office hours 9 -11am PST
   notes: |
