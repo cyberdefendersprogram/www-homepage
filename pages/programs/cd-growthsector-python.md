@@ -5,7 +5,7 @@ permalink: /cd-growthsector-python-academy/
 orientation-preso:
 final-preso: 
 final-music-embed:
-last_modified_at: 2023-01-09T23:49:23
+last_modified_at: 2023-01-13T21:13:38
 ---
 <br/>
 <h1 class="title">Python Academy</h1>
@@ -54,14 +54,26 @@ Python is a widely used and fast growing programming language which is in high d
     </tbody>
 </table>
 
+<br/>
 Through the Python Academy, we aim at having a comprehensive introduction to Python prorgamming languagee, and exposing students to real-life programming projects. The program finale will showcases student work and projects to a broad audience.
 <br/>
 
 
 <h1 class="title">Project Ideas & Process</h1>
-
+<table class="table is-bordered is-striped">
+    <thead>
+        <td>Title</td><td>Description</td><td>Team</td>
+    </thead>
+    <tbody>
+    {% for project in site.data.cyber-defenders-python-academy-projects %} 
+    <tr>
+        <td><a id="{{project.title| url_encode}}" href="#{{project.title | url_encode}}">{{project.title}}</a></td>
+        <td>{{project.desc | markdownify}}</td>
+        <td>{{project.team | markdownify}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
 <br/>
-
-
 <hr/>
 Last Updated: {{page.last_modified_at}}

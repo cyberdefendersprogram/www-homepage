@@ -58,17 +58,40 @@
   desc: Office hours 9 -11am PST
   notes: |
     * Office Hours on Thursday, Jan 12th from 9-11am
-    * <a class="tag is-info" href="https://us02web.zoom.us/j/83262522044">Zoom Session Link</a>
 - session: Jan 13th
-  desc: Class Analysis (Friday 9am-12pm PST)
+  desc: |
+    * Class Analysis (Friday 9am-12pm PST)
+    * 
   notes: |
-    * <a class="tag is-info" href="https://us02web.zoom.us/j/81156771476">Zoom Session Link</a> 
-- session: Jan 14/15th (*new*)
+    * <a class="tag is-danger" href="https://us02web.zoom.us/rec/share/gtCudFxhFMlgBF6Vp-HNOxqcOXmjcI195AZuRz1JPvvBYAR-_pUna3B7iQ_-AYtt.pEq2mmlsRlBJLM3X">Zoom Recording Link</a> 
+    * [Slides](https://docs.google.com/presentation/d/1s-uQaRr4ZLuMJYDqK554oZxg3XEYg8V1q4Phoa0EDuk/edit?usp=sharing)
+    * [Python Notebook](https://colab.research.google.com/drive/1Gaw4aUviO-VXTh5hSzDshCHJtLaZ3h9q?usp=sharing)
+    
+    Topics:
+      * Python Readbility
+      * How your program runs?
+      * Solving a problem
+      * Python Expressibility
+      * Hints for python academy reader
+
+    In class:
+      * Add a python flash card with a question in [pythonacademy github](https://github.com/cyberdefendersprogram/pythonacademy).
+      * README explains how to add a flashcard
+
+    Homework  (details in slides)
+      1. Implement flip-a-coin 10 times played between two players and show it on a graph
+      2. Create a random list of 10 integers and write a function to square them using map
+      3. Create a python program to show the flashcards which uploaded [each card is yml](https://github.com/cyberdefendersprogram/pythonacademy)
+- session: Jan 14th (*new*)
   desc: Project update and office hours
   notes: |
+    * Office Hours on Sat, Jan 14th from 3-4:30pm
+    * <a class="tag is-info" href="https://us02web.zoom.us/j/86071102729">Zoom Session Link</a>
 - session: Jan 16th
   desc: Class Monday 9am-12pm PST
   notes: |
+    * <a class="tag is-info" href="https://us02web.zoom.us/j/87413756183">Zoom Session Link</a> 
+    * [Slides](https://docs.google.com/presentation/d/1kFRQH9miPZQwQZoaraaC8E1wFpd0yBeZ9bG1gobj-Co/edit?usp=sharing)
 - session: Jan 17th
   desc: Office Hours 12-2pm PST
   notes: |
