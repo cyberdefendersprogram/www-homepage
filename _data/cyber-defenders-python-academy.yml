@@ -86,18 +86,37 @@
   desc: Project update and office hours
   notes: |
     * Office Hours on Sat, Jan 14th from 3-4:30pm
-    * <a class="tag is-info" href="https://us02web.zoom.us/j/86071102729">Zoom Session Link</a>
 - session: Jan 16th
   desc: Class Monday 9am-12pm PST
   notes: |
-    * <a class="tag is-info" href="https://us02web.zoom.us/j/87413756183">Zoom Session Link</a> 
+    * <a class="tag is-danger" href="https://us02web.zoom.us/rec/share/U7yDJrgJqmkfVFQ05OLRtpvhdIY9vc3Q-5fC4xQsehOyelWyq_tZHKdJRLPeJ0nk.DPorHuI-FxhbBM8n">Zoom Recording</a> 
     * [Slides](https://docs.google.com/presentation/d/1kFRQH9miPZQwQZoaraaC8E1wFpd0yBeZ9bG1gobj-Co/edit?usp=sharing)
+    * [Notebook](https://colab.research.google.com/drive/164PlHzKbIcB8dN46GDhY4YLGJPfvC1eH?usp=sharing)
+
+    In-class work
+    1. Make a class with __str__ method
+        * print the person1's personality it should say
+        * person: name is of personality type: personality
+    2. Make a list of classes called room
+        * make a room of three people
+        * write a for loop for each one of them to call speak() method.
+
+    Homework
+    1. Implement TicTacToe as a class
+    2. Put external link for your project
+    3. Read [PYTUDES](https://github.com/norvig/pytudes), mention one problem on discord to solve.
+
+    Way in which you can use Python
+    * <a class="tag is-info" href="https://colab.research.google.com/drive/1elLrEYpxMJcabNWJKmVOpMlaYDOuVzs7?usp=sharing">Notebook, with Web, Discord, and Spreadsheet uses of python</a> 
 - session: Jan 17th
   desc: Office Hours 12-2pm PST
   notes: |
+    * Office Hours 12-2pm PST
+    * <a class="tag is-info" href="https://us02web.zoom.us/j/82270445131">Zoom Session Link</a>
 - session: Jan 18th
   desc: Class Wednesday 9am-12pm PST
   notes: |
+    * <a class="tag is-info" href="https://us02web.zoom.us/j/83516655221">Zoom Session Link</a>
 - session: Jan 19th
   desc: Office Hours Thursday 9-11am PST
 - session: Jan 20th
