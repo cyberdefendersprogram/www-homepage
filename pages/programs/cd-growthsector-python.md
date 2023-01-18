@@ -5,7 +5,7 @@ permalink: /cd-growthsector-python-academy/
 orientation-preso:
 final-preso: 
 final-music-embed:
-last_modified_at: 2023-01-18T22:52:12
+last_modified_at: 2023-01-18T23:17:01
 ---
 <br/>
 <h1 class="title">Python Academy</h1>
@@ -68,7 +68,12 @@ Through the Python Academy, we aim at having a comprehensive introduction to Pyt
     {% for project in site.data.cyber-defenders-python-academy-projects %} 
     <tr>
         <td><a id="{{project.title| url_encode}}" href="#{{project.title | url_encode}}">{{project.title}}</a></td>
-        <td><a href="{{project.presentation_url}}">Presentation</a></td>
+        <td>{% if project.presentation_url %}
+            <a href="{{project.presentation_url}}">Presentation</a>
+            {% else %}
+            Presentation
+            {% endif %}
+            </td>
         <td>{{project.desc | markdownify}}</td>
         <td>{{project.team | markdownify}}</td>
     </tr>
