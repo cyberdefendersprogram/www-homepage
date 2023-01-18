@@ -116,7 +116,7 @@
 - session: Jan 18th
   desc: Class Wednesday 9am-12pm PST
   notes: |
-    * <a class="tag is-info" href="https://us02web.zoom.us/rec/share/HOtq5aSStqKyh1-5PCk3w2estiNxghOFgyZ197tJ1Jt0LwW9R-htNcn87YmS17EM.HdT9kGLmgm3r1QiR">Zoom Recording Link</a>
+    * <a class="tag is-danger" href="https://us02web.zoom.us/rec/share/HOtq5aSStqKyh1-5PCk3w2estiNxghOFgyZ197tJ1Jt0LwW9R-htNcn87YmS17EM.HdT9kGLmgm3r1QiR">Zoom Recording</a>
     * [Slides](https://docs.google.com/presentation/d/1rzQgjZsG-JZuEoBvDAXKxxLHBQ2SCaBxd-6wpWXiEl4/edit?usp=sharing)
     * [Notebook](https://colab.research.google.com/drive/1YXbPWtWsV3GZdxZB91t08LPi2whdf2b0?usp=sharing)
 
@@ -144,6 +144,7 @@
   desc: Presentation Day from 9-11:30am PST **Please Join**
   notes: |
     <a class="tag is-info" href="https://us02web.zoom.us/j/81690451978">Zoom Session Link</a>
+    
     [Student Presentations](https://www.cyberdefendersprogram.com/cd-growthsector-python-academy/#projects)
 
     Agenda:
