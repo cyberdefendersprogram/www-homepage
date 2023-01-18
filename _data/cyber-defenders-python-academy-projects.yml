@@ -3,43 +3,58 @@
 
   team: |
     Ameen, Raelynn
+  presentation_url:
 - title: Readbility Index
   desc: |
-
+    Use the FOG readability index to calculate grade-level readability of a text
   team: |
     Carolynn, Justine
+  presentation_url: https://colab.research.google.com/gist/cbeatty1/3830dc8c32da48900ac676c4963d58cb/finalproject_draft2_1_16_2023ipynb.ipynb
 - title: Mood Tracker
   desc: |
     Determines and presents helpful information to user to help adjust their mood.
   team: |
     FranciscoC, Harshini
+  presentation_url:
 - title: Meal finder?
   desc: |
-
+    This helps users decide what resturant they should go based on their diet
   team: |
     FranciscoR, Jessica
+  presentation_url: https://colab.research.google.com/drive/1BDBPPz9XbQrI_ZNQblfyOcpoBpA_qOuR#scrollTo=SYGA9tKHfoDH
 - title: Password Manager
   desc: |
-    Organize passwords in a secure file.
+    Organize passwords in a secure file and possibly be hosted on a server for multiple device usage.
   team: |
     Genesis, Moises
+  presentation_url: https://colab.research.google.com/drive/1p-odyYX_ZIIdVozXer4N6mEtA_TyAE05?usp=sharing
 - title: Math Formula
   desc: |
 
   team: |
     Jason, 
+  presentation_url:
 - title: Rock Paper Scissors
   desc: |
 
   team: |
     Jassielle, Celeste
+  presentation_url:
 - title: TBD
   desc: |
 
   team: |
     Kahlan
+  presentation_url:
 - title: Pong Game
   desc: |
     Simple pong game all generated in Python
   team: |
     Patrick, Rik
+  presentation_url: https://github.com/pjojola/Pong
+- title: Text-based Adventure Game
+  desc: |
+    A game in which the player has to make simple decisions like yes/no, choose a path to the exit in order to win. [Map](https://drive.google.com/file/d/1b928e2CMWdzUz_8tz5Z8myHZupcqEIUV/view?usp=sharing)
+  team: |
+    Janice
+  presentation_url: https://colab.research.google.com/gist/jaemls/fb1c3f5d9260ba447aae8462e109032b/thecavegame.ipynb#scrollTo=tCWcozSCnCR5

@@ -116,11 +116,40 @@
 - session: Jan 18th
   desc: Class Wednesday 9am-12pm PST
   notes: |
-    * <a class="tag is-info" href="https://us02web.zoom.us/j/83516655221">Zoom Session Link</a>
+    * <a class="tag is-info" href="https://us02web.zoom.us/rec/share/HOtq5aSStqKyh1-5PCk3w2estiNxghOFgyZ197tJ1Jt0LwW9R-htNcn87YmS17EM.HdT9kGLmgm3r1QiR">Zoom Recording Link</a>
     * [Slides](https://docs.google.com/presentation/d/1rzQgjZsG-JZuEoBvDAXKxxLHBQ2SCaBxd-6wpWXiEl4/edit?usp=sharing)
+    * [Notebook](https://colab.research.google.com/drive/1YXbPWtWsV3GZdxZB91t08LPi2whdf2b0?usp=sharing)
+
+    Inclass
+      1. Visualize computation using [PythonTutor](https://pythontutor.com/visualize.html)
+      2. Write Javascript program using Earsketch [Javascript example](https://earsketch.gatech.edu/earsketch2/?sharing=M5JyrhVHJgSXA46Mw5l_4A), [Python Example](https://earsketch.gatech.edu/earsketch2/?sharing=ZNzqIdiO6b90oJOjllStkw)
+      3. Review Winning Wordle from [Pytudes](https://colab.research.google.com/github/norvig/pytudes/blob/main/ipynb/Wordle.ipynb)
+
+    Homework
+      1. Read the article - [10 years to learn programming](https://norvig.com/21-days.html) and post on Discord what you thought of it, and what will do in next 3 months to improve your programming skills.
+      2. If you guys are interested (send me a note on Discord) we will do problem solving session one every 6-8 weeks where we can look at one of the problems in PyTudes
+      3. *Extra points* make a flash card flipping function for [Python Academy Application](https://github.com/cyberdefendersprogram/pythonacademy)
+
+    Presentation Format:
+      1.Introduce the problem and motivation - 3 mins
+      2. Show the program - 3 mins
+      3. Explain the code - 2-3 mins
+      4. Future possibilities / unfinished work - 2-3 mins
+      5. Please make sure your code following naming as per [PEP8](https://peps.python.org/pep-0008/)
 - session: Jan 19th
   desc: Office Hours Thursday 9-11am PST
+  notes: |
+    * <a class="tag is-info" href="https://us02web.zoom.us/j/81098310969">Zoom Session Link</a>
 - session: Jan 20th
   desc: Presentations
   notes: |
-    Student Presentations
+    <a class="tag is-info" href="https://us02web.zoom.us/j/81690451978">Zoom Session Link</a>
+    [Student Presentations](https://www.cyberdefendersprogram.com/cd-growthsector-python-academy/#projects)
+
+    Agenda:
+      1. 9-9:30 : Introductions
+      2. 9:30-10:30a : Project Presentations
+      3. 10:30-11:00 Guest conversation
+      4. 11:00-11:15am Class wrap-up and certificates
+
+    [Program Summary](https://docs.google.com/presentation/d/1g7WhHqaUc482h82j6cDkDI4_vPfzUcF629Dbb3rVJuk/edit?usp=sharing)
