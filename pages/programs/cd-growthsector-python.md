@@ -5,7 +5,7 @@ permalink: /cd-growthsector-python-academy/
 orientation-preso:
 final-preso: 
 final-music-embed:
-last_modified_at: 2023-01-18T23:17:01
+last_modified_at: 2023-01-21T23:50:48
 ---
 <br/>
 <h1 class="title">Python Academy</h1>
@@ -60,6 +60,7 @@ Through the Python Academy, we aim at having a comprehensive introduction to Pyt
 
 
 <h1 class="title"><a id="projects" href="#projects">Student Projects</a></h1>
+<p>Use this form to submit <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA_lMQWVrwFkEvh9cOjFISOkabSacRtEo0Tuk_7-AIlfp-Zg/viewform">reviews</p>
 <table class="table is-bordered is-striped">
     <thead>
         <td>Title</td><td>Presentation</td><td>Description</td><td>Team</td>
