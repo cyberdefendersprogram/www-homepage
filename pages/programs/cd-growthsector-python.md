@@ -5,7 +5,7 @@ permalink: /cd-growthsector-python-academy/
 orientation-preso:
 final-preso: 
 final-music-embed:
-last_modified_at: 2023-01-22T00:01:56
+last_modified_at: 2023-01-30T20:16:27
 ---
 <br/>
 <h1 class="title">Python Academy</h1>
@@ -61,7 +61,8 @@ Through the Python Academy, we aim at having a comprehensive introduction to Pyt
 
 <h1 class="title"><a id="projects" href="#projects">Student Projects</a></h1>
 <p>Use this form to submit <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA_lMQWVrwFkEvh9cOjFISOkabSacRtEo0Tuk_7-AIlfp-Zg/viewform">reviews</a></p>
-<a class="tag is-danger" href="https://us02web.zoom.us/rec/share/GSHhYNjl_vOBhD73XP7vZlmfzYooYYHv-J3Pt7oeS6FuJ_xAMq9Av4TM7pz4Wq2e.y5pWWIbKhp2zndGE">RECORDED PRESENTATIONS</a>
+<a class="tag is-danger" href="https://us02web.zoom.us/rec/share/GSHhYNjl_vOBhD73XP7vZlmfzYooYYHv-J3Pt7oeS6FuJ_xAMq9Av4TM7pz4Wq2e.y5pWWIbKhp2zndGE">ZOOM RECORDED PRESENTATIONS</a>
+<a class="tag is-info" href="https://www.youtube.com/watch?v=8L_1c8vztM4">ON YOUTUBE - RECORDED PRESENTATIONS</a>
 <table class="table is-bordered is-striped">
     <thead>
         <td>Title</td><td>Code</td><td>Description</td><td>Team</td>
