@@ -5,7 +5,7 @@ permalink: /cd-growthsector-python-academy/
 orientation-preso:
 final-preso: 
 final-music-embed:
-last_modified_at: 2023-01-30T20:16:27
+last_modified_at: 2023-02-15T00:21:15
 ---
 <br/>
 <h1 class="title">Python Academy</h1>
@@ -24,7 +24,7 @@ Python is a widely used and fast growing programming language which is in high d
         <div class="column is-half">
         <p class="has-text-left">   
             <div>
-                <span class="tag is-primary">In Progress!</span> The <a href=''>Cyber Defenders Python Academy</a>
+                <span class="tag is-danger">Program Completed!</span> The <a href=''>Cyber Defenders Python Academy</a>
                 <br/> <br/>
                 <span class="tag is-danger">Enrollment Complete</span>
                 <br/> <br/>
