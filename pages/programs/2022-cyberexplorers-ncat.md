@@ -1,20 +1,18 @@
 ---
 layout: blog
 title: Cyber Explorers NCAT Program
-permalink: /cyberexplorers-ncat/
+permalink: /cyberexplorers-ncat-2022/
 final-preso: https://docs.google.com/presentation/d/1R_uyEyVU5Ywl1-WVpL0c6SvuhB8mHsJDBn4zkl-9qBg/edit?usp=sharing
 final-music-embed: |
     <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1056362899&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 last_modified_at: 2023-03-21T03:08:48
 ---
 <br/>
-<h1 class="title">2023 NCAT Summer Bridge Program </h1>
+<h1 class="title">NCAT Summer Bridge Program </h1>
 
 Cyber Explorers NCAT is a 4-week summer program aimed at introducing Cyber Security discipline to  students at [NCAT](https://www.ncat.edu/). We call this cohort the **CYBER AGGIES**. The program doesn’t assume any exposure to computers and computer science. The first few sessions are tabletop fun games and exercises introducing concepts of Cyber Security like Cryptography, Network Security, Defense in Depth, Incident Detection, Incident Response et al.
 
 The students will start early in the program on a project which could be a cybersecurity-related puzzle, poster or a project. This is a deliverable which students are expected to showcase in the Cyber Explorers finale.
-
-Here are details from [2022 program]({{site.url}}{{site.baseurl}}/cyberexplorers-ncat-2022/).
 
 <br/>
 <section>
@@ -28,7 +26,7 @@ Here are details from [2022 program]({{site.url}}{{site.baseurl}}/cyberexplorers
         <div class="column is-half">
         <p class="has-text-left">   
             <div>
-                <span class="tag is-primary">Upcoming!</span> The <a href='https://us06web.zoom.us/j/4951869954?pwd=XId-RfZGp7rS6LP_wBvvtCKjTPTBiv.1'>Cyber Explorers NCAT Program</a>
+                <span class="tag is-primary">Completed!</span> The <a href='https://us06web.zoom.us/j/4951869954?pwd=XId-RfZGp7rS6LP_wBvvtCKjTPTBiv.1'>Cyber Explorers NCAT Program</a>
                 <br/> <br/>
                 <span class="tag is-danger">Session #1 Completed</span>
                 <br/> <br/>
@@ -48,7 +46,7 @@ Here are details from [2022 program]({{site.url}}{{site.baseurl}}/cyberexplorers
         <td>Session</td><td>Description</td><td>Notes</td>
     </thead>
     <tbody>
-    {% for session in site.data.cyber-explorers-ncat-2022 %} 
+    {% for session in site.data.cyber-explorers-ncat %} 
     <tr>
         <td><a id="{{session.session| url_encode}}" href="#{{session.session | url_encode}}">{{session.session}}</a></td>
         <td>{{session.desc | markdownify}}</td>
