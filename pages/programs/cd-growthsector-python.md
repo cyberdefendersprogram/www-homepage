@@ -2,10 +2,27 @@
 layout: blog
 title: Python Academy
 permalink: /cd-growthsector-python-academy/
-orientation-preso:
-final-preso: 
-final-music-embed:
-last_modified_at: 2023-02-15T00:21:15
+cert-students:
+    - Ameen Haq
+    - Cantoran Moises
+    - Carolyn Beatty
+    - Celeste Villarreal
+    - Francisco Coronado
+    - Francisco Ramos
+    - Genesis Bejarano
+    - Harshini Jayaprakash
+    - Janice Morales
+    - Jason Borroel
+    - Jassielle Villicana
+    - Jessica Nguyen
+    - Justine Guerra
+    - Kahlan Williams
+    - Kevin demesa
+    - Leslie Cuellar
+    - Patrick Jojola
+    - Raelynn Tucker
+    - Rik Burson
+last_modified_at: 2023-03-24T22:28:35
 ---
 <br/>
 <h1 class="title">Python Academy</h1>
@@ -84,5 +101,23 @@ Through the Python Academy, we aim at having a comprehensive introduction to Pyt
     </tbody>
 </table>
 <br/>
+<hr/>
+
+<h1 class="title"><a id="certificates" href="#certificates">Student Certificates</a></h1>
+<table class="table is-bordered is-striped">
+    <thead>
+        <td>Student</td><td>Certificate</td>
+    </thead>
+    <tbody>
+    {% for student in page.cert-students %} 
+    <tr>
+        <td><a id="{{student | url_encode}}" href="#{{student | url_encode}}">{{student}}</a></td>
+        <td><a href="{{site.url}}{{site.baseurl}}assets/images/gs-certs/png/{{student | replace: ' ','_'}}.png">certificate</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<br/>
+
 <hr/>
 Last Updated: {{page.last_modified_at}}
