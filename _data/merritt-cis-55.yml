@@ -1,0 +1,62 @@
+- session: 1
+  desc: Lecture 1
+  notes: |
+    1. [Zoom recording](https://us02web.zoom.us/rec/share/j_lIeKlPX6XdPYRggaK_tpEtsufftG22eHsaiZys8U6PncjGc0ZxXkCb0akwrYAL.7w-MAtiNonD4dCyr)
+    2. [Slides]()
+    3. [Lab](https://peralta.instructure.com/courses/57487/assignments/933608)
+- session: 2
+  desc: Lecture 2
+  notes: |
+    1. [Zoom recording](https://us02web.zoom.us/rec/share/BZsRfvUyV5zbE5G9AMc4wFJZuFbDF1hZDTCZOlYGo3SgHCwpMcEgZ5affMQTv9Oi.D9xK-VMSKzQVSodk)
+    2. [Slides](https://docs.google.com/presentation/d/1LlOAOm35i85DjqOR5jndjlwU35JpZ46bDMBkP4F5RV8/edit?usp=sharing)
+    3. [Lab](https://peralta.instructure.com/courses/57487/assignments/937022)
+    4. [Quiz](https://peralta.instructure.com/courses/57487/assignments/933598)
+- session: 3
+  desc: Lecture 3
+  notes: |
+    1. [Zoom recording](https://us02web.zoom.us/rec/share/VpY3XXz77GJCw_X_BZlg26l3N-IndAX6s5JNIVvfR3bpe2UvUQhJKzdwWWDq-Z76.GRrQz67yUQOjTb0Y)
+    2. [Slides](https://docs.google.com/presentation/d/1nNiMShFSGgyBFsZIjJyLjn-CxroA7krYpFbn0744bBg/edit?usp=sharing)
+    3. [Lab](hhttps://peralta.instructure.com/courses/57487/assignments/933595)
+    4. [Quiz](https://peralta.instructure.com/courses/57487/assignments/933599)
+- session: 4
+  desc: Lecture 4
+  notes: |
+    1. [Zoom recording](https://us02web.zoom.us/rec/share/nOV1zqMWPH4fkiiPdKjPFjvNh3HwOIDFjbCeJZwGfZImmriQq_PeIAJy7y7N_a7i.EznRCWZuvnpl_KBR)
+    2. [Slides](https://docs.google.com/presentation/d/13Pz_fEEz2dzfJp1Y4D4HpZy-6EFt5B4tvfev9VKmeV8/edit?usp=sharing)
+    3. [Lab](https://peralta.instructure.com/courses/57487/assignments/933596)
+    4. [Quiz](https://peralta.instructure.com/courses/57487/assignments/933600)
+- session: 5
+  desc: Lecture 5
+  notes: |
+    1. [Zoom recording](https://us02web.zoom.us/rec/share/i_llK_npOaGQUOM0xBTgytM0UFgzrrnmzVdtEqxpC8iBWSZHSSPs9Lmw9fuiDloC.q7rOt1dL90pY2Ipf)
+    2. [Slides](https://docs.google.com/presentation/d/1gaPm4RLWyD-JT56r4ciqzTCTXJ89N8Zsc3IBRrktcZ8/edit?usp=sharing)
+    3. [Lab](https://peralta.instructure.com/courses/57487/assignments/933597)
+    4. [Quiz](https://peralta.instructure.com/courses/57487/assignments/933602)
+- session: 6
+  desc: Lecture 6
+  notes: |
+    1. [Zoom recording](https://us02web.zoom.us/rec/share/bcstQAiBVWDcSFTprk1-FaxQK7yMI6r62MO15gQnEDHdvHpF4cdKP9gCvt2097QL.DerobZwbVN4OA5Zh)
+    2. [Slides](https://docs.google.com/presentation/d/1iDpJJEeZMJEEUoqyJRDU7pqJFm_IhursM812oe8BLM4/edit?usp=sharing)
+    3. [Lab]()
+    4. [Quiz]()
+- session: Resources
+  desc: Resources
+  notes: |
+    1. [Bay ICT](https://openlab.bayict.cabrillo.edu/home.cgi)
+    2. [RSA College Day](https://www.rsaconference.com/rsac-programs/college-day)
+    3. [BSides](https://bsidessf.org/)
+    4. [Course Shared Link](https://lor.instructure.com/resources/73a80894e7504bd7a41faf5c3bda639c?shared)
+- session: Presentation
+  desc: |
+    Presentations
+      1. Xavier Salazar - Water Treatment Hack: Incident Response
+      2. Andre Williams - LastPass Hack: Incident Response
+      3. Alem - Wireshark Tool
+      4. Kam Hung Wan - Oakland Ransomware: Incident Response
+    Guest Lecture
+      1. Aaron Goldstein
+  notes: |
+    1. [Zoom recording](https://us02web.zoom.us/rec/share/5Mgs5bmAx_s5Wo1QmaeKpPa6JDAH7s98Ek6Mn6NSMKLPHlljDcSS1STFTKfIxh5W.HR3lH_rkJQiHpeHc)
+    2. [HAWL](https://github.com/T0pCyber/hawk)
+    3. [Sigma Rules](https://socprime.com/blog/sigma-rules-the-beginners-guide/)
+    4. [Yara Rules](https://virustotal.github.io/yara/)
