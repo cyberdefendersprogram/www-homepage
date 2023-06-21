@@ -5,6 +5,30 @@ permalink: /cyberexplorers-ncat/
 final-preso: https://docs.google.com/presentation/d/1R_uyEyVU5Ywl1-WVpL0c6SvuhB8mHsJDBn4zkl-9qBg/edit?usp=sharing
 final-music-embed: |
     <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1056362899&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+cert-students:
+    - Tony Riddick
+    - Keone Best
+    - Mahmoud Amadou
+    - Danya Grady
+    - Emani
+    - Isaiah Daniels
+    - Mekhi Roberts
+    - Corey Scott
+    - Iyona Kane
+    - Caidyn Anderson
+    - Jahquinn Tookes
+    - Ibrahim Abdul Mutakabbir
+    - Ryan Travers
+    - Tariq
+    - Elijah Booker
+    - Christina Smith- Chrissy
+    - DeMichael Morgan
+    - D’Shani Smith
+    - Caidyn Anderson
+    - Mitchell
+    - Daiyana Brooks
+    - Tandeka Boko (Auditor)
+    - Patricia Jones (Auditor)
 last_modified_at: 2023-05-12T21:54:08
 ---
 <br/>
@@ -29,7 +53,7 @@ Here are details from [2022 program]({{site.url}}{{site.baseurl}}/cyberexplorers
 <section>
 <div class="container">
     <div class="columns is-multiline is-mobile is-centered">
-        <div class="column is-half">
+        <div class="column is-quarter">
             <figure class="image is-square">
             <img src="{{site.url}}{{site.baseurl}}assets/images/ncat.png"/>
             </figure>
@@ -37,12 +61,11 @@ Here are details from [2022 program]({{site.url}}{{site.baseurl}}/cyberexplorers
         <div class="column is-half">
         <p class="has-text-left">   
             <div>
-                <span class="tag is-primary">Upcoming!</span> The <a href=''>Cyber Explorers NCAT Program</a>
+                <span class="tag is-primary">In Progress!</span><a href=''>The Cyber Explorers NCAT Program</a>
                 <br/> <br/>
-                <span class="tag is-danger">Enrollment in Progress</span>
+                <span class="tag is-danger">Enrollment Completed</span>
                 <br/> <br/>
-                <span class="tag is-danger">Next Up Session #1</span>
-                <br/> <br/>
+                <span class="tag is-danger">Next Up Session #3</span>
             </div>
             </p>
         </div>
@@ -54,10 +77,10 @@ Here are details from [2022 program]({{site.url}}{{site.baseurl}}/cyberexplorers
 <h1 class="title">Program details</h1>
 <table class="table is-bordered is-striped">
     <thead>
-        <td>Session</td><td>Description</td><td>Notes from 2022 Session</td>
+        <td>Session</td><td>Description</td><td>Notes from Sessions</td>
     </thead>
     <tbody>
-    {% for session in site.data.cyber-explorers-ncat-2022 %} 
+    {% for session in site.data.cyber-explorers-ncat %} 
     <tr>
         <td><a id="{{session.session| url_encode}}" href="#{{session.session | url_encode}}">{{session.session}}</a></td>
         <td>{{session.desc | markdownify}}</td>
@@ -79,6 +102,20 @@ Through the Cyber Explorers, we aim at having a comprehensive introduction to cy
 5. Past Ideas from [Students](http://bit.ly/explorerideas2019)
 <br/>
 
-
+<h1 class="title"><a id="progress" href="#certificates">Student Progress</a></h1>
+<table class="table is-bordered is-striped">
+    <thead>
+        <td>Student</td><td>Progress</td>
+    </thead>
+    <tbody>
+    {% for student in page.cert-students %} 
+    <tr>
+        <td><a id="{{student | url_encode}}" href="#{{student | url_encode}}">{{student}}</a></td>
+        <td><a href="{{site.url}}{{site.baseurl}}assets/images/gs-certs/png/{{student | replace: ' ','_'}}.png">Progress Link</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<br/>
 <hr/>
 Last Updated: {{page.last_modified_at}}
