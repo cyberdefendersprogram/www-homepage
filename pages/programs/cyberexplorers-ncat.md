@@ -53,7 +53,7 @@ Here are details from [2022 program]({{site.url}}{{site.baseurl}}/cyberexplorers
 <section>
 <div class="container">
     <div class="columns is-multiline is-mobile is-centered">
-        <div class="column is-quarter">
+        <div class="column is-half">
             <figure class="image is-square">
             <img src="{{site.url}}{{site.baseurl}}assets/images/ncat.png"/>
             </figure>
