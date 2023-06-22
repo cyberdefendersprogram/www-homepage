@@ -34,7 +34,7 @@ last_modified_at: 2023-05-12T21:54:08
 <br/>
 <h1 class="title">2023 NCAT Summer Bridge Program </h1>
 
-Cyber Explorers NCAT is a 4-week summer program aimed at introducing Cyber Security discipline to  students at [NCAT](https://www.ncat.edu/). We call this cohort the **CYBER AGGIES**. The program doesn’t assume any exposure to computers and computer science. The first few sessions are tabletop fun games and exercises introducing concepts of Cyber Security like Cryptography, Network Security, Defense in Depth, Incident Detection, Incident Response et al.
+Cyber Explorers NCAT is a 4-week summer program aimed at introducing Cyber Security discipline to  students at [NCAT](https://www.ncat.edu/). We call this cohort the **CYBER AGGIES**. The program doesn’t assume any exposure to computers and computer science. The first few sessions are tabletop fun games and exercises introducing concepts of Cyber Security like Cryptography, Network Security, Defense in Depth, Incident Detection, Incident Response et al. We will also intorduction to python programming in this class as a student request.
 
 The students will start early in the program on a project which could be a cybersecurity-related puzzle, poster or a project. This is a deliverable which students are expected to showcase in the Cyber Explorers finale.
 
