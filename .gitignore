@@ -72,3 +72,6 @@ _site
 assets/.DS_Store
 assets/.DS_Store
 assets/.DS_Store
+
+#python venv
+.venv

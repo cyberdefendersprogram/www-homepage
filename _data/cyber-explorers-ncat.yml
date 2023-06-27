@@ -22,19 +22,18 @@
 - session: 4 - Jun 26, 2023
   desc: Overview of Logical Operators & Introduction to Cyber Security through  Games 
   notes: |
-    1. We covered XOR and Logical Operations, Public Key Cryptography
-    2. Student are encouraged to try the [crossword puzzle game](https://securityawareness.usalearning.gov/cdse/multimedia/games/cybersecurity-crossword/index.html)
-    3. Read on Securtiy board games - Security Cards, Dx03D, Cards Against Security, Stratego, Control-Alt-Hack, Cyber Thread Defenders and Hacker.
+    0. [Recording](https://us02web.zoom.us/rec/share/WNjgiHndwxxiTboud2AYEwEBNsw82rTpZyM4x6-IKQ6CbXnHCseWYOYfiwFJUhNS.NOyYQ5mwgCSkZTzg)
+    1. Presentation is [here](https://docs.google.com/presentation/d/1bS527xdiflqX7jvsYgmylzznFRqBGbsj72strJu9cBk/edit?usp=sharing)
+    3. We covered XOR and Logical Operations, Public Key Cryptography
+    4. Homework#3: Do 5 XOR 6 and show all your work. 
 
 - session: 5 - Jun 27, 2023
   desc: |
-    Fraud & Phishing
+    Cyber Security Games & Public Key Cryptography
   notes: |
-    1. [Presentation](https://docs.google.com/presentation/d/13W5nj3tiTrN4Odlh0ZsPLfuwAxlxOteOpBaMagTiK8Y/edit?usp=sharing)
-    2. [Quiz](https://docs.google.com/forms/d/e/1FAIpQLScqr1t1O7d2IKlKhNExNh3dqlrSEPfe_V7dF838MUodCTYJ2g/viewform)
-    For review, here is [recorded session](https://us06web.zoom.us/rec/share/yOQRRiWasXkFhvqTmvpJAU5SLotQMLWIAyfYSnU4VjHto6UkmSgeXtV4wAVRnUsQ.0vz4yggtgXCLCiAI?startTime=1656342515000)
-    <br/>Homework
-    1. Complete the Quiz
+    1. Presentation is [here](https://docs.google.com/presentation/d/1bS527xdiflqX7jvsYgmylzznFRqBGbsj72strJu9cBk/edit?usp=sharing)
+    2. Student are encouraged to try the [crossword puzzle game](https://securityawareness.usalearning.gov/cdse/multimedia/games/cybersecurity-crossword/index.html)
+    3. Read on Securtiy board games - Security Cards, Dx03D, Cards Against Security, Stratego, Control-Alt-Hack, Cyber Thread Defenders and Hacker.
 
 - session: 6 - Jun 28, 2023
   desc: Open Source Intelligence (Shodan, Google Dorking, etc.)
