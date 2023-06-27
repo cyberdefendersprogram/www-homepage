@@ -18,23 +18,13 @@ sheet = spreadsheet.worksheet(sheet_name)
 
 # Get all values from the sheet
 data = sheet.get_all_values()
-
-
-front_matter = []
-
-# Iterate over each row of data
-for row in data:
-    print(row)
-    # Selectively add data to the front matter based on your conditions
-    if row[0] == 'Title':
-        front_matter.append(f'title: {row[1]}')
-    elif row[0] == 'Author':
-        front_matter.append(f'author: {row[1]}')
-    elif row[0] == 'Date':
-        front_matter.append(f'date: {row[1]}')
-    # Add additional conditions for other fields as needed
+# Extract the first row as keys
+keys = data[0]
+# Convert the remaining rows to dictionaries using the keys
+rows = [dict(zip(keys, row)) for row in data[1:]]
+# Convert the data to YAML format
+yaml_content = yaml.dump(rows, default_flow_style=False)
+print(yaml_content)
 
 # Create the final YAML front matter string
-yaml_front_matter = '---\n' + '\n'.join(front_matter) + '\n---\n'
-
-
+yaml_front_matter = '---\n' + '\n'.join(yaml_content) + '\n---\n'
