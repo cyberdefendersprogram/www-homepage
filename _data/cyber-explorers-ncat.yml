@@ -31,23 +31,31 @@
   desc: |
     Cyber Security Games & Public Key Cryptography
   notes: |
+    0. [Recording](https://us02web.zoom.us/rec/share/HwBrvnuYvtyiRgCuoi8cVbPCNn8Z6yBqu2lpqhSAu9oYKuG9-hF_xENQcYoYLZwB._lrhBJo8jD_bPgRS)
     1. Presentation is [here](https://docs.google.com/presentation/d/1bS527xdiflqX7jvsYgmylzznFRqBGbsj72strJu9cBk/edit?usp=sharing)
     2. Student are encouraged to try the [crossword puzzle game](https://securityawareness.usalearning.gov/cdse/multimedia/games/cybersecurity-crossword/index.html)
-    3. Read on Securtiy board games - Security Cards, Dx03D, Cards Against Security, Stratego, Control-Alt-Hack, Cyber Thread Defenders and Hacker.
+    3. Read on [Securtiy board games]() - Security Cards, Dx03D, Cards Against Security, Stratego, Control-Alt-Hack, Cyber Thread Defenders and Hacker.
+    4. Classwork: Use the inspiration from Cyber Security Games posted earlier and find one cyber security game which you find interesting and post a link in Discord.
 
 - session: 6 - Jun 28, 2023
-  desc: Open Source Intelligence (Shodan, Google Dorking, etc.)
+  desc: Open Source Intelligence - I
   notes: |
+    Fraud & Phishing
+    1. [Presentation](https://docs.google.com/presentation/d/13W5nj3tiTrN4Odlh0ZsPLfuwAxlxOteOpBaMagTiK8Y/edit?usp=sharing)
+    2. [Quiz](https://docs.google.com/forms/d/e/1FAIpQLScqr1t1O7d2IKlKhNExNh3dqlrSEPfe_V7dF838MUodCTYJ2g/viewform)
+    Shodan, & Google Dorking
     1. [Presentation](https://docs.google.com/presentation/d/1W_9jh0Qc5b4rM5sE85ZtLmmy-UiHCNdXp9w8bn01fVs/edit?usp=sharing)
-    <br/>Homework
-    1. Post 1-5 Shodan Queries in #osint-queries channel
+    2. Homework: Post 1-5 Shodan Queries in #osint-queries channel
 
 - session: 7 - Jun 29, 2023
-  desc: Open Source Intelligence (Shodan, Google Dorking, etc.) - contd..
+  desc: Open Source Intelligence - II
   notes: |
+    Fraud & Phishing
+    1. [Presentation](https://docs.google.com/presentation/d/13W5nj3tiTrN4Odlh0ZsPLfuwAxlxOteOpBaMagTiK8Y/edit?usp=sharing)
+    2. [Quiz](https://docs.google.com/forms/d/e/1FAIpQLScqr1t1O7d2IKlKhNExNh3dqlrSEPfe_V7dF838MUodCTYJ2g/viewform)
+    Shodan, & Google Dorking
     1. [Presentation](https://docs.google.com/presentation/d/1W_9jh0Qc5b4rM5sE85ZtLmmy-UiHCNdXp9w8bn01fVs/edit?usp=sharing)
-    <br/>Homework
-    1. Post 1-5 Google Hacking queries in the #osint-queries channel
+    2. Homework: Post 1-5 Shodan Queries in #osint-queries channel
 
 - session: 8 - Jul 5, 2023
   desc: Ethics & Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
