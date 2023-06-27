@@ -230,7 +230,8 @@ h6 {
   font-weight: normal; }
 
 ul {
-  list-style: none; }
+  margin-left: 20px;
+  list-style: disc; }
 
 button,
 input,

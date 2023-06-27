@@ -31,8 +31,8 @@ cert-students:
     - Patricia Jones (Auditor)
 last_modified_at: 2023-05-12T21:54:08
 ---
-<br/>
-<h1 class="title">2023 NCAT Summer Bridge Program </h1>
+# 2023 CyberAggies Summer Bridge Program
+{: .title .has-text-danger .mt-4 .is-capitalized}
 
 Cyber Explorers NCAT is a 4-week summer program aimed at introducing Cyber Security discipline to  students at [NCAT](https://www.ncat.edu/). We call this cohort the **CYBER AGGIES**. The program doesn’t assume any exposure to computers and computer science. The first few sessions are tabletop fun games and exercises introducing concepts of Cyber Security like Cryptography, Network Security, Defense in Depth, Incident Detection, Incident Response et al. We will also intorduction to python programming in this class as a student request.
 
@@ -41,32 +41,33 @@ The students will start early in the program on a project which could be a cyber
 Here are details from [2022 program]({{site.url}}{{site.baseurl}}/cyberexplorers-ncat-2022/).
 
 ## Dates
-    * Week 1: Tuesday 6/20 - Thursday 6/22 (3 days)
-    * Week 2: Mon  6/26 - Thurs 6/29 (4 days)
-    * Week 3: Wed 7/05 - Thurs 7/07 (2 days)
-    * Week 4: Mon 7/10 - Thurs 7/13 (4 days)
-    * Week 5: Mon 7/17 - Thurs 7/20 (4 days)
+{: .list-disc}
+ -  Week 1: Tuesday 6/20 - Thursday 6/22 (3 days)
+ -  Week 2: Mon  6/26 - Thurs 6/29 (4 days)
+ -  Week 3: Wed 7/05 - Thurs 7/07 (2 days)
+ -  Week 4: Mon 7/10 - Thurs 7/13 (4 days)
+ -  Week 5: Mon 7/17 - Thurs 7/20 (4 days)
 
-** Class timing is 8-9am PST. **
+*Class timing is 8-9am PST.*
 
 <br/>
 <section>
 <div class="container">
-    <div class="columns is-multiline is-mobile is-centered">
-        <div class="column is-half">
-            <figure class="image is-square">
-            <img src="{{site.url}}{{site.baseurl}}assets/images/ncat.png"/>
+    <div class="columns is-mobile is-centered">
+        <div class="column">
+            <figure class="image is-128x128">
+                <img src="{{site.url}}{{site.baseurl}}assets/images/ncat.png"/>
             </figure>
         </div>
-        <div class="column is-half">
-        <p class="has-text-left">   
-            <div>
-                <span class="tag is-primary">In Progress!</span><a href=''>The Cyber Explorers NCAT Program</a>
-                <br/> <br/>
-                <span class="tag is-danger">Enrollment Completed</span>
-                <br/> <br/>
-                <span class="tag is-danger">Next Up Session #3</span>
-            </div>
+        <div class="column">
+            <p class="has-text-left">   
+                <div>
+                    <span class="tag is-primary">In Progress!</span><a href=''>The Cyber Explorers NCAT Program</a>
+                    <br/> <br/>
+                    <span class="tag is-danger">Enrollment Completed</span>
+                    <br/> <br/>
+                    <span class="tag is-danger">Next Up Session #3</span>
+                </div>
             </p>
         </div>
     </div>
