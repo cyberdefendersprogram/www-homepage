@@ -40,21 +40,16 @@
 - session: 6 - Jun 28, 2023
   desc: Open Source Intelligence - I
   notes: |
+    [Recording](https://us02web.zoom.us/rec/share/Obpa5HeLxATA2bCYfjQ6PDO6kxAMn56xhIaeUiNIkZXf2fhMzNkuEVT1FZPJ5tXW.r51DHKXmpFOClcCd){: .tag .is-info}
+
     Fraud & Phishing
     1. [Presentation](https://docs.google.com/presentation/d/1FQWtV1u1ioJsCtk2uXpTzjETFwZPukmaJEOhteuJqUE/edit?usp=sharing)
-    2. [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSf76hpyLksqDSQ99tWAkmfRaWFH5TE8KEJGR1ERbnDgEY_CgA/viewform)
+    2. Homework #4 - [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSf76hpyLksqDSQ99tWAkmfRaWFH5TE8KEJGR1ERbnDgEY_CgA/viewform)
     
-    Shodan, & Google Dorking
-    1. [Presentation](https://docs.google.com/presentation/d/1MFodS73zRyRiRm42RUl0HZIQODrTQvRIiFAgAPx4eCc/edit?usp=sharing)
-    2. Homework: Post 1-5 Shodan Queries in #osint-queries channel
 
 - session: 7 - Jun 29, 2023
   desc: Open Source Intelligence - II
-  notes: |
-    Fraud & Phishing
-    1. [Presentation](https://docs.google.com/presentation/d/1FQWtV1u1ioJsCtk2uXpTzjETFwZPukmaJEOhteuJqUE/edit?usp=sharing)
-    2. [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSf76hpyLksqDSQ99tWAkmfRaWFH5TE8KEJGR1ERbnDgEY_CgA/viewform)
-    
+  notes: |    
     Shodan, & Google Dorking
     1. [Presentation](https://docs.google.com/presentation/d/1MFodS73zRyRiRm42RUl0HZIQODrTQvRIiFAgAPx4eCc/edit?usp=sharing)
     2. Homework: Post 1-5 Shodan Queries in #osint-queries channel
