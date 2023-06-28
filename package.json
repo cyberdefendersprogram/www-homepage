@@ -12,7 +12,8 @@
     "js-build": "babel assets/babeljs --out-dir assets/js",
     "js-watch": "npm run js-build -- --watch",
     "serve": "bundle exec jekyll serve --livereload",
-    "start": "npm-run-all --parallel css-watch js-watch serve"
+    "start": "npm-run-all --parallel css-watch js-watch serve",
+    "data": "cd _data && source .venv/bin/activate && python class_data.py --gsheet"
   },
   "repository": {
     "type": "git",
