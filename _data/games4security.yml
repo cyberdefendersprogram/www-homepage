@@ -1,0 +1,124 @@
+- link: https://gist.github.com/Wack0/bda47c2bfadfb68d73ea
+  review: This game is a remix of the popular Cards Against Humanity card game centered
+    around security concepts. The adlib style cards have been reworked to introduce
+    security terms and concepts.
+  tag: engaging-easy
+  title: Cards Against Security
+  type: Board Game
+- link: https://securitycards.cs.washington.edu/
+  review: "Developed by University of Washington this game gives players an opportunity\
+    \ to explore cybersecurity threats from multiple perspectives. The cards have\
+    \ four categories: human impact, adversary\u2019s motivation, adversary\u2019\
+    s resources, adversary\u2019s methods. Within these categories, the cards give\
+    \ example scenarios and ideas to jumpstart group games and discussion."
+  tag: engaging-experienced
+  title: Security Cards
+  type: Board Game
+- link: https://boardgamegeek.com/boardgame/172453/d0x3d-v2-network-security-game
+  review: "A tabletop turn-based security game focused on informally introducing students\
+    \ to cybersecurity concepts. The flow of the game requires players to act as attackers\
+    \ at some points, compromising and looting the other team\u2019s infrastructure,\
+    \ and as defenders other times, attempting to patch exploitations and secure against\
+    \ further attacks."
+  tag: hard
+  title: Dx03D
+  type: Board Game
+- link: https://www.thinkfun.com/products/hacker/
+  review: In Hacker, players work together to solve progressively harder puzzles.
+    These puzzles follow the flow of creating a program, attack incident and subsequent
+    incident response. As the puzzles get more difficult other obstacles are added
+    forcing players to continuously think outside of the box.
+  tag: uneffective-hard
+  title: Hacker
+  type: Board Game
+- link: https://www.cyberdefendersprogram.com/escaperoom/
+  review: This is a 20 -25 escape room with 4-5 stations where puzzles are based on
+    harry potter theme and have been designed with help of students
+  tag: engaging-easy
+  title: 'Harry Potter Escape Room '
+  type: Escape Room
+- link: https://cias.utsa.edu/ctd/
+  review: |
+    Designed to teach cybersecurity principles and a wide range of security issues, CTD: Digital recreates the same competitive gameplay experience from its tabletop counterpart by allowing players to build up defense strategies.
+  tag: hard
+  title: Cyber Threat Defenders
+  type: Digital Game
+- link: https://www.cyberdefendersprogram.com/cyberexplorers/
+  review: The board game mimics the mind of a hacker (how they hack) and lets people
+    be more observant to prevent from being hacked in the future. The board game is
+    a circle with different colored spaces. Each color has a different scenario and
+    hacking techniques that players need to learn and use to solve a problem(e.g.
+    blue = cryptography, red = steganography etc.). By doing this we hope people learn
+    about hackers and hacking techniques and will be vary about hackers the next time
+    they are online.
+  tag: student developed
+  title: Harry Python
+  type: Board Game
+- link: https://www.cyberdefendersprogram.com/cyberexplorers/
+  review: This Cyber Security based Oregon Trail game will teach players about cyber
+    threats, the importance of having secured systems, and difficulties new businesses
+    face. Along the way, players will also gain valuable teamwork, leadership, management,
+    and communication skills.
+  tag: student developed
+  title: Cyber Valley
+  type: Board Game
+- link: https://www.cyberdefendersprogram.com/cyberexplorers/
+  review: The project is Clue-hacker edition, and it informs about cyber security
+    and hacking. In the game of Clue, there is one murderer, one weapon, and the room
+    where it happened. Our version of Clue will include a hacker, method of attack,
+    and the IP address of the hacker. The game raises awareness for cyber attacks;
+    potentially, it has a positive effect on players. The goal is to make people aware
+    of where they are putting their personal information. Our project will provide
+    clues to a player to help solving the mystery of who, how, and where they got
+    hacked.
+  tag: student developed
+  title: Slyther-in-Code
+  type: Board Game
+- link: https://it.tamu.edu/footballfever/
+  review: |
+    An interactive game that uses a football theme to engage users in questions related to information technology practices. Users participate in a simulated football match, but instead of physical plays, they answer IT-related questions such as "What is the safest technique to practice when using Bluetooth?
+  title: Football Fever
+  tag: tamu
+  type: Digital 
+- link: https://it.tamu.edu/cybercircus/map/
+  review: |
+    Aggie Cybersecurity Circus" on it.tamu.edu is a part of an interactive event where participants can play various games related to cybersecurity. Completing three games earns participants a free food coupon, and playing four games enters them into a grand prize drawing​.
+  title: CyberSecurity Cirus
+  tag: tamu
+  type: Digital 
+- link: https://www.pbs.org/wgbh/nova/labs//lab/cyber/research#/newuser
+  review: |
+    The "Cyber Lab" on www.pbs.org is a part of NOVA Labs, a free digital platform that encourages teens and lifelong learners to engage in scientific exploration through interactive games and activities.
+  title: Football Fever
+  tag: pbs labs
+  type: Digital 
+- link: https://play.cyberstart.com/dashboard
+  review: |
+    CyberStart is a gamified platform that teaches cybersecurity skills to students of all ages. The game features a variety of challenges, including hacking, cryptography, and social engineering. Players can earn points and badges as they progress through the game, and they can compete against other players on the leaderboard.
+  title: Cyber Start
+  tag: SANS labs
+  type: Digital 
+- link: https://www.thehogwartsescape.com/
+  review: |
+    "The Hogwarts Escape" is a free, online Harry Potter-themed escape room game that can be played alone or with friends, with the optimal experience provided on a desktop, laptop, or tablet. The game's storyline begins with the player receiving their Hogwarts letter, following favorite classes, making friends, and solving a mystery about a new friend who has disappeared​.
+  title: Harry Potter Escape Room 
+  tag: engaging-game
+  type: Digital 
+- link: https://www.cybermission.tech/
+  review: |
+    "Cyber Challenge" is a cyber initiative game run by the U.S. Military Department of Defense where participants play as cyber protectors, building a secure network to move information and prevent adversaries from gaining access. Additionally, participants can play as cyber defenders, reviewing system logs and identifying suspicious activity from unauthorized users
+  title: Cyber Mission from US Military
+  tag: US Military
+  type: Digital 
+- link: https://securityawareness.usalearning.gov/cdse/multimedia/games/cybersecurity-crossword/index.html
+  review: |
+    A Cyber Security Crossword Puzzle
+  title: BeCyberSmart Crossword Puzzle
+  tag: USA Learning
+  type: Digital 
+- link: https://picoctf.org/resources.html
+  review: |
+    picoCTF.org offers a range of learning materials to explore the world of cybersecurity, emphasizing that picoCTF is more than a competition.
+  title: PicoCTF
+  tag: CMU CTF
+  type: Digital
