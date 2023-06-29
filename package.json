@@ -4,15 +4,14 @@
   "description": "Bulma and others",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css-deploy": "npm run css-build && npm run css-postcss",
     "css-build": "sass assets/sass/main.scss:assets/css/main.css",
     "css-watch": "npm run css-build -- --watch",
-    "deploy": "npm run css-deploy && npm run js-build",
+    "deploy": "npm run css-build && npm run js-build",
     "js-build": "babel assets/babeljs --out-dir assets/js",
     "js-watch": "npm run js-build -- --watch",
     "serve": "bundle exec jekyll serve --livereload",
     "start": "npm-run-all --parallel css-watch js-watch serve",
-    "data": "cd _data/yaml-datagen && poetry run python yaml_datagen.py --gsheet"
+    "data-build": "cd _data/yaml-datagen && poetry run python yaml_datagen.py --gsheet"
   },
   "repository": {
     "type": "git",
@@ -28,6 +27,7 @@
   },
   "homepage": "https://github.com/cyberdefenders/homepage#readme",
   "dependencies": {
-    "bulma": "^0.9.4"
+    "bulma": "^0.9.4",
+    "sass": "^1.63.6"
   }
 }
