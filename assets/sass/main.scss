@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
@@ -290,4 +289,9 @@ p.prediction-author{
     padding: 10px 0;
     font-weight: 900;
     text-transform: uppercase;
+}
+
+ul {
+  margin-left: 20px;
+  list-style: disc; 
 }

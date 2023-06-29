@@ -2,11 +2,10 @@
   "name": "cyberdefenders",
   "version": "1.0.0",
   "description": "Bulma and others",
-  "main": "_assets/css/mybulma.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css-deploy": "npm run css-build && npm run css-postcss",
-    "css-build": "sass assets/sass/main.scss:assets/css/mybulma.css",
+    "css-build": "sass assets/sass/main.scss:assets/css/main.css",
     "css-watch": "npm run css-build -- --watch",
     "deploy": "npm run css-deploy && npm run js-build",
     "js-build": "babel assets/babeljs --out-dir assets/js",
@@ -28,12 +27,7 @@
     "url": "https://github.com/cyberdefenders/homepage/issues"
   },
   "homepage": "https://github.com/cyberdefenders/homepage#readme",
-  "devDependencies": {
-    "autoprefixer": "^9.7.6",
-    "babel-cli": "^6.18.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-es2015-ie": "^6.7.0",
-    "bulma": "^0.8.2",
-    "npm-run-all": "^4.1.5"
+  "dependencies": {
+    "bulma": "^0.9.4"
   }
 }
