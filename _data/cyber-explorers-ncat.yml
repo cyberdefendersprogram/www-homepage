@@ -50,9 +50,16 @@
 - session: 7 - Jun 29, 2023
   desc: Open Source Intelligence - II
   notes: |    
+    [Recording](https://us02web.zoom.us/rec/share/acq22NIkypplAJrnrQoYcLvD6b_zF7nmMGPzpWcyRXGVNpMScgDTF8MbLIwCWYb3.s3qgDETYMnMffua2){: .tag .is-info}
+
     Shodan, & Google Dorking
     1. [Presentation](https://docs.google.com/presentation/d/1MFodS73zRyRiRm42RUl0HZIQODrTQvRIiFAgAPx4eCc/edit?usp=sharing)
-    2. Homework: Post 1-5 Shodan Queries in #osint-queries channel
+    2. Homework#7: Use (google hacking database)[https://www.exploit-db.com/google-hacking-database], 
+       (Shoadan Queries)[https://github.com/jakejarvis/awesome-shodan-queries] and (Shodan Dorks)[https://securitytrails.com/blog/top-shodan-dorks]
+       and post in Discrod 2 Google Queries 3 Shodan Queries which show interesting results?
+    
+    Python Code Reading
+    1. (Try Pythontutor)[https://pythontutor.com/] to read (code)[https://pythontutor.com/visualize.html#mode=edit]
 
 - session: 8 - Jul 5, 2023
   desc: Ethics & Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
