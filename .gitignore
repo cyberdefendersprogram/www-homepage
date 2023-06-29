@@ -75,3 +75,4 @@ assets/.DS_Store
 
 #python venv
 .venv
+dist/

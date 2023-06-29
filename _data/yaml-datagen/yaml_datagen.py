@@ -51,7 +51,7 @@ def main():
     elif args.gsheet and not args.csv:
         convert_google_spreadsheet_to_yaml(args.input, args.sheet, args.output)
     else:
-        print("Please provide either --csv or --spreadsheet switch.")
+        print("Please provide either --csv or --gsheet switch.")
 
 if __name__ == '__main__':
     main()
