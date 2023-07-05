@@ -54,35 +54,49 @@
 
     Shodan, & Google Dorking
     1. [Presentation](https://docs.google.com/presentation/d/1MFodS73zRyRiRm42RUl0HZIQODrTQvRIiFAgAPx4eCc/edit?usp=sharing)
-    2. Homework#7: Use (google hacking database)[https://www.exploit-db.com/google-hacking-database], 
-       (Shoadan Queries)[https://github.com/jakejarvis/awesome-shodan-queries] and (Shodan Dorks)[https://securitytrails.com/blog/top-shodan-dorks]
+    2. Homework#7: Use [google hacking database](https://www.exploit-db.com/google-hacking-database),
+       [Shoadan Queries](https://github.com/jakejarvis/awesome-shodan-queries) and [Shodan Dorks](https://securitytrails.com/blog/top-shodan-dorks)
        and post in Discrod 2 Google Queries 3 Shodan Queries which show interesting results?
     
     Python Code Reading
-    1. (Try Pythontutor)[https://pythontutor.com/] to read (code)[https://pythontutor.com/visualize.html#mode=edit]
+    1. [Try Pythontutor](https://pythontutor.com/) to read [code](https://pythontutor.com/visualize.html#code=def%20listSum%28numbers%29%3A%0A%20%20if%20not%20numbers%3A%0A%20%20%20%20return%200%0A%20%20else%3A%0A%20%20%20%20%28f,%20rest%29%20%3D%20numbers%0A%20%20%20%20return%20f%20%2B%20listSum%28rest%29%0A%0AmyList%20%3D%20%281,%20%282,%20%283,%20None%29%29%29%0Atotal%20%3D%20listSum%28myList%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
 
 - session: 8 - Jul 5, 2023
-  desc: Ethics & Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
+  desc: Ethics - I
   notes: |
+    [Recording](https://us02web.zoom.us/rec/share/qd05ZTF-Mrp7gs5bVHY_jXGZLjrZuAOzV6QRX8GoTluwAqyR8Ojt_XY2kT8nVWm7.VwgsgZXscgvsGFH7){.tag .is-info}
+
     1. Ethics - [Presentation](https://docs.google.com/presentation/d/1EhJnDmGgBE72pS-ikXcHAam2X2SH_nSzjx3fsbefksQ/edit?usp=sharing)
-    2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
-    3. Final Project Explanation [Ideas]
-    <br/>Break Homework
+    2. Final Project Explanation [Ideas]
+    
+    Homework
     1. Post two paragraphs as a project proposal for end of class. It will be 2-3 mins individual presentation - topics could be - write-up, code, game, story -- Anything which excites you about computers and cybersecurity. Be specific on project topic and first paragraph answer why and  second paragraph should outline how you will do it. Use project-proposal channel.
     2. Write two paragraphs on a Cyber Security Incident, What was intriguing to you about it? Post on discord 
 
 - session: 9 - Jul 6, 2023
-  desc: Projects and Security Incident Discussion
+  desc: Ethics - II and Security Incident Discussion
   notes: |
+    Ethics
+    1. Ethics - [Presentation](https://docs.google.com/presentation/d/1EhJnDmGgBE72pS-ikXcHAam2X2SH_nSzjx3fsbefksQ/edit?usp=sharing)
+    
+    Security Incidents
+    1. Security Incidents explained
+    
+    Introduction to Shell
+    1. Introduction to Shell - with a game (ls, cat, grep, pipe, nmap, …)
+    2. OverTheWire [Bandit](http://overthewire.org/wargames/bandit/bandit0.html) Challenge
+
+    Final Projects
     1. Discussion of final project proposals and security-incidents 
+    
     <br/>Homework 
     1. Post a refined version of your proposal with my feedback from today - Why, How?
     2. Include 2-3 links or resources which you will research for the project.
     
 - session: 10 - Jul 10, 2023
-  desc: Ethics (contd..)
+  desc: Introduction to Code (Reading Python Code)
   notes: |
-    1. Ethics - [Presentation](https://docs.google.com/presentation/d/11RTcKKKa9bzFiU9jnMs_9pj2cEfKyAamlVMRTx0bq8c/edit?usp=sharing)
+ 
     <br/>Homework 
 
 - session: 11 - Jul 11, 2023
