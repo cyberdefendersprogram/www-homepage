@@ -95,13 +95,16 @@
     1. Post a refined version of your proposal with my feedback from today - Why, How?
     2. Include 2-3 links or resources which you will research for the project.
     3. Play the [Bandit](https://overthewire.org/wargames/bandit/bandit0.html), get [help](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line) for Commandline
-    4. Read the Executive briefing from the 2023 Verizon DBIR Report](https://www.verizon.com/business/resources/reports/dbir/), and on discord two interesting things your learnt from it. 
+    4. Read the Executive briefing from the [2023 Verizon DBIR Report](https://www.verizon.com/business/resources/reports/dbir/), and on discord two interesting things your learnt from it. 
 
 - session: 10 - Jul 10, 2023
   desc: Introduction to Code (Reading Python Code)
   notes: |
- 
+    [Recording](https://us02web.zoom.us/rec/share/apqKgH7biFbR8GlKCVGCmc_54n6i1CfYxzTHilzlvQn-zWIPjm-J1vax4h6wnvBn.EkQB8TtNEFtN1XKc){: .tag .is-info}
+    
     Homework 
+    1. Share a Google doc of your project proposal with two paragraphs and references, post link in "project" tab of roster
+    1. Implement a basic calculator using the Google Collab environment and share link in "coding" tab of roster
 
 - session: 11 - Jul 11, 2023
   desc: Computer Networking
