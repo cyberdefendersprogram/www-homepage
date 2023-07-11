@@ -1,8 +1,8 @@
-- session: July 21, 2023  
+- session: Nov 18, 2022
   desc: Information Session
   notes: |
     * 	Questions answered. Presentation is [here](https://docs.google.com/presentation/d/1nZzJfuMu3zHKH-BeLWBxvWXjYRBCRph-pCBDoiN4LTI/edit?usp=sharing)
-- session: Aug 3, 2023 (10am -11am PST)
+- session: Dec 16, 2022
   desc: Orientation
   notes: |
     Content:
@@ -19,10 +19,10 @@
 
     Homework:
     * Details in slides above - "Write 3 paragraphs proposing an end of class programming project, graphics welcome as well". Please post the link on class discord.
-- session: Aug 7th
+- session: Jan 9th
   desc: Class (Data types, Getting help, Conditionals, Functions)
   notes: |
-    * Monday Class will be 9am-11am PST. <a class="tag is-info" href="https://us02web.zoom.us/rec/share/Vgn3kYu8g-QbyLLg1Vl2FcVQ3WaNp-Ugg7DJ6Yd6bI226DXfjDy1UgS9JsdO8Z4R.ZaB36mvbusGlKgIG">Zoom Session Recording</a>
+    * Monday Jan 9th Class will be 9am-12pm PST. <a class="tag is-info" href="https://us02web.zoom.us/rec/share/Vgn3kYu8g-QbyLLg1Vl2FcVQ3WaNp-Ugg7DJ6Yd6bI226DXfjDy1UgS9JsdO8Z4R.ZaB36mvbusGlKgIG">Zoom Session Recording</a>
     * [Slides](https://docs.google.com/presentation/d/1EiRx06UmnACK5E9ME95DY4sxClglize5v3lacmcdg0Y/edit?usp=sharing)
     * [Python Notebook](https://gist.github.com/vaibhavb/cc3f917b5012905c0f540ffce8fcd9b6)
     
@@ -33,12 +33,12 @@
       * Get a sentence from the user and sort the words in alphabetical order
     
     [Recording]("https://us02web.zoom.us/rec/share/Vgn3kYu8g-QbyLLg1Vl2FcVQ3WaNp-Ugg7DJ6Yd6bI226DXfjDy1UgS9JsdO8Z4R.ZaB36mvbusGlKgIG)
-- session: Aug 8th
+- session: Jan 10th
   desc: Office Hours Tues 12-2pm PST
   notes: |
     * Office Hours on Tuesday Jan 10th from 12-2pm
-- session: Aug 8th
-  desc: Class Programming Skills (Wed 9am-11am PST)
+- session: Jan 11th
+  desc: Class Programming Skills (Wed 9am-12pm PST)
   notes: |
     * <a class="tag is-info" href="https://us02web.zoom.us/rec/share/ChzHNyyOBQVKlwpe57sUBYl3ch32XOBRj39ovh2ezIeoWaFtf3hzW_-ZJ1UCu6K9.2fb-LMxxdJajG9iK">Zoom Recording Link</a>
     * [Slides](https://docs.google.com/presentation/d/1_QbKrdp5R0JJxlbVZnQQs0WypZXjStDJxsm1hwDOCxU/edit?usp=sharing)
@@ -58,7 +58,7 @@
   desc: Office hours 9 -11am PST
   notes: |
     * Office Hours on Thursday, Jan 12th from 9-11am
-- session: Aug 9th
+- session: Jan 13th
   desc: |
     * Class Analysis (Friday 9am-12pm PST)
     * 
@@ -82,12 +82,12 @@
       1. Implement flip-a-coin 10 times played between two players and show it on a graph
       2. Create a random list of 10 integers and write a function to square them using map
       3. Create a python program to show the flashcards which uploaded [each card is yml](https://github.com/cyberdefendersprogram/pythonacademy)
-- session: Aug 10(*new*)
+- session: Jan 14th (*new*)
   desc: Project update and office hours
   notes: |
     * Office Hours on Sat, Jan 14th from 3-4:30pm
-- session: Aug 10th
-  desc: Class Monday 9am-11am PST
+- session: Jan 16th
+  desc: Class Monday 9am-12pm PST
   notes: |
     * <a class="tag is-danger" href="https://us02web.zoom.us/rec/share/U7yDJrgJqmkfVFQ05OLRtpvhdIY9vc3Q-5fC4xQsehOyelWyq_tZHKdJRLPeJ0nk.DPorHuI-FxhbBM8n">Zoom Recording</a> 
     * [Slides](https://docs.google.com/presentation/d/1kFRQH9miPZQwQZoaraaC8E1wFpd0yBeZ9bG1gobj-Co/edit?usp=sharing)
@@ -108,13 +108,13 @@
 
     Way in which you can use Python
     * <a class="tag is-info" href="https://colab.research.google.com/drive/1elLrEYpxMJcabNWJKmVOpMlaYDOuVzs7?usp=sharing">Notebook, with Web, Discord, and Spreadsheet uses of python</a> 
-- session: Aug 11th
+- session: Jan 17th
   desc: Office Hours 12-2pm PST
   notes: |
     * Office Hours 12-2pm PST
     * <a class="tag is-info" href="https://us02web.zoom.us/j/82270445131">Zoom Session Link</a>
-- session: Aug 11th
-  desc: Class Wednesday 9am-11am PST
+- session: Jan 18th
+  desc: Class Wednesday 9am-12pm PST
   notes: |
     * <a class="tag is-danger" href="https://us02web.zoom.us/rec/share/HOtq5aSStqKyh1-5PCk3w2estiNxghOFgyZ197tJ1Jt0LwW9R-htNcn87YmS17EM.HdT9kGLmgm3r1QiR">Zoom Recording</a>
     * [Slides](https://docs.google.com/presentation/d/1rzQgjZsG-JZuEoBvDAXKxxLHBQ2SCaBxd-6wpWXiEl4/edit?usp=sharing)
@@ -136,11 +136,11 @@
       3. Explain the code - 2-3 mins
       4. Future possibilities / unfinished work - 2-3 mins
       5. Please make sure your code following naming as per [PEP8](https://peps.python.org/pep-0008/)
-- session: Aug 14th
+- session: Jan 19th
   desc: Office Hours Thursday 9-11am PST
   notes: |
     * <a class="tag is-info" href="https://us02web.zoom.us/j/81098310969">Zoom Session Link</a>
-- session: Aug 15th
+- session: Jan 20th
   desc: Presentation Day from 9-11:30am PST **Please Join**
   notes: |
     <a class="tag is-danger" href="https://us02web.zoom.us/rec/share/OmWkRwoDtsALKyGCDjv3TFY6N41EN4RZoOelYYofjzSEMQ8K-U_h9X_gif9nmzb8.7Pa97w2F0xZzp_17">Zoom Recording</a>
