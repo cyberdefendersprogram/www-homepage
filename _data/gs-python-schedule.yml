@@ -1,0 +1,36 @@
+- desc: Information Session (Friday 4-5pm PST)
+  notes: Questions answered
+  session: July 21, 2023
+- desc: Orientation (Thursday 10-11:30am PST)
+  notes: Break ice, Review skills, Setup Accounts
+  session: August 3, 2023
+- desc: Getting Started with Python (Monday 9-11am PST)
+  notes: Initial Programs
+  session: August 7, 2023
+- desc: Data Types, and Conditional Statements (Tuesday 9-11am PST)
+  notes: Read PEP8
+  session: August 8, 2023
+- desc: Functions & Lists
+  notes: Inclass work
+  session: August 9, 2023
+- desc: Lists & Comprehensions
+  notes: Power of python list comprehensions & scientific programming
+  session: August 10, 2023
+- desc: Data Science in Python
+  notes: Python notebooks with analysis
+  session: August 11, 2023
+- desc: Object Oriented Programming in Python
+  notes: Solving day to day problems
+  session: August 14, 2023
+- desc: Review Python web-application & Copilot with ChatGPT
+  notes: FASTCGI application
+  session: August 15, 2023
+- desc: Securing & Debugging Python Programs
+  notes: Learning to write fast and secure programs
+  session: August 16, 2023
+- desc: Porject review & Invited talks
+  notes: Review projects
+  session: August 17, 2023
+- desc: Presentation Day from 9-11:30am PST Please Join
+  notes: Guest talk and Project completion
+  session: August 18, 2023

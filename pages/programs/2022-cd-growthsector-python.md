@@ -1,9 +1,27 @@
 ---
 layout: blog
 title: Python Academy
-permalink: /cd-growthsector-python-academy/
+permalink: /2022-cd-growthsector-python-academy/
 cert-students:
-    - TBA
+    - Ameen Haq
+    - Cantoran Moises
+    - Carolyn Beatty
+    - Celeste Villarreal
+    - Francisco Coronado
+    - Francisco Ramos
+    - Genesis Bejarano
+    - Harshini Jayaprakash
+    - Janice Morales
+    - Jason Borroel
+    - Jassielle Villicana
+    - Jessica Nguyen
+    - Justine Guerra
+    - Kahlan Williams
+    - Kevin demesa
+    - Leslie Cuellar
+    - Patrick Jojola
+    - Raelynn Tucker
+    - Rik Burson
 last_modified_at: 2023-03-24T22:28:35
 ---
 <br/>
@@ -15,19 +33,19 @@ Python is a widely used and fast growing programming language which is in high d
 <section>
 <div class="container">
     <div class="columns is-multiline is-mobile is-centered">
-        <div class="column is-one-third">
-            <figure class="image">
+        <div class="column is-half">
+            <figure class="image is-square">
             <img src="{{site.url}}{{site.baseurl}}assets/images/gs-python.png"/>
             </figure>
         </div>
-        <div class="column is-two-third">
+        <div class="column is-half">
         <p class="has-text-left">   
             <div>
-                <span class="tag is-danger">Check 2022 Program!</span> <a href='/2022-cd-growthsector-python-academy/'>2022 Cyber Defenders Python Academy</a>
+                <span class="tag is-danger">Program Completed!</span> The <a href=''>Cyber Defenders Python Academy</a>
                 <br/> <br/>
-                <span class="tag is-danger">Enrollment Open!!</span>
+                <span class="tag is-danger">Enrollment Complete</span>
                 <br/> <br/>
-                <span class="tag is-danger">Next Up - Info Session!</span>
+                <span class="tag is-danger">Next Up - Sessions and Office Hours</span>
                 <br/> <br/>
             </div>
             </p>
@@ -38,21 +56,12 @@ Python is a widely used and fast growing programming language which is in high d
 
 <br/>
 <h1 class="title">Program details</h1>
-<div>
-    <p class="tag is-info">Class from 9-11am PST weekdays and Drop-in tutor session 1:30-2:30pm PST</p>
-    <ul>
-        <li>Each student will work on a hands-on program</li>
-        <li>All lectures will be recorded</li>
-        <li>Each student receives a certificate on completion alteast 80% of assignments and final project</li>
-    </ul>
-</div>
-<br/>
 <table class="table is-bordered is-striped">
     <thead>
         <td>Session</td><td>Description</td><td>Notes</td>
     </thead>
     <tbody>
-    {% for session in site.data.gs-python-schedule %} 
+    {% for session in site.data.cyber-defenders-python-academy-2022 %} 
     <tr>
         <td><a id="{{session.session| url_encode}}" href="#{{session.session | url_encode}}">{{session.session}}</a></td>
         <td>{{session.desc | markdownify}}</td>
@@ -66,7 +75,8 @@ Python is a widely used and fast growing programming language which is in high d
 Through the Python Academy, we aim at having a comprehensive introduction to Python prorgamming languagee, and exposing students to real-life programming projects. The program finale will showcases student work and projects to a broad audience.
 <br/>
 
-<h1 class="title"><a id="projects" href="#projects">2022 Student Projects</a></h1>
+
+<h1 class="title"><a id="projects" href="#projects">Student Projects</a></h1>
 <p>Use this form to submit <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA_lMQWVrwFkEvh9cOjFISOkabSacRtEo0Tuk_7-AIlfp-Zg/viewform">reviews</a></p>
 <a class="tag is-danger" href="https://us02web.zoom.us/rec/share/GSHhYNjl_vOBhD73XP7vZlmfzYooYYHv-J3Pt7oeS6FuJ_xAMq9Av4TM7pz4Wq2e.y5pWWIbKhp2zndGE">ZOOM RECORDED PRESENTATIONS</a>
 <a class="tag is-info" href="https://www.youtube.com/watch?v=8L_1c8vztM4">ON YOUTUBE - RECORDED PRESENTATIONS</a>
