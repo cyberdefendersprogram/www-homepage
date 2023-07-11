@@ -107,17 +107,30 @@
     1. Implement a basic calculator using the Google Collab environment and share link in "coding" tab of roster
 
 - session: 11 - Jul 11, 2023
-  desc: Computer Networking
+  desc: Introduction to Coding (Functions)
   notes: |
-    1. How does the internet work?
-    2. Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
-    3. Session #6 Network Security [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdiGIaaYDUBJ9qC8URayZR4KE8z2VCBx48Sr4nQNdrZnnxYkA/viewform)
+    [Recording](https://us02web.zoom.us/rec/share/RcWOOeYhBL1J3tQV51R365LLIvdqfxO2Y8dQsm-WxwWb_9rJF1qBRFcKFUrPrKGD.cdoSl_pMOUlz2vyH){: .tag .is-info}
+
+    [Presentation](https://docs.google.com/presentation/d/1mvLlqj5pM2UdpHiihHzZXFzMk-6x3dUHMWJdCwuv6MI/edit?usp=sharing){: .tag .is-warning}
+
     Homework
-    4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
+    1. Read the following articles: 
+       1.1 [PEP8](https://peps.python.org/pep-0008/#id23)
+       1.2 [How to learn programming in 10 years](https://norvig.com/21-days.html)
+    1. Implement a basic calculator with *function* and share in Google colab
+    2. Share a Google doc of your project proposal
 
 - session: 12 - Jul 12, 2023
-  desc: Careers In CyberSecurity - July 8, 2022
+  desc: Computers & Careers In CyberSecurity - July 8, 2022
   notes: |
+    Computers & Networking
+        1. How does the internet work?
+        2. Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
+        3. Session #6 Network Security [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdiGIaaYDUBJ9qC8URayZR4KE8z2VCBx48Sr4nQNdrZnnxYkA/viewform)
+        Homework
+        4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
+
+    Careers
     1. [Cyber Seek](https://www.cyberseek.org)
     2. *Classwork*
         1. What career path would interest you in Cyber Security? Post in #career-paths channel.
