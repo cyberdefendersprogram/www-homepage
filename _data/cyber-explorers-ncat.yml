@@ -122,28 +122,27 @@
     2. Implement a basic calculator with *function* and share in Google colab
     3. Share a Google doc of your project proposal with two paragraphs and references, post link in "project" tab of roster
 
-
 - session: 12 - Jul 12, 2023
-  desc: Computers & Careers In CyberSecurity - July 8, 2022
+  desc: Python Programming (Testing) (III)
   notes: |
-    Computers & Networking
-        1. How does the internet work?
-        2. Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
-        3. Session #6 Network Security [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdiGIaaYDUBJ9qC8URayZR4KE8z2VCBx48Sr4nQNdrZnnxYkA/viewform)
-        Homework
-        4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
+    [Recording](https://us02web.zoom.us/rec/share/fFtxBkdl993RR-R-brF1_85ZoE6dEUWrZeX5qo1i1IHMlbxsat9dG3dM1QuDjCes.0LuFebZK4XbZLmEV)){: .tag .is-info}
 
-    Careers
-    1. [Cyber Seek](https://www.cyberseek.org)
-    2. *Classwork*
-        1. What career path would interest you in Cyber Security? Post in #career-paths channel.
-        2. Work on presentation in Google Slides and post link to #projects channel
-        3. *Bonus* Describe how internet works and post your favorite video link in #general channel
-    3. *Announcements*
-        1. 5-Minute Presentations next week on July 13th and 14th
+    [Google Colab Coding Work](https://colab.research.google.com/drive/1Q0k2VEprhUZotKa-Hp3gX4RJYWWPX0e1?usp=sharing){: .tag .is-info}
+
+    [Presentation](https://docs.google.com/presentation/d/1mvLlqj5pM2UdpHiihHzZXFzMk-6x3dUHMWJdCwuv6MI/edit?usp=sharing){: .tag .is-warning}
+
+    Homework:
+    1. Complete the calculators program and add it to your roster
+    2. Propose a project partner after reading the project write-ups
+    3. Read [PEP8](https://peps.python.org/pep-0008/#id23)
+
 - session: 13 - Jul 13, 2023
-  desc: Introduction to Physical Security
+  desc: Game play & Programming Final
   notes: |
+    Gameplay
+    1. Harry Potter
+    2. [How to learn programming in 10 years](https://norvig.com/21-days.html)
+
     1. Project Background Research & Preparing for presentations
     2. TestOut [Physical Security Videos](http://www.testout.com)
     3. *Announcements*
@@ -159,13 +158,25 @@
         2. Introduction to Intrusion Detection
     4. *Announcements*
 - session: 15 - Jul 18, 2023
-  desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
+  desc: Computers & Networking
   notes: |
-    1. Project work [Presentations Part 1](https://youtu.be/lcRefGQLUWU)
+      Computers & Networking
+        1. How does the internet work?
+        2. Cyber Threats Demonstrated On Networks (WEP Attack & Wireshark)
+        3. Session #6 Network Security [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdiGIaaYDUBJ9qC8URayZR4KE8z2VCBx48Sr4nQNdrZnnxYkA/viewform)
+        Homework
+        4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
 - session: 16 - Jul 19, 2023
-  desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
+  desc: Security Careers
   notes: |
-    1. Project work [Presentations Part 1](https://youtu.be/lcRefGQLUWU)
+    Careers
+    1. [Cyber Seek](https://www.cyberseek.org)
+    2. *Classwork*
+        1. What career path would interest you in Cyber Security? Post in #career-paths channel.
+        2. Work on presentation in Google Slides and post link to #projects channel
+        3. *Bonus* Describe how internet works and post your favorite video link in #general channel
+    3. *Announcements*
+        1. 5-Minute Presentations next week on July 13th and 14th
 - session: 17 - Jul 20, 2023
   desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
   notes: |
