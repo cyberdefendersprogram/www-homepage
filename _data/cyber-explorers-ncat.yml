@@ -137,17 +137,22 @@
     3. Read [PEP8](https://peps.python.org/pep-0008/#id23)
 
 - session: 13 - Jul 13, 2023
-  desc: Game play & Programming Final
+  desc: How to developer Programming skills & Test Game play
   notes: |
+    [Recording](https://us02web.zoom.us/rec/share/fGTMQcFOok4j-c6v_Bf3nehllCRexxTY4SkpwN-9k2yfdNNYWuEHKOGCe0SlbbC6.LGFkWKajmmx5Q0w8){: .tag .is-info}
+
     Gameplay
-    1. Harry Potter
+    1. Test gameplay of [The Hogwarts Escape](https://www.thehogwartsescape.com/)
     2. [How to learn programming in 10 years](https://norvig.com/21-days.html)
 
-    1. Project Background Research & Preparing for presentations
-    2. TestOut [Physical Security Videos](http://www.testout.com)
-    3. *Announcements*
-        1. Use ncatbot to submit project presentations command is !add_project ["title"] ["url"]
-        2. We will have certificates and prizes for course completion and presentations.
+    Homework
+    1. Create a [Github](https://www.github.com) account and post on Discord thread
+    2. Write a paragraph on your implementation of your project in your project document, and update project tab
+    3. Review the Gameplay of [The Hogwarts Escape](https://www.thehogwartsescape.com/) and post on Discord
+
+    Optional 
+    1. Post personal programming ideas on discord
+
 - session: 14 - Jul 17, 2023
   desc: Introduction to Forensics & Security Engineering
   notes: |
@@ -156,7 +161,7 @@
     3. [Data Science for CyberSecurity](http://bit.ly/explorersession10)- 
         1. Access logs, OS logs, Application logs, Service logs, syslogs
         2. Introduction to Intrusion Detection
-    4. *Announcements*
+    4. TestOut [Physical Security Videos](http://www.testout.com)
 - session: 15 - Jul 18, 2023
   desc: Computers & Networking
   notes: |
