@@ -156,12 +156,15 @@
 - session: 14 - Jul 17, 2023
   desc: Introduction to Forensics & Security Engineering
   notes: |
-    1. Project Milestone - Presentation Order
-    2. Forensics exercise with disk data analysis - [Follow along](http://bit.ly/explorersession9)
-    3. [Data Science for CyberSecurity](http://bit.ly/explorersession10)- 
-        1. Access logs, OS logs, Application logs, Service logs, syslogs
-        2. Introduction to Intrusion Detection
-    4. TestOut [Physical Security Videos](http://www.testout.com)
+    [Recording](https://us02web.zoom.us/rec/share/WmSjLlh_5uwxcX9gSNSjLc3ejoyylTnxofAupu_CrV9wErGZgIODgQstQgfJijbO.GTZGiCpBpXdw6qFQ){. .tag .is-info}
+
+    1. Project Milestone - Presentation
+    2. [Forensics Presentation](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt){: .tag .is-info}
+    3. [Physical Secuirty Presentation](https://docs.google.com/presentation/d/16TvnXE5I6mDJTX7Udg85PVU5SdalrFOHgnLmp9mO5Zg/edit?usp=sharing)
+
+    Homework:
+    1. Make sure you have presentaiton link for your project in the "project" tab of [Roster]()
+    2. Optionally Listen to [Deviant on Darknet Diaries]()
 - session: 15 - Jul 18, 2023
   desc: Computers & Networking
   notes: |
@@ -171,6 +174,10 @@
         3. Session #6 Network Security [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdiGIaaYDUBJ9qC8URayZR4KE8z2VCBx48Sr4nQNdrZnnxYkA/viewform)
         Homework
         4. Session #5 Optional Challenge - [Challenge Directory ZIP](http://bit.ly/cmd-challenge)
+      
+      [Data Science for CyberSecurity](http://bit.ly/explorersession10)- 
+        1. Access logs, OS logs, Application logs, Service logs, syslogs
+        2. Introduction to Intrusion Detection
 - session: 16 - Jul 19, 2023
   desc: Security Careers
   notes: |
