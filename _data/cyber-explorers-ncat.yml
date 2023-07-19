@@ -186,17 +186,21 @@
 - session: 16 - Jul 19, 2023
   desc: Security Careers
   notes: |
+    [Recording](https://us02web.zoom.us/rec/share/Ei5lX7NNRi7evcHRkN2cqAi-GiKjl9MAqdhp-rwItCtVW0o63c9UzHHpv6WOJiU.NrSWbK-M6zGIYwal){: .tag .is-info}
+
     Careers
     1. [Cyber Seek](https://www.cyberseek.org)
-    2. *Classwork*
-        1. What career path would interest you in Cyber Security? Post in #career-paths channel.
-        2. Work on presentation in Google Slides and post link to #projects channel
-        3. *Bonus* Describe how internet works and post your favorite video link in #general channel
+    
+    Classwork
+    1. What career path would interest you in Cyber Security? Post in #chat
+    2. Enter your LinkedIn and Github Profile in Roster
+
 
 - session: 17 - Jul 20, 2023 (8:00am - 9:30am PST)
   desc: Project Demonstration & Cyber Security Topic Presentations,Team Presentations
   notes: |
     1. Project work [Presentations]
+
     2. *Announcements* & *Links* - What's next? 
         2. Listen to Cyber Security Podcasts - [Darknet Diaries](https://darknetdiaries.com/), [Stormcast](https://isc.sans.edu/podcast.html)
         3. Participate in Security competitions - [NCL](https://nationalcyberleague.org/), [Cyber Patriots](),[Try HackMe](https://tryhackme.com/), [Hack The Box](https://www.hackthebox.com/)

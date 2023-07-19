@@ -28,7 +28,6 @@ cert-students:
     - Mitchell
     - Daiyana Brooks
     - Tandeka Boko (Auditor)
-    - Patricia Jones (Auditor)
 last_modified_at: 2023-05-12T21:54:08
 ---
 # 2023 CyberAggies Summer Bridge Program
@@ -102,6 +101,35 @@ Through the Cyber Explorers, we aim at having a comprehensive introduction to cy
 4. Work on the Cyber Security games - Security & Privacy cards, Dx0D
 5. Past Ideas from [Students](http://bit.ly/explorerideas2019)
 <br/>
+
+<h1 class="title"><a id="projects" href="#projects">Student Projects</a></h1>
+<p>Use this form to submit <a href="">reviews</a></p>
+<a class="tag is-info" href="">ON YOUTUBE - LIVE PRESENTATION</a>
+<table class="table is-bordered is-striped">
+    <thead>
+        <td>No</td><td>Title</td><td>Presentation</td><td>Team</td>
+    </thead>
+    <tbody>
+    {% assign sorted_projects = site.data.2023-cyberaggies-projects  | sort: "order" %}
+    {% for project in sorted_projects %} 
+        {% if project.order != "" %}
+      <tr>
+        <td>{{project.order}}</td>
+        <td><a id="{{project.title| url_encode}}" href="#{{project.title | url_encode}}">{{project.title}}</a></td>
+        <td>{% if project.presentation %}
+            <a href="{{project.presentation}}">Link</a>
+            {% else %}
+            Presentation
+            {% endif %}
+        </td>
+        <td>{{project.team | markdownify}}</td>
+    </tr>
+        {% endif %}
+    {% endfor %}
+    </tbody>
+</table>
+<br/>
+<hr/>
 
 <h1 class="title"><a id="progress" href="#certificates">Student Progress</a></h1>
 <table class="table is-bordered is-striped">
