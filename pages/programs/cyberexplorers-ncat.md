@@ -114,8 +114,8 @@ Through the Cyber Explorers, we aim at having a comprehensive introduction to cy
     {% for project in sorted_projects %} 
         {% if project.order != "" %}
       <tr>
-        <td>{{project.order}}</td>
-        <td><a id="{{project.title| url_encode}}" href="#{{project.title | url_encode}}">{{project.title}}</a></td>
+        <td><a id="{{project.title| url_encode}}" href="#{{project.title | url_encode}}">{{project.order}}</a></td>
+        <td>{{project.title}}</td>
         <td>{% if project.presentation %}
             <a href="{{project.presentation}}">Link</a>
             {% else %}
