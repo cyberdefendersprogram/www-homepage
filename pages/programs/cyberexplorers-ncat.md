@@ -65,7 +65,7 @@ Here are details from [2022 program]({{site.url}}{{site.baseurl}}/cyberexplorers
                     <br/> <br/>
                     <span class="tag is-danger">Enrollment Completed</span>
                     <br/> <br/>
-                    <span class="tag is-danger">Next Up Session #3</span>
+                    <span class="tag is-danger">Next Up Presentations!</span>
                 </div>
             </p>
         </div>
