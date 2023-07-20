@@ -148,5 +148,10 @@ Through the Cyber Explorers, we aim at having a comprehensive introduction to cy
     </tbody>
 </table>
 <br/>
+
+<h1 class="title"><a id="progress" href="#feedback">Student Feedback</a></h1>
+<br/>
+<p>Use this form to submit <a href="https://docs.google.com/forms/d/e/1FAIpQLSepAxmgHB3tgN7CVr_dsJ5_U8UbCI5ckwSvM2z09DtyptRJZw/viewform" class="tag is-danger">student feedback</a></p>
+<br/>
 <hr/>
 Last Updated: {{page.last_modified_at}}
