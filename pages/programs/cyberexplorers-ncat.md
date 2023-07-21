@@ -4,7 +4,7 @@ title: Cyber Explorers NCAT Program
 permalink: /cyberexplorers-ncat/
 final-preso: https://docs.google.com/presentation/d/1R_uyEyVU5Ywl1-WVpL0c6SvuhB8mHsJDBn4zkl-9qBg/edit?usp=sharing
 final-music-embed: |
-    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1056362899&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FgrqM3ubyfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 cert-students:
     - Tony Riddick
     - Keone Best
@@ -103,10 +103,11 @@ Through the Cyber Explorers, we aim at having a comprehensive introduction to cy
 <br/>
 
 <h1 class="title"><a id="projects" href="#projects">Student Projects</a></h1>
-<br/>
 <p>Use this form to submit <a href="https://docs.google.com/forms/d/e/1FAIpQLSchhNaYdbE5-VFZ0nsVTAyK3KhyWd5vncJuWUlWoyVa27lX5w/viewform" class="tag is-warning">feedback</a></p>
-<br/>
 <a class="tag is-info" href="">ON YOUTUBE - LIVE PRESENTATION</a>
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FgrqM3ubyfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 <table class="table is-bordered is-striped">
     <thead>
         <td>No</td><td>Title</td><td>Presentation</td><td>Team</td>
