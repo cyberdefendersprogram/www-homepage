@@ -4,6 +4,7 @@
   "description": "Bulma and others",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "gs-data": "cd _data/yaml-datagen && poetry run python yaml_datagen.py --gsheet --input '1SFBHDPBvBF1oycxK4NOJgiijfCon6HOZcJ23c5QumQI' --sheet 'schedule' --output ../gs-python-schedule.yml && cd ../..",
     "css-build": "sass assets/sass/main.scss:assets/css/main.css",
     "css-watch": "npm run css-build -- --watch",
     "deploy": "npm run css-build && npm run js-build",

@@ -49,14 +49,22 @@ Python is a widely used and fast growing programming language which is in high d
 <br/>
 <table class="table is-bordered is-striped">
     <thead>
-        <td>Session</td><td>Description</td><td>Notes</td>
+        <td>Session</td><td>Description</td><td>Notes from Session</td>
     </thead>
     <tbody>
     {% for session in site.data.gs-python-schedule %} 
     <tr>
         <td><a id="{{session.session| url_encode}}" href="#{{session.session | url_encode}}">{{session.session}}</a></td>
         <td>{{session.desc | markdownify}}</td>
-        <td>{{session.notes | markdownify}}</td>
+        <td>Agenda: {{session.notes | markdownify}}
+            <ol>
+            {%if session.slides_link != "" %}
+                <li><a href="{{session.slides_link}}" class="tag is-info">Slides</a></li>
+                <li><a href="{{session.next1_link}}" class="tag is-warning">{{session.next1_name}}</a></li>                
+                <li><a href="{{session.recording}}" class="tag is-info">Recording</a></li>
+            {%endif%}
+            </ol>
+        </td>
     </tr>
     {% endfor %}
     </tbody>

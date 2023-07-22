@@ -1,36 +1,84 @@
 - desc: Information Session (Friday 4-5pm PST)
-  notes: Questions answered
+  next1_link: https://docs.google.com/forms/d/e/1FAIpQLSdsUqCbNe1GYS-Rg5t1syeNMvULimivFONVZU13mYHNvJb5Rg/viewform
+  next1_name: apply
+  notes: Why Programming, Why Python? Address questions.
+  recording_link: TBD
   session: July 21, 2023
+  slides_link: https://docs.google.com/presentation/d/1Q1JNnS0phSV7OF5qveBwBUBhzd-7to9jNXw9p34iJ-4/edit?usp=sharing
 - desc: Orientation (Thursday 10-11:30am PST)
+  next1_link: ''
+  next1_name: ''
   notes: Break ice, Review skills, Setup Accounts
+  recording_link: ''
   session: August 3, 2023
+  slides_link: ''
 - desc: Getting Started with Python (Monday 9-11am PST)
+  next1_link: ''
+  next1_name: ''
   notes: Initial Programs
+  recording_link: ''
   session: August 7, 2023
+  slides_link: ''
 - desc: Data Types, and Conditional Statements (Tuesday 9-11am PST)
+  next1_link: ''
+  next1_name: ''
   notes: Read PEP8
+  recording_link: ''
   session: August 8, 2023
+  slides_link: ''
 - desc: Functions & Lists
+  next1_link: ''
+  next1_name: ''
   notes: Inclass work
+  recording_link: ''
   session: August 9, 2023
+  slides_link: ''
 - desc: Lists & Comprehensions
+  next1_link: ''
+  next1_name: ''
   notes: Power of python list comprehensions & scientific programming
+  recording_link: ''
   session: August 10, 2023
-- desc: Data Science in Python
-  notes: Python notebooks with analysis
+  slides_link: ''
+- desc: STEM with Python!
+  next1_link: ''
+  next1_name: ''
+  notes: Python notebooks with scientific analysis
+  recording_link: ''
   session: August 11, 2023
+  slides_link: ''
 - desc: Object Oriented Programming in Python
+  next1_link: ''
+  next1_name: ''
   notes: Solving day to day problems
+  recording_link: ''
   session: August 14, 2023
+  slides_link: ''
 - desc: Review Python web-application & Copilot with ChatGPT
+  next1_link: ''
+  next1_name: ''
   notes: FASTCGI application
+  recording_link: ''
   session: August 15, 2023
+  slides_link: ''
 - desc: Securing & Debugging Python Programs
+  next1_link: ''
+  next1_name: ''
   notes: Learning to write fast and secure programs
+  recording_link: ''
   session: August 16, 2023
+  slides_link: ''
 - desc: Porject review & Invited talks
+  next1_link: ''
+  next1_name: ''
   notes: Review projects
+  recording_link: ''
   session: August 17, 2023
+  slides_link: ''
 - desc: Presentation Day from 9-11:30am PST Please Join
+  next1_link: ''
+  next1_name: ''
   notes: Guest talk and Project completion
+  recording_link: ''
   session: August 18, 2023
+  slides_link: ''
