@@ -74,7 +74,7 @@ Python is a widely used and fast growing programming language which is in high d
                 <li><a href="{{session.next4_link}}" class="tag is-warning">{{session.next4_name}}</a></li>
             {%endif%}
             {%if session.recording_link != "" %}                
-                <li><a href="{{session.recording}}" class="tag is-info">Recording</a></li>
+                <li><a href="{{session.recording_link}}" class="tag is-info">Recording</a></li>
             {%endif%}
             </ol>
         </td>
