@@ -1,20 +1,38 @@
 - desc: Information Session (Friday 4-5pm PST)
   next1_link: https://docs.google.com/forms/d/e/1FAIpQLSdsUqCbNe1GYS-Rg5t1syeNMvULimivFONVZU13mYHNvJb5Rg/viewform
   next1_name: apply
+  next2_link: ''
+  next2_name: ''
+  next3_link: ''
+  next3_name: ''
+  next4_link: ''
+  next4_name: ''
   notes: Why Programming, Why Python? Address questions.
-  recording_link: TBD
+  recording_link: ''
   session: July 21, 2023
   slides_link: https://docs.google.com/presentation/d/1Q1JNnS0phSV7OF5qveBwBUBhzd-7to9jNXw9p34iJ-4/edit?usp=sharing
 - desc: Orientation (Thursday 10-11:30am PST)
-  next1_link: ''
-  next1_name: ''
+  next1_link: https://discord.gg/aKKjHnUD
+  next1_name: discord invite
+  next2_link: https://us02web.zoom.us/rec/share/jO7it7FYCSXC1eE4Gv9jZJt0QGPRY7Br_OZb5zz8C25orE_-9nLdianz4RLbq9-k.JYWo82yBUBoqg2-G
+  next2_name: roster
+  next3_link: https://colab.research.google.com/drive/1nj5WghFyKXvXdtb4guqaCZ4zd-O2S8R0?usp=sharing
+  next3_name: google colab
+  next4_link: ''
+  next4_name: ''
   notes: Break ice, Review skills, Setup Accounts
-  recording_link: ''
+  recording_link: https://us02web.zoom.us/rec/share/jO7it7FYCSXC1eE4Gv9jZJt0QGPRY7Br_OZb5zz8C25orE_-9nLdianz4RLbq9-k.JYWo82yBUBoqg2-G
   session: August 3, 2023
   slides_link: ''
 - desc: Getting Started with Python (Monday 9-11am PST)
   next1_link: ''
   next1_name: ''
+  next2_link: ''
+  next2_name: ''
+  next3_link: ''
+  next3_name: ''
+  next4_link: ''
+  next4_name: ''
   notes: Initial Programs
   recording_link: ''
   session: August 7, 2023
@@ -22,6 +40,12 @@
 - desc: Data Types, and Conditional Statements (Tuesday 9-11am PST)
   next1_link: ''
   next1_name: ''
+  next2_link: ''
+  next2_name: ''
+  next3_link: ''
+  next3_name: ''
+  next4_link: ''
+  next4_name: ''
   notes: Read PEP8
   recording_link: ''
   session: August 8, 2023
@@ -29,6 +53,12 @@
 - desc: Functions & Lists
   next1_link: ''
   next1_name: ''
+  next2_link: ''
+  next2_name: ''
+  next3_link: ''
+  next3_name: ''
+  next4_link: ''
+  next4_name: ''
   notes: Inclass work
   recording_link: ''
   session: August 9, 2023
@@ -36,6 +66,12 @@
 - desc: Lists & Comprehensions
   next1_link: ''
   next1_name: ''
+  next2_link: ''
+  next2_name: ''
+  next3_link: ''
+  next3_name: ''
+  next4_link: ''
+  next4_name: ''
   notes: Power of python list comprehensions & scientific programming
   recording_link: ''
   session: August 10, 2023
@@ -43,6 +79,12 @@
 - desc: STEM with Python!
   next1_link: ''
   next1_name: ''
+  next2_link: ''
+  next2_name: ''
+  next3_link: ''
+  next3_name: ''
+  next4_link: ''
+  next4_name: ''
   notes: Python notebooks with scientific analysis
   recording_link: ''
   session: August 11, 2023
@@ -50,6 +92,12 @@
 - desc: Object Oriented Programming in Python
   next1_link: ''
   next1_name: ''
+  next2_link: ''
+  next2_name: ''
+  next3_link: ''
+  next3_name: ''
+  next4_link: ''
+  next4_name: ''
   notes: Solving day to day problems
   recording_link: ''
   session: August 14, 2023
@@ -57,6 +105,12 @@
 - desc: Review Python web-application & Copilot with ChatGPT
   next1_link: ''
   next1_name: ''
+  next2_link: ''
+  next2_name: ''
+  next3_link: ''
+  next3_name: ''
+  next4_link: ''
+  next4_name: ''
   notes: FASTCGI application
   recording_link: ''
   session: August 15, 2023
@@ -64,6 +118,12 @@
 - desc: Securing & Debugging Python Programs
   next1_link: ''
   next1_name: ''
+  next2_link: ''
+  next2_name: ''
+  next3_link: ''
+  next3_name: ''
+  next4_link: ''
+  next4_name: ''
   notes: Learning to write fast and secure programs
   recording_link: ''
   session: August 16, 2023
@@ -71,6 +131,12 @@
 - desc: Porject review & Invited talks
   next1_link: ''
   next1_name: ''
+  next2_link: ''
+  next2_name: ''
+  next3_link: ''
+  next3_name: ''
+  next4_link: ''
+  next4_name: ''
   notes: Review projects
   recording_link: ''
   session: August 17, 2023
@@ -78,6 +144,12 @@
 - desc: Presentation Day from 9-11:30am PST Please Join
   next1_link: ''
   next1_name: ''
+  next2_link: ''
+  next2_name: ''
+  next3_link: ''
+  next3_name: ''
+  next4_link: ''
+  next4_name: ''
   notes: Guest talk and Project completion
   recording_link: ''
   session: August 18, 2023
