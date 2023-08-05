@@ -7,7 +7,7 @@ def convert_google_spreadsheet_to_yaml(spreadsheet_id = '1yN3bmLLB_KuESmNqgiDEJg
     """ Given a spreadsheet_id and sheet_name, convert it to a yaml """
     # Replace 'credentials.json' with the path to your credentials JSON file
     HOME=os.environ.get("HOME")
-    credentials = ServiceAccountCredentials.from_json_keyfile_name(HOME + "/.google/gdrive/cyberdefenders/gspread.json", ['https://www.googleapis.com/auth/spreadsheets'])
+    credentials = ServiceAccountCredentials.from_json_keyfile_name(HOME + "/.google/cyberdefenders/service_account.json", ['https://www.googleapis.com/auth/spreadsheets'])
     gc = gspread.authorize(credentials)
 
     # Replace 'your_spreadsheet_id' with the actual ID of your Google Spreadsheet
