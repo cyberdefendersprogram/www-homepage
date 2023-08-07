@@ -25,18 +25,18 @@
   session: August 3, 2023
   slides_link: ''
 - desc: Getting Started with Python (Monday 9-11am PST)
-  next1_link: ''
-  next1_name: ''
-  next2_link: ''
-  next2_name: ''
-  next3_link: ''
-  next3_name: ''
+  next1_link: https://colab.research.google.com/drive/1dFu2PMpb-M8d5Hd1kfFb4LQ5tKiVtXlJ?usp=sharing
+  next1_name: classwork colab01
+  next2_link: https://colab.research.google.com/drive/1CSezbT1sOAyddjO_YIgX2Rq3kP4F705T?usp=sharing
+  next2_name: homework colab (make your copy)
+  next3_link: https://docs.python.org/3.10/reference/index.html
+  next3_name: python documentation
   next4_link: ''
   next4_name: ''
   notes: Initial Programs
-  recording_link: ''
+  recording_link: https://us02web.zoom.us/rec/share/IwNZP5ulAm1UxzWwTUv45u-4EVKVm-qp9qgTHAHhGHzgknTog7m4CAyRxjquubXo.Ta0NjtO7IcuqZvB9
   session: August 7, 2023
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/1UdRSgYqZ3PdPlZQfF6GPciuMfGOgnwbsprFBwg0cJ7k/edit?usp=sharing
 - desc: Data Types, and Conditional Statements (Tuesday 9-11am PST)
   next1_link: ''
   next1_name: ''
