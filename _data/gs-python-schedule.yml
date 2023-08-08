@@ -38,18 +38,18 @@
   session: August 7, 2023
   slides_link: https://docs.google.com/presentation/d/1UdRSgYqZ3PdPlZQfF6GPciuMfGOgnwbsprFBwg0cJ7k/edit?usp=sharing
 - desc: Data Types, and Conditional Statements (Tuesday 9-11am PST)
-  next1_link: ''
-  next1_name: ''
-  next2_link: ''
-  next2_name: ''
-  next3_link: ''
-  next3_name: ''
-  next4_link: ''
-  next4_name: ''
+  next1_link: https://colab.research.google.com/drive/1tLXklwj-fqWPA1Q_QScLPmrq5b6e58vb?usp=sharing
+  next1_name: classwork colab02
+  next2_link: https://colab.research.google.com/drive/1rp0a09SX2YO5v7e1AuYfyAU85cJratWs?usp=sharing
+  next2_name: homework colab (make your copy)
+  next3_link: https://www.w3schools.com/python/python_functions.asp
+  next3_name: python functions
+  next4_link: https://pythontutor.com/
+  next4_name: scopes
   notes: Read PEP8
-  recording_link: ''
+  recording_link: https://us02web.zoom.us/rec/share/LKQXnGQQiRAjiPgg-U9bm6P03ScCCiht6p5kZTxwmxiPwctRoDSuf9p2Cqx_Vxub._WqB6tp4k0_AAUb_
   session: August 8, 2023
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/1422C_XgZZu7jf-nVtrCZtr5AcJF5RlxYzWliGeHs1lU/edit?usp=sharing
 - desc: Functions & Lists
   next1_link: ''
   next1_name: ''
