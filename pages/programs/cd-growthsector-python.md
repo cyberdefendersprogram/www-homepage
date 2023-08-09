@@ -60,22 +60,23 @@ Python is a widely used and fast growing programming language which is in high d
             <ol>
             {%if session.slides_link != "" %}
                 <li><a href="{{session.slides_link}}" class="tag is-info">Slides</a></li>
-            {%endif%}
-            {%if session.next1_name != "" %}
-                <li><a href="{{session.next1_link}}" class="tag is-warning">{{session.next1_name}}</a></li>
-            {%endif%}
-            {%if session.next2_name != "" %}
-                <li><a href="{{session.next2_link}}" class="tag is-warning">{{session.next2_name}}</a></li>
-            {%endif%}
-            {%if session.next3_name != "" %}
-                <li><a href="{{session.next3_link}}" class="tag is-warning">{{session.next3_name}}</a></li>
-            {%endif%}
-            {%if session.next4_name != "" %}
-                <li><a href="{{session.next4_link}}" class="tag is-warning">{{session.next4_name}}</a></li>
-            {%endif%}
-            {%if session.recording_link != "" %}                
+            {% endif %}
+            {% for i in (1..4) %}
+                {% assign name_key = 'next' | append: i | append: '_name' %}
+                {% assign link_key = 'next' | append: i | append: '_link' %}
+                {% assign name = session[name_key] %}
+                {% assign link = session[link_key] %}
+                {% if name != "" %}
+                    {% if link != "" %}
+                    <li><a href="{{link}}" class="tag is-warning">{{name}}</a></li>
+                    {% else %}
+                    <li>{{name}}</li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+            {% if session.recording_link != "" %}                
                 <li><a href="{{session.recording_link}}" class="tag is-info">Recording</a></li>
-            {%endif%}
+            {% endif %}
             </ol>
         </td>
     </tr>

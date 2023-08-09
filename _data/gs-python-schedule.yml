@@ -37,7 +37,7 @@
   recording_link: https://us02web.zoom.us/rec/share/IwNZP5ulAm1UxzWwTUv45u-4EVKVm-qp9qgTHAHhGHzgknTog7m4CAyRxjquubXo.Ta0NjtO7IcuqZvB9
   session: August 7, 2023
   slides_link: https://docs.google.com/presentation/d/1UdRSgYqZ3PdPlZQfF6GPciuMfGOgnwbsprFBwg0cJ7k/edit?usp=sharing
-- desc: Data Types, and Conditional Statements (Tuesday 9-11am PST)
+- desc: Abstractions
   next1_link: https://colab.research.google.com/drive/1tLXklwj-fqWPA1Q_QScLPmrq5b6e58vb?usp=sharing
   next1_name: classwork colab02
   next2_link: https://colab.research.google.com/drive/1rp0a09SX2YO5v7e1AuYfyAU85cJratWs?usp=sharing
@@ -50,19 +50,19 @@
   recording_link: https://us02web.zoom.us/rec/share/LKQXnGQQiRAjiPgg-U9bm6P03ScCCiht6p5kZTxwmxiPwctRoDSuf9p2Cqx_Vxub._WqB6tp4k0_AAUb_
   session: August 8, 2023
   slides_link: https://docs.google.com/presentation/d/1422C_XgZZu7jf-nVtrCZtr5AcJF5RlxYzWliGeHs1lU/edit?usp=sharing
-- desc: Functions Contd & Lists
-  next1_link: ''
-  next1_name: ''
+- desc: Expressivity with Python
+  next1_link: https://colab.research.google.com/drive/1CJRLJTv1I-YW7AhiYwRbqp8E0xkQuSF5?usp=sharing
+  next1_name: classwork colab
   next2_link: ''
-  next2_name: ''
-  next3_link: ''
-  next3_name: ''
-  next4_link: ''
-  next4_name: ''
-  notes: Inclass work
-  recording_link: ''
+  next2_name: 'HW: Post on discord - PEP8 & Notes on Python Code you read'
+  next3_link: https://docs.google.com/spreadsheets/d/1SFBHDPBvBF1oycxK4NOJgiijfCon6HOZcJ23c5QumQI/edit?usp=sharing
+  next3_name: 'HW: add project idea in projects tab'
+  next4_link: https://colab.research.google.com/drive/18lIaLSfsB5-t1vhu93gIiP6XvnSYczu_?usp=sharing
+  next4_name: 'HW: calculator-3 colab (make copy)'
+  notes: Lists, Dictionaries, Iterators, Classes, Reading Code
+  recording_link: https://us02web.zoom.us/rec/share/DNSbyyp2ztHvoNYcnTctwItU3DCI4cEQ6ZZTM32h544zhosRz0XMk57HwZG9tcP6.ihM1j_qU07QXOFQe
   session: August 9, 2023
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/1s0rtebpykK2yMxANZWWBlNcWs-Uh6PBJo9FgCmDi89A/edit?usp=sharing
 - desc: Lists & Comprehensions
   next1_link: ''
   next1_name: ''
