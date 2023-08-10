@@ -61,7 +61,7 @@ Python is a widely used and fast growing programming language which is in high d
             {%if session.slides_link != "" %}
                 <li><a href="{{session.slides_link}}" class="tag is-info">Slides</a></li>
             {% endif %}
-            {% for i in (1..4) %}
+            {% for i in (1..5) %}
                 {% assign name_key = 'next' | append: i | append: '_name' %}
                 {% assign link_key = 'next' | append: i | append: '_link' %}
                 {% assign name = session[name_key] %}
