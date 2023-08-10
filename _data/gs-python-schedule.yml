@@ -7,6 +7,8 @@
   next3_name: ''
   next4_link: ''
   next4_name: ''
+  next5_link: ''
+  next5_name: ''
   notes: Why Programming, Why Python? Address questions.
   recording_link: ''
   session: July 21, 2023
@@ -20,6 +22,8 @@
   next3_name: google colab
   next4_link: ''
   next4_name: ''
+  next5_link: ''
+  next5_name: ''
   notes: Break ice, Review skills, Setup Accounts
   recording_link: https://us02web.zoom.us/rec/share/jO7it7FYCSXC1eE4Gv9jZJt0QGPRY7Br_OZb5zz8C25orE_-9nLdianz4RLbq9-k.JYWo82yBUBoqg2-G
   session: August 3, 2023
@@ -33,6 +37,8 @@
   next3_name: python documentation
   next4_link: ''
   next4_name: ''
+  next5_link: ''
+  next5_name: ''
   notes: Initial Programs
   recording_link: https://us02web.zoom.us/rec/share/IwNZP5ulAm1UxzWwTUv45u-4EVKVm-qp9qgTHAHhGHzgknTog7m4CAyRxjquubXo.Ta0NjtO7IcuqZvB9
   session: August 7, 2023
@@ -46,6 +52,8 @@
   next3_name: python functions
   next4_link: https://pythontutor.com/
   next4_name: scopes
+  next5_link: ''
+  next5_name: ''
   notes: TypeConversions, Scope, Functions, TryCatch and Testing
   recording_link: https://us02web.zoom.us/rec/share/LKQXnGQQiRAjiPgg-U9bm6P03ScCCiht6p5kZTxwmxiPwctRoDSuf9p2Cqx_Vxub._WqB6tp4k0_AAUb_
   session: August 8, 2023
@@ -59,23 +67,27 @@
   next3_name: 'HW: add project idea in projects tab'
   next4_link: https://colab.research.google.com/drive/18lIaLSfsB5-t1vhu93gIiP6XvnSYczu_?usp=sharing
   next4_name: 'HW: calculator-3 colab (make copy)'
+  next5_link: ''
+  next5_name: ''
   notes: Lists, Dictionaries, Iterators, Classes, Reading Code
   recording_link: https://us02web.zoom.us/rec/share/DNSbyyp2ztHvoNYcnTctwItU3DCI4cEQ6ZZTM32h544zhosRz0XMk57HwZG9tcP6.ihM1j_qU07QXOFQe
   session: August 9, 2023
   slides_link: https://docs.google.com/presentation/d/1s0rtebpykK2yMxANZWWBlNcWs-Uh6PBJo9FgCmDi89A/edit?usp=sharing
-- desc: Lists & Comprehensions
-  next1_link: ''
-  next1_name: ''
-  next2_link: ''
-  next2_name: ''
+- desc: Python Productivity -- (Lists & Comprehensions)
+  next1_link: https://colab.research.google.com/drive/1wR8r9YOP9p2kJDV-lV8Oaqm_MjmFxmA7?usp=sharing
+  next1_name: 'classwork '
+  next2_link: https://fs.blog/mental-models/
+  next2_name: 'HW: Read One Mental Model and post on Discord'
   next3_link: ''
-  next3_name: ''
-  next4_link: ''
-  next4_name: ''
-  notes: Power of python list comprehensions & scientific programming
-  recording_link: ''
+  next3_name: 'HW: List comphrension (10 random numbers and their squares)'
+  next4_link: https://colab.research.google.com/drive/18lIaLSfsB5-t1vhu93gIiP6XvnSYczu_?usp=sharing
+  next4_name: 'HW: Make calculator with classes'
+  next5_link: ''
+  next5_name: 'HW: Adding Motivation to Projects tab'
+  notes: Classes, List Comprehension, Slicing
+  recording_link: https://us02web.zoom.us/rec/share/TQJp6xUeZxXjEufhHOc_2-FIwadvM5cnVrpbVDUk31rDKAmgh5Io25mLje0Odw_5.rch4ZVaVWJiwX0EK
   session: August 10, 2023
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/1SXQ7w9YRLbccs3C5K5gU1QwcmNE3DOmsTVqu-EukGYM/edit?usp=sharing
 - desc: STEM with Python!
   next1_link: ''
   next1_name: ''
@@ -85,6 +97,8 @@
   next3_name: ''
   next4_link: ''
   next4_name: ''
+  next5_link: ''
+  next5_name: ''
   notes: Python notebooks with scientific analysis
   recording_link: ''
   session: August 11, 2023
@@ -98,6 +112,8 @@
   next3_name: ''
   next4_link: ''
   next4_name: ''
+  next5_link: ''
+  next5_name: ''
   notes: Solving day to day problems
   recording_link: ''
   session: August 14, 2023
@@ -111,6 +127,8 @@
   next3_name: ''
   next4_link: ''
   next4_name: ''
+  next5_link: ''
+  next5_name: ''
   notes: FASTCGI application
   recording_link: ''
   session: August 15, 2023
@@ -124,6 +142,8 @@
   next3_name: ''
   next4_link: ''
   next4_name: ''
+  next5_link: ''
+  next5_name: ''
   notes: Learning to write fast and secure programs
   recording_link: ''
   session: August 16, 2023
@@ -137,6 +157,8 @@
   next3_name: ''
   next4_link: ''
   next4_name: ''
+  next5_link: ''
+  next5_name: ''
   notes: Review projects
   recording_link: ''
   session: August 17, 2023
@@ -150,6 +172,8 @@
   next3_name: ''
   next4_link: ''
   next4_name: ''
+  next5_link: ''
+  next5_name: ''
   notes: Guest talk and Project completion
   recording_link: ''
   session: August 18, 2023
