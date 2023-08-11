@@ -88,21 +88,21 @@
   recording_link: https://us02web.zoom.us/rec/share/TQJp6xUeZxXjEufhHOc_2-FIwadvM5cnVrpbVDUk31rDKAmgh5Io25mLje0Odw_5.rch4ZVaVWJiwX0EK
   session: August 10, 2023
   slides_link: https://docs.google.com/presentation/d/1SXQ7w9YRLbccs3C5K5gU1QwcmNE3DOmsTVqu-EukGYM/edit?usp=sharing
-- desc: STEM with Python!
-  next1_link: ''
-  next1_name: ''
+- desc: STEAM with Python!
+  next1_link: https://colab.research.google.com/drive/1wR8r9YOP9p2kJDV-lV8Oaqm_MjmFxmA7?usp=sharing
+  next1_name: classwork
   next2_link: ''
-  next2_name: ''
+  next2_name: 'HW: Finish Calculator'
   next3_link: ''
-  next3_name: ''
+  next3_name: 'HW: Code review Calculator and post in discord'
   next4_link: ''
-  next4_name: ''
+  next4_name: 'HW: Implement one mental model from fs.blog'
   next5_link: ''
-  next5_name: ''
-  notes: Python notebooks with scientific analysis
-  recording_link: ''
+  next5_name: 'HW: Add implementation detals for your project'
+  notes: Python notebooks with scientific analysis, Code Review
+  recording_link: https://us02web.zoom.us/rec/share/PtblCxcF6nHd50XljmdfTr2kRzSTOWI_lH_BJYZK4rXt-38MUMfHPGf_lc2N0grD.cxXxPW93PO6ASvO6
   session: August 11, 2023
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/12IHbZYzEaTEJoTKk4icxiPo6seaVPLmfbmDIGz7nIt8/edit?usp=sharing
 - desc: Object Oriented Programming in Python
   next1_link: ''
   next1_name: ''
