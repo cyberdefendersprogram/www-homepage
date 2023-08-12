@@ -113,7 +113,7 @@ Through the Cyber Explorers, we aim at having a comprehensive introduction to cy
         <td>No</td><td>Title</td><td>Presentation</td><td>Team</td>
     </thead>
     <tbody>
-    {% assign sorted_projects = site.data.2023-cyberaggies-projects  | sort: "order" %}
+    {% assign sorted_projects = site.data["2023-cyberaggies-projects"]  | sort: "order" %}
     {% for project in sorted_projects %} 
         {% if project.order != "" %}
       <tr>

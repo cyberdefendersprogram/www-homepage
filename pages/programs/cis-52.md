@@ -23,9 +23,9 @@ This is the second course in the infrastructure security major and it will expos
         <div class="column is-half">
         <p class="has-text-left">   
             <div>
-                <span class="tag is-primary">Completed!</span>
+                <span class="tag is-danger">Enrolling!</span>
                 <br/> <br/>
-                <a class="tag is-danger" href="https://us02web.zoom.us/rec/share/5Mgs5bmAx_s5Wo1QmaeKpPa6JDAH7s98Ek6Mn6NSMKLPHlljDcSS1STFTKfIxh5W.HR3lH_rkJQiHpeHc">Final Presentations and Guest Lecture</a>
+                <a class="tag is-danger">Guest Lecture</a>
                 <br/> <br/>
                 <span class="tag is-danger">Next Up Winter 2023</span>
                 <br/> <br/>
@@ -43,7 +43,7 @@ This is the second course in the infrastructure security major and it will expos
         <td>Session</td><td>Description</td><td>Notes</td>
     </thead>
     <tbody>
-    {% for session in site.data.merritt-cis-52 %} 
+    {% for session in site.data.merritt-cis52-schedule %} 
     <tr>
         <td><a id="{{session.session| url_encode}}" href="#{{session.session | url_encode}}">{{session.session}}</a></td>
         <td>{{session.desc | markdownify}}</td>

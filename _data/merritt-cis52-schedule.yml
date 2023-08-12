@@ -1,0 +1,28 @@
+- desc: Introduction into core concepts
+  notes: Nothing is due
+  session: August 25
+- desc: Identity and Access Management
+  notes: 'Lab 1 Due at 9am
+
+    Quiz 1 from 1pm till 2:30pm'
+  session: September 1
+- desc: Security Tools
+  notes: 'Lab 2 Due at 9am
+
+    Quiz 2 from 1pm till 2:30pm'
+  session: September 8
+- desc: Monitoring
+  notes: 'Lab 3 Due at 9am
+
+    Quiz 3 from 1pm till 2:30pm'
+  session: September 16
+- desc: Host Security and Key Management
+  notes: 'Lab 4 Due at 9am
+
+    Quiz 4 from 1pm till 2:30pm'
+  session: September 22
+- desc: Detection and Response
+  notes: 'Lab 5 Due at 9am
+
+    Quiz 5 from 1pm till 2:30pm'
+  session: September 29

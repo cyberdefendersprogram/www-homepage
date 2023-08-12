@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gs-data": "cd _data/yaml-datagen && poetry run python yaml_datagen.py --gsheet --input '1SFBHDPBvBF1oycxK4NOJgiijfCon6HOZcJ23c5QumQI' --sheet 'schedule' --output ../gs-python-schedule.yml && cd ../..",
+    "m-cis52-data": "cd _data/yaml-datagen && poetry run python yaml_datagen.py --gsheet --input '16V3jKVy8EuY6Hc4RbMEq8MR_WnLHlWD7dzxpOPgDE3E' --sheet 'schedule' --output ../merritt-cis52-schedule.yml && cd ../..",
     "css-build": "sass assets/sass/main.scss:assets/css/main.css",
     "css-watch": "npm run css-build -- --watch",
     "deploy": "npm run css-build && npm run js-build",
