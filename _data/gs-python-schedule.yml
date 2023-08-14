@@ -103,21 +103,21 @@
   recording_link: https://us02web.zoom.us/rec/share/PtblCxcF6nHd50XljmdfTr2kRzSTOWI_lH_BJYZK4rXt-38MUMfHPGf_lc2N0grD.cxXxPW93PO6ASvO6
   session: August 11, 2023
   slides_link: https://docs.google.com/presentation/d/12IHbZYzEaTEJoTKk4icxiPo6seaVPLmfbmDIGz7nIt8/edit?usp=sharing
-- desc: Object Oriented Programming in Python
+- desc: How To Keep Learning
   next1_link: ''
   next1_name: ''
-  next2_link: ''
-  next2_name: ''
+  next2_link: https://www.cyberdefendersprogram.com/code-review-tips/
+  next2_name: 'HW: Read Code Review Tips'
   next3_link: ''
-  next3_name: ''
-  next4_link: ''
-  next4_name: ''
-  next5_link: ''
-  next5_name: ''
-  notes: Solving day to day problems
-  recording_link: ''
+  next3_name: 'HW: Finish & Review Calculator'
+  next4_link: https://norvig.com/21-days.html
+  next4_name: 'HW: Read How to learn Programming'
+  next5_link: https://earsketch.gatech.edu/earsketch2/?sharing=M5JyrhVHJgSXA46Mw5l_4A
+  next5_name: 'HW: Add Python Music Program based on this Javascript program'
+  notes: Solving day to day problems, learning Javascript
+  recording_link: https://us02web.zoom.us/rec/share/DoY5VZnTVpz7Fme0PiNL-iZzb95yAXF4dXQ29hmph1sEO4OSUht8Ps64VfJjPjbW.BWyYdXnO9x_624bH
   session: August 14, 2023
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/124sZvZgLMB8xb0ZcWf-PzIRYU9-lRdefIig08Odxxs8/edit?usp=sharing
 - desc: Review Python web-application & Copilot with ChatGPT
   next1_link: ''
   next1_name: ''
