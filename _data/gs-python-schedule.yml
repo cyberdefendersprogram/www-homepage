@@ -118,21 +118,21 @@
   recording_link: https://us02web.zoom.us/rec/share/DoY5VZnTVpz7Fme0PiNL-iZzb95yAXF4dXQ29hmph1sEO4OSUht8Ps64VfJjPjbW.BWyYdXnO9x_624bH
   session: August 14, 2023
   slides_link: https://docs.google.com/presentation/d/124sZvZgLMB8xb0ZcWf-PzIRYU9-lRdefIig08Odxxs8/edit?usp=sharing
-- desc: Review Python web-application & Copilot with ChatGPT
-  next1_link: ''
-  next1_name: ''
+- desc: Working with Code & Using AI like ChatGPT
+  next1_link: https://github.com/cyberdefendersprogram/summerpythons/tree/main/student_work
+  next1_name: Upload your Calculator to Github
   next2_link: ''
-  next2_name: ''
+  next2_name: 'HW: Share your project Colab or Code'
   next3_link: ''
   next3_name: ''
   next4_link: ''
   next4_name: ''
   next5_link: ''
   next5_name: ''
-  notes: FASTCGI application
-  recording_link: ''
+  notes: Github tutorial, using ChatGPT, testing etc.
+  recording_link: https://us02web.zoom.us/rec/share/IocUmP9cEX5cnqBHTPpqmA52yPOqYqCLdurnLi3WoXp97zDOSlleAM9ps93GTZA3.D8H8WHlRqTX92gmi
   session: August 15, 2023
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/1amld64wsi5IaLMa8Xkh53BocgTsUivOK4ya1aI8KNG0/edit?usp=sharing
 - desc: Securing & Debugging Python Programs
   next1_link: ''
   next1_name: ''
