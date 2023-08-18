@@ -3,7 +3,13 @@ layout: blog
 title: Python Academy
 permalink: /cd-growthsector-python-academy/
 cert-students:
-    - TBA
+    - Eslin Villalta 
+    - Michael Lee
+    - Michael Jordan
+    - Allison Galon
+    - Justin Sommervile
+    - Rodolfo Peluzzo 
+
 last_modified_at: 2023-03-24T22:28:35
 ---
 <br/>
@@ -88,20 +94,26 @@ Python is a widely used and fast growing programming language which is in high d
 Through the Python Academy, we aim at having a comprehensive introduction to Python prorgamming languagee, and exposing students to real-life programming projects. The program finale will showcases student work and projects to a broad audience.
 <br/>
 
-<h1 class="title"><a id="projects" href="#projects">2022 Student Projects</a></h1>
-<p>Use this form to submit <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA_lMQWVrwFkEvh9cOjFISOkabSacRtEo0Tuk_7-AIlfp-Zg/viewform">reviews</a></p>
-<a class="tag is-danger" href="https://us02web.zoom.us/rec/share/GSHhYNjl_vOBhD73XP7vZlmfzYooYYHv-J3Pt7oeS6FuJ_xAMq9Av4TM7pz4Wq2e.y5pWWIbKhp2zndGE">ZOOM RECORDED PRESENTATIONS</a>
-<a class="tag is-info" href="https://www.youtube.com/watch?v=8L_1c8vztM4">ON YOUTUBE - RECORDED PRESENTATIONS</a>
+<h1 class="title"><a id="projects" href="#projects">Student Projects</a></h1>
+<p>Use this form to submit <a href="https://docs.google.com/forms/d/e/1FAIpQLScfQpNgIJ9_Tutuvp2okFOz70ycN04w1Xh0RsoL94lqFjzqgA/viewform">reviews</a></p>
+
+<a class="tag is-danger" href="">ZOOM RECORDED PRESENTATIONS</a>
+
+<a class="tag is-info" href="">ON YOUTUBE - RECORDED PRESENTATIONS</a>
+
 <table class="table is-bordered is-striped">
     <thead>
-        <td>Title</td><td>Code</td><td>Description</td><td>Team</td>
+        <td>Order</td><td>Title</td><td>Code</td><td>Description</td><td>Team</td>
     </thead>
     <tbody>
-    {% for project in site.data.cyber-defenders-python-academy-projects %} 
+    {% assign sorted_projects = site.data["cyber-defenders-python-academy-projects"]  | sort: "order" %}
+    {% for project in sorted_projects %} 
+        {% if project.order != "" %}
     <tr>
-        <td><a id="{{project.title| url_encode}}" href="#{{project.title | url_encode}}">{{project.title}}</a></td>
-        <td>{% if project.presentation_url %}
-            <a href="{{project.presentation_url}}">Code</a>
+        <td><a id="{{project.title| url_encode}}" href="#{{project.title | url_encode}}">{{project.order}}</a></td>
+        <td>{{project.title}}</td>
+        <td>{% if project.code %}
+            <a href="{{project.code}}">Code</a>
             {% else %}
             Presentation
             {% endif %}
@@ -109,6 +121,7 @@ Through the Python Academy, we aim at having a comprehensive introduction to Pyt
         <td>{{project.desc | markdownify}}</td>
         <td>{{project.team | markdownify}}</td>
     </tr>
+        {% endif %}
     {% endfor %}
     </tbody>
 </table>
@@ -124,7 +137,8 @@ Through the Python Academy, we aim at having a comprehensive introduction to Pyt
     {% for student in page.cert-students %} 
     <tr>
         <td><a id="{{student | url_encode}}" href="#{{student | url_encode}}">{{student}}</a></td>
-        <td><a href="{{site.url}}{{site.baseurl}}assets/images/gs-certs/png/{{student | replace: ' ','_'}}.png">certificate</a></td>
+        <td><a href="{{site.url}}{{site.baseurl}}assets/images/gs-certs/2023-08/png/{{student | replace: ' ','_'}}.png">certificate</a></td>
+        <td><a href="{{site.url}}{{site.baseurl}}assets/images/gs-certs/2023-08/png/{{student | replace: ' ','_'}}.pdf">PDF</a></td>
     </tr>
     {% endfor %}
     </tbody>
