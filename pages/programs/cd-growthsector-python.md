@@ -108,8 +108,8 @@ Through the Python Academy, we aim at having a comprehensive introduction to Pyt
     <tr>
         <td><a id="{{project.title| url_encode}}" href="#{{project.title | url_encode}}">{{project.order}}</a></td>
         <td>{{project.title}}</td>
-        <td>{% if project.presentation_url %}
-            <a href="{{project.presentation_url}}">Code</a>
+        <td>{% if project.code %}
+            <a href="{{project.code}}">Code</a>
             {% else %}
             Presentation
             {% endif %}
