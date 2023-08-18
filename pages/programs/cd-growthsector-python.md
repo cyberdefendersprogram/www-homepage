@@ -133,8 +133,8 @@ Through the Python Academy, we aim at having a comprehensive introduction to Pyt
     {% for student in page.cert-students %} 
     <tr>
         <td><a id="{{student | url_encode}}" href="#{{student | url_encode}}">{{student}}</a></td>
-        <td><a href="{{site.url}}{{site.baseurl}}assets/images/gs-certs/2023-08/png/{{student | replace: ' ','_'}}.png">certificate</a></td>
-        <td><a href="{{site.url}}{{site.baseurl}}assets/images/gs-certs/2023-08/pdf/{{student | replace: ' ','_'}}.pdf">pdf</a></td>
+        <td><a href="{{site.url}}{{site.baseurl}}assets/images/gs-certs/png/2023-08/png/{{student | replace: ' ','_'}}.png">certificate</a></td>
+        <td><a href="{{site.url}}{{site.baseurl}}assets/images/gs-certs/png/2023-08/pdf/{{student | replace: ' ','_'}}.pdf">pdf</a></td>
     </tr>
     {% endfor %}
     </tbody>
