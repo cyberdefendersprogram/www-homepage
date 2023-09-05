@@ -7,7 +7,7 @@ cert-students:
     - Michael Lee
     - Michael Jordan
     - Allison Galon
-    - Justin Sommervile
+    - Justin Sommerville
     - Rodolfo Peluzzo 
 last_modified_at: 2023-03-24T22:28:35
 ---
