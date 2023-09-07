@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Merritt College Hacker Techniques
+title: Merritt College CIS 52
 permalink: /cis-52/
 last_modified_at: 2023-08-11 08:12:05+00:00
 ---
