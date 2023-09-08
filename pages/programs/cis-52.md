@@ -40,7 +40,7 @@ This is the second course in the infrastructure security major and it will expos
 <h1 class="title">Program details</h1>
 <table class="table is-bordered is-striped">
     <thead>
-        <td>Session</td><td>Description</td><td>Notes</td>
+        <td>Session</td><td>Description</td><td>Notes</td><td>Slides</td><td>Recording</td>
     </thead>
     <tbody>
     {% for session in site.data.merritt-cis52-schedule %} 
@@ -48,6 +48,12 @@ This is the second course in the infrastructure security major and it will expos
         <td><a id="{{session.session| url_encode}}" href="#{{session.session | url_encode}}">{{session.session}}</a></td>
         <td>{{session.desc | markdownify}}</td>
         <td>{{session.notes | markdownify}}</td>
+        {%if session.slides_link != "" %}
+        <td><a href="{{session.slides_link}}" class="tag is-info">Slides</a></td>
+        {% endif %}
+        {%if session.recording_link != "" %}
+        <td><a href="{{session.recording_link}}" class="tag is-info">Recording</a></td>
+        {% endif %}
     </tr>
     {% endfor %}
     </tbody>
