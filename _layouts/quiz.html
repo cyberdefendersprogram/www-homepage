@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <style>
+body {
+  font-family: 'Arial, sans-serif';
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.card {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  transition: transform 0.6s;
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 5px;
+}
+
+.front .container, .back .container {
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.question, .answer, .options, .explanation {
+  margin-bottom: 10px;
+}
+
+.options {
+  list-style-type: none;
+  padding: 0;
+}
+
+.options li {
+  margin-bottom: 5px;
+}
+
+.next-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+</style>
+
+<body>  
+    <div class="card" id="quiz-card">
+        <div class="front" id="card-front">
+          <div class="container">
+            <div class="question" id="question-text"></div>
+            <ul class="options" id="options-list"></ul>
+          </div>
+        </div>
+        <div class="back" id="card-back">
+          <div class="container">
+            <div class="answer" id="answer-text"></div>
+            <div class="explanation" id="explanation-text"></div>
+            <button class="next-button" id="next-button">Next</button>
+          </div>
+        </div>
+      </div>
+    <script src="../assets/js/quiz.js"></script>
+  </body>
+</html>
