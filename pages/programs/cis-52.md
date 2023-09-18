@@ -23,11 +23,11 @@ This is the second course in the infrastructure security major and it will expos
         <div class="column is-half">
         <p class="has-text-left">   
             <div>
-                <span class="tag is-danger">Enrolling!</span>
+                <span class="tag is-danger">In Session!</span>
                 <br/> <br/>
-                <a class="tag is-danger">Guest Lecture</a>
+                <a class="tag is-info" href="#guestlecture">Guest Lecture</a>
                 <br/> <br/>
-                <span class="tag is-danger">Next Up Winter 2023</span>
+                <a class="tag is-danger" href="/cis-52-quiz" target="_blank">Quiz</a>
                 <br/> <br/>
             </div>
             </p>
@@ -58,8 +58,11 @@ This is the second course in the infrastructure security major and it will expos
     {% endfor %}
     </tbody>
 </table>
-
 <br/>
+<hr/>
+
+<h2 id="guestlecture" class="subtitle">Course Outline</h2>
+<p> On Sep 22, 2023 we will have guest lecture from Keith Hodo.</p
 
 
 <hr/>
