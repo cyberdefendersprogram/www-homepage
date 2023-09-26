@@ -1,47 +1,38 @@
 <!DOCTYPE html>
 <html>
+    {% include head.html %}
     <style>
-body {
-  font-family: 'Arial, sans-serif';
+#app {
   display: flex;
-  font-size: 1.5rem;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+  margin-top: 50px;
 }
 
 .card {
-  position: relative;
-  width: 500px;
-  height: 300px;
-  transform-style: preserve-3d;
+  width: 300px;
+  height: 200px;
   cursor: pointer;
-  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
 }
 
-.front, .back {
+.card-face {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
   border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.6s;
 }
 
-.front .container, .back .container {
-  background-color: #fff;
-  padding: 20px;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.back {
+.card-face.back {
   transform: rotateY(180deg);
 }
 
-.question, .answer, .options, .explanation {
-  margin-bottom: 10px;
+#topic-selector {
+  margin-bottom: 20px;
 }
 
 .options {
@@ -52,37 +43,37 @@ body {
 .options li {
   margin-bottom: 5px;
 }
-
-.next-button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px 2px;
-  cursor: pointer;
-}
 </style>
 
 <body>  
-    <div class="card" id="quiz-card">
-        <div class="front" id="card-front">
-          <div class="container">
-            <div class="question" id="question-text"></div>
-            <ul class="options" id="options-list"></ul>
-          </div>
+    <div id="app">
+        <div id="topic-selector" class="select is-rounded">
+          <select id="topic-select">
+            <!-- Topics will be populated here -->
+          </select>
         </div>
-        <div class="back" id="card-back">
-          <div class="container">
-            <div class="answer" id="answer-text"></div>
-            <div class="explanation" id="explanation-text"></div>
-            <button class="next-button" id="next-button">Next</button>
+      
+        <div class="card" id="quiz-card">
+          <div class="card-face front" id="card-front">
+            <div class="card-content">
+              <div class="content">
+                <div class="question" id="question-text"></div>
+                <ul class="options" id="options-list"></ul>
+              </div>
+            </div>
+          </div>
+          <div class="card-face back" id="card-back">
+            <div class="card-content">
+              <div class="content">
+                <div class="answer" id="answer-text"></div>
+                <div class="explanation" id="explanation-text"></div>
+                <button class="button is-primary" id="next-button">Next</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      
     <script src="../assets/js/quiz.js"></script>
   </body>
 </html>
