@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Merritt College Hacker Techniques
-permalink: /cis-55/
+permalink: /2023-spring-cis-55/
 last_modified_at: 2023-03-24T23:06:20
 ---
 <br/>
@@ -43,7 +43,7 @@ This is the second course in the infrastructure security major and it will expos
         <td>Session</td><td>Description</td><td>Notes</td>
     </thead>
     <tbody>
-    {% for session in site.data.merritt-cis-55 %} 
+    {% for session in site.data.merritt-cis55-2023-spring-schedule %} 
     <tr>
         <td><a id="{{session.session| url_encode}}" href="#{{session.session | url_encode}}">{{session.session}}</a></td>
         <td>{{session.desc | markdownify}}</td>
