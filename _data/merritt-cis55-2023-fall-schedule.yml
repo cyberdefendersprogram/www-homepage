@@ -1,15 +1,15 @@
-- desc: 1 -
+- desc: 1 - Introduction
   notes: Nothing is due
-  recording_link: ''
+  recording_link: https://us02web.zoom.us/rec/share/0ARpnOUOOQRRraoNJn85nI9WjacIuTvNgqGlYVoI8v_p3EH4MORXcUbgSm4f7f7l.uxRrZDOzlHHgtdIN
   session: October 27
-  slides_link: ''
-- desc: '2 - '
+  slides_link: https://docs.google.com/presentation/d/1OQZvGl66ro3JHGXgUbJvS8_24ZNWZCiUwwCcEZ8OtHY/edit?usp=sharing
+- desc: 2 - Cryptography & Incident Response
   notes: 'Lab 1 Due at 9am
 
-    Quiz 1 from 1pm till 2:30pm'
-  recording_link: ''
+    Quiz 1 from 1pm till 5pm (Sun)'
+  recording_link: https://us02web.zoom.us/rec/share/FTVMxjAwog4qe-VtDSr2aervLF_d2nSJ45fTozE0dYZ4FIWslQJGalXdKdnfMAXc._GnprI2aLrHd0JUa
   session: November 3
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/1C9mjjV1Lx-X_O0hCYsn1hqxrQLiUfl6g-I3PqSrYgls/edit?usp=sharing
 - desc: '3 - '
   notes: 'Lab 2 Due at 9am
 
