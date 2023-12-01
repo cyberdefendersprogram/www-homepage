@@ -4,37 +4,29 @@
   session: October 27
   slides_link: https://docs.google.com/presentation/d/1OQZvGl66ro3JHGXgUbJvS8_24ZNWZCiUwwCcEZ8OtHY/edit?usp=sharing
 - desc: 2 - Cryptography & Incident Response
-  notes: 'Lab 1 Due at 9am
-
-    Quiz 1 from 1pm till 5pm (Sun)'
+  notes: "Lab 1 \nQuiz 1 "
   recording_link: https://us02web.zoom.us/rec/share/FTVMxjAwog4qe-VtDSr2aervLF_d2nSJ45fTozE0dYZ4FIWslQJGalXdKdnfMAXc._GnprI2aLrHd0JUa
   session: November 3
   slides_link: https://docs.google.com/presentation/d/1C9mjjV1Lx-X_O0hCYsn1hqxrQLiUfl6g-I3PqSrYgls/edit?usp=sharing
-- desc: '3 - '
-  notes: 'Lab 2 Due at 9am
-
-    Quiz 2 from 1pm till 2:30pm'
-  recording_link: ''
+- desc: 3 - Pentesting Tools (Nmap, Nessus, Metasploit, SQLMap)
+  notes: "Lab 2 \nQuiz 2"
+  recording_link: https://us02web.zoom.us/rec/share/-9dSU9IIdZbPLhtIl0TYDCWqs0FRZLjZo5QorZ2exIB3qU6cnlchGq53oQVNNiyC.yFURLX95rGKzPPbY
   session: November 17
-  slides_link: ''
-- desc: 4 -
-  notes: 'Lab 3 Due at 9am
-
-    Quiz 3 from 1pm till 2:30pm'
-  recording_link: ''
+  slides_link: https://docs.google.com/presentation/d/13V6l6MCx8hK1kHw16dExQTDsiAJsK1Tu1q_3kyx4-n0/edit?usp=sharing
+- desc: 4 - Threat Modeling, OSINT, OWASP
+  notes: "Lab 3 \nQuiz 3"
+  recording_link: https://us02web.zoom.us/rec/share/ncOefqHAOhw-em1g2uUVvmDLEhF8G3u6Xd3iS2I7EOG7U4krUycBWH1klW27Y4fT.W2szonQN3D4d1_1P
   session: December 1
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/1jbBuLsfhWp_CW5-SUMBQTerIoqq-1OTw_z6Dw_VlB0w/edit?usp=sharing
 - desc: '5 - '
-  notes: 'Lab 4 Due at 9am
+  notes: 'Lab 4
 
-    Quiz 4 from 1pm till 2:30pm'
+    Quiz 4 '
   recording_link: ''
   session: December 8
   slides_link: ''
 - desc: 6 -
-  notes: 'Lab 5 Due at 9am
-
-    Quiz 5 from 1pm till 2:30pm'
+  notes: Lab 5, Quiz 5
   recording_link: ''
   session: December 15
   slides_link: ''
