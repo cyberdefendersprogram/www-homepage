@@ -25,7 +25,7 @@ This is the second course in the infrastructure security major and it will expos
             <div>
                 <span class="tag is-primary">Completed!</span>
                 <br/> <br/>
-                <a class="tag is-danger" href="https://us02web.zoom.us/rec/share/5Mgs5bmAx_s5Wo1QmaeKpPa6JDAH7s98Ek6Mn6NSMKLPHlljDcSS1STFTKfIxh5W.HR3lH_rkJQiHpeHc">Final Presentations and Guest Lecture</a>
+                <a class="tag is-danger" href="#December+15">Final Presentations and Guest Lecture</a>
                 <br/> <br/>
                 <span class="tag is-danger"><a href="/2023-spring-cis-55">Spring 2023 Class</a></span>
                 <br/> <br/>
