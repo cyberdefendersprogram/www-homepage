@@ -1,0 +1,37 @@
+- desc: 1 - Introduction
+  notes: Nothing is due
+  recording_link: https://youtu.be/DjCdddI0sKs
+  session: January 26
+  slides_link: https://docs.google.com/presentation/d/183pK-tc0fcVbnozie8U07YBM_in2fKfm/edit?usp=sharing&ouid=104183323107728003103&rtpof=true&sd=true
+- desc: 2 - Cryptography & Incident Response
+  notes: "Lab 1 \nQuiz 1 "
+  recording_link: https://us02web.zoom.us/rec/share/8q9xm9xDh8ytvF5Cevr9INhvhkjFFedFVNgGH1hi5ZBwlxRs9IlMGTu9P4qMO35B.OZahtxyG6gITBYSY
+  session: February 2
+  slides_link: https://docs.google.com/presentation/d/1eT0M_9caEsocyhzjrDKsoMgQHDWV56Zd/edit?usp=sharing&ouid=104183323107728003103&rtpof=true&sd=true
+- desc: 3 - Pentesting Tools (Nmap, Nessus, Metasploit, SQLMap)
+  notes: "Lab 2 \nQuiz 2"
+  recording_link: ''
+  session: February 9
+  slides_link: ''
+- desc: Holiday (President's Day)
+  notes: ''
+  recording_link: ''
+  session: February 16
+  slides_link: ''
+- desc: 4 - Threat Modeling, OSINT, OWASP
+  notes: "Lab 3 \nQuiz 3"
+  recording_link: ''
+  session: February 23
+  slides_link: ''
+- desc: 5 - Cloud Security, LLM Security
+  notes: 'Lab 4
+
+    Quiz 4 '
+  recording_link: ''
+  session: March 1
+  slides_link: ''
+- desc: 6 - Security Careers and Presentations
+  notes: Lab 5, Quiz 5
+  recording_link: ''
+  session: March 8
+  slides_link: ''
