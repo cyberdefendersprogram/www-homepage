@@ -20,9 +20,9 @@
   slides_link: ''
 - desc: 4 - Threat Modeling, OSINT, OWASP
   notes: "Lab 3 \nQuiz 3"
-  recording_link: ''
+  recording_link: https://us02web.zoom.us/rec/share/Mu_9LYApZcS4PQclHoAXvG_l3qEGcIRsuVTuJ9DtYhKhdmp4xBNqjZFPxsoFTkwx.dSmK3Keg2i-bLT2l
   session: February 23
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/1zo8dS066INeLcc_2vDGv_x8x0yvNLjN4/edit?usp=sharing&ouid=104183323107728003103&rtpof=true&sd=true
 - desc: 5 - Cloud Security, LLM Security
   notes: 'Lab 4
 

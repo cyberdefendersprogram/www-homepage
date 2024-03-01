@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "46b8011f7aa3f68d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0777e0e8d1de4d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73596b57c012ea8e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "498bcda7505a32b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb74fc30b7bfc350",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aac52f119fdf38af",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "002df37df900c318",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b2cdc6960e89c079",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "585c55457fa18f30",
+    "type": "split",
+    "children": [
+      {
+        "id": "5076347729f69231",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbcb063d2ddce239",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "55679c4a8d197877",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ac555490dfebf4c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "813c5611670c77f4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "73596b57c012ea8e",
+  "lastOpenFiles": [
+    "programs/2022-cd-growthsector-python.md",
+    "Untitled.canvas",
+    "2024-02-25.md",
+    "programs/quiz.md",
+    "programs/cyberexplorers-ncat.md",
+    "programs/cyberexplorers-rocksf.md",
+    "programs/cyberexplorers.md",
+    "programs/cis-52.md",
+    "programs/cd-growthsector-python.md",
+    "posts/code-review-tips.md"
+  ]
+}
