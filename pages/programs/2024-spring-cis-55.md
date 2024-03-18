@@ -25,7 +25,7 @@ This is the second course in the infrastructure security major and it will expos
             <div>
                 <span class="tag is-primary">Completed!</span>
                 <br/> <br/>
-                <a class="tag is-danger" href="#December+15">Final Presentations and Guest Lecture</a>
+                <a class="tag is-danger" href="#guest">Final Presentations and Guest Lecture</a>
                 <br/> <br/>
                 <span class="tag is-danger"><a href="/2023-fall-cis-55">Fall 2023 Class</a></span>
                 <br/> <br/>
@@ -58,9 +58,8 @@ This is the second course in the infrastructure security major and it will expos
     {% endfor %}
     </tbody>
 </table>
-
-<br/>
-
-
+<hr/>
+<h1 class="guest">Final Presentations and Guest Lecture</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1yVklgW8JqE?si=i__oFFCj4L6NXSZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <hr/>
 Last Updated: {{page.last_modified_at}}
