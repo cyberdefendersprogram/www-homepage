@@ -1,18 +1,18 @@
 - desc: Introduction to digital forensics
   notes: Read Chapter 1-4, Quiz 1, Labs
-  recording_link: ''
+  recording_link: https://peralta-edu.zoom.us/rec/share/yMbHLYupTxDkJTWXQtDk5gq0QM6OfU9xU2cjQsUfiqnTtGpa10vpmXWJvzRWvPD3.1p7PVfEUZfLC8-_A
   session: Friday, March 22
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/1n8ebxwYa927doDY6SHyKUjDhQmxPf5CD/edit?usp=sharing&ouid=104183323107728003103&rtpof=true&sd=true
 - desc: NO CLASS, SPRING BREAK;
   notes: ''
   recording_link: ''
   session: Friday, March 29
-  slides_link: ''
+  slides_link: https://drive.google.com/file/d/1QXxUQurJEkscWIPhjthQG8YygjewqGGi/view?usp=sharing
 - desc: Legal aspects of forensics and being an expert witness
-  notes: ''
-  recording_link: ''
+  notes: Read Chapter 14-16
+  recording_link: https://us02web.zoom.us/rec/share/qQdZD7XN7RBvQjzqaFl2jNcO1xau0m6mV-r2X2USbkpAuRCbQfZIH52PpM5IM0ok.ihwR2xUlYRy7FUPb
   session: Friday, April 5
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/16TmJyFJrUOW5GJGLm54ibLRTcWD4M4zB/edit?usp=sharing&ouid=104183323107728003103&rtpof=true&sd=true
 - desc: Forensics methodology and filesystem forensics (Guest - Julie Tsai)
   notes: ''
   recording_link: ''
