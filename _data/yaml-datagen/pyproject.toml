@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "yaml-datagen"
-version = "0.1.1"
+version = "0.1.2"
 description = "generate data from gsheet or csv and output them as yml"
 authors = ["Vaibhav Bhandari <vaibhavb@gmail.com>"]
 license = "BSD 2.0"
