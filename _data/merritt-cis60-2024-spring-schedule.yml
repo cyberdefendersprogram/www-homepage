@@ -14,17 +14,17 @@
   session: Friday, April 5
   slides_link: https://docs.google.com/presentation/d/16TmJyFJrUOW5GJGLm54ibLRTcWD4M4zB/edit?usp=sharing&ouid=104183323107728003103&rtpof=true&sd=true
 - desc: Forensics methodology and filesystem forensics (Guest - Julie Tsai)
-  notes: ''
-  recording_link: ''
+  notes: Read Chapter 5-8
+  recording_link: https://peralta-edu.zoom.us/rec/share/eEXI3yFqB2_wAJ9LstHzVjJpkM8iKwkOmGrRnSNgUsabZO64ig3pHPw9ge8H_M0.K8WnrOEhKXYnN5vi
   session: Friday, April 12
   slides_link: ''
 - desc: Network forensics & memory forensics (Guest - Sherman Kwok)
-  notes: ''
+  notes: Read Chapter 9-10
   recording_link: ''
   session: Friday, April 19
   slides_link: ''
 - desc: Internet & social media forensics & mobile forensics
-  notes: ''
+  notes: Read Chapter 11-13
   recording_link: ''
   session: Friday, April 26
   slides_link: ''
