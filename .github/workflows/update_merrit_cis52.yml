@@ -34,7 +34,7 @@ jobs:
       run: |
         cd data-runners/yaml-datagen
         echo "$GOOGLE_APPLICATION_CREDENTIALS" > google_credentials.json
-        poetry run python yaml_datagen.py --credentials 'google_credentials.json' --gsheet --input '1FSi3twUBvCw3qgODtFXqhizeNbOKuVPiMD3fM-AXP2Y' --output '../../_data/merritt-cis52-schedule.yml'
+        poetry run python yaml_datagen.py --credentialspath 'google_credentials.json' --gsheet --input '1FSi3twUBvCw3qgODtFXqhizeNbOKuVPiMD3fM-AXP2Y' --output '../../_data/merritt-cis52-schedule.yml'
     - name: Commit and push if changed
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
