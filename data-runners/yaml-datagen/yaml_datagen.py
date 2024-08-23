@@ -45,13 +45,13 @@ def main():
     parser.add_argument('--input', default='1yN3bmLLB_KuESmNqgiDEJgchy83cVZjVzdySJJCL9-s', help='Input CSV file or Google Spreadsheet ID')
     parser.add_argument('--sheet', default='roster', help='Sheet name (only for Google Spreadsheet)')
     parser.add_argument('--output', help='Output YAML file')
-    parser.add_argument('--credentials-file', type=str, help='Path to Google Cloud credentials JSON file')
+    parser.add_argument('--credentials', type=str, help='Path to Google Cloud credentials JSON file')
     args = parser.parse_args()
 
     if args.csv and not args.spreadsheet:
         convert_csv_to_yaml(args.input, args.output)
     elif args.gsheet and not args.csv:
-        convert_google_spreadsheet_to_yaml(args.input, args.sheet, args.output)
+        convert_google_spreadsheet_to_yaml(args.input, args.sheet, args.output. args.credentials)
     else:
         print("Please provide either --csv or --gsheet switch.")
 
