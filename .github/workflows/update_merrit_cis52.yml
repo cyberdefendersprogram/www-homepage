@@ -39,5 +39,5 @@ jobs:
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
-        git add _data/merritt-cis52-schedule.yml 
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update popular posts" && git push)
+        git add _data/merritt-cis52-schedule.yml
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update CIS52 schedule" && git push)
