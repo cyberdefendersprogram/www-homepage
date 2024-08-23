@@ -43,7 +43,7 @@ This is the second course in the infrastructure security major and it will expos
         <td>Session</td><td>Description</td><td>Notes</td><td>Slides</td><td>Recording</td>
     </thead>
     <tbody>
-    {% for session in site.data.merritt-2023--fall-cis52-schedule %} 
+    {% for session in site.data.merritt-2023-fall-cis52-schedule %} 
     <tr>
         <td><a id="{{session.session| url_encode}}" href="#{{session.session | url_encode}}">{{session.session}}</a></td>
         <td>{{session.desc | markdownify}}</td>
