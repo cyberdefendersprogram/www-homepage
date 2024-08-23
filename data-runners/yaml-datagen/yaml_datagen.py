@@ -3,11 +3,11 @@ import gspread
 import yaml, os, csv
 from oauth2client.service_account import ServiceAccountCredentials
 
-def convert_google_spreadsheet_to_yaml(spreadsheet_id = '1yN3bmLLB_KuESmNqgiDEJgchy83cVZjVzdySJJCL9-s', sheet_name='roster', out_file='', credentials_path="/Users/vaibhavb/.google/cyberdefenders/service_account.json"):
+def convert_google_spreadsheet_to_yaml(spreadsheet_id = '1yN3bmLLB_KuESmNqgiDEJgchy83cVZjVzdySJJCL9-s', sheet_name='roster', out_file='', credentialspath="/Users/vaibhavb/.google/cyberdefenders/service_account.json"):
     """ Given a spreadsheet_id and sheet_name, convert it to a yaml """
     # Replace 'credentials.json' with the path to your credentials JSON file
     HOME=os.environ.get("HOME")
-    credentials = ServiceAccountCredentials.from_json_keyfile_name(credentials_path, ['https://www.googleapis.com/auth/spreadsheets'])
+    credentials = ServiceAccountCredentials.from_json_keyfile_name(credentialspath, ['https://www.googleapis.com/auth/spreadsheets'])
     gc = gspread.authorize(credentials)
 
 
@@ -45,13 +45,13 @@ def main():
     parser.add_argument('--input', default='1yN3bmLLB_KuESmNqgiDEJgchy83cVZjVzdySJJCL9-s', help='Input CSV file or Google Spreadsheet ID')
     parser.add_argument('--sheet', default='roster', help='Sheet name (only for Google Spreadsheet)')
     parser.add_argument('--output', help='Output YAML file')
-    parser.add_argument('--credentials', help='Path to Google Cloud credentials JSON file')
+    parser.add_argument('--credentialspath', help='Path to Google Cloud credentials JSON file')
     args = parser.parse_args()
 
     if args.csv and not args.spreadsheet:
         convert_csv_to_yaml(args.input, args.output)
     elif args.gsheet and not args.csv:
-        convert_google_spreadsheet_to_yaml(args.input, args.sheet, args.output. args.credentials)
+        convert_google_spreadsheet_to_yaml(args.input, args.sheet, args.output. args.credentialspath)
     else:
         print("Please provide either --csv or --gsheet switch.")
 
