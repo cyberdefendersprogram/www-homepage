@@ -1,22 +1,15 @@
 ---
 layout: blog
 title: Merritt College CIS 52
-permalink: /cis-52/
+permalink: /2023-fall-cis-52/
 last_modified_at: 2023-08-11 08:12:05+00:00
 ---
 <br/>
 <h1 class="title">CIS 52 Cloud Security (Merritt College)</h1>
 
-Cloud Security (Fall 2024)
+Cloud Security (Fall 2023)
 
 This is the second course in the infrastructure security major and it will expose students to the major concepts of Cloud Security.  Class will use a combination of lectures, required reading, essays, and hands-on labs to teach the course.
-
-Some additional important links below:
-- [Fall 2023 CIS 52 Class](/2023-fall-cis-52)
-- [Merritt College Cybersecurity Path - PDF](/assets/pdf/2024-merritt-career-path.pdf)
-- [Microsoft Cybersecurity Grant](https://www.lastmile-ed.org/microsoftcybersecurityscholarship)
-- [Collegiate Pentest Competition](https://cp.tc/), [Western Region Collegiate Defense Competition](https://wrccdc.org/), [NCL](https://nationalcyberleague.org/competition)
-- Preparation for the competitions [TryHackMe](https://tryhackme.com/), [HackTheBox](https://www.hackthebox.com/)
 
 <br/>
 <section>
@@ -24,7 +17,7 @@ Some additional important links below:
     <div class="columns is-multiline is-mobile is-centered">
         <div class="column is-half">
             <figure class="image">
-            <img src="{{site.url}}{{site.baseurl}}assets/images/merritt-cis-52.jpg"/>
+            <img src="{{site.url}}{{site.baseurl}}assets/images/merritt-cis-52.jpeg"/>
             </figure>
         </div>
         <div class="column is-half">
@@ -50,7 +43,7 @@ Some additional important links below:
         <td>Session</td><td>Description</td><td>Notes</td><td>Slides</td><td>Recording</td>
     </thead>
     <tbody>
-    {% for session in site.data.merritt-cis52-schedule %} 
+    {% for session in site.data.merritt-fall-2023-cis52-schedule %} 
     <tr>
         <td><a id="{{session.session| url_encode}}" href="#{{session.session | url_encode}}">{{session.session}}</a></td>
         <td>{{session.desc | markdownify}}</td>
