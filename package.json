@@ -32,6 +32,7 @@
   "homepage": "https://github.com/cyberdefenders/homepage#readme",
   "dependencies": {
     "bulma": "^0.9.4",
+    "npm-run-all": "^4.1.5",
     "sass": "^1.63.6"
   }
 }

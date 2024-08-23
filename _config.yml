@@ -24,5 +24,4 @@ merritthackapp: "https://docs.google.com/forms/d/e/1FAIpQLSeS0RISc0n2GfI_FA6rBJq
 markdown: kramdown
 permalink: pretty
 exclude:
- - data-runners
  - package.json
