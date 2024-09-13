@@ -13,17 +13,15 @@
 - desc: Security Tools
   notes: 'Lab 2 Due at 9am
 
-    Quiz 2 from 1pm till 2:30pm'
+    Quiz 2 from 1pm till 2:30pm   '
   recording_link: https://peralta-edu.zoom.us/rec/share/4JlBV6vCCiVSY0XtqMJrhm_VZyNX7XK9Xcwz77xbAumf2EOsOm1tJ8rL-lXqfFxJ.XYbVYSaBnPJCmhrF
   session: September 6
   slides_link: https://docs.google.com/presentation/d/1ZkhZ8yDmm_e-udQKdhAZAZrcaw6RH3dgNtkmWVt3KTk/edit?usp=sharing
 - desc: Monitoring
-  notes: 'Lab 3 Due at 9am
-
-    Quiz 3 from 1pm till 2:30pm'
-  recording_link: ''
+  notes: Lab 3 Due at 9am, Quiz 3 from 1pm till 2:30pm
+  recording_link: https://peralta-edu.zoom.us/rec/share/3pb57wmuFM8T8bhSAbUDI05730PSxIHwHC2UVQEpQKBV9uymF6wIh14W9PaNyvQH.TyE5sovq1bv5Gyg0?startTime=1726243080000
   session: September 13
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/1dBmCTY_Ryo4w6l8U7vMHUAjUbxk7KDKTdm7meOtWCVU/edit?usp=sharing
 - desc: Host Security and Key Management
   notes: 'Lab 4 Due at 9am
 
