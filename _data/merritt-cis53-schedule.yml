@@ -1,0 +1,38 @@
+- desc: Network Traffic Analysis Part 1
+  notes: Nothing is due
+  recording_link: https://peralta-edu.zoom.us/rec/share/h06Q-c_37ZelIruO-5N4o2qEN-AWmnPRzoYM3jVt8rfCl6s-bKLeBnxnke_IYnxs.fV1avFDqFMLWYQDt
+  session: October 18
+  slides_link: https://docs.google.com/presentation/d/1K8-aXp_7k6KbUB4M_XiKgP01uUbA1VvZnzPDP6COSjM/edit?usp=sharing
+- desc: Network Traffic Analysis Part 2
+  notes: 'Lab 1 Due at 9am
+
+    Quiz 1 from 1pm till 2:30pm'
+  recording_link: ''
+  session: October 25
+  slides_link: ''
+- desc: Application Protocols
+  notes: 'Lab 2 Due at 9am
+
+    Quiz 2 from 1pm till 2:30pm   '
+  recording_link: ''
+  session: November 1
+  slides_link: ''
+- desc: IDS/IPS, HIDS, SIEM, & Network Architecture for Monitoring
+  notes: Lab 3 Due at 9am, Quiz 3 from 1pm till 2:30pm
+  recording_link: ''
+  session: November 8
+  slides_link: ''
+- desc: Threat Intelligence, IoCs, Advanced Topics (Packet Crafting, NetFlow, etc.)
+  notes: 'Lab 4 Due at 9am
+
+    Quiz 4 from 1pm till 2:30pm'
+  recording_link: ''
+  session: November 15
+  slides_link: ''
+- desc: Intrusion Detection Challenge
+  notes: 'Lab 5 Due at 9am
+
+    Quiz 5 from 1pm till 2:30pm'
+  recording_link: ''
+  session: November 22
+  slides_link: ''
