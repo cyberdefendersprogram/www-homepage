@@ -1,7 +1,7 @@
 name: Update CIS52 Schedule 
 
 on:
-  schedule:
+  #schedule:
     # Doesnt Run at 01:00 UTC every day
     # - cron: '0 1 * * *'
   workflow_dispatch:  # Allows manual triggering
