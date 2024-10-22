@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Merritt College CIS 52
-permalink: /cis-52/
+title: Merritt College CIS 53 - Intrusion Detection
+permalink: /cis-53/
 last_modified_at: 2024-10-22T06:20:36Z 
 ---
 <br/>
