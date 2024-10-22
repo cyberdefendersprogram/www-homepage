@@ -1,9 +1,9 @@
-name: Update CIS52 Schedule 
+name: Update CIS52 Schedule
 
 on:
   schedule:
-    # Doesnt Run at 01:00 UTC every day
-    # - cron: '0 1 * * *'
+    # Runs at 01:00 UTC every day
+    - cron: '0 1 * * *'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -34,10 +34,10 @@ jobs:
       run: |
         cd data-runners/yaml-datagen
         echo "$GOOGLE_APPLICATION_CREDENTIALS" > google_credentials.json
-        poetry run python yaml_datagen.py --credentialspath 'google_credentials.json' --gsheet --input '1FSi3twUBvCw3qgODtFXqhizeNbOKuVPiMD3fM-AXP2Y' --output '../../_data/merritt-cis52-schedule.yml'
+        poetry run python yaml_datagen.py --credentialspath 'google_credentials.json' --gsheet --input '1kxQDmBNDqme7Nc9l1-DYVv_9yGMLmc4bLENjJDtHYN4' --output '../../_data/merritt-cis53-schedule.yml'
     - name: Commit and push if changed
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
-        git add _data/merritt-cis52-schedule.yml
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update CIS52 schedule" && git push)
+        git add _data/merritt-cis53-schedule.yml
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update CIS53 schedule" && git push)
