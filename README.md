@@ -8,12 +8,13 @@ Homepage of Cyber Defenders
 * Execute local webserver using ```npm start```
 
 # Todos
+* [ ] Refactor to update front page, from edits on the tree.
+* [ ] Add graphics/titles for the students led work.
 * [Jul 21, 2023] Refactor the website data directory, and make the index, nav reflect status of pages.
-* Version 1.0 - Donate button. *Done*.
-* Initial page with a good design. Must have elements - Landing page, Programs, Advisors & Board. Status: *Done*.
+* [x] Version 1.0 - Donate button.
+* [x] Initial page with a good design. Must have elements - Landing page, Programs, Advisors & Board. Status: *Done*.
 * [Feb 8, 2021] - Update the gems for security advisory *Done*
 * [Nov 28, 2019] - List of Cyber Security tools for non-profits 
-
 
 # Resources
 * The design is inspired by [bulma template](https://dansup.github.io/bulma-templates/templates/hero.html), and Squarespace (Impact template)[https://www.squarespace.com/templates/impact]
