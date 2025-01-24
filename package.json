@@ -6,15 +6,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gs-data": "cd _data/yaml-datagen && poetry run python yaml_datagen.py --gsheet --input '1SFBHDPBvBF1oycxK4NOJgiijfCon6HOZcJ23c5QumQI' --sheet 'schedule' --output ../gs-python-schedule.yml && cd ../..",
     "m-cis52-data": "cd _data/yaml-datagen && poetry run python yaml_datagen.py --gsheet --input '16V3jKVy8EuY6Hc4RbMEq8MR_WnLHlWD7dzxpOPgDE3E' --sheet 'schedule' --output ../merritt-cis52-schedule.yml && cd ../..",
-    "m-cis55-data": "cd _data/yaml-datagen && poetry run python yaml_datagen.py --gsheet --input '1REr470qE9BLWtscc_DQiwCId-RWcKBVwbfURhlA4Uwc' --sheet 'schedule' --output ../merritt-cis55-2024-spring-schedule.yml && cd ../..",
+    "m-cis55-data": "cd _data/yaml-datagen && poetry run python yaml_datagen.py --gsheet --input '1JuglqOYkoncahXHFkPNxMMvW5V42Afc86Avgdc4uPUo' --sheet 'schedule' --output ../merritt-cis55-2025-spring-schedule.yml && cd ../..",
     "m-cis60-data": "cd _data/yaml-datagen && poetry run python yaml_datagen.py --gsheet --input '1OsAQJop94m3MlKh4eIXB3hglUoFFcASnmVxdBRkssUY' --sheet 'schedule' --output ../merritt-cis60-2024-spring-schedule.yml && cd ../..",
     "css-build": "sass assets/sass/main.scss:assets/css/main.css",
     "css-watch": "npm run css-build -- --watch",
-    "deploy": "npm run css-build && npm run js-build",
-    "js-build": "babel assets/babeljs --out-dir assets/js",
-    "js-watch": "npm run js-build -- --watch",
+    "deploy": "npm run css-build",
     "serve": "bundle exec jekyll serve --livereload",
-    "start": "npm-run-all --parallel css-watch js-watch serve",
+    "start": "npm-run-all --parallel css-watch serve",
     "data-build": "cd _data/yaml-datagen && poetry run python yaml_datagen.py --gsheet"
   },
   "repository": {
