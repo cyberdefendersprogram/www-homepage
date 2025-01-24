@@ -45,7 +45,7 @@ def main():
     parser.add_argument('--input', default='1yN3bmLLB_KuESmNqgiDEJgchy83cVZjVzdySJJCL9-s', help='Input CSV file or Google Spreadsheet ID')
     parser.add_argument('--sheet', default='schedule', help='Sheet name (only for Google Spreadsheet)')
     parser.add_argument('--output', help='Output YAML file')
-    parser.add_argument('--credentialspath', help='Path to Google Cloud credentials JSON file')
+    parser.add_argument('--credentialspath', default='/Users/vaibhavb/.google/cyberdefenders/service_account.json', help='Path to Google Cloud credentials JSON file')
     args = parser.parse_args()
 
     if args.csv and not args.spreadsheet:
