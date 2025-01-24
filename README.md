@@ -8,6 +8,7 @@ Homepage of Cyber Defenders
 * Execute local webserver using ```npm start```
 
 # Todos
+* [ ] Baseline to latest toolset - Jekyll, Npm, poetry -> uv
 * [ ] Refactor to update front page, from edits on the tree.
 * [ ] Add graphics/titles for the students led work.
 * [Jul 21, 2023] Refactor the website data directory, and make the index, nav reflect status of pages.
