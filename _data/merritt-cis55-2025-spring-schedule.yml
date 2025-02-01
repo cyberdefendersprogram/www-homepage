@@ -1,13 +1,15 @@
 - desc: 1 - Introduction
-  notes: Nothing is due
+  notes: Quiz 1
   recording_link: https://peralta-edu.zoom.us/rec/share/DmW5WXosVcN1EW9Dt7z-KRGIw5VdEBR8-ynarJN0zem4r9_t2pq7iSFxzXMEns_8.rUlk-Rq4kAx-Rs4K
   session: January 24
   slides_link: https://docs.google.com/presentation/d/1C2361XdUF-zh9WAGpAq31h_ppI_iji0rxxPjMklOr84/edit?usp=sharing
 - desc: 2 - Cryptography & Incident Response
-  notes: "Lab 1 \nQuiz 1 "
-  recording_link: ''
+  notes: "Lab 1 \nQuiz 2"
+  recording_link: 'https://peralta-edu.zoom.us/rec/share/Mi9b-47EjmcfTKpfhp0HKwMp6XVwTqTmqeUjiMYeO_yvqiwaA4_dtn6GjwgKnpLj.Qu1DoyzM0sfG8amd
+
+    '
   session: January 31
-  slides_link: ''
+  slides_link: https://docs.google.com/presentation/d/1-TYp6QeKcGL4t_fTlYFVlc7_1k-5kiMUKw6-h8m9H2k/edit?usp=sharing
 - desc: 3 - Pentesting Tools (Nmap, Nessus, Metasploit, SQLMap)
   notes: "Lab 2 \nQuiz 2"
   recording_link: ''
