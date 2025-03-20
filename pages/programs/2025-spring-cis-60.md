@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Merritt College Computer Forensics Fundamentals
-permalink: /2024S-cis-60/
+permalink: /cis-60/
 last_modified_at: 2024-04-02T21:55:43Z
 ---
 <br/>
@@ -23,6 +23,8 @@ Welcome to CIS 60 Computer Forensics Fundamentals! During this course, you will 
             <div>
                 <span class="tag is-primary">In Progress!</span>
                 <br/> <br/>
+                <a class="tag is-info" href="/2025S-cis60/">Spring 2024 Class</a>
+                <br/><br/>
                 <a class="tag is-danger" href="#guest">Final Presentations and Guest Lecture</a>
                 <br/> <br/>
             </div>
@@ -39,7 +41,7 @@ Welcome to CIS 60 Computer Forensics Fundamentals! During this course, you will 
         <td>Session</td><td>Description</td><td>Notes</td><td>Slides</td><td>Recording</td>
     </thead>
     <tbody>
-    {% for session in site.data.merritt-cis60-2024-spring-schedule %} 
+    {% for session in site.data.merritt-cis60-2025-spring-schedule %} 
     <tr>
         <td><a id="{{session.session| url_encode}}" href="#{{session.session | url_encode}}">{{session.session}}</a></td>
         <td>{{session.desc | markdownify}}</td>
