@@ -1,0 +1,35 @@
+- desc: Introduction to digital forensics
+  notes: Read Chapter 1-4, Quiz 1, Labs
+  recording_link: ''
+  session: Friday, March 21
+  slides_link: https://docs.google.com/presentation/d/1n8ebxwYa927doDY6SHyKUjDhQmxPf5CD/edit?usp=sharing&ouid=104183323107728003103&rtpof=true&sd=true
+- desc: Legal aspects of forensics and being an expert witness
+  notes: Read Chapter 14-16
+  recording_link: ''
+  session: Friday, March 29
+  slides_link: https://drive.google.com/file/d/1QXxUQurJEkscWIPhjthQG8YygjewqGGi/view?usp=sharing
+- desc: NO CLASS, SPRING BREAK;
+  notes: ''
+  recording_link: ''
+  session: Friday, April 5
+  slides_link: https://drive.google.com/file/d/1QXxUQurJEkscWIPhjthQG8YygjewqGGi/view?usp=sharing
+- desc: Forensics methodology and filesystem forensics (Guest - Julie Tsai)
+  notes: Read Chapter 5-8
+  recording_link: ''
+  session: Friday, April 12
+  slides_link: https://drive.google.com/file/d/1QXxUQurJEkscWIPhjthQG8YygjewqGGi/view?usp=sharing
+- desc: Network forensics & memory forensics (Guest - Sherman Kwok)
+  notes: Read Chapter 9-10
+  recording_link: ''
+  session: Friday, April 19
+  slides_link: https://drive.google.com/file/d/1QXxUQurJEkscWIPhjthQG8YygjewqGGi/view?usp=sharing
+- desc: Internet & social media forensics & mobile forensics
+  notes: Read Chapter 11-13
+  recording_link: ''
+  session: Friday, April 26
+  slides_link: https://drive.google.com/file/d/1QXxUQurJEkscWIPhjthQG8YygjewqGGi/view?usp=sharing
+- desc: Student Case Presentations & Guest
+  notes: ''
+  recording_link: ''
+  session: Friday, May 3
+  slides_link: https://docs.google.com/presentation/d/1IWNmtzSchDbw9L641k4oiBTfybSRX6OsX2KJlvVva_Q/edit?usp=sharing
