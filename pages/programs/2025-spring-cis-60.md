@@ -23,7 +23,7 @@ Welcome to CIS 60 Computer Forensics Fundamentals! During this course, you will 
             <div>
                 <span class="tag is-primary">In Progress!</span>
                 <br/> <br/>
-                <a class="tag is-info" href="/2025S-cis60/">Spring 2024 Class</a>
+                <a class="tag is-info" href="/2024S-cis-60/">Spring 2024 Class</a>
                 <br/><br/>
                 <a class="tag is-danger" href="#guest">Final Presentations and Guest Lecture</a>
                 <br/> <br/>
