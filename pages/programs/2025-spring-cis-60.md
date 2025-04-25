@@ -57,7 +57,104 @@ Welcome to CIS 60 Computer Forensics Fundamentals! During this course, you will 
     </tbody>
 </table>
 <hr/>
-<h1 class="guest">Final Presentations and Guest Lecture</h1>
 
+<div class="toc-container">
+  <h2>Guide to Computer Forensics and Investigations</h2>
+  <h3>Table of Contents</h3>
+  
+  <table class="toc-table">
+    <thead>
+      <tr>
+        <th>Chapter</th>
+        <th>Title</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Introduction to Computer Forensics</td>
+        <td><a href="https://docs.google.com/presentation/d/1pHNIbzF5cEToaksguOGkI9wc_aCHQqx4m7lAcijlVsE/edit?usp=sharing" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Understanding Computer Investigations</td>
+        <td><a href="https://docs.google.com/presentation/d/1ip9kCVCB9bKthdyDQo4cZIYLn9jeCyK5YvReX2tVwN8/edit?usp=sharing" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Data Acquisition</td>
+        <td><a href="https://docs.google.com/presentation/d/1klS5SLrPRKsAT5K1REQDtQDMJzN-OEM4bgel-Jl9Sug/edit?usp=sharing" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Processing Crime and Incident Scenes</td>
+        <td><a href="https://docs.google.com/presentation/d/1klS5SLrPRKsAT5K1REQDtQDMJzN-OEM4bgel-Jl9Sug/edit?usp=sharing" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Working with Windows and CLI Systems</td>
+        <td><a href="https://docs.google.com/presentation/d/13Oq8KTaZ7aiUL9VkqxYUwM7TyhUXa9uDfAXD_Rd-moY/edit?usp=drive_link" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Current Computer Forensics Tools</td>
+        <td><a href="https://docs.google.com/presentation/d/17XTDJp-bei_W1MGZuppzWHqQPFiPUCaphXjh2KN_ebY/edit?usp=drive_link" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Digital Evidence Controls</td>
+        <td><a href="https://docs.google.com/presentation/d/1PMd1v3Re6VBjiRxLwpM6ZU7UvYB8BjmQ8yrT3rEqlyM/edit?usp=drive_link" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Crime and Incident Scene Processing</td>
+        <td><a href="https://docs.google.com/presentation/d/1t3KVl30GJiG1BuX7RBV8yUDc5m53Z-1lcyKpJ4LCHx4/edit?usp=drive_link" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Digital Evidence Analysis</td>
+        <td><a href="https://docs.google.com/presentation/d/1iRYKpdkOAskVAdb2_mAJE-QfBH4h2ymDUN1tZlGlOuU/edit?usp=drive_link" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Virtual Machine Forensics</td>
+        <td><a href="https://docs.google.com/presentation/d/1kxMtqvMGZUSuLXKlsXOExhu3Mj-TnpvqxwS4PnfSeOM/edit?usp=drive_link" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Network Forensics</td>
+        <td><a href="https://docs.google.com/presentation/d/15hLfDw2VRKraJ_BSJjVg7Kmofd36qbzD_MQt1RKkxjg/edit?usp=sharing" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Mobile Device Forensics</td>
+        <td><a href="https://docs.google.com/presentation/d/1tdbgX0F7SGYN8XyIFhy61p9ebyCdhde5ZPT4dKh-9B8/edit?usp=sharing" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>Cloud Forensics</td>
+        <td><a href="https://docs.google.com/presentation/d/1TXNlHKvSkVnV9VqOG9K8TzRU6Z_YsMeZeEhvWjPrwdE/edit?usp=sharing" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Report Writing for High-Tech Investigations</td>
+        <td><a href="https://docs.google.com/presentation/d/13502f2-imNIXSpy9K88NUO7pIjETPQ3pzi4b1KRFe_4/edit?usp=sharing" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>Expert Testimony in High-Tech Investigations</td>
+        <td><a href="https://docs.google.com/presentation/d/1bJEykAD34kcuhyACne7PdCTjDNTd9BhO4x-PEMUQjec/edit?usp=sharing" target="_blank">View Chapter</a></td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>Ethics for High-Technology Investigations</td>
+        <td><a href="https://docs.google.com/presentation/d/1Gw6MFyrshF_iBpO9Vf-0zqGnvyFu1FvOuh9rtU2qxtU/edit?usp=sharing" target="_blank">View Chapter</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h1 class="guest">Final Presentations and Guest Lecture</h1>
 <hr/>
 Last Updated: {{page.last_modified_at}}
