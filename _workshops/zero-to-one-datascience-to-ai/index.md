@@ -3,8 +3,7 @@ layout: blog
 title: Zero To One DataScience To Machine Learning
 order: 000
 date: 2025-05-23
-slug: zero-to-one-datascience-to-machinelearning
-workshop_name: zero-to-one-datascience-to-machinelearning
+workshop_name: zero-to-one-datascience-to-ai
 tags: [python, data-science, specific-topic]
 ---
 {% assign filtered_items = site.workshops | where_exp: "item", "item.order != 0 " %}

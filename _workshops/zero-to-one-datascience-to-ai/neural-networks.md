@@ -4,7 +4,7 @@ order: 005
 slug: neural-networks
 title: Neural Networks
 module_category: Machine Learning
-workshop_name: zero-to-one-datascience-to-machinelearning
+workshop_name: zero-to-one-datascience-to-ai
 date: 2025-05-23
 ---
 ## Lesson 5: Neural Networks - The Core Concepts (Conceptual) 🧠💡

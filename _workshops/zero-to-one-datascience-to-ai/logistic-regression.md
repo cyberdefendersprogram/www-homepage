@@ -4,7 +4,7 @@ order: 004
 slug: logistic-regression
 title: Logistic Regression
 module_category: Data Science
-workshop_name: zero-to-one-datascience-to-machinelearning
+workshop_name: zero-to-one-datascience-to-ai
 date: 2025-05-23
 ---
 ## Lesson 4: Your First Predictive Model - Logistic Regression (FROM SCRATCH) ⚙️🧠

@@ -3,7 +3,7 @@ layout: workshop
 order: 8
 slug: improving-your-neural-network
 title: Improving Your Neural Network
-workshop_name: zero-to-one-datascience-to-machinelearning
+workshop_name: zero-to-one-datascience-to-ai
 module_category: Advanced Machine Learning
 date: 2025-05-23
 ---

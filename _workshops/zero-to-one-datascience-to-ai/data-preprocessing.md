@@ -4,7 +4,7 @@ order: 003
 slug: data-preprocessing
 title: Data Preprocessing
 module_category: Data Science
-workshop_name: zero-to-one-datascience-to-machinelearning
+workshop_name: zero-to-one-datascience-to-ai
 date: 2025-05-23
 ---
 ## Lesson 3: Data Preprocessing for Machine Learning ⚙️

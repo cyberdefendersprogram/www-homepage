@@ -4,7 +4,7 @@ order: 002
 slug: exploratory-data-analysis
 title: Exploratory Data Analysis
 module_category: Introduction
-workshop_name: zero-to-one-datascience-to-machinelearning
+workshop_name: zero-to-one-datascience-to-ai
 date: 2025-05-23
 ---
 ## Lesson 2: Exploratory Data Analysis (EDA) & First Insights 📊

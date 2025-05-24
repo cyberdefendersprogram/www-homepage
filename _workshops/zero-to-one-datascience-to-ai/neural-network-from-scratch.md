@@ -4,7 +4,7 @@ order: 006
 slug: neural-network-from-scratch
 title: Neural Network From Scratch
 module_category: Machine Learning
-workshop_name: zero-to-one-datascience-to-machinelearning
+workshop_name: zero-to-one-datascience-to-ai
 date: 2025-05-23
 ---
 ## Lesson 6: Neural Network from Scratch - Part 1 (Forward Propagation) 🚀

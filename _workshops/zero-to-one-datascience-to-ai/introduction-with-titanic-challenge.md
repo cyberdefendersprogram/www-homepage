@@ -4,7 +4,7 @@ order: 001
 slug: introduction-with-titanic-challenge
 title: Introduction With Titanic Challenge 
 module_category: Introduction
-workshop_name: zero-to-one-datascience-to-machinelearning
+workshop_name: zero-to-one-datascience-to-ai
 last_modified_at: 2025-05-23T21:55:43Z
 date: 2025-05-23
 ---

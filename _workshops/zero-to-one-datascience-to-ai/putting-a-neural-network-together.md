@@ -4,7 +4,7 @@ order: 7
 slug: putting-a-neural-network-together
 title: Putthing A Neural Network Together
 module_category: Machine Learning
-workshop_name: zero-to-one-datascience-to-machinelearning
+workshop_name: zero-to-one-datascience-to-ai
 date: 2025-05-23
 ---
 ## Lesson 7: Neural Network from Scratch - Part 2 (Cost, Backward Propagation & Training Loop) 🧠⚙️📉
