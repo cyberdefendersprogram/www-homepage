@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+    <style>
+        :root {
+            --primary-dark: #0a0e27;
+            --secondary-dark: #1a1f3a;
+            --accent-purple: #667eea;
+            --accent-purple-dark: #764ba2;
+            --text-light: #e2e8f0;
+            --text-muted: #a0aec0;
+            --border-color: #2d3748;
+            --success-color: #68d391;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--primary-dark);
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* Custom Bulma overrides */
+        .hero.is-dark {
+            background: linear-gradient(135deg, var(--secondary-dark) 0%, var(--primary-dark) 100%);
+        }
+
+        .card.is-dark {
+            background: linear-gradient(135deg, var(--secondary-dark) 0%, #2a2f4a 100%);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .sidebar {
+            background: linear-gradient(180deg, var(--secondary-dark) 0%, #0f1429 100%);
+            border-right: 1px solid var(--border-color);
+            min-height: 100vh;
+            position: sticky;
+            top: 0;
+        }
+
+        .menu-label {
+            color: var(--text-muted) !important;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .menu-list a {
+            color: var(--text-muted);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            border-left: 3px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .menu-list a:hover {
+            background: rgba(102, 126, 234, 0.1);
+            border-left-color: var(--accent-purple);
+            color: white;
+        }
+
+        .menu-list a.is-active {
+            background: rgba(102, 126, 234, 0.2);
+            border-left-color: var(--accent-purple);
+            color: white;
+        }
+
+        .menu-list a.is-completed {
+            color: var(--success-color);
+        }
+
+        .menu-list a.is-completed::after {
+            content: '\f00c';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            right: 1rem;
+            color: var(--success-color);
+        }
+
+        .lesson-number {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background: var(--border-color);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 0.75rem;
+            margin-right: 0.75rem;
+            font-weight: 600;
+        }
+
+        .menu-list a.is-active .lesson-number {
+            background: var(--accent-purple);
+            color: white;
+        }
+
+        .menu-list a.is-completed .lesson-number {
+            background: var(--success-color);
+            color: white;
+        }
+
+        .progress.is-primary {
+            background: var(--border-color);
+        }
+
+        .progress.is-primary::-webkit-progress-value {
+            background: linear-gradient(90deg, var(--accent-purple), var(--accent-purple-dark));
+        }
+
+        .progress.is-primary::-moz-progress-bar {
+            background: linear-gradient(90deg, var(--accent-purple), var(--accent-purple-dark));
+        }
+
+        .button.is-primary {
+            background: linear-gradient(135deg, var(--accent-purple) 0%, var(--accent-purple-dark) 100%);
+            border: none;
+            font-weight: 600;
+        }
+
+        .button.is-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .button.is-success {
+            background: linear-gradient(135deg, var(--success-color) 0%, #38a169 100%);
+            border: none;
+        }
+
+        .button.is-success:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(104, 211, 145, 0.3);
+        }
+
+        .button.is-light {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+            border: 1px solid var(--border-color);
+        }
+
+        .button.is-light:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #4a5568;
+            color: white;
+        }
+
+        .tag.is-primary {
+            background: linear-gradient(135deg, var(--accent-purple) 0%, var(--accent-purple-dark) 100%);
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .course-logo {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--accent-purple) 0%, var(--accent-purple-dark) 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .workshop-header {
+            background: rgba(102, 126, 234, 0.1);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Markdown content styling */
+        .content h1 {
+            color: white;
+            border-bottom: 2px solid var(--accent-purple);
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .content h2 {
+            color: white;
+            margin: 2rem 0 1rem;
+            position: relative;
+            padding-left: 1rem;
+        }
+
+        .content h2::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 4px;
+            height: 20px;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-purple-dark));
+            border-radius: 2px;
+        }
+
+        .content h3 {
+            color: var(--text-light);
+            margin: 1.5rem 0 1rem;
+        }
+
+        .content p {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+        }
+
+        .content code {
+            background: rgba(102, 126, 234, 0.1);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            color: var(--accent-purple);
+            font-family: 'JetBrains Mono', 'Monaco', 'Menlo', monospace;
+        }
+
+        .content pre {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            color: #e6edf3;
+            padding: 2rem;
+            border-radius: 12px;
+            overflow-x: auto;
+            margin: 2rem 0;
+            position: relative;
+        }
+
+        .content pre::before {
+            content: 'Python';
+            position: absolute;
+            top: 0.5rem;
+            right: 1rem;
+            font-size: 0.7rem;
+            color: #7c3aed;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .content pre code {
+            background: none;
+            border: none;
+            color: inherit;
+            padding: 0;
+        }
+
+        .content blockquote {
+            border-left: 4px solid var(--accent-purple);
+            background: rgba(102, 126, 234, 0.05);
+            border: 1px solid rgba(102, 126, 234, 0.1);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 12px 12px 0;
+            position: relative;
+        }
+
+        .content blockquote::before {
+            content: '💡';
+            position: absolute;
+            top: 1rem;
+            left: -2px;
+            background: var(--accent-purple);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content blockquote p {
+            margin: 0;
+            padding-left: 1rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        .content ul, .content ol {
+            color: var(--text-light);
+            margin: 1.5rem 0;
+        }
+
+        .content strong {
+            color: white;
+        }
+
+        .meta-icons .icon {
+            background: rgba(102, 126, 234, 0.2);
+            border-radius: 4px;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 0.5rem;
+        }
+
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--secondary-dark);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--accent-purple);
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-purple-dark);
+        }
+
+        /* Mobile responsiveness */
+        @media screen and (max-width: 1023px) {
+            .sidebar {
+                position: static;
+                min-height: auto;
+            }
+        }
+    </style>
+  <body>
+
+    {% include navbar.html %}
+    
+        <div class="columns is-gapless">
+        <!-- Sidebar -->
+        <div class="column is-3-desktop is-4-tablet sidebar">
+            <div class="p-5">
+                <!-- Course Header -->
+                <div class="has-text-centered mb-5">
+                    <div class="course-logo mx-auto">🧠</div>
+                    <div class="title is-4 has-text-white mb-2">Zero to One</div>
+                    <div class="subtitle is-8 has-text-grey-light mb-3">{{page.workshop_name | replace: "-", " " | capitalize}}</div>
+                    <span class="tag is-primary">Cyber Defenders Program</span>
+                </div>
+
+                <!-- Progress Overview -->
+                <div class="workshop-header">
+                    <p class="has-text-grey-light is-size-7 mb-2">Workshop Progress</p>
+                    <progress class="progress is-primary is-small mb-2" value="25" max="100">25%</progress>
+                    <p class="has-text-grey-light is-size-7">3 of 12 modules completed</p>
+                </div>
+
+                {% assign current_workshop_lessons = site.workshops
+                  | where: "workshop_name", page.workshop_name
+                  | where_exp: "item", "item.order != 0"
+                  | sort: "order"
+                %}
+                {% assign grouped_lessons = current_workshop_lessons | group_by: "module_category" %}
+
+                <!-- Navigation Menu -->
+                <aside class="menu">
+  {% for category_group in grouped_lessons %}
+    <p class="menu-label">{{ category_group.name }}</p>
+        <ul class="menu-list">
+          {% for lesson in category_group.items %}
+            <li>
+              <a href="{{ lesson.url }}"
+                 {% if page.url == lesson.url %}class="is-active"{% endif %}
+                 data-lesson="{{ lesson.slug | default: lesson.name }}              ">
+                <span class="lesson-number">{{ lesson.order }}</span>
+                {{ lesson.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+  {% endfor %}
+                </aside>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="column">
+            <!-- Header Section -->
+            <section class="hero is-dark">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title is-2 has-text-white" id="lesson-title">
+                            {{page.title}} 
+                        </h1>
+                        
+                        <!-- Lesson Meta Information -->
+                        <div class="level is-mobile">
+                            <div class="level-left">
+                                <div class="level-item meta-icons">
+                                    <span class="icon"><i class="fas fa-book"></i></span>
+                                    <span class="has-text-grey-light">Module {{page.order}} of 8</span>
+                                </div>
+                                <div class="level-item meta-icons">
+                                    <span class="icon"><i class="fas fa-clock"></i></span>
+                                    <span class="has-text-grey-light">{{page.time}} min read</span>
+                                </div>
+                                <div class="level-item meta-icons">
+                                    <span class="icon"><i class="fas fa-chart-bar"></i></span>
+                                    <span class="has-text-grey-light">Beginner Level</span>
+                                </div>
+                                <div class="level-item meta-icons">
+                                    <span class="icon"><i class="fas fa-bullseye"></i></span>
+                                    <span class="has-text-grey-light">Workshop Foundation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Content Area -->
+            <section class="section">
+                <div class="container">
+                    <div class="columns is-centered">
+                        <div class="column is-10">
+                            <div class="card is-dark">
+                                <div class="card-content">
+                                    <div class="content" id="markdown-content">
+                                        <!-- Markdown content will be rendered here -->
+                                        {{content}}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Action Buttons -->
+                            <div class="field is-grouped is-grouped-centered mt-6">
+                                <div class="control">
+                                    <button class="button is-light" id="prev-btn">
+                                        <span class="icon"><i class="fas fa-arrow-left"></i></span>
+                                        <span>Previous Module</span>
+                                    </button>
+                                </div>
+                                <div class="control">
+                                    <button class="button is-success" id="complete-btn">
+                                        <span class="icon"><i class="fas fa-check"></i></span>
+                                        <span>Mark Complete</span>
+                                    </button>
+                                </div>
+                                <div class="control">
+                                    <button class="button is-primary" id="next-btn">
+                                        <span>Next Module</span>
+                                        <span class="icon"><i class="fas fa-arrow-right"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    {% include footer.html %}
+    <script src="{{site.url}}{{ site.baseurl }}assets/js/main.js"></script>
+  </body>
+</html>

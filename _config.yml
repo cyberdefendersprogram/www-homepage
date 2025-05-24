@@ -19,6 +19,10 @@ facebook: "https://www.facebook.com/thecyberdefendersprogram/"
 instagram: "https://www.instagram.com/cyberdefendersprogram/"
 merritthackapp: "https://docs.google.com/forms/d/e/1FAIpQLSeS0RISc0n2GfI_FA6rBJqiLA-VSG2-PCGNcp1BBH4FNPwJSA/viewform"
 
+collections:
+  workshops:
+    output: true
+    permalink: /:collection/:path
 
 # Build settings
 markdown: kramdown

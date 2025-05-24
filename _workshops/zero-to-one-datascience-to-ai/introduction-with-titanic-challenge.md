@@ -1,8 +1,12 @@
 ---
-layout: blog
-title: Zero to One - Data Science 2 AI - Lesson 1
-permalink: /zero-to-one-datascience2ai/
+layout: workshop
+order: 001
+slug: introduction-with-titanic-challenge
+title: Introduction With Titanic Challenge 
+module_category: Introduction
+workshop_name: zero-to-one-datascience-to-machinelearning
 last_modified_at: 2025-05-23T21:55:43Z
+date: 2025-05-23
 ---
 # Data Science & AI with the Titanic Dataset : Lesson 1
 
@@ -15,7 +19,6 @@ last_modified_at: 2025-05-23T21:55:43Z
 
 
 ### **1. What are Data Science and AI? (10 min)**
-
 *   **Data Science:** Think of it as using data, scientific methods, algorithms, and systems to extract knowledge and insights from structured and unstructured data. It's about finding patterns, making predictions, and understanding the world through data. [1]
 *   **Artificial Intelligence (AI):** This is a broader field focused on creating systems or machines that can perform tasks that typically require human intelligence. This includes things like learning, problem-solving, decision-making, and understanding language.
 *   **Machine Learning (ML):** A subset of AI where we "teach" computers by showing them lots of examples (data) rather than programming explicit rules for every single case. Our Titanic project will be a machine learning task. The goal is to build a model that learns from the historical Titanic passenger data to predict survival.
