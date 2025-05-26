@@ -64,13 +64,8 @@ Missing data is a common problem. `train_df.info()` from Lesson 1 showed us whic
         # We'll make a copy to keep the original train_df intact for now,
         # or you can operate directly on train_df if you prefer.
         df_processed = train_df.copy()
-
-        if 'Cabin' in df_processed.columns:
-            df_processed.drop('Cabin', axis=1, inplace=True) # axis=1 means column, inplace=True modifies df_processed
-            print("\n'Cabin' column dropped.")
-        else:
-            print("\n'Cabin' column not found in DataFrame.")
-
+        df_processed.drop('Cabin', axis=1, inplace=True) # axis=1 means column, inplace=True modifies df_processed
+        print("\n'Cabin' column dropped.")
         print("Missing values after dropping Cabin (if it existed):")
         print(df_processed.isnull().sum())
         ```
@@ -78,32 +73,21 @@ Missing data is a common problem. `train_df.info()` from Lesson 1 showed us whic
 
     * **`Age`:** This numerical column has some missing values. Let's impute with the median age, which is less sensitive to outliers than the mean.
         ```python
-        if 'Age' in df_processed.columns:
-            median_age = df_processed['Age'].median()
-            df_processed['Age'].fillna(median_age, inplace=True)
-            print(f"\nMissing 'Age' values imputed with median: {median_age}")
-            print("Missing values in 'Age' after imputation:")
-            print(df_processed['Age'].isnull().sum())
-        else:
-            print("\n'Age' column not found for imputation.")
+        median_age = df_processed['Age'].median()
+        df_processed.fillna({'Age': median_age}, inplace=True) #Making pandas 3.0 compatible.
+        print(f"\nMissing 'Age' values imputed with median: {median_age}")
+        print("Missing values in 'Age' after imputation:")
+        print(df_processed['Age'].isnull().sum())
         ```
 
     * **`Embarked`:** This categorical column has only a couple of missing values. Let's impute with the mode (most frequent port).
         ```python
-        if 'Embarked' in df_processed.columns:
-            if not df_processed['Embarked'].mode().empty:
-                 mode_embarked = df_processed['Embarked'].mode()[0] # .mode() returns a Series, so we take the first element
-                 df_processed['Embarked'].fillna(mode_embarked, inplace=True)
-                 print(f"\nMissing 'Embarked' values imputed with mode: {mode_embarked}")
-            else: # Handle cases where mode might be empty if all values were NaN initially (unlikely here)
-                df_processed['Embarked'].fillna('S', inplace=True) # Fallback if mode is empty
-                print(f"\nMissing 'Embarked' values imputed with fallback 'S'.")
+        mode_embarked = df_processed['Embarked'].mode()[0] # .mode() returns a Series, so we take the first element
+        df_processed['Embarked'].fillna(mode_embarked, inplace=True)
+        print(f"\nMissing 'Embarked' values imputed with mode: {mode_embarked}")
 
-            print("Missing values in 'Embarked' after imputation:")
-            print(df_processed['Embarked'].isnull().sum())
-        else:
-            print("\n'Embarked' column not found for imputation.")
-
+        print("Missing values in 'Embarked' after imputation:")
+        print(df_processed['Embarked'].isnull().sum())
 
         print("\nFinal check for missing values in df_processed:")
         print(df_processed.isnull().sum())
@@ -130,25 +114,12 @@ Let's see the distribution of our target variable.
 
 ```python
 # Ensure df_processed is available
-if 'df_processed' not in locals():
-    # Minimal df_processed for plot demonstration if previous steps were skipped
-    data = {'Survived': [0,1,1,0,1,0,0], 'Sex': ['male','female','female','male','female','male','male'],
-            'Pclass': [3,1,3,1,2,3,1], 'Embarked': ['S','C','S','S','C','Q','S'],
-            'Age': [22,38,26,35,28,40,50], 'Fare': [7,70,8,50,13,7,26],
-            'FamilySize': [2,2,1,2,1,1,1], 'IsAlone': [0,0,1,0,1,1,1]}
-    df_processed = pd.DataFrame(data)
-    print("--- Loaded a dummy df_processed for Lesson 2 visualization. ---")
-
-
-if 'Survived' in df_processed.columns:
+if 'df_processed' in locals():
     plt.figure(figsize=(6,4))
     sns.countplot(x='Survived', data=df_processed)
     plt.title('Distribution of Survival (0 = Died, 1 = Survived)')
     plt.show() # Essential for displaying plots in script/Canvas environment
     print(df_processed['Survived'].value_counts(normalize=True)) # Percentage
-else:
-    print("'Survived' column not in df_processed.")
-
 ```
 
 Discussion: Is the dataset balanced or imbalanced regarding survival? (It's somewhat imbalanced, more died than survived)
