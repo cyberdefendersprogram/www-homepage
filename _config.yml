@@ -22,7 +22,7 @@ merritthackapp: "https://docs.google.com/forms/d/e/1FAIpQLSeS0RISc0n2GfI_FA6rBJq
 collections:
   workshops:
     output: true
-    permalink: /:collection/:path
+    permalink: /:collection/:slug
 
 # Build settings
 markdown: kramdown
