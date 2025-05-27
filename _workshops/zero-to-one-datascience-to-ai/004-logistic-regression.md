@@ -55,8 +55,126 @@ import numpy as np
 import pandas as pd # For creating dummy data if needed
 import matplotlib.pyplot as plt # For plotting cost curve later
 ```
----
-*(Continuing Section 2: Building Blocks)*
+
+* **a. Convert Data to NumPy Arrays**
+Our X_train, X_val, y_train, y_val are Pandas DataFrames/Series. We need them as NumPy arrays for our scratch implementation.
+
+```python
+# Ensure X_train, X_val, y_train, y_val are defined from Lesson 3
+# Handle cases where they might be empty or not defined (e.g., if running this lesson standalone)
+if 'X_train' in locals() and isinstance(X_train, pd.DataFrame) and not X_train.empty:
+    X_train_np = X_train.to_numpy()
+    X_val_np = X_val.to_numpy()
+    y_train_np = y_train.to_numpy().reshape(-1, 1) # Reshape y to be a column vector (m, 1)
+    y_val_np = y_val.to_numpy().reshape(-1, 1)   # Reshape y to be a column vector (m, 1)
+
+    print(f"X_train_np shape: {X_train_np.shape}, y_train_np shape: {y_train_np.shape}")
+    print(f"X_val_np shape: {X_val_np.shape}, y_val_np shape: {y_val_np.shape}")
+else:
+    print("X_train or other necessary data splits not found or are empty. Using dummy NumPy arrays.")
+    # Create dummy numpy arrays if previous steps failed, to allow lesson's code structure to run
+    num_train_samples, num_features = 712, 8 # Example dimensions matching typical Titanic output after preprocessing
+    X_train_np = np.random.rand(num_train_samples, num_features)
+    y_train_np = np.random.randint(0, 2, size=(num_train_samples, 1))
+    X_val_np = np.random.rand(179, num_features)
+    y_val_np = np.random.randint(0, 2, size=(179, 1))
+    print(f"--- Using dummy NumPy arrays: X_train_np shape: {X_train_np.shape}, y_train_np shape: {y_train_np.shape} ---")
+
+```
+
+* **b. Sigmoid Function Implementation:**
+```python
+def sigmoid(z):
+    """
+    Compute the sigmoid of z.
+    Arguments:
+    z -- A scalar or numpy array of any size.
+    Return:
+    s -- sigmoid(z)
+    """
+    # Clip z to avoid overflow in exp for very large negative z, and underflow for large positive z
+    # Although for exp(-z), overflow happens for large negative z.
+    # np.exp is generally robust, but direct large values can be an issue.
+    # For practical purposes, sigmoid(z) for z < -700 is ~0 and for z > 700 is ~1.
+    # However, direct exp(-z) can overflow for z like -1000.
+    # A common practice is to clip z or handle large values.
+    # For simplicity here, we'll assume z is within reasonable bounds for np.exp.
+    s = 1 / (1 + np.exp(-z))
+    return s
+
+# Test sigmoid
+print("\nSigmoid function examples:")
+test_z_values = np.array([-10, -1, 0, 1, 10])
+print(f"sigmoid({test_z_values}) = {sigmoid(test_z_values)}")
+```
+
+* **c) Initialize Parameters (Weights $W$ and Bias $b$):**
+- $W$: A vector of weights, one for each feature. Initialize to zeros or small random numbers. For simplicity and to match many introductory examples, we'll use zeros.
+- $b$: A scalar bias term. Initialize to zero.
+```python
+def initialize_parameters_logistic(num_features):
+    """
+    Initializes weights as a vector of zeros and bias as 0.
+    Argument:
+    num_features -- number of features in the input data (integer)
+    Returns:
+    W -- initialized vector of shape (num_features, 1)
+    b -- initialized scalar (float)
+    """
+    W = np.zeros((num_features, 1)) # Column vector
+    b = 0.0
+    return W, b
+
+# Example initialization
+if 'X_train_np' in locals() and X_train_np.size > 0 :
+    example_num_features = X_train_np.shape[1]
+    W_example, b_example = initialize_parameters_logistic(example_num_features)
+    print(f"\nExample initialized W shape: {W_example.shape}")
+    print(f"Example initialized b: {b_example}")
+else:
+    print("\nCannot initialize parameters: X_train_np is not defined or empty.")
+    W_example, b_example = np.array([]), 0.0 # Fallback
+```
+
+* **d) Forward Propagation: Compute Hypothesis and Cost**
+    * **Linear Combination:** $Z = X \cdot W + b$
+        * If $X$ is $(m, n_f)$ (m samples, $n_f$ features) and $W$ is $(n_f, 1)$, then $X \cdot W$ is $(m, 1)$.
+    * **Activation (Hypothesis):** $A = \sigma(Z)$
+        * This $A$ will be our predicted probabilities, shape $(m, 1)$.
+    * **Cost Function (Binary Cross-Entropy or Log Loss):**
+        This measures how "wrong" our predictions are. For $m$ training examples:
+        $$J(W,b) = -\frac{1}{m} \sum_{i=1}^{m} [y^{(i)}\log(a^{(i)}) + (1-y^{(i)})\log(1-a^{(i)})]$$
+        where $a^{(i)}$ is the activation (predicted probability) for example $i$, and $y^{(i)}$ is the true label.
+
+    ```python
+    def forward_propagation_logistic(X, Y, W, b):
+        """
+        Implements the forward propagation to calculate predictions and cost.
+        Arguments:
+        X -- data of size (m_samples, n_features)
+        Y -- true "label" vector (0 or 1) of size (m_samples, 1)
+        W -- weights, a numpy array of size (n_features, 1)
+        b -- bias, a scalar
+        Returns:
+        A -- activations (predicted probabilities), vector of shape (m_samples, 1)
+        cost -- binary cross-entropy cost
+        """
+        m = X.shape[0] # Number of samples
+
+        # Linear step
+        Z = np.dot(X, W) + b  # Z will have shape (m, 1)
+
+        # Activation step
+        A = sigmoid(Z)       # A will have shape (m, 1)
+
+        # Cost calculation
+        # Add a small epsilon for numerical stability to avoid log(0) or log(1-1)
+        epsilon = 1e-15
+        cost = (-1/m) * np.sum(Y * np.log(A + epsilon) + (1 - Y) * np.log(1 - A + epsilon))
+        cost = np.squeeze(cost) # Ensure cost is a scalar, not an array with one element
+
+        return A, cost
+    ```
 
 * **e) Backward Propagation: Compute Gradients**
     This step calculates the derivatives (gradients) of the cost function with respect to $W$ and $b$. These tell us how to update $W$ and $b$ to reduce the cost.
