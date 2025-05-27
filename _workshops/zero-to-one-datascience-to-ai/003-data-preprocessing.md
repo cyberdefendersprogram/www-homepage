@@ -9,6 +9,10 @@ date: 2025-05-23
 ---
 ## Lesson 3: Data Preprocessing for Machine Learning ⚙️
 
+>
+> Notebook on [Github]()
+>
+
 **Objective:**
 * Convert categorical features into numerical representations suitable for machine learning models.
 * Understand and apply feature scaling to numerical features.
@@ -123,7 +127,6 @@ Many machine learning algorithms perform better when numerical input features ar
     From `df_model_ready.columns`, our numerical features are likely `Age`, `Fare`, `Pclass` (treating as numerical), `FamilySize`. The one-hot encoded columns are already 0/1. `IsAlone` is also 0/1. `Survived` is the target, not a feature to scale.
 
     ```python
-    # (Assuming df_model_ready is available from Part 1 of Lesson 3)
     # numerical_cols_for_scaling = ['Age', 'Fare', 'Pclass', 'FamilySize'] # Example from before
     # For robustness, dynamically identify numerical columns that are not binary (0/1) or the target
     

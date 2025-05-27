@@ -9,6 +9,10 @@ date: 2025-05-23
 ---
 ## Lesson 2: Exploratory Data Analysis (EDA) & First Insights 📊
 
+>
+> Notebook on [Github]()
+>
+
 **Objective:**
 * Learn techniques for handling missing data.
 * Use visualizations (with Matplotlib and Seaborn) to find patterns and relationships between features and survival.
