@@ -99,6 +99,10 @@ def sigmoid(z):
     # However, direct exp(-z) can overflow for z like -1000.
     # A common practice is to clip z or handle large values.
     # For simplicity here, we'll assume z is within reasonable bounds for np.exp.
+    # Ensure z is a numpy array
+    z = np.array(z, dtype=np.float64)
+    # Clip z to prevent overflow
+    z = np.clip(z, -500, 500)
     s = 1 / (1 + np.exp(-z))
     return s
 
