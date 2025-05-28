@@ -9,6 +9,9 @@ date: 2025-05-23
 ---
 ## Lesson 5: Neural Networks - The Core Concepts (Conceptual) 🧠💡
 
+> [The Original Neural Network Paper]()
+>
+
 **Objective:**
 * Understand the fundamental building blocks of a neural network: neurons, layers, weights, biases, and activation functions.
 * Grasp the conceptual flow of information (forward propagation) and learning (loss function, backpropagation, optimization) in a neural network.
