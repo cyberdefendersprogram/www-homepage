@@ -1,145 +1,180 @@
 ---
 layout: workshop
 order: 005
-slug: neural-networks
-title: Neural Networks
+slug: logistic-regression-with-scikit-learn
+title: Logistic Regression With Scikit-learn
 module_category: Machine Learning
 workshop_name: zero-to-one-datascience-to-ai
 date: 2025-05-23
 ---
-## Lesson 5: Neural Networks - The Core Concepts (Conceptual) 🧠💡
-
-> [The Original Neural Network Paper]()
->
+## Lesson 5: Logistic Regression with Scikit-learn 🎯
 
 **Objective:**
-* Understand the fundamental building blocks of a neural network: neurons, layers, weights, biases, and activation functions.
-* Grasp the conceptual flow of information (forward propagation) and learning (loss function, backpropagation, optimization) in a neural network.
-* Relate these concepts back to what we learned with Logistic Regression.
-* (No coding in this lesson, focus is on intuition and concepts).
+
+* Understand the basic concept of Logistic Regression for classification.
+* Implement Logistic Regression using Scikit-learn on the Titanic dataset.
+* Understand its output (probabilities and class labels).
+* Evaluate the predictions using standard classification metrics.
+
+**Recap of Lesson 3:**
+* Data was preprocessed: missing values handled, categorical features one-hot encoded, numerical features scaled.
+* Data was split into `X_train`, `y_train`, `X_val`, `y_val`. These are Pandas DataFrames/Series.
 
 ---
 
-### Recap of Lesson 4:
-* Built Logistic Regression from scratch, understanding its components:
-    * Linear combination $Z = WX + b$.
-    * Sigmoid activation $\sigma(Z)$ to get probabilities.
-    * Cost function (Binary Cross-Entropy) to measure error.
-    * Gradient Descent to update $W$ and $b$ to minimize cost.
+### 1. What is Logistic Regression? (Conceptual - 10 min)
+Logistic Regression is a fundamental algorithm used for **binary classification problems** (where the outcome has two classes, e.g., Survived/Died, Yes/No). While its name includes "Regression," it's a classification algorithm.
+
+* **Core Idea:** Instead of fitting a straight line directly to the 0/1 outcomes, Logistic Regression models the **probability** that an instance belongs to a particular class.
+* **Sigmoid Function (Logistic Function):** It uses the sigmoid function to S-shape a linear combination of features, squashing the output into a range between 0 and 1.
+    * $P(y=1|X) = \frac{1}{1 + e^{-z}}$
+    * where $z = W_1X_1 + W_2X_2 + \dots + W_nX_n + b$ (the linear part, same as in linear regression).
+    * $P(y=1|X)$ is the probability of the instance belonging to class 1, given its features $X$.
+    * $W_i$ are the weights (coefficients) learned by the model.
+    * $b$ is the bias term (intercept).
+* **Log-odds (Logit):** Logistic Regression models the log-odds of the outcome:
+    * $log(\frac{P(y=1|X)}{1 - P(y=1|X)}) = z = W_1X_1 + W_2X_2 + \dots + W_nX_n + b$
+* **Goal:** To find the weights ($W_i$) and bias ($b$) that maximize the likelihood of observing the given training data.
+* **Output:**
+    * It can output probabilities (e.g., 0.7 means 70% chance of belonging to class 1).
+    * These probabilities are then typically converted to class labels (0 or 1) by applying a threshold (usually 0.5).
 
 ---
 
-### 1. The Analogy: From Biological Neurons to Artificial Neurons (5 min)
+### 2. Applying Logistic Regression to a Classification Problem (Titanic) (Conceptual - 10 min)
+The Titanic 'Survived' variable is binary (0 for Died, 1 for Survived), making Logistic Regression a very suitable algorithm.
 
-* **Biological Neurons:** Briefly, brain cells (neurons) receive signals through dendrites, process them in the cell body (soma), and if a threshold is reached, fire an output signal along an axon to other neurons.
-* **Artificial Neurons (Perceptrons/Units):** Inspired by this, an artificial neuron:
-    * Receives one or more **inputs** (features from data, or outputs from previous neurons).
-    * Each input has an associated **weight** (representing its importance).
-    * Computes a **weighted sum** of its inputs.
-    * Adds a **bias** term (an independent parameter, like an intercept).
-    * Applies an **activation function** to this sum to produce an **output**.
-
----
-
-### 2. The Single Artificial Neuron (Perceptron / Logistic Regression Unit) (15 min)
-
-Let's look at a single neuron in detail. It's very similar to what we did in Logistic Regression!
-
-* **Inputs ($x_1, x_2, ..., x_n$):** These are the features of a single data sample.
-* **Weights ($w_1, w_2, ..., w_n$):** Each input $x_i$ is multiplied by a corresponding weight $w_i$. These weights are *learned* during training and determine the influence of each input on the neuron's output.
-* **Bias ($b$):** An additional parameter that is added to the weighted sum. It allows the neuron to be activated even if all inputs are zero, or to shift the activation function.
-* **Weighted Sum (Linear Combination, $z$):**
-    $$z = (w_1 x_1 + w_2 x_2 + \dots + w_n x_n) + b = W \cdot X + b$$
-    *This is exactly the linear part we calculated in Logistic Regression!*
-* **Activation Function ($\sigma(z)$, or $f(z)$):**
-    The weighted sum $z$ is then passed through an activation function.
-    * **Purpose:** To introduce **non-linearity** into the model. Without non-linear activation functions in hidden layers, a multi-layer neural network would behave just like a single linear model.
-    * **Examples:**
-        * **Sigmoid:** $\sigma(z) = 1 / (1 + e^{-z})$. Outputs between 0 and 1. Used in Logistic Regression and often in the output layer of binary classification neural networks.
-        * **ReLU (Rectified Linear Unit):** $f(z) = \max(0, z)$. Outputs $z$ if $z>0$, and $0$ otherwise. Very popular for hidden layers because it's computationally efficient and helps mitigate the "vanishing gradient" problem.
-        * **Tanh (Hyperbolic Tangent):** $f(z) = (e^z - e^{-z}) / (e^z + e^{-z})$. Outputs between -1 and 1. Similar to sigmoid but zero-centered.
-        * **Softmax:** Used in the output layer for multi-class classification. Converts a vector of scores into a probability distribution (outputs sum to 1).
-
-    *A single neuron with a sigmoid activation function is essentially a Logistic Regression unit.*
+* **Suitability:**
+    * Designed specifically for binary (and can be extended to multi-class) classification.
+    * Outputs probabilities, which are interpretable and useful (e.g., assessing confidence).
+    * Provides a good baseline model for classification tasks.
+* **How it works with 'Survived':**
+    * The model will learn to map the input features (Pclass, Age, Sex, etc.) to the probability of survival.
+    * For example, it might learn that being female increases the probability of survival, or being in a lower class decreases it.
+* **Interpreting Output for Classification:**
+    * `model.predict_proba(X)` will output two columns of probabilities for each instance: P(Survived=0) and P(Survived=1).
+    * `model.predict(X)` will directly output the class label (0 or 1) by using a default threshold of 0.5 on P(Survived=1).
+        * If P(Survived=1) $\ge 0.5$, predict 1 (Survived).
+        * If P(Survived=1) $< 0.5$, predict 0 (Died).
 
 ---
 
-### 3. Layers: Stacking Neurons Together (15 min)
+### 3. Implementation with Scikit-learn (Practical - 20 min)
+We'll use the `LogisticRegression` model from `sklearn.linear_model`.
 
-Neural networks gain their power by organizing neurons into layers.
+```python
+# Ensure necessary libraries and data are loaded from previous lessons
+import pandas as pd
+import numpy as np
+from sklearn.linear_model import LogisticRegression # Changed from LinearRegression
+from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score, f1_score
+import matplotlib.pyplot as plt # For potential plotting if needed
 
-* **Input Layer:**
-    * Not really a layer of "computing" neurons. It simply represents the input features of our data.
-    * The number of "nodes" or "units" in the input layer corresponds to the number of features in our dataset (e.g., for our processed Titanic data, this would be columns like 'Age', 'Fare', 'Sex_male', 'Embarked_Q', etc.).
-* **Hidden Layer(s):**
-    * Layers of neurons between the input and output layers. These are where most of the "learning" of complex patterns happens.
-    * Each neuron in a hidden layer typically receives input from *all* neurons (or inputs) in the previous layer (this is called a "fully connected" or "dense" layer).
-    * Each connection has its own weight. Each neuron has its own bias.
-    * They apply an activation function (commonly ReLU or Tanh).
-    * A network can have one or more hidden layers. Networks with many hidden layers are called "deep" neural networks (Deep Learning).
-    * The number of neurons in each hidden layer is a design choice (a hyperparameter).
-* **Output Layer:**
-    * The final layer of neurons that produces the model's prediction.
-    * The number of neurons and the activation function depend on the task:
-        * **Binary Classification (like Titanic):** Typically 1 neuron with a sigmoid activation function (to output a probability between 0 and 1).
-        * **Multi-Class Classification (e.g., classifying images into 10 categories):** Typically $N$ neurons (where $N$ is the number of classes) with a softmax activation function.
-        * **Regression (predicting a continuous value):** Typically 1 neuron with no activation function (or a linear activation function).
+# --- Assume X_train, y_train, X_val, y_val are pre-existing Pandas DataFrames/Series ---
+# For this script to be runnable standalone, let's create dummy preprocessed data
+# In your actual workflow, you'd use the data from your previous lessons.
+if 'X_train' not in locals() or 'y_train' not in locals():
+    print("--- X_train, y_train not found. Creating dummy preprocessed data for Lesson 5. ---")
+    from sklearn.model_selection import train_test_split
+    from sklearn.preprocessing import StandardScaler
+    num_samples = 891
+    num_features = 8
+    dummy_X_data = np.random.rand(num_samples, num_features)
+    feature_names = [f'feature_{i}' for i in range(num_features)]
+    X_full = pd.DataFrame(dummy_X_data, columns=feature_names)
+    scaler = StandardScaler()
+    X_scaled_data = scaler.fit_transform(X_full)
+    X_full_scaled = pd.DataFrame(X_scaled_data, columns=feature_names)
+    y_full = pd.Series(np.random.randint(0, 2, num_samples), name='Survived')
+    X_train, X_val, y_train, y_val = train_test_split(
+        X_full_scaled, y_full, test_size=0.2, random_state=42, stratify=y_full
+    )
+    print(f"Dummy X_train shape: {X_train.shape}, Dummy y_train shape: {y_train.shape}")
 
----
+# 1. Initialize the Logistic Regression model
+# You can specify a solver and max_iter if you get convergence warnings.
+# 'liblinear' is good for small datasets. 'lbfgs' is a common default.
+log_reg_model = LogisticRegression(solver='liblinear', random_state=42) # Changed model
 
-### 4. How Neural Networks "Learn" - The Big Picture (Conceptual - 20 min) 🔄
+# 2. Train the model
+# Scikit-learn's LogisticRegression expects y_train to be a 1D array or Series.
+print("\n--- Training Logistic Regression Model (Scikit-learn) ---")
+log_reg_model.fit(X_train, y_train)
+print("Logistic Regression model trained.")
 
-The learning process is an iterative optimization procedure:
+# You can inspect the learned coefficients (weights) and intercept if interested
+# print(f"Coefficients (W): {log_reg_model.coef_}")
+# print(f"Intercept (b): {log_reg_model.intercept_}")
 
-1.  **Initialization:**
-    * Weights are typically initialized with small random numbers (to break symmetry and allow different neurons to learn different things). Biases are often initialized to zero.
+# 3. Make predictions (class labels)
+# .predict() directly gives class labels (0 or 1) using a 0.5 threshold internally.
+y_pred_class_train = log_reg_model.predict(X_train)
+y_pred_class_val = log_reg_model.predict(X_val)
 
-2.  **Forward Propagation:**
-    * A batch of training data (or a single sample) is fed into the input layer.
-    * The data flows through the network, layer by layer:
-        * For each neuron in a layer, calculate its weighted sum ($z$) based on outputs from the previous layer and its own weights/bias.
-        * Apply the activation function to $z$ to get the neuron's output ($a$).
-    * This process continues until the output layer produces a prediction.
+print("\nFirst 5 class predictions on validation set:")
+print(y_pred_class_val[:5])
 
-3.  **Calculate Loss (Cost Function):**
-    * The model's predictions are compared to the true labels from the training data using a **loss function** (also called a cost function or error function).
-    * The loss function quantifies how "wrong" the model's predictions are.
-    * **Examples:**
-        * Binary Classification: **Binary Cross-Entropy** (same as we used for Logistic Regression).
-        * Multi-Class Classification: Categorical Cross-Entropy.
-        * Regression: Mean Squared Error (MSE) or Mean Absolute Error (MAE).
+# 4. Optionally, get probabilities
+y_pred_proba_train = log_reg_model.predict_proba(X_train)
+y_pred_proba_val = log_reg_model.predict_proba(X_val)
 
-4.  **Backward Propagation (Backprop):**
-    * This is the core of how neural networks learn. It's a clever algorithm for efficiently calculating the **gradients** of the loss function with respect to *every single weight and bias* in the network.
-    * It uses the **chain rule** from calculus to propagate the error "backwards" from the output layer through the hidden layers to the input layer.
-    * Essentially, it determines how much each weight and bias contributed to the overall loss.
+print("\nFirst 5 probability predictions on validation set (P(Died), P(Survived)):")
+print(y_pred_proba_val[:5])
+# The second column is P(Survived=1)
+print("\nProbability of survival for first 5 validation samples:")
+print(y_pred_proba_val[:5, 1])
+```
 
-5.  **Optimization (Update Parameters):**
-    * Using the calculated gradients, an **optimizer** updates the weights and biases in the network to reduce the loss.
-    * The most basic optimizer is **Gradient Descent** (which we implemented for Logistic Regression): $W = W - \alpha \cdot dW$.
-    * More advanced optimizers are commonly used in practice:
-        * Stochastic Gradient Descent (SGD) with Momentum
-        * AdaGrad
-        * RMSprop
-        * **Adam** (Adaptive Moment Estimation - very popular and often a good default choice).
-        These optimizers adapt the learning rate or use momentum to speed up convergence and navigate complex loss landscapes.
+4. Evaluation (Practical - 15 min)
+We use standard classification metrics on the predicted class labels.
 
-6.  **Repeat:**
-    * Steps 2-5 are repeated for many **epochs** (an epoch is one full pass through the entire training dataset) or until the model's performance on a validation set stops improving.
+```python
+# (Continuing from the previous code block)
 
----
+print("\n--- Logistic Regression Model Evaluation (Classification Metrics) ---")
 
-### Relating to Logistic Regression:
+# Accuracy
+train_accuracy_logreg = accuracy_score(y_train, y_pred_class_train)
+val_accuracy_logreg = accuracy_score(y_val, y_pred_class_val)
+print(f"Training Accuracy: {train_accuracy_logreg*100:.2f}%")
+print(f"Validation Accuracy: {val_accuracy_logreg*100:.2f}%")
 
-* A Logistic Regression model can be viewed as a very simple neural network:
-    * An input layer (your features).
-    * No hidden layers.
-    * An output layer with a single neuron using a sigmoid activation function.
-* The "learning" process we built for Logistic Regression (forward prop, binary cross-entropy cost, backward prop for dW and db, gradient descent update) is a specific instance of the general neural network learning process.
+# Confusion Matrix for Validation Set
+print("\nValidation Set Confusion Matrix:")
+cm_logreg = confusion_matrix(y_val, y_pred_class_val)
+print(cm_logreg)
+# For better display:
+# TN = cm_logreg[0,0]; FP = cm_logreg[0,1]
+# FN = cm_logreg[1,0]; TP = cm_logreg[1,1]
+# print(f"TN: {TN}, FP: {FP}, FN: {FN}, TP: {TP}")
 
----
+# Precision, Recall, F1-Score for Validation Set
+# Ensure there are positive predictions and more than one class in true labels for meaningful metrics
+if len(np.unique(y_val)) > 1 and len(np.unique(y_pred_class_val)) > 0:
+    precision_logreg = precision_score(y_val, y_pred_class_val, zero_division=0)
+    recall_logreg = recall_score(y_val, y_pred_class_val, zero_division=0)
+    f1_logreg = f1_score(y_val, y_pred_class_val, zero_division=0)
+    print(f"Validation Precision: {precision_logreg:.4f}")
+    print(f"Validation Recall: {recall_logreg:.4f}")
+    print(f"Validation F1-Score: {f1_logreg:.4f}")
+else:
+    print("Could not calculate Precision/Recall/F1 for validation set (e.g., no positive predictions or only one class in true labels).")
 
-### Wrap-up & Next Steps:
+# You can also explore metrics like ROC AUC score
+# from sklearn.metrics import roc_auc_score
+# val_roc_auc = roc_auc_score(y_val, y_pred_proba_val[:, 1]) # Use probabilities for ROC AUC
+# print(f"Validation ROC AUC Score: {val_roc_auc:.4f}")
+```
 
-* **Recap:** We've conceptually explored the core components of neural networks: neurons, layers (input, hidden, output), weights, biases, and various activation functions (sigmoid, ReLU). We've also outlined the learning process involving forward propagation, loss calculation, backward propagation (to find gradients), and optimization (like gradient descent) to update parameters. We saw that Logistic Regression is a simple form of a neural network.
-* **Teaser for Lesson 6:** Next, we'll start **coding our own simple neural network from scratch** using NumPy, focusing first on implementing **Forward Propagation** for a network with one hidden layer. This will solidify our understanding of how data flows through the network and how predictions are generated.
+5. Discussion (Conceptual - 5 min)
+-  Performance: How does Logistic Regression perform? It often provides a strong baseline for binary classification tasks. Its performance will depend on how linearly separable the data is in the feature space transformed by the logit function.
+- Why this is suitable for classification:
+- Probabilistic Output: Provides calibrated probabilities, which are more informative than just class labels.
+- Interpretable Coefficients (to some extent): The sign and magnitude of coefficients can give insights into feature importance and their relationship with the outcome (though interpretation needs care, especially with scaled features).
+- Efficiency: Generally fast to train, especially with solvers like 'liblinear' or 'saga' for larger datasets.
+Less Prone to Overfitting (than complex models on small datasets): It's a simpler model compared to, say, deep neural networks, which can be an advantage with limited data.
+- Value of this exercise: It demonstrates the standard Scikit-learn workflow for a robust and widely-used classification algorithm. It sets a benchmark against which more complex models can be compared.
+
+Wrap-up & Next Steps:
+- Recap: We've implemented Logistic Regression using Scikit-learn, applied it to the Titanic classification task, understood how to get both class predictions and probabilities, and evaluated it using standard classification metrics. We've also discussed its suitability for this type of problem.
+- Teaser for Lesson 6: Having explored a powerful classical classification algorithm, we'll now delve into the Core Concepts of Neural Networks. This will lay the groundwork for understanding more powerful and flexible models capable of learning complex non-linear relationships, which are often needed to further improve performance on tasks like the Titanic challenge.
