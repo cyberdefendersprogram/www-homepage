@@ -7,12 +7,12 @@ last_modified_at: 2023-08-11 08:12:05+00:00
 <br/>
 <h1 class="title">CIS 52 Cloud Security (Merritt College)</h1>
 
-Cloud Security (Fall 2024)
+Cloud Security (Fall 2025)
 
 This is the second course in the infrastructure security major and it will expose students to the major concepts of Cloud Security.  Class will use a combination of lectures, required reading, essays, and hands-on labs to teach the course.
 
 Some additional important links below:
-- [Fall 2023 CIS 52 Class](/2023-fall-cis-52)
+- [Fall 2024 CIS 52 Class](/2024-fall-cis-52) [Fall 2023 CIS 52 Class](/2023-fall-cis-52)
 - [Merritt College Cybersecurity Path - PDF](/assets/pdf/2024-merritt-career-path.pdf)
 - [Microsoft Cybersecurity Grant](https://www.lastmile-ed.org/microsoftcybersecurityscholarship)
 - [Collegiate Pentest Competition](https://cp.tc/), [Western Region Collegiate Defense Competition](https://wrccdc.org/), [NCL](https://nationalcyberleague.org/competition)
@@ -69,8 +69,7 @@ Some additional important links below:
 <hr/>
 
 <h2 id="guestlecture" class="subtitle">Course Outline</h2>
-<p> On Sep 22, 2023 we will have guest lecture from Keith Hodo.</p
-
+<p> On Sep XX, 2025 we will have guest lecture from Keith Hodo.</p
 
 <hr/>
 Last Updated: {{page.last_modified_at}}
