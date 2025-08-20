@@ -42,3 +42,8 @@ The site uses automated data sync from Google Sheets:
 - Python with Poetry for data management scripts
 - Sass for CSS preprocessing
 - Bulma CSS framework
+
+## Git Commit Guidelines
+- Keep commit messages concise and descriptive
+- Do not mention Claude Code or AI assistance in commit messages
+- Follow existing commit message style (simple, lowercase descriptions)
