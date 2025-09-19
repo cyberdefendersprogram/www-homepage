@@ -69,7 +69,7 @@ Some additional important links below:
 <hr/>
 
 <h2 id="guestlecture" class="subtitle">Course Outline</h2>
-<p> On Sep XX, 2025 we will have guest lecture from Keith Hodo.</p
+<p> On Sep 19, 2025 we will have guest lecture from Keith Hodo.</p
 
 <hr/>
 Last Updated: {{page.last_modified_at}}
