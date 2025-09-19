@@ -1,38 +1,44 @@
 - desc: Introduction into core concepts
   notes: Nothing is due
-  recording_link: https://peralta-edu.zoom.us/rec/share/2P_YONWlI-kordYVhpqbNrhvsRweSyURoXsmwUhgTtCZT_4iKWk4Ho8Cls8sVZeR.4gdQDLqYG-sC-TWx
-  session: August 23
-  slides_link: https://docs.google.com/presentation/d/1zsqQ_EEg_PYRc1NMSKTgTiuKQN29ERSg1c-SlkFg-kQ/edit?usp=sharing
+  recording_link: https://peralta-edu.zoom.us/rec/share/OlyI3G98g-FcAIhBOJzVt6Xuwg5Ob2zUTJuwJT-c_ei1mQ9uXFNlhYWY0Y_Rfwkp.CMua8-K85ICPOPqb
+  recording_link_2: https://peralta-edu.zoom.us/rec/share/QLPzBqlIwGSAetDn1ivc4w3lk0ipnLgrAuEfbLryUwZkgBjigwQAqMr-2QhlwPo.syoVTqPgDZNJlM_-
+  session: August 22
+  slides_link: https://docs.google.com/presentation/d/1h168pOAs9k0lnQwSvags4OYELjmORtmQbHg4uZv4TaE/edit?usp=sharing
 - desc: Identity and Access Management
   notes: 'Lab 1 Due at 9am
 
     Quiz 1 from 1pm till 2:30pm'
-  recording_link: https://peralta-edu.zoom.us/rec/share/X5LIl5fZGvVGdpGubWfgU-2YgHpiRljmE9zfYyxLn4HNn212v12SVap339fM577T.RY1AEa_UE2k2i0cv
-  session: August 30
-  slides_link: https://docs.google.com/presentation/d/1g-_JAws16PAN_pF5Q6CS6m9J2mRs9xQFY-kVk_Cv6Ag/edit?usp=sharing
+  recording_link: https://peralta-edu.zoom.us/rec/share/kb9uPnfRvy4gPl_jqws6AWkfF8-rkQrl2435ULZIjsHDrQpeDiY3WB8ZG83hnGln.2i3e5MPWImyeCMBp?startTime=1756480751000
+  recording_link_2: https://peralta-edu.zoom.us/rec/share/AJsJ2EIv2sjpauCfYh6hJSfCGNUnPcqu_P2Mes59cJyCgukzf33OC3yYC3QcqysD.qxa3nD7u0bF3KPoy
+  session: August 29
+  slides_link: https://docs.google.com/presentation/d/1D2vxW5Z0vABVM-nWoZstMF3Im53Aj9mpJF4WWf2SOtA/edit?usp=sharing
 - desc: Security Tools
   notes: 'Lab 2 Due at 9am
 
     Quiz 2 from 1pm till 2:30pm   '
-  recording_link: https://peralta-edu.zoom.us/rec/share/4JlBV6vCCiVSY0XtqMJrhm_VZyNX7XK9Xcwz77xbAumf2EOsOm1tJ8rL-lXqfFxJ.XYbVYSaBnPJCmhrF
-  session: September 6
-  slides_link: https://docs.google.com/presentation/d/1ZkhZ8yDmm_e-udQKdhAZAZrcaw6RH3dgNtkmWVt3KTk/edit?usp=sharing
+  recording_link: https://peralta-edu.zoom.us/rec/share/Z0RR3jVZ_ebzk15KI-68Y6JV8w9YBP-qTnGz4oDUU_zSudB-qckhrylaOC-i-efc.vcvkbirQdFPpJAFk
+  recording_link_2: ''
+  session: September 5
+  slides_link: https://docs.google.com/presentation/d/1Sp6TuVtflnHXWdSuOzCW74EpVHF0kiNSS3yAEh8zdD0/edit?usp=sharing
 - desc: Monitoring
   notes: Lab 3 Due at 9am, Quiz 3 from 1pm till 2:30pm
-  recording_link: https://peralta-edu.zoom.us/rec/share/3pb57wmuFM8T8bhSAbUDI05730PSxIHwHC2UVQEpQKBV9uymF6wIh14W9PaNyvQH.TyE5sovq1bv5Gyg0?startTime=1726243080000
-  session: September 13
-  slides_link: https://docs.google.com/presentation/d/1dBmCTY_Ryo4w6l8U7vMHUAjUbxk7KDKTdm7meOtWCVU/edit?usp=sharing
-- desc: Host Security and Key Management
+  recording_link: https://peralta-edu.zoom.us/rec/share/AeMfhZk393fnme4297xcc-OLwPdYx-yunxiq1lHu1f1q1gYswf0rIAXoOC0YW5aQ.1VsUC4x087-rrrYp
+  recording_link_2: ''
+  session: September 12
+  slides_link: https://docs.google.com/presentation/d/1HBkDWooXgpCjFTxQvD65AJ7VaDlVa-cvLCunmB2FrCY/edit?usp=sharing
+- desc: 'Networking '
   notes: 'Lab 4 Due at 9am
 
     Quiz 4 from 1pm till 2:30pm'
-  recording_link: https://peralta-edu.zoom.us/rec/share/dW7MIJxW-6NmhuAh1MFXK04LDk4LbNn5BhjWd8VSysjwoSjtMBAjrJbLwV7FFe_c.wZ0Ap8YeoZC9PTEm
-  session: September 20
-  slides_link: https://docs.google.com/presentation/d/1S_tG0cJDH1Rr63E3F5GSdArCApWiShKGZFd_yNWE3Xs/edit?usp=sharing
+  recording_link: ''
+  recording_link_2: ''
+  session: September 19
+  slides_link: https://docs.google.com/presentation/d/1d3Lm7x8_QdDBZCvAV3XLM_qJttAt07v8TZok3LyBNEo/edit?usp=sharing
 - desc: Detection and Response
   notes: 'Lab 5 Due at 9am
 
     Quiz 5 from 1pm till 2:30pm'
-  recording_link: https://peralta-edu.zoom.us/rec/share/SZiKKtkrcseJf_acBinKVl-XJMB8ZzvqQAVyVKvkYEeqrbr0Vl0bi7i_bxQQRXIS.BpatYCdHledpk8Kd?startTime=1727452173000
-  session: September 27
-  slides_link: https://docs.google.com/presentation/d/1UkLzfJucxCZbFtilsG136s9TjRaicGwCdOzn5ibLTTU/edit?usp=sharing
+  recording_link: ''
+  recording_link_2: ''
+  session: September 26
+  slides_link: ''
