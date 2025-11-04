@@ -18,11 +18,6 @@ advisors:
   companyname: Amazon
   link: "https://www.linkedin.com/in/bill-reid-46208a1/"
   description: "A former Chief Information Security Officer in the healthcare tech industry, Bill has security experience in companies of all sizes. He now helps customers build secure Amazon Web Services architectures, compliant to HIPAA, NIST, ISO, and COBIT standards."
-- name: "Mel Masterson"
-  image: "assets/images/advisory-board/mel.jpeg"
-  companyname: Airbnb
-  link: "https://www.linkedin.com/in/mastersonmelanie/"
-  description: "Mel is seasoned in IT and Information Security. Her current focus is on detecting cyber security threats and incident response at Airbnb. She is passionate about teaching and loves being a mentor for new entrants in security. Previously she was in service to the board of Women in Security and Privacy (WISP)."
 - name: "Brian Koref"
   image: "assets/images/advisory-board/brian.jpeg"
   companyname: Intacct Corporation
@@ -32,7 +27,13 @@ advisors:
   image: "assets/images/advisory-board/celeste.jpg"
   companyname: "Lawrence Livermore National Lab"
   link: "https://www.linkedin.com/in/celestematarazzo/"
-  description: "Celeste is a data science expert and cybersecurity researcher with more than 32 years of service to the Lawrence Livermore National Laboratory’s (LLNL) Computation Directorate excelling in a variety or technical, research, leadership and management roles. She is also the founder of LLNL’s Cyber Defenders summer student internship program.  She is passionate about education outreach and support for women and underrepresented minorities in technology careers"
+  description: "Celeste is a data science expert and cybersecurity researcher with more than 32 years of service to the Lawrence Livermore National Laboratory's (LLNL) Computation Directorate excelling in a variety or technical, research, leadership and management roles. She is also the founder of LLNL's Cyber Defenders summer student internship program.  She is passionate about education outreach and support for women and underrepresented minorities in technology careers"
+former_advisors:
+- name: "Mel Masterson"
+  image: "assets/images/advisory-board/mel.jpeg"
+  companyname: Airbnb
+  link: "https://www.linkedin.com/in/mastersonmelanie/"
+  description: "Mel is seasoned in IT and Information Security. Her current focus is on detecting cyber security threats and incident response at Airbnb. She is passionate about teaching and loves being a mentor for new entrants in security. Previously she was in service to the board of Women in Security and Privacy (WISP)."
 ---
 <!---------------------------------------------------->  
 <!--               Hero Section Partners            -->  
@@ -69,12 +70,39 @@ advisors:
 <hr/>
 <section>
 <div class="container">
+<h2 class="title is-3 has-text-centered">Board of Advisors</h2>
 <div class="columns is-multiline is-mobile is-centered">
 {% for advisor in page.advisors %}  
     <div class="column is-one-third">
         <div class="card is-shady">
             <div class="card-image">
                 <figure class="image is-128x128">    
+                        <img class="is-rounded" src={{site.url}}{{site.baseurl}}{{advisor.image}}>
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="content">
+                    <h4><a href="{{advisor.link}}">{{advisor.name}}</a></h4>
+                    <h6>{{advisor.companyname}}</h6>
+                    <p>{{advisor.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</div>
+</div>
+</section>
+<hr/>
+<section>
+<div class="container">
+<h2 class="title is-3 has-text-centered">Former Board of Advisors</h2>
+<div class="columns is-multiline is-mobile is-centered">
+{% for advisor in page.former_advisors %}
+    <div class="column is-one-third">
+        <div class="card is-shady">
+            <div class="card-image">
+                <figure class="image is-128x128">
                         <img class="is-rounded" src={{site.url}}{{site.baseurl}}{{advisor.image}}>
                 </figure>
             </div>
