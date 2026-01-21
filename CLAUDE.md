@@ -47,3 +47,24 @@ The site uses automated data sync from Google Sheets:
 - Keep commit messages concise and descriptive
 - Do not mention Claude Code or AI assistance in commit messages
 - Follow existing commit message style (simple, lowercase descriptions)
+
+## Workflows
+
+### post-job
+Add a new job listing to `_data/jobs.yml`:
+1. Get the job URL from the user
+2. Use WebFetch to extract: title, company, description, and key requirements
+3. Ask who recommended the job (by field)
+4. Add entry to `_data/jobs.yml` with this format:
+   ```yaml
+   - title: "Job Title"
+     link: <job-url>
+     description: "Brief description including requirements and application deadline if available"
+     company: Company Name
+     tags:
+       - relevant-tag
+     date: <today's date YYYY-MM-DD>
+     by: <recommender name>
+   ```
+5. Use today's date for the `date` field, not the application deadline
+6. Include application deadline in the description if available
