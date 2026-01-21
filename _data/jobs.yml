@@ -6,6 +6,8 @@
     - full-time
     - IT
   date: 2026-01-20
+  valid_till: 2026-02-09
+  archived: false
   by: Andrea
 
 - title: "Google Summer of Code Internship"
@@ -15,32 +17,44 @@
   tags:
     - internship
   date: 2025-03-26
+  valid_till: 2025-12-26
+  archived: false
   by: Vaibhav Bhandari
+
 - title: SANS Diversity Academy
   link: https://www.sans.org/scholarship-academies/diversity-academy/
-  description: This four-to-six-month accelerated, immersive cybersecurity training program provides eligible candidates with advanced technical training, industry-recognized GIAC certifications, and hands-on cyber defense and incident handling skills sought by employers. 
+  description: This four-to-six-month accelerated, immersive cybersecurity training program provides eligible candidates with advanced technical training, industry-recognized GIAC certifications, and hands-on cyber defense and incident handling skills sought by employers.
   company: SANS and Cyversity
-  tags: 
+  tags:
     - education
     - training
+  date: 2026-01-20
+  valid_till: 2026-10-20
+  archived: false
   by: Vaibhav Bhandari
-  
+
 - title: 'Opportunities for All Summer Internship Program'
   link: https://www.opps4allsf.org/
-  description: Students need to enroll at the provided link  to be eligible for the Internship. Additionally, they need to live in SF or go to school in SF or have a parent/guardian that lives in SF.
+  description: Students need to enroll at the provided link to be eligible for the Internship. Additionally, they need to live in SF or go to school in SF or have a parent/guardian that lives in SF.
   company: AirBnB
-  tags: 
+  tags:
     - highschool
     - externship
+  date: 2026-01-20
+  valid_till: 2026-10-20
+  archived: false
   by: Mel Anderson
 
 - title: "Research Papers for High School & Middle School"
   link: https://www.emerginginvestigators.org/submissions/guidelines
-  description: "We encourage all middle school or high school students to submit research that tests a reasonable hypothesis. JEI does not judge submissions based on the “cutting edge” nature of the research, and access to university labs and advanced techniques are not required. In fact, some of the most noteworthy manuscripts submitted to JEI use inexpensive, household materials in creative ways to test an interesting question. We focus on your ability to pose and successfully address an interesting scientific question, not the sophistication of the techniques."
+  description: "We encourage all middle school or high school students to submit research that tests a reasonable hypothesis. JEI does not judge submissions based on the \"cutting edge\" nature of the research, and access to university labs and advanced techniques are not required. In fact, some of the most noteworthy manuscripts submitted to JEI use inexpensive, household materials in creative ways to test an interesting question. We focus on your ability to pose and successfully address an interesting scientific question, not the sophistication of the techniques."
   company: JEI
   tags:
     - highschool
     - publication
+  date: 2026-01-20
+  valid_till: 2026-10-20
+  archived: false
   by: Vaibhav Bhandari
 
 - title: "Internship Opportunities - Fall 2020"
@@ -49,16 +63,20 @@
   company: "Tanium"
   tags:
     - degree
+  valid_till: 2021-01-01
+  archived: true
   by: "Vaibhav Bhandari"
 
 - title: "Facebook University Internship Opportunities"
   link: https://www.facebook.com/careers/students-and-grads/students
-  description: "
-Facebook University is a hands-on, immersive internship program that enables students from underrepresented communities to get to know Facebook’s people, products and services. In just eight weeks, the program gives interns across roles in engineering, analytics, product design, operations, and sales and advertising the opportunity to make a real impact and help redefine how the world connects."
+  description: "Facebook University is a hands-on, immersive internship program that enables students from underrepresented communities to get to know Facebook's people, products and services. In just eight weeks, the program gives interns across roles in engineering, analytics, product design, operations, and sales and advertising the opportunity to make a real impact and help redefine how the world connects."
   company: "Facebook"
   tags:
     - Internship
     - Under Served Communities
+  date: 2026-01-20
+  valid_till: 2026-10-20
+  archived: false
   by: "Vaibhav Bhandari"
 
 - title: "FBI Opportunities"
@@ -68,4 +86,7 @@ Facebook University is a hands-on, immersive internship program that enables stu
   tags:
     - Volunteer Internship
     - Under Served Communities
+  date: 2026-01-20
+  valid_till: 2026-10-20
+  archived: false
   by: "Vaibhav Bhandari"

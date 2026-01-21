@@ -39,7 +39,7 @@ The site uses automated data sync from Google Sheets:
 ## Dependencies
 - Ruby with Bundler for Jekyll
 - Node.js with npm for build tools
-- Python with Poetry for data management scripts
+- Python with pip for data management scripts
 - Sass for CSS preprocessing
 - Bulma CSS framework
 
@@ -64,7 +64,11 @@ Add a new job listing to `_data/jobs.yml`:
      tags:
        - relevant-tag
      date: <today's date YYYY-MM-DD>
+     valid_till: <application deadline or date + 9 months>
+     archived: false
      by: <recommender name>
    ```
-5. Use today's date for the `date` field, not the application deadline
-6. Include application deadline in the description if available
+5. Use today's date for the `date` field
+6. For `valid_till`: use application deadline if available, otherwise date + 9 months
+7. Set `archived: false` for new jobs
+8. Include application deadline in the description if available
