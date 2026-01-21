@@ -18,15 +18,10 @@ jobs:
       with:
         python-version: '3.12'
 
-    - name: Install Poetry
-      run: |
-        curl -sSL https://install.python-poetry.org | python3 -
-        echo "$HOME/.local/bin" >> $GITHUB_PATH
-
     - name: Install dependencies
       run: |
         cd data-runners/yaml-datagen
-        poetry install
+        pip install -r requirements.txt
 
     - name: Run update script
       env:
@@ -34,10 +29,10 @@ jobs:
       run: |
         cd data-runners/yaml-datagen
         echo "$GOOGLE_APPLICATION_CREDENTIALS" > google_credentials.json
-        poetry run python yaml_datagen.py --credentialspath 'google_credentials.json' --gsheet --input '10TEKsl5v7ff2MSwxVP5weF9KqUR9qwrdCN7gFgwdjKQ' --output '../../_data/merritt-cis60-2025-spring-schedule.yml'
+        python yaml_datagen.py --credentialspath 'google_credentials.json' --gsheet --input '10TEKsl5v7ff2MSwxVP5weF9KqUR9qwrdCN7gFgwdjKQ' --output '../../_data/merritt-cis60-2025-spring-schedule.yml'
     - name: Commit and push if changed
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
         git add _data/merritt-cis60-2025-spring-schedule.yml
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update CIS55 schedule" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update CIS60 schedule" && git push)

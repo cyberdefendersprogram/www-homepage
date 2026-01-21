@@ -1,4 +1,4 @@
-name: Update CIS52 Schedule 
+name: Update CIS52 Schedule
 
 on:
   #schedule:
@@ -13,20 +13,15 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v3
 
-    - name: Set up Python 3.9
+    - name: Set up Python 3.12
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
-
-    - name: Install Poetry
-      run: |
-        curl -sSL https://install.python-poetry.org | python3 -
-        echo "$HOME/.local/bin" >> $GITHUB_PATH
+        python-version: '3.12'
 
     - name: Install dependencies
       run: |
         cd data-runners/yaml-datagen
-        poetry install
+        pip install -r requirements.txt
 
     - name: Run update script
       env:
@@ -34,7 +29,7 @@ jobs:
       run: |
         cd data-runners/yaml-datagen
         echo "$GOOGLE_APPLICATION_CREDENTIALS" > google_credentials.json
-        poetry run python yaml_datagen.py --credentialspath 'google_credentials.json' --gsheet --input '1I6idwJoRCCOx-FFPhtRwPCclbaMfty6ACAkj2U0eVLg' --output '../../_data/merritt-cis52-schedule.yml'
+        python yaml_datagen.py --credentialspath 'google_credentials.json' --gsheet --input '1I6idwJoRCCOx-FFPhtRwPCclbaMfty6ACAkj2U0eVLg' --output '../../_data/merritt-cis52-schedule.yml'
     - name: Commit and push if changed
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"

@@ -18,15 +18,10 @@ jobs:
       with:
         python-version: '3.12'
 
-    - name: Install Poetry
-      run: |
-        curl -sSL https://install.python-poetry.org | python3 -
-        echo "$HOME/.local/bin" >> $GITHUB_PATH
-
     - name: Install dependencies
       run: |
         cd data-runners/yaml-datagen
-        poetry install
+        pip install -r requirements.txt
 
     - name: Run update script
       env:
@@ -34,7 +29,7 @@ jobs:
       run: |
         cd data-runners/yaml-datagen
         echo "$GOOGLE_APPLICATION_CREDENTIALS" > google_credentials.json
-        poetry run python yaml_datagen.py --credentialspath 'google_credentials.json' --gsheet --input '1JuglqOYkoncahXHFkPNxMMvW5V42Afc86Avgdc4uPUo' --output '../../_data/merritt-cis55-2025-spring-schedule.yml'
+        python yaml_datagen.py --credentialspath 'google_credentials.json' --gsheet --input '1JuglqOYkoncahXHFkPNxMMvW5V42Afc86Avgdc4uPUo' --output '../../_data/merritt-cis55-2025-spring-schedule.yml'
     - name: Commit and push if changed
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
