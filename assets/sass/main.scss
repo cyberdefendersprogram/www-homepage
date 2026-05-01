@@ -312,8 +312,24 @@ ul {
   background: linear-gradient(135deg, #062F49 0%, #5893BC 100%);
 }
 
+.internship-hero::before {
+  background: rgba(0, 0, 0, 0.42);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.internship-hero .hero-body {
+  position: relative;
+  z-index: 2;
+}
+
 .internship-hero .hero-background.is-transparent {
-  opacity: 0.18;
+  opacity: 0.28;
 }
 
 .internship-kicker {
@@ -343,6 +359,22 @@ ul {
 
 .internship-overview {
   background: #EFF3F4;
+}
+
+.internship-why {
+  background: #fff;
+}
+
+.internship-reason-card {
+  border-radius: 6px;
+  border-top: 4px solid #FA7C91;
+  height: 100%;
+}
+
+.internship-reason-card .heading {
+  color: #5893BC;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
 }
 
 .internship-detail-card {
@@ -435,6 +467,7 @@ ul {
   }
 
   .internship-detail-card,
+  .internship-reason-card,
   .internship-track-card {
     margin-bottom: 1rem;
   }
