@@ -10584,4 +10584,137 @@ ul {
   font-size: 1rem;
 }
 
+/* internship landing page */
+.internship-hero {
+  background: linear-gradient(135deg, #062F49 0%, #5893BC 100%);
+}
+
+.internship-hero .hero-background.is-transparent {
+  opacity: 0.18;
+}
+
+.internship-kicker {
+  margin-bottom: 1rem;
+}
+
+.internship-apply-button {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  min-width: 220px;
+  white-space: normal;
+}
+
+.internship-hero-panel {
+  background: rgba(6, 47, 73, 0.86);
+  border-left: 6px solid #FA7C91;
+  border-radius: 6px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.22);
+  color: #fff;
+  padding: 2rem;
+}
+
+.internship-hero-panel .title,
+.internship-hero-panel .heading {
+  color: #fff;
+}
+
+.internship-overview {
+  background: #EFF3F4;
+}
+
+.internship-detail-card {
+  border-top: 4px solid #5893BC;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.internship-detail-card .heading {
+  color: #5893BC;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+.internship-objective {
+  background: #fff;
+}
+
+.internship-dates {
+  background: #fff;
+}
+
+.internship-tracks {
+  background: #EFF3F4;
+}
+
+.internship-track-card {
+  border-left: 4px solid #FA7C91;
+  border-radius: 6px;
+}
+
+.internship-track-card .heading {
+  color: #5893BC;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+.internship-list {
+  margin-bottom: 1.5rem;
+}
+
+.internship-card-cta {
+  display: inline-flex;
+  width: auto;
+  min-width: 200px;
+}
+
+.internship-apply-section {
+  background: #F1F3FA;
+}
+
+.internship-form-frame {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+  padding: 0.75rem;
+}
+
+.internship-form-frame iframe {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .internship-hero .hero-body {
+    padding: 3rem 1.25rem;
+  }
+  .internship-hero .title.is-2 {
+    font-size: 2rem;
+    line-height: 1.18;
+  }
+  .internship-hero .subtitle.is-4 {
+    font-size: 1.15rem;
+    padding-top: 1rem;
+  }
+  .internship-hero-panel {
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+  }
+  .internship-apply-button,
+  .internship-apply-section .button {
+    display: flex;
+    width: 100%;
+  }
+  .internship-detail-card,
+  .internship-track-card {
+    margin-bottom: 1rem;
+  }
+  .internship-form-frame {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    padding: 0;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
