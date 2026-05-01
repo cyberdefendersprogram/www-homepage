@@ -389,6 +389,21 @@ ul {
   font-weight: 700;
 }
 
+.internship-bootcamp {
+  background: #fff;
+}
+
+.internship-highlight-card {
+  border-left: 6px solid #5893BC;
+  border-radius: 6px;
+}
+
+.internship-highlight-card .heading {
+  color: #5893BC;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
+
 .internship-objective {
   background: #fff;
 }
@@ -480,6 +495,7 @@ ul {
   }
 
   .internship-detail-card,
+  .internship-highlight-card,
   .internship-reason-card,
   .internship-track-card {
     margin-bottom: 1rem;
