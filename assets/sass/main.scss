@@ -427,6 +427,28 @@ ul {
   font-weight: 700;
 }
 
+.internship-testimonials {
+  background: #fff;
+}
+
+.internship-testimonial-card {
+  border-left: 6px solid #FA7C91;
+  border-radius: 6px;
+}
+
+.internship-testimonial-card blockquote {
+  color: #062F49;
+  font-size: 1.2rem;
+  line-height: 1.55;
+  padding: 1rem;
+}
+
+.internship-testimonial-card .heading {
+  color: #5893BC;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
+
 .internship-list {
   margin-bottom: 1.5rem;
 }
@@ -497,6 +519,7 @@ ul {
   .internship-detail-card,
   .internship-highlight-card,
   .internship-reason-card,
+  .internship-testimonial-card,
   .internship-track-card {
     margin-bottom: 1rem;
   }
