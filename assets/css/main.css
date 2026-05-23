@@ -10767,6 +10767,202 @@ ul {
   width: 100%;
 }
 
+/* credential verification pages */
+.credential-hero,
+.credential-linkedin-hero {
+  background: linear-gradient(135deg, #041B33 0%, #063D73 58%, #0E71D9 100%);
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.credential-hero::after,
+.credential-linkedin-hero::after {
+  background: rgba(244, 178, 24, 0.16);
+  border-radius: 999px;
+  content: "";
+  height: 420px;
+  position: absolute;
+  right: -180px;
+  top: -220px;
+  width: 420px;
+}
+
+.credential-hero .container,
+.credential-linkedin-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.credential-title,
+.credential-subtitle {
+  color: #fff !important;
+}
+
+.credential-subtitle {
+  max-width: 760px;
+}
+
+.credential-verified-tag {
+  background: #F4B218 !important;
+  color: #041B33 !important;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.credential-id-panel {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-left: 6px solid #F4B218;
+  border-radius: 6px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+  min-width: 260px;
+  padding: 1rem 1.25rem;
+}
+
+.credential-id-panel span,
+.credential-facts .heading,
+.credential-certificate .heading,
+.credential-sidebar .heading,
+.credential-post-card .heading {
+  color: #0E71D9;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+.credential-id-panel strong {
+  color: #fff;
+  font-size: 1.35rem;
+}
+
+.credential-badge-image,
+.credential-guide-badge {
+  display: block;
+  margin-left: auto;
+  max-width: 360px;
+  width: 100%;
+}
+
+.credential-body {
+  background: #EFF3F4;
+}
+
+.credential-certificate,
+.credential-sidebar,
+.credential-post-card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 12px 28px rgba(6, 47, 73, 0.14);
+}
+
+.credential-certificate {
+  border-top: 6px solid #F4B218;
+  padding: 2rem;
+}
+
+.credential-certificate-header {
+  border-bottom: 1px solid #D9E3EA;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.credential-facts p {
+  padding-left: 0;
+}
+
+.credential-skills {
+  border-top: 1px solid #D9E3EA;
+  margin-top: 1rem;
+  padding-top: 1.5rem;
+}
+
+.credential-skill-tag {
+  background: #EAF3FD !important;
+  border: 1px solid #BFD9F5;
+  color: #063D73 !important;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  height: auto;
+  padding: 0.55rem 0.75rem;
+  white-space: normal;
+}
+
+.credential-sidebar {
+  border-left: 5px solid #0E71D9;
+  padding: 1.5rem;
+}
+
+.credential-sidebar-block + .credential-sidebar-block {
+  border-top: 1px solid #D9E3EA;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+}
+
+.credential-evidence-button {
+  border-color: #0E71D9;
+  color: #063D73;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+.credential-linkedin-button {
+  background: #0A66C2;
+  border-color: #0A66C2;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+.credential-linkedin-button:hover {
+  background: #064F97;
+  border-color: #064F97;
+  color: #fff;
+}
+
+.credential-linkedin-fields {
+  display: grid;
+  gap: 1rem;
+}
+
+.credential-linkedin-fields div {
+  background: #F6F9FC;
+  border-left: 4px solid #0E71D9;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.credential-linkedin-fields span {
+  color: #5A6A78;
+  display: block;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+}
+
+.credential-linkedin-fields strong {
+  color: #041B33;
+  overflow-wrap: anywhere;
+}
+
+.credential-steps {
+  margin-left: 1rem;
+}
+
+.credential-steps li {
+  margin-bottom: 0.75rem;
+}
+
+.credential-post-card {
+  border-left: 5px solid #F4B218;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
 @media screen and (max-width: 768px) {
   .internship-hero .hero-body {
     padding: 3rem 1.25rem;
@@ -10799,6 +10995,19 @@ ul {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
     padding: 0;
+  }
+  .credential-badge-image,
+  .credential-guide-badge {
+    margin: 2rem auto 0;
+    max-width: 260px;
+  }
+  .credential-certificate,
+  .credential-sidebar,
+  .credential-post-card {
+    padding: 1.25rem;
+  }
+  .credential-id-panel {
+    min-width: 100%;
   }
 }
 
