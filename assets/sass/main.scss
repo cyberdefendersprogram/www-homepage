@@ -493,7 +493,7 @@ ul {
 /* credential verification pages */
 .credential-hero,
 .credential-linkedin-hero {
-  background: linear-gradient(135deg, #041B33 0%, #063D73 58%, #0E71D9 100%);
+  background: linear-gradient(135deg, #031A2F 0%, #05395F 52%, #5A9CCE 100%);
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -501,7 +501,7 @@ ul {
 
 .credential-hero::after,
 .credential-linkedin-hero::after {
-  background: rgba(244, 178, 24, 0.16);
+  background: rgba(157, 205, 239, 0.18);
   border-radius: 999px;
   content: "";
   height: 420px;
@@ -527,8 +527,8 @@ ul {
 }
 
 .credential-verified-tag {
-  background: #F4B218 !important;
-  color: #041B33 !important;
+  background: #DDF0FB !important;
+  color: #031A2F !important;
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -537,7 +537,7 @@ ul {
 .credential-id-panel {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.22);
-  border-left: 6px solid #F4B218;
+  border-left: 6px solid #8BC2E8;
   border-radius: 6px;
   display: inline-flex;
   flex-direction: column;
@@ -551,7 +551,7 @@ ul {
 .credential-certificate .heading,
 .credential-sidebar .heading,
 .credential-post-card .heading {
-  color: #0E71D9;
+  color: #2D78A8;
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
 }
@@ -570,7 +570,7 @@ ul {
 }
 
 .credential-body {
-  background: #EFF3F4;
+  background: #EDF5FA;
 }
 
 .credential-certificate,
@@ -582,7 +582,7 @@ ul {
 }
 
 .credential-certificate {
-  border-top: 6px solid #F4B218;
+  border-top: 6px solid #8BC2E8;
   padding: 2rem;
 }
 
@@ -603,9 +603,9 @@ ul {
 }
 
 .credential-skill-tag {
-  background: #EAF3FD !important;
-  border: 1px solid #BFD9F5;
-  color: #063D73 !important;
+  background: #EAF6FC !important;
+  border: 1px solid #B7DDF3;
+  color: #05395F !important;
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
   height: auto;
@@ -614,7 +614,7 @@ ul {
 }
 
 .credential-sidebar {
-  border-left: 5px solid #0E71D9;
+  border-left: 5px solid #5A9CCE;
   padding: 1.5rem;
 }
 
@@ -625,8 +625,8 @@ ul {
 }
 
 .credential-evidence-button {
-  border-color: #0E71D9;
-  color: #063D73;
+  border-color: #5A9CCE;
+  color: #05395F;
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
 }
@@ -652,7 +652,7 @@ ul {
 
 .credential-linkedin-fields div {
   background: #F6F9FC;
-  border-left: 4px solid #0E71D9;
+  border-left: 4px solid #5A9CCE;
   border-radius: 6px;
   padding: 1rem;
 }
@@ -668,7 +668,7 @@ ul {
 }
 
 .credential-linkedin-fields strong {
-  color: #041B33;
+  color: #031A2F;
   overflow-wrap: anywhere;
 }
 
@@ -681,7 +681,7 @@ ul {
 }
 
 .credential-post-card {
-  border-left: 5px solid #F4B218;
+  border-left: 5px solid #8BC2E8;
   margin-top: 2rem;
   padding: 2rem;
 }
