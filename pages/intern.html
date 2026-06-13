@@ -191,7 +191,7 @@ permalink: /intern/
             <div class="card internship-detail-card">
               <div class="card-content">
                 <p class="heading">Acceptance Notifications</p>
-                <p class="title is-5">June 7, 2026</p>
+                <p class="title is-5">June 12, 2026</p>
                 <p>Applicants will be notified of acceptance decisions.</p>
               </div>
             </div>
@@ -202,6 +202,15 @@ permalink: /intern/
                 <p class="heading">Program Starts</p>
                 <p class="title is-5">June 15, 2026</p>
                 <p>The 6 week project-based internship begins.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="card internship-detail-card">
+              <div class="card-content">
+                <p class="heading">Waitlist Update</p>
+                <p class="title is-5">June 17, 2026</p>
+                <p>Waitlisted applicants will receive an update after the program starts.</p>
               </div>
             </div>
           </div>
@@ -253,7 +262,7 @@ permalink: /intern/
         <div class="card internship-track-card">
           <div class="card-content">
             <p class="heading">Project Track 1</p>
-            <h3 class="title is-4">MCP Tools for AI-Assisted Malware Analysis</h3>
+            <h3 class="title is-4">Malware Copilot: AI-Assisted Reverse Engineering Lab</h3>
             <p>
               Build, improve, and benchmark Model Context Protocol tools for an AI malware analysis agent. Explore how tool design, model choice, and agent harness affect analysis quality, speed, cost, and reliability.
             </p>
@@ -269,7 +278,7 @@ permalink: /intern/
         <div class="card internship-track-card">
           <div class="card-content">
             <p class="heading">Project Track 2</p>
-            <h3 class="title is-4">Security Assessment for a Local Nonprofit</h3>
+            <h3 class="title is-4">Secure the Mission: Nonprofit Security Assessment Lab</h3>
             <p>
               Provide hands-on technical support and a structured security risk assessment for a real community organization, with Rachel West of AllWomenCount as the project sponsor.
             </p>
@@ -300,45 +309,49 @@ permalink: /intern/
         <div class="card internship-track-card">
           <div class="card-content">
             <p class="heading">Project Track 4</p>
-            <h3 class="title is-4">Hardware Hacking and IoT Networks</h3>
+            <h3 class="title is-4">Lens Check: IoT Camera Privacy Lab</h3>
             <p>
-              Explore hardware security, firmware analysis, and privacy risks in connected devices and mesh networks.
+              Analyze a low-cost consumer IoT camera or lens-style camera in a controlled lab to assess privacy, firmware, network, and cloud security risks.
             </p>
             <ul class="is-hackathon-list internship-list">
-              <li>Use the <a href="https://infocondb.org/con/def-con/def-con-33/unmasking-the-snitch-puck-the-creepy-iot-surveillance-tech-in-the-school-bathroom">DEF CON 33 Snitch Puck talk</a> as a reference for IoT teardown and firmware-analysis methods.</li>
-              <li>Investigate Meshtastic-style network concepts, device configuration, and security tradeoffs.</li>
-              <li>Document a repeatable workflow for testing, analyzing, and responsibly reporting findings.</li>
+              <li>Document how the device boots, connects to Wi-Fi, talks to cloud services, exposes local services, and handles video/audio data.</li>
+              <li>Capture lab-only network traffic during first boot, pairing, login, firmware update, live view, and cloud reconnect.</li>
+              <li>Analyze firmware with safe methods and tools such as Binwalk, Ghidra, strings, Firmwalker, EMBA, and OWASP firmware testing guidance.</li>
+              <li>Create consumer-focused privacy and security recommendations, a safe configuration guide, and a responsible disclosure template.</li>
             </ul>
+            <a class="button is-medium is-primary internship-apply-button" style="margin-top: 1rem;" href="/intern/iot-camera-privacy-lab/">View Full Track Details</a>
           </div>
         </div>
         <div class="card internship-track-card">
           <div class="card-content">
             <p class="heading">Project Track 5</p>
-            <h3 class="title is-4">LLM-Based Honeypots in AWS</h3>
+            <h3 class="title is-4">Ghost Cloud: LLM Honeypots in AWS</h3>
             <p>
-              Build and evaluate an LLM-assisted honeypot using Beelzebub in AWS, with attention to safe deployment, useful telemetry, and realistic attacker interaction.
+              Build and evaluate LLM-assisted honeypots in AWS using Beelzebub, with a focus on safe deployment, realistic attacker interaction, and useful security telemetry.
             </p>
             <ul class="is-hackathon-list internship-list">
-              <li>Deploy Beelzebub-based honeypot services in an isolated AWS environment with logging, alerting, and cost controls.</li>
-              <li>Experiment with LLM-generated interaction patterns that keep attackers engaged while avoiding exposure of real systems or secrets.</li>
-              <li>Compare attacker behavior across SSH, HTTP, and fake admin-panel scenarios.</li>
-              <li>Create dashboards or reports that summarize techniques, commands, payloads, indicators, and recommended defensive actions.</li>
+              <li>Run one four-student pod across SSH, web, and LLM safety evaluation workstreams.</li>
+              <li>Create isolated AWS deception environments without exposing real systems or secrets.</li>
+              <li>Collect commands, payloads, indicators, scanner behavior, credential attempts, and session timelines.</li>
+              <li>Deliver deployment guides, dashboards, safety guardrails, evaluation results, and defender-focused reports.</li>
             </ul>
+            <a class="button is-medium is-primary internship-apply-button" style="margin-top: 1rem;" href="/intern/llm-honeypots-aws/">View Full Track Details</a>
           </div>
         </div>
         <div class="card internship-track-card">
           <div class="card-content">
             <p class="heading">Project Track 6</p>
-            <h3 class="title is-4">Threat Actor Research for Open-Source and Nonprofit Security</h3>
+            <h3 class="title is-4">Signal in the Noise: Threat Intel for Community Defenders</h3>
             <p>
-              Research threat actors, campaigns, and tactics with an open-source or nonprofit security research team, with an emphasis on useful intelligence for community defenders.
+              Research threat actors, campaigns, indicators, and defensive guidance with a focus on useful intelligence for small organizations and community defenders.
             </p>
             <ul class="is-hackathon-list internship-list">
-              <li>Use open-source intelligence to document threat actor behaviors, infrastructure, tooling, and targeting patterns.</li>
-              <li>Map findings to practical defender frameworks such as MITRE ATT&CK where appropriate.</li>
-              <li>Create concise research briefs, indicators, timelines, or detection ideas that can help nonprofits and local organizations improve security.</li>
-              <li>Practice responsible research methods, careful sourcing, and clear communication for non-expert audiences.</li>
+              <li>Build a structured threat actor or campaign profile with targets, motivations, tools, infrastructure, tactics, techniques, and known IOCs.</li>
+              <li>Map behaviors to MITRE ATT&amp;CK and explain what each technique means for defenders.</li>
+              <li>Collect, validate, enrich, and organize public indicators from advisories and reports.</li>
+              <li>Deliver practical recommendations and safe-use guidance for small organizations.</li>
             </ul>
+            <a class="button is-medium is-primary internship-apply-button" style="margin-top: 1rem;" href="/intern/threat-intel-community-defenders/">View Full Track Details</a>
           </div>
         </div>
       </div>
