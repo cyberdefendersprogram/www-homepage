@@ -26,6 +26,9 @@ collections:
     output: true
     permalink: /:collection/:slug
 
+plugins:
+  - jekyll-redirect-from
+
 # Build settings
 markdown: kramdown
 permalink: pretty
