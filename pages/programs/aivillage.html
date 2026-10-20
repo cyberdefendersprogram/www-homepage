@@ -1,0 +1,157 @@
+---
+layout: default
+title: AI Village | Cyber Defenders Program
+permalink: /aivillage/
+---
+<style>
+  .aiv-stat { text-align: center; }
+  .aiv-stat .title { margin-bottom: .25rem; }
+  .aiv-post { max-width: 760px; margin: 0 auto; }
+  .aiv-post h2.title { margin-top: 2rem; }
+  .aiv-post figure { margin: 1.5rem 0; }
+  .aiv-post figure.is-portrait img { max-width: 420px; display: block; margin: 0 auto; }
+  .aiv-post figure.is-portrait figcaption { text-align: center; }
+  .aiv-post figcaption { font-size: .9rem; font-style: italic; color: #666; margin-top: .4rem; }
+</style>
+
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-half">
+          <h1 class="title is-2 is-spaced">AI Village @ Merritt College</h1>
+          <h2 class="subtitle is-5 is-spaced">
+            At the Merritt College Cybersecurity Job Fair &amp; Employer Day, students walked up, scanned a QR code and
+            tried to hack an AI in about 15 minutes. Sign up, learn on TryHackMe, hack our AI Labs, compete in a prompt injection CTF.
+          </h2>
+          <div class="buttons is-large">
+            <a class="button is-medium is-danger" href="https://github.com/cyberdefendersprogram/aivillage">Get the labs + CTF code</a>
+            <a class="button is-medium is-primary" href="#scoreboard">Final scoreboard</a>
+            <a class="button is-medium is-warning" href="/contact">Bring it to your school</a>
+          </div>
+        </div>
+        <div class="column is-half">
+          <figure class="image">
+            <img class="is-sleek" src="{{site.url}}{{site.baseurl}}assets/images/aivillage/hero-table-tent.jpg"
+                 alt="AI Village table tent: Hack an AI. Free 1 month of TryHackMe Premium. Scan to start.">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="box cta">
+  <div class="container">
+    <p class="has-text-left">
+      <span class="tag is-primary">It's a wrap!</span> AI Village at the Merritt College Cybersecurity Job Fair &amp; Employer Day, Friday October 16, 2026, R-Building (Newton/Seale Lounge).
+      <br/><span class="tag is-warning">Open source</span> Both AI Labs and the CTF are on <a href="https://github.com/cyberdefendersprogram/aivillage">GitHub</a>. Use them in your class or event.
+    </p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline is-mobile">
+      <div class="column is-one-third-tablet is-half-mobile aiv-stat"><p class="title is-1">19</p><p class="subtitle is-6">students signed up</p></div>
+      <div class="column is-one-third-tablet is-half-mobile aiv-stat"><p class="title is-1">19</p><p class="subtitle is-6">TryHackMe Premium invites</p></div>
+      <div class="column is-one-third-tablet is-half-mobile aiv-stat"><p class="title is-1">6</p><p class="subtitle is-6">TryHackMe rooms in our module</p></div>
+      <div class="column is-one-third-tablet is-half-mobile aiv-stat"><p class="title is-1">2</p><p class="subtitle is-6">hands-on AI Labs</p></div>
+      <div class="column is-one-third-tablet is-half-mobile aiv-stat"><p class="title is-1">8</p><p class="subtitle is-6">CTF flags captured</p></div>
+      <div class="column is-one-third-tablet is-half-mobile aiv-stat"><p class="title is-1">~100</p><p class="subtitle is-6">messages to the CTF bots</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container aiv-post content">
+    <h2 class="title is-3">Why an AI Village</h2>
+    <p>Almost every employer at the fair is putting AI into something: a chatbot, a help desk, an email assistant. Very few of our
+      students have ever tried to break one. Prompt injection is the number one risk on the OWASP Top 10 for LLM applications, and you
+      don't need to write any code to try it. You just need words. That makes it a great first hack for someone new to security, and a
+      good story to tell at the next employer table.</p>
+    <p>The name and the hands-on format come from the AI Village community and their open
+      <a href="https://github.com/aivillage/workshops">workshops</a>. Ours was a lot smaller: three computers, a receipt printer, a TV and
+      a few student hosts.</p>
+
+    <figure>
+      <img src="{{site.url}}{{site.baseurl}}assets/images/aivillage/booth.jpg"
+           alt="The AI Village booth: receipt printer, table tent and three laptops on a blue table">
+      <figcaption>The booth in the Newton/Seale Lounge: receipt printer, table tent, and three laptops for TryHackMe, the AI Labs and the CTF.</figcaption>
+    </figure>
+
+    <h2 class="title is-3">What we offered</h2>
+    <p><b>Sign up.</b> Students scanned the QR code on the table tent and signed up on their phone with their name, email and a hacker
+      handle. A thermal receipt printer at the booth printed a souvenir receipt with their hacker number, a checklist of everything to
+      try, and a QR code to keep going at home.</p>
+    <p><b>Learn on TryHackMe.</b> Everyone who signed up got a free month of TryHackMe Premium through the Peralta Colleges account. We put
+      together a custom module, <i>AI Village @ Merritt: Hack the AI</i>, with six rooms: Input Manipulation &amp; Prompt Injection,
+      Prompt Injection, Jailbreaking, LLMborghini, Prompt Defence and White Rabbit. Invites went out the same day.</p>
+    <p><b>Hack in our AI Labs.</b> We built two guided labs that run on a small server in our home lab, with an open model
+      (Qwen3 30B) on llama.cpp. No API bill, and nothing to install for students.</p>
+    <ul>
+      <li><i>Lab 1, Pixel's Password.</i> Get a chatbot to give up its password across three levels: no defense, told to keep it secret,
+        and then input and output filters. Hints on the side walk you through it.</li>
+      <li><i>Lab 2, The Helpful Email Agent.</i> You can only send Priya an email. Her AI agent reads her inbox and can send mail. Win by
+        getting the agent to email her reset code to you. Then turn on the defenses and try again.</li>
+    </ul>
+    <p><b>Compete in the CTF.</b> Six prompt injection challenges worth 100 to 300 points: Hello Pixel, The Vault, Output Filter, Lost in
+      Translation, Review Summarizer (indirect injection, where you only get to write a product review) and Guardian (blocked words plus
+      an output filter). Every player gets their own flags, so copying a friend's doesn't work. A live scoreboard ran on the TV. The CTF
+      also had a backup that runs the same model on OpenRouter, in case the home server got busy. We never needed it.</p>
+
+    <figure class="is-portrait">
+      <img src="{{site.url}}{{site.baseurl}}assets/images/aivillage/talk.jpg" alt="A full room of students during a talk at the job fair">
+      <figcaption>A full room for the talks at the job fair.</figcaption>
+    </figure>
+
+    <h2 class="title is-3">By the numbers</h2>
+    <ul>
+      <li><b>19</b> students signed up, and <b>19</b> TryHackMe Premium invites went out</li>
+      <li><b>4</b> students played the CTF and captured <b>8</b> flags</li>
+      <li>Top score: <b>GNick</b> with 450 points, then baytomwo and Amal with 250 each</li>
+      <li>About <b>100</b> messages to the CTF bots, all answered by our own server</li>
+      <li>Busiest hour: 1 pm, with 7 signups</li>
+    </ul>
+
+    <h3 class="title is-4" id="scoreboard">Final scoreboard</h3>
+    <table class="table is-fullwidth is-striped">
+      <thead><tr><th>#</th><th>Hacker</th><th class="has-text-right">Flags</th><th class="has-text-right">Points</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>GNick</td><td class="has-text-right">3</td><td class="has-text-right">450</td></tr>
+        <tr><td>2</td><td>baytomwo</td><td class="has-text-right">2</td><td class="has-text-right">250</td></tr>
+        <tr><td>3</td><td>Amal</td><td class="has-text-right">2</td><td class="has-text-right">250</td></tr>
+        <tr><td>4</td><td>armand</td><td class="has-text-right">1</td><td class="has-text-right">100</td></tr>
+      </tbody>
+    </table>
+
+    <h3 class="title is-4">Flags by challenge</h3>
+    <table class="table is-fullwidth is-striped">
+      <thead><tr><th>Challenge</th><th class="has-text-right">Points</th><th class="has-text-right">Solved by</th></tr></thead>
+      <tbody>
+        <tr><td>Hello, Pixel</td><td class="has-text-right">100</td><td class="has-text-right">4</td></tr>
+        <tr><td>The Vault</td><td class="has-text-right">150</td><td class="has-text-right">3</td></tr>
+        <tr><td>Output Filter</td><td class="has-text-right">200</td><td class="has-text-right">1</td></tr>
+        <tr><td>Lost in Translation</td><td class="has-text-right">200</td><td class="has-text-right">0</td></tr>
+        <tr><td>Review Summarizer</td><td class="has-text-right">250</td><td class="has-text-right">0</td></tr>
+        <tr><td>Guardian</td><td class="has-text-right">300</td><td class="has-text-right">0</td></tr>
+      </tbody>
+    </table>
+    <p class="is-size-7">The live CTF site was retired after the event; this page is its record. Want to try the challenges?
+      Run your own copy from <a href="https://github.com/cyberdefendersprogram/aivillage">GitHub</a>.</p>
+
+    <h2 class="title is-3">What we learned</h2>
+    <p>Sign-ups and TryHackMe worked well. The CTF and labs were quieter than we hoped. Most students had a few minutes between employer
+      tables, not fifteen. Hello Pixel did its job: every CTF player solved it. Nobody got past Output Filter on the day, and the harder
+      challenges need more time than a job fair gives.</p>
+    <p>Next time we want to run short, 5-minute group demos on the big screen at set times, and give a small prize for the top score.</p>
+
+    <h2 class="title is-3">Use it yourself</h2>
+    <p>Everything we built is on GitHub: the two labs and the CTF with its sign-up site and scoreboard.
+      Feel free to use it for your own class or event:
+      <a href="https://github.com/cyberdefendersprogram/aivillage">github.com/cyberdefendersprogram/aivillage</a>.
+      Want an AI Village at your school or event? <a href="/contact">Get in touch</a>.</p>
+    <p>Thank you to our student hosts, the Merritt College Cybersecurity department, TryHackMe, and everyone who stopped by.
+      Keep hacking, but only hack AI you have permission to test.</p>
+  </div>
+</section>
